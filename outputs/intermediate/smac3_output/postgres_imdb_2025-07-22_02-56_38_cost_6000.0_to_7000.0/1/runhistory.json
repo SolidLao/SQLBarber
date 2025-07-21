@@ -1,0 +1,1913 @@
+{
+  "stats": {
+    "submitted": 95,
+    "finished": 95,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.0015594959259033203,
+      1,
+      1753124949.2533784,
+      1753124949.258343,
+      {}
+    ],
+    [
+      2,
+      null,
+      1791095845,
+      null,
+      0.14951729031348804,
+      0.001279592514038086,
+      1,
+      1753124949.345355,
+      1753124949.3498347,
+      {}
+    ],
+    [
+      3,
+      null,
+      1791095845,
+      null,
+      0.14811380226017568,
+      0.0011591911315917969,
+      1,
+      1753124949.3519695,
+      1753124949.3564053,
+      {}
+    ],
+    [
+      4,
+      null,
+      1791095845,
+      null,
+      0.14819154981680027,
+      0.0011515617370605469,
+      1,
+      1753124949.358708,
+      1753124949.3631637,
+      {}
+    ],
+    [
+      5,
+      null,
+      1791095845,
+      null,
+      0.1482630650361988,
+      0.0011529922485351562,
+      1,
+      1753124949.36529,
+      1753124949.369682,
+      {}
+    ],
+    [
+      6,
+      null,
+      1791095845,
+      null,
+      0.1481262428229636,
+      0.0011491775512695312,
+      1,
+      1753124949.3719058,
+      1753124949.3762927,
+      {}
+    ],
+    [
+      7,
+      null,
+      1791095845,
+      null,
+      0.14929506943575166,
+      0.0011363029479980469,
+      1,
+      1753124949.3785813,
+      1753124949.383147,
+      {}
+    ],
+    [
+      8,
+      null,
+      1791095845,
+      null,
+      0.14792300145339987,
+      0.0011816024780273438,
+      1,
+      1753124949.3853536,
+      1753124949.3898125,
+      {}
+    ],
+    [
+      9,
+      null,
+      1791095845,
+      null,
+      0.14829622743897541,
+      0.001157999038696289,
+      1,
+      1753124949.392242,
+      1753124949.3968358,
+      {}
+    ],
+    [
+      10,
+      null,
+      1791095845,
+      null,
+      0.14846821596792392,
+      0.0011706352233886719,
+      1,
+      1753124949.3992481,
+      1753124949.4036226,
+      {}
+    ],
+    [
+      11,
+      null,
+      1791095845,
+      null,
+      0.1480018208418229,
+      0.0011768341064453125,
+      1,
+      1753124949.4060614,
+      1753124949.4103951,
+      {}
+    ],
+    [
+      12,
+      null,
+      1791095845,
+      null,
+      0.14838223038693854,
+      0.0011470317840576172,
+      1,
+      1753124949.4128149,
+      1753124949.41727,
+      {}
+    ],
+    [
+      13,
+      null,
+      1791095845,
+      null,
+      0.14859664401122874,
+      0.0011510848999023438,
+      1,
+      1753124949.4198198,
+      1753124949.4242098,
+      {}
+    ],
+    [
+      14,
+      null,
+      1791095845,
+      null,
+      0.14777361945413692,
+      0.0011699199676513672,
+      1,
+      1753124949.4267836,
+      1753124949.4311132,
+      {}
+    ],
+    [
+      15,
+      null,
+      1791095845,
+      null,
+      0.14846096484238624,
+      0.0011658668518066406,
+      1,
+      1753124949.433656,
+      1753124949.4380355,
+      {}
+    ],
+    [
+      16,
+      null,
+      1791095845,
+      null,
+      0.14803500359042387,
+      0.0011451244354248047,
+      1,
+      1753124949.4408407,
+      1753124949.4451938,
+      {}
+    ],
+    [
+      17,
+      null,
+      1791095845,
+      null,
+      0.1485500415385944,
+      0.0011494159698486328,
+      1,
+      1753124949.447984,
+      1753124949.4523363,
+      {}
+    ],
+    [
+      18,
+      null,
+      1791095845,
+      null,
+      0.1480018208418229,
+      0.0011661052703857422,
+      1,
+      1753124949.4552355,
+      1753124949.4596016,
+      {}
+    ],
+    [
+      19,
+      null,
+      1791095845,
+      null,
+      0.14785972797247837,
+      0.0011892318725585938,
+      1,
+      1753124949.4623687,
+      1753124949.4667952,
+      {}
+    ],
+    [
+      20,
+      null,
+      1791095845,
+      null,
+      0.14784313009391992,
+      0.0012240409851074219,
+      1,
+      1753124949.4695504,
+      1753124949.4741893,
+      {}
+    ],
+    [
+      21,
+      null,
+      1791095845,
+      null,
+      0.14806299952413227,
+      0.0011665821075439453,
+      1,
+      1753124949.477107,
+      1753124949.4815404,
+      {}
+    ],
+    [
+      22,
+      null,
+      1791095845,
+      null,
+      0.14831280767199817,
+      0.0013689994812011719,
+      1,
+      1753124949.6689456,
+      1753124949.6737401,
+      {}
+    ],
+    [
+      23,
+      null,
+      1791095845,
+      null,
+      0.1482423372230266,
+      0.0011534690856933594,
+      1,
+      1753124949.6768606,
+      1753124949.6814194,
+      {}
+    ],
+    [
+      24,
+      null,
+      1791095845,
+      null,
+      0.1477684316382447,
+      0.0011494159698486328,
+      1,
+      1753124949.6847873,
+      1753124949.6893237,
+      {}
+    ],
+    [
+      25,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.001146554946899414,
+      1,
+      1753124949.6925673,
+      1753124949.6971157,
+      {}
+    ],
+    [
+      26,
+      null,
+      1791095845,
+      null,
+      0.14834493003653604,
+      0.0011475086212158203,
+      1,
+      1753124949.7004223,
+      1753124949.7049904,
+      {}
+    ],
+    [
+      27,
+      null,
+      1791095845,
+      null,
+      0.14830866267426224,
+      0.0011451244354248047,
+      1,
+      1753124949.708239,
+      1753124949.7127836,
+      {}
+    ],
+    [
+      28,
+      null,
+      1791095845,
+      null,
+      0.14897031486882595,
+      0.0011448860168457031,
+      1,
+      1753124949.7161324,
+      1753124949.7206693,
+      {}
+    ],
+    [
+      29,
+      null,
+      1791095845,
+      null,
+      0.14930437403385277,
+      0.0011496543884277344,
+      1,
+      1753124949.7238393,
+      1753124949.7282434,
+      {}
+    ],
+    [
+      30,
+      null,
+      1791095845,
+      null,
+      0.1484506058773939,
+      0.0011458396911621094,
+      1,
+      1753124949.731548,
+      1753124949.7359214,
+      {}
+    ],
+    [
+      31,
+      null,
+      1791095845,
+      null,
+      0.14851897038913897,
+      0.0011510848999023438,
+      1,
+      1753124949.7391858,
+      1753124949.7435164,
+      {}
+    ],
+    [
+      32,
+      null,
+      1791095845,
+      null,
+      0.14833664062604546,
+      0.0011518001556396484,
+      1,
+      1753124949.7468328,
+      1753124949.7512827,
+      {}
+    ],
+    [
+      33,
+      null,
+      1791095845,
+      null,
+      0.1493819044367024,
+      0.001196146011352539,
+      1,
+      1753124949.754612,
+      1753124949.7589624,
+      {}
+    ],
+    [
+      34,
+      null,
+      1791095845,
+      null,
+      0.1494263488275449,
+      0.0011248588562011719,
+      1,
+      1753124949.7624059,
+      1753124949.7666924,
+      {}
+    ],
+    [
+      35,
+      null,
+      1791095845,
+      null,
+      0.14844335445193813,
+      0.001177072525024414,
+      1,
+      1753124949.7701132,
+      1753124949.7746496,
+      {}
+    ],
+    [
+      36,
+      null,
+      1791095845,
+      null,
+      0.14815734264032276,
+      0.0011792182922363281,
+      1,
+      1753124949.7784667,
+      1753124949.7828681,
+      {}
+    ],
+    [
+      37,
+      null,
+      1791095845,
+      null,
+      0.14843921072479993,
+      0.0011780261993408203,
+      1,
+      1753124949.7865026,
+      1753124949.7908893,
+      {}
+    ],
+    [
+      38,
+      null,
+      1791095845,
+      null,
+      0.14806714691338652,
+      0.001177072525024414,
+      1,
+      1753124949.7944822,
+      1753124949.7988505,
+      {}
+    ],
+    [
+      39,
+      null,
+      1791095845,
+      null,
+      0.14792300145339987,
+      0.0011637210845947266,
+      1,
+      1753124949.8024771,
+      1753124949.806883,
+      {}
+    ],
+    [
+      40,
+      null,
+      1791095845,
+      null,
+      0.1486649850773133,
+      0.0011572837829589844,
+      1,
+      1753124949.8107176,
+      1753124949.815134,
+      {}
+    ],
+    [
+      41,
+      null,
+      1791095845,
+      null,
+      0.1481728916974845,
+      0.0011467933654785156,
+      1,
+      1753124949.818889,
+      1753124949.8232212,
+      {}
+    ],
+    [
+      42,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.001216888427734375,
+      1,
+      1753124950.0191545,
+      1753124950.0235536,
+      {}
+    ],
+    [
+      43,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.0011534690856933594,
+      1,
+      1753124950.0273113,
+      1753124950.03164,
+      {}
+    ],
+    [
+      44,
+      null,
+      1791095845,
+      null,
+      0.14776116858988564,
+      0.0011758804321289062,
+      1,
+      1753124950.035475,
+      1753124950.0398474,
+      {}
+    ],
+    [
+      45,
+      null,
+      1791095845,
+      null,
+      0.14787632520447924,
+      0.0011577606201171875,
+      1,
+      1753124950.0456412,
+      1753124950.0513182,
+      {}
+    ],
+    [
+      46,
+      null,
+      1791095845,
+      null,
+      0.1477663564942029,
+      0.0011515617370605469,
+      1,
+      1753124950.0552416,
+      1753124950.0595798,
+      {}
+    ],
+    [
+      47,
+      null,
+      1791095845,
+      null,
+      0.1477829573635815,
+      0.0011522769927978516,
+      1,
+      1753124950.0635147,
+      1753124950.067871,
+      {}
+    ],
+    [
+      48,
+      null,
+      1791095845,
+      null,
+      0.14778503242677943,
+      0.0011539459228515625,
+      1,
+      1753124950.0718248,
+      1753124950.0763268,
+      {}
+    ],
+    [
+      49,
+      null,
+      1791095845,
+      null,
+      0.14797693208402407,
+      0.0011513233184814453,
+      1,
+      1753124950.0804703,
+      1753124950.0849032,
+      {}
+    ],
+    [
+      50,
+      null,
+      1791095845,
+      null,
+      0.1477902200405652,
+      0.001149892807006836,
+      1,
+      1753124950.0889263,
+      1753124950.0933452,
+      {}
+    ],
+    [
+      51,
+      null,
+      1791095845,
+      null,
+      0.14803500359042387,
+      0.0011715888977050781,
+      1,
+      1753124950.0976117,
+      1753124950.1020794,
+      {}
+    ],
+    [
+      52,
+      null,
+      1791095845,
+      null,
+      0.1481023980917494,
+      0.0011734962463378906,
+      1,
+      1753124950.1064396,
+      1753124950.1107955,
+      {}
+    ],
+    [
+      53,
+      null,
+      1791095845,
+      null,
+      0.1483749777969191,
+      0.0011706352233886719,
+      1,
+      1753124950.1150038,
+      1753124950.1195195,
+      {}
+    ],
+    [
+      54,
+      null,
+      1791095845,
+      null,
+      0.1485531485288214,
+      0.0011494159698486328,
+      1,
+      1753124950.123943,
+      1753124950.1283002,
+      {}
+    ],
+    [
+      55,
+      null,
+      1791095845,
+      null,
+      0.14820709762520135,
+      0.0011501312255859375,
+      1,
+      1753124950.132747,
+      1753124950.1371062,
+      {}
+    ],
+    [
+      56,
+      null,
+      1791095845,
+      null,
+      0.14811587571254026,
+      0.001142263412475586,
+      1,
+      1753124950.1414185,
+      1753124950.1457756,
+      {}
+    ],
+    [
+      57,
+      null,
+      1791095845,
+      null,
+      0.14827342856447578,
+      0.001169443130493164,
+      1,
+      1753124950.1503363,
+      1753124950.1546922,
+      {}
+    ],
+    [
+      58,
+      null,
+      1791095845,
+      null,
+      0.148465108357815,
+      0.0011644363403320312,
+      1,
+      1753124950.1591918,
+      1753124950.1635296,
+      {}
+    ],
+    [
+      59,
+      null,
+      1791095845,
+      null,
+      0.14785765327301792,
+      0.001146554946899414,
+      1,
+      1753124950.168355,
+      1753124950.1727638,
+      {}
+    ],
+    [
+      60,
+      null,
+      1791095845,
+      null,
+      0.14850446974332276,
+      0.001148223876953125,
+      1,
+      1753124950.1772275,
+      1753124950.1816561,
+      {}
+    ],
+    [
+      61,
+      null,
+      1791095845,
+      null,
+      0.1479136666127011,
+      0.0011625289916992188,
+      1,
+      1753124950.1871748,
+      1753124950.1914656,
+      {}
+    ],
+    [
+      62,
+      null,
+      1791095845,
+      null,
+      0.14841123951177204,
+      0.0011515617370605469,
+      1,
+      1753124950.2124727,
+      1753124950.2169237,
+      {}
+    ],
+    [
+      63,
+      null,
+      1791095845,
+      null,
+      0.14792818738763303,
+      0.0011715888977050781,
+      1,
+      1753124950.2216175,
+      1753124950.2260818,
+      {}
+    ],
+    [
+      64,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.0015015602111816406,
+      1,
+      1753124950.4392133,
+      1753124950.4440536,
+      {}
+    ],
+    [
+      65,
+      null,
+      1791095845,
+      null,
+      0.14813868302240385,
+      0.0013020038604736328,
+      1,
+      1753124950.4493988,
+      1753124950.4539778,
+      {}
+    ],
+    [
+      66,
+      null,
+      1791095845,
+      null,
+      0.14817911116140914,
+      0.0012311935424804688,
+      1,
+      1753124950.4589808,
+      1753124950.4635715,
+      {}
+    ],
+    [
+      67,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.0011904239654541016,
+      1,
+      1753124950.4685092,
+      1753124950.472997,
+      {}
+    ],
+    [
+      68,
+      null,
+      1791095845,
+      null,
+      0.147757018220955,
+      0.0012745857238769531,
+      1,
+      1753124950.478092,
+      1753124950.4827805,
+      {}
+    ],
+    [
+      69,
+      null,
+      1791095845,
+      null,
+      0.1481604524971677,
+      0.0012316703796386719,
+      1,
+      1753124950.4882867,
+      1753124950.4931452,
+      {}
+    ],
+    [
+      70,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.0012295246124267578,
+      1,
+      1753124950.4987006,
+      1753124950.503359,
+      {}
+    ],
+    [
+      71,
+      null,
+      1791095845,
+      null,
+      0.1480495202301727,
+      0.00115966796875,
+      1,
+      1753124950.5086854,
+      1753124950.5132692,
+      {}
+    ],
+    [
+      72,
+      null,
+      1791095845,
+      null,
+      0.14844335445193813,
+      0.0011754035949707031,
+      1,
+      1753124950.5184784,
+      1753124950.522843,
+      {}
+    ],
+    [
+      73,
+      null,
+      1791095845,
+      null,
+      0.14839673519639807,
+      0.0011951923370361328,
+      1,
+      1753124950.5283446,
+      1753124950.533139,
+      {}
+    ],
+    [
+      74,
+      null,
+      1791095845,
+      null,
+      0.1480018208418229,
+      0.0011887550354003906,
+      1,
+      1753124950.5384235,
+      1753124950.5429702,
+      {}
+    ],
+    [
+      75,
+      null,
+      1791095845,
+      null,
+      0.14838119431021302,
+      0.0011491775512695312,
+      1,
+      1753124950.54842,
+      1753124950.5528283,
+      {}
+    ],
+    [
+      76,
+      null,
+      1791095845,
+      null,
+      0.14787943711350238,
+      0.0011782646179199219,
+      1,
+      1753124950.5580947,
+      1753124950.5625286,
+      {}
+    ],
+    [
+      77,
+      null,
+      1791095845,
+      null,
+      0.1478483170004261,
+      0.0011668205261230469,
+      1,
+      1753124950.568251,
+      1753124950.5727174,
+      {}
+    ],
+    [
+      78,
+      null,
+      1791095845,
+      null,
+      0.14790744327193805,
+      0.0011887550354003906,
+      1,
+      1753124950.578065,
+      1753124950.5824718,
+      {}
+    ],
+    [
+      79,
+      null,
+      1791095845,
+      null,
+      0.14821228010187382,
+      0.0011887550354003906,
+      1,
+      1753124950.5881965,
+      1753124950.592788,
+      {}
+    ],
+    [
+      80,
+      null,
+      1791095845,
+      null,
+      0.14858939507276514,
+      0.0012011528015136719,
+      1,
+      1753124950.5983536,
+      1753124950.6028414,
+      {}
+    ],
+    [
+      81,
+      null,
+      1791095845,
+      null,
+      0.14831488015573668,
+      0.0013117790222167969,
+      1,
+      1753124950.6089752,
+      1753124950.6139174,
+      {}
+    ],
+    [
+      82,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.0015459060668945312,
+      1,
+      1753124950.839868,
+      1753124950.8447888,
+      {}
+    ],
+    [
+      83,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.0012049674987792969,
+      1,
+      1753124950.850753,
+      1753124950.8553348,
+      {}
+    ],
+    [
+      84,
+      null,
+      1791095845,
+      null,
+      0.14808062564958846,
+      0.0012552738189697266,
+      1,
+      1753124950.8618515,
+      1753124950.8666303,
+      {}
+    ],
+    [
+      85,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.0011546611785888672,
+      1,
+      1753124950.8725216,
+      1753124950.8771596,
+      {}
+    ],
+    [
+      86,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.0011820793151855469,
+      1,
+      1753124950.883289,
+      1753124950.887668,
+      {}
+    ],
+    [
+      87,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.001180887222290039,
+      1,
+      1753124950.8936346,
+      1753124950.8982024,
+      {}
+    ],
+    [
+      88,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.0011470317840576172,
+      1,
+      1753124950.904001,
+      1753124950.908715,
+      {}
+    ],
+    [
+      89,
+      null,
+      1791095845,
+      null,
+      0.14865877270648675,
+      0.0011610984802246094,
+      1,
+      1753124950.9150116,
+      1753124950.919492,
+      {}
+    ],
+    [
+      90,
+      null,
+      1791095845,
+      null,
+      0.14775494302133052,
+      0.001165628433227539,
+      1,
+      1753124950.9253006,
+      1753124950.929716,
+      {}
+    ],
+    [
+      91,
+      null,
+      1791095845,
+      null,
+      0.147757018220955,
+      0.001148223876953125,
+      1,
+      1753124950.9360564,
+      1753124950.9404612,
+      {}
+    ],
+    [
+      92,
+      null,
+      1791095845,
+      null,
+      0.14795515322809372,
+      0.0012066364288330078,
+      1,
+      1753124950.9464352,
+      1753124950.9510221,
+      {}
+    ],
+    [
+      93,
+      null,
+      1791095845,
+      null,
+      0.14795307899327004,
+      0.0011513233184814453,
+      1,
+      1753124950.9569862,
+      1753124950.961397,
+      {}
+    ],
+    [
+      94,
+      null,
+      1791095845,
+      null,
+      0.14824855567290807,
+      0.0011556148529052734,
+      1,
+      1753124950.9679196,
+      1753124950.9723382,
+      {}
+    ],
+    [
+      95,
+      null,
+      1791095845,
+      null,
+      0.14806507322380702,
+      0.0011196136474609375,
+      1,
+      1753124950.9783688,
+      1753124950.9832041,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "aka_title.id_end": "1",
+      "aka_title.id_start": "1",
+      "aka_title.production_year": "1888",
+      "aka_title.title": "!Huff",
+      "role_type.role": "writer"
+    },
+    "2": {
+      "aka_title.id_end": "74",
+      "aka_title.id_start": "519",
+      "aka_title.production_year": "2004",
+      "aka_title.title": "...nur ein Kom\u00f6diant",
+      "role_type.role": "cinematographer"
+    },
+    "3": {
+      "aka_title.id_end": "250",
+      "aka_title.id_start": "419",
+      "aka_title.production_year": "1896",
+      "aka_title.title": "0.12h",
+      "role_type.role": "miscellaneous crew"
+    },
+    "4": {
+      "aka_title.id_end": "134",
+      "aka_title.id_start": "227",
+      "aka_title.production_year": "1977",
+      "aka_title.title": "$186 to Freedom",
+      "role_type.role": "actress"
+    },
+    "5": {
+      "aka_title.id_end": "407",
+      "aka_title.id_start": "508",
+      "aka_title.production_year": "1995",
+      "aka_title.title": "...und ewig lockt das Weib",
+      "role_type.role": "director"
+    },
+    "6": {
+      "aka_title.id_end": "190",
+      "aka_title.id_start": "90",
+      "aka_title.production_year": "1961",
+      "aka_title.title": "007 - La morte pu\u00f2 attendere",
+      "role_type.role": "composer"
+    },
+    "7": {
+      "aka_title.id_end": "478",
+      "aka_title.id_start": "53",
+      "aka_title.production_year": "1970",
+      "aka_title.title": "'82 Asiad",
+      "role_type.role": "miscellaneous crew"
+    },
+    "8": {
+      "aka_title.id_end": "151",
+      "aka_title.id_start": "71",
+      "aka_title.production_year": "1897",
+      "aka_title.title": "'Flare Up Sal' of Jimtown",
+      "role_type.role": "composer"
+    },
+    "9": {
+      "aka_title.id_end": "298",
+      "aka_title.id_start": "369",
+      "aka_title.production_year": "2010",
+      "aka_title.title": "...denn sie wissen nicht, was sie tun",
+      "role_type.role": "miscellaneous crew"
+    },
+    "10": {
+      "aka_title.id_end": "40",
+      "aka_title.id_start": "374",
+      "aka_title.production_year": "1898",
+      "aka_title.title": "...und heute ins Theater: Lady Frederick",
+      "role_type.role": "cinematographer"
+    },
+    "11": {
+      "aka_title.id_end": "352",
+      "aka_title.id_start": "415",
+      "aka_title.production_year": "1949",
+      "aka_title.title": "007: Tomorrow Never Dies",
+      "role_type.role": "guest"
+    },
+    "12": {
+      "aka_title.id_end": "138",
+      "aka_title.id_start": "431",
+      "aka_title.production_year": "1888",
+      "aka_title.title": "...and Half the Kingdom",
+      "role_type.role": "producer"
+    },
+    "13": {
+      "aka_title.id_end": "75",
+      "aka_title.id_start": "412",
+      "aka_title.production_year": "1950",
+      "aka_title.title": "'A Tedhi Medhi Love story - Straight",
+      "role_type.role": "actress"
+    },
+    "14": {
+      "aka_title.id_end": "490",
+      "aka_title.id_start": "501",
+      "aka_title.production_year": "1902",
+      "aka_title.title": "...e giustizia per tutti",
+      "role_type.role": "actress"
+    },
+    "15": {
+      "aka_title.id_end": "270",
+      "aka_title.id_start": "519",
+      "aka_title.production_year": "1960",
+      "aka_title.title": "'Columbia' vs. 'Shamrock', Finish of Race",
+      "role_type.role": "producer"
+    },
+    "16": {
+      "aka_title.id_end": "305",
+      "aka_title.id_start": "437",
+      "aka_title.production_year": "1899",
+      "aka_title.title": "...alles schnuppe",
+      "role_type.role": "actress"
+    },
+    "17": {
+      "aka_title.id_end": "298",
+      "aka_title.id_start": "485",
+      "aka_title.production_year": "2004",
+      "aka_title.title": "...und ab geht die Post! Brieftr\u00e4gergeschichten von gestern",
+      "role_type.role": "costume designer"
+    },
+    "18": {
+      "aka_title.id_end": "202",
+      "aka_title.id_start": "319",
+      "aka_title.production_year": "1921",
+      "aka_title.title": "...Almost",
+      "role_type.role": "actress"
+    },
+    "19": {
+      "aka_title.id_end": "215",
+      "aka_title.id_start": "164",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "0-18 or A Message from the Sky",
+      "role_type.role": "miscellaneous crew"
+    },
+    "20": {
+      "aka_title.id_end": "271",
+      "aka_title.id_start": "268",
+      "aka_title.production_year": "1911",
+      "aka_title.title": "...e le mura caddero",
+      "role_type.role": "actress"
+    },
+    "21": {
+      "aka_title.id_end": "293",
+      "aka_title.id_start": "148",
+      "aka_title.production_year": "1919",
+      "aka_title.title": "$ 3,000",
+      "role_type.role": "guest"
+    },
+    "22": {
+      "aka_title.id_end": "484",
+      "aka_title.id_start": "255",
+      "aka_title.production_year": "1913",
+      "aka_title.title": "'Allo 'Allo",
+      "role_type.role": "director"
+    },
+    "23": {
+      "aka_title.id_end": "483",
+      "aka_title.id_start": "254",
+      "aka_title.production_year": "1917",
+      "aka_title.title": "'Allo 'Allo",
+      "role_type.role": "actress"
+    },
+    "24": {
+      "aka_title.id_end": "492",
+      "aka_title.id_start": "501",
+      "aka_title.production_year": "1902",
+      "aka_title.title": "...e l'Inghilterra sar\u00e0 distrutta",
+      "role_type.role": "actress"
+    },
+    "25": {
+      "aka_title.id_end": "2",
+      "aka_title.id_start": "1",
+      "aka_title.production_year": "1888",
+      "aka_title.title": "!Women Art Revolution",
+      "role_type.role": "production designer"
+    },
+    "26": {
+      "aka_title.id_end": "316",
+      "aka_title.id_start": "139",
+      "aka_title.production_year": "1966",
+      "aka_title.title": "(Rich Mrs. Jane)",
+      "role_type.role": "actor"
+    },
+    "27": {
+      "aka_title.id_end": "490",
+      "aka_title.id_start": "282",
+      "aka_title.production_year": "1952",
+      "aka_title.title": "********",
+      "role_type.role": "editor"
+    },
+    "28": {
+      "aka_title.id_end": "416",
+      "aka_title.id_start": "26",
+      "aka_title.production_year": "2012",
+      "aka_title.title": "'Tis Pity She's a Whore",
+      "role_type.role": "production designer"
+    },
+    "29": {
+      "aka_title.id_end": "480",
+      "aka_title.id_start": "51",
+      "aka_title.production_year": "1970",
+      "aka_title.title": "'82 Asiad",
+      "role_type.role": "producer"
+    },
+    "30": {
+      "aka_title.id_end": "505",
+      "aka_title.id_start": "286",
+      "aka_title.production_year": "1986",
+      "aka_title.title": "...und morgen war Krieg",
+      "role_type.role": "miscellaneous crew"
+    },
+    "31": {
+      "aka_title.id_end": "507",
+      "aka_title.id_start": "287",
+      "aka_title.production_year": "1988",
+      "aka_title.title": "...und morgen war Krieg",
+      "role_type.role": "producer"
+    },
+    "32": {
+      "aka_title.id_end": "491",
+      "aka_title.id_start": "279",
+      "aka_title.production_year": "1954",
+      "aka_title.title": "********",
+      "role_type.role": "writer"
+    },
+    "33": {
+      "aka_title.id_end": "498",
+      "aka_title.id_start": "62",
+      "aka_title.production_year": "1993",
+      "aka_title.title": "(Magic Seed from the Sea)",
+      "role_type.role": "producer"
+    },
+    "34": {
+      "aka_title.id_end": "499",
+      "aka_title.id_start": "60",
+      "aka_title.production_year": "1994",
+      "aka_title.title": "(K)ein bisschen schwanger",
+      "role_type.role": "miscellaneous crew"
+    },
+    "35": {
+      "aka_title.id_end": "2",
+      "aka_title.id_start": "223",
+      "aka_title.production_year": "1970",
+      "aka_title.title": "$ 3,000",
+      "role_type.role": "director"
+    },
+    "36": {
+      "aka_title.id_end": "211",
+      "aka_title.id_start": "326",
+      "aka_title.production_year": "1958",
+      "aka_title.title": "...und wieder male \u00edch wei\u00dfe V\u00f6gel",
+      "role_type.role": "director"
+    },
+    "37": {
+      "aka_title.id_end": "3",
+      "aka_title.id_start": "222",
+      "aka_title.production_year": "1971",
+      "aka_title.title": "$ 3,000",
+      "role_type.role": "actress"
+    },
+    "38": {
+      "aka_title.id_end": "157",
+      "aka_title.id_start": "10",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "(Die Bedeutung der) Haare",
+      "role_type.role": "production designer"
+    },
+    "39": {
+      "aka_title.id_end": "151",
+      "aka_title.id_start": "71",
+      "aka_title.production_year": "1897",
+      "aka_title.title": "'Get Outa Here",
+      "role_type.role": "editor"
+    },
+    "40": {
+      "aka_title.id_end": "387",
+      "aka_title.id_start": "44",
+      "aka_title.production_year": "1964",
+      "aka_title.title": "...und abends, wenn die Musik spielt",
+      "role_type.role": "production designer"
+    },
+    "41": {
+      "aka_title.id_end": "134",
+      "aka_title.id_start": "227",
+      "aka_title.production_year": "1976",
+      "aka_title.title": "$186 to Freedom",
+      "role_type.role": "director"
+    },
+    "42": {
+      "aka_title.id_end": "2",
+      "aka_title.id_start": "2",
+      "aka_title.production_year": "1888",
+      "aka_title.title": "!Women Art Revolution",
+      "role_type.role": "editor"
+    },
+    "43": {
+      "aka_title.id_end": "4",
+      "aka_title.id_start": "3",
+      "aka_title.production_year": "1888",
+      "aka_title.title": "!Huff",
+      "role_type.role": "editor"
+    },
+    "44": {
+      "aka_title.id_end": "494",
+      "aka_title.id_start": "499",
+      "aka_title.production_year": "1903",
+      "aka_title.title": "...e l'Inghilterra sar\u00e0 distrutta",
+      "role_type.role": "director"
+    },
+    "45": {
+      "aka_title.id_end": "341",
+      "aka_title.id_start": "337",
+      "aka_title.production_year": "1949",
+      "aka_title.title": "... nach Valparaiso",
+      "role_type.role": "editor"
+    },
+    "46": {
+      "aka_title.id_end": "494",
+      "aka_title.id_start": "502",
+      "aka_title.production_year": "1900",
+      "aka_title.title": "...e il cielo rispose...",
+      "role_type.role": "actress"
+    },
+    "47": {
+      "aka_title.id_end": "493",
+      "aka_title.id_start": "508",
+      "aka_title.production_year": "1897",
+      "aka_title.title": "...Hong Ban-jang",
+      "role_type.role": "director"
+    },
+    "48": {
+      "aka_title.id_end": "491",
+      "aka_title.id_start": "507",
+      "aka_title.production_year": "1897",
+      "aka_title.title": "...E lo chiamavano cinque dita d'acciaio",
+      "role_type.role": "guest"
+    },
+    "49": {
+      "aka_title.id_end": "175",
+      "aka_title.id_start": "171",
+      "aka_title.production_year": "1970",
+      "aka_title.title": "'t Is kermis bij ons",
+      "role_type.role": "guest"
+    },
+    "50": {
+      "aka_title.id_end": "274",
+      "aka_title.id_start": "268",
+      "aka_title.production_year": "1908",
+      "aka_title.title": "...e la vita continua",
+      "role_type.role": "actress"
+    },
+    "51": {
+      "aka_title.id_end": "305",
+      "aka_title.id_start": "437",
+      "aka_title.production_year": "1902",
+      "aka_title.title": "...and It Is Only the Beginning",
+      "role_type.role": "guest"
+    },
+    "52": {
+      "aka_title.id_end": "231",
+      "aka_title.id_start": "67",
+      "aka_title.production_year": "1902",
+      "aka_title.title": "007: Diamonds Are Forever",
+      "role_type.role": "editor"
+    },
+    "53": {
+      "aka_title.id_end": "141",
+      "aka_title.id_start": "431",
+      "aka_title.production_year": "1888",
+      "aka_title.title": "...aber nicht mit meiner Braut - Honeymoon in Vegas",
+      "role_type.role": "guest"
+    },
+    "54": {
+      "aka_title.id_end": "480",
+      "aka_title.id_start": "165",
+      "aka_title.production_year": "1912",
+      "aka_title.title": ".hack//Quarantine Part 4",
+      "role_type.role": "miscellaneous crew"
+    },
+    "55": {
+      "aka_title.id_end": "311",
+      "aka_title.id_start": "177",
+      "aka_title.production_year": "1963",
+      "aka_title.title": "... aber lieb sind sie doch",
+      "role_type.role": "guest"
+    },
+    "56": {
+      "aka_title.id_end": "249",
+      "aka_title.id_start": "419",
+      "aka_title.production_year": "1893",
+      "aka_title.title": "0/1327 dipartimento criminale",
+      "role_type.role": "costume designer"
+    },
+    "57": {
+      "aka_title.id_end": "160",
+      "aka_title.id_start": "244",
+      "aka_title.production_year": "2001",
+      "aka_title.title": "'99 The Last War",
+      "role_type.role": "production designer"
+    },
+    "58": {
+      "aka_title.id_end": "269",
+      "aka_title.id_start": "520",
+      "aka_title.production_year": "1960",
+      "aka_title.title": "'Columbia' vs. 'Shamrock', Start of Race",
+      "role_type.role": "guest"
+    },
+    "59": {
+      "aka_title.id_end": "216",
+      "aka_title.id_start": "166",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "0,08%",
+      "role_type.role": "miscellaneous crew"
+    },
+    "60": {
+      "aka_title.id_end": "481",
+      "aka_title.id_start": "164",
+      "aka_title.production_year": "1913",
+      "aka_title.title": ".hack//Quarantine",
+      "role_type.role": "producer"
+    },
+    "61": {
+      "aka_title.id_end": "148",
+      "aka_title.id_start": "72",
+      "aka_title.production_year": "1896",
+      "aka_title.title": "'F' Street",
+      "role_type.role": "composer"
+    },
+    "62": {
+      "aka_title.id_end": "476",
+      "aka_title.id_start": "317",
+      "aka_title.production_year": "1994",
+      "aka_title.title": "(Not So) Instant Photo",
+      "role_type.role": "writer"
+    },
+    "63": {
+      "aka_title.id_end": "359",
+      "aka_title.id_start": "289",
+      "aka_title.production_year": "1908",
+      "aka_title.title": "...Otan ta psaria vgikan sti steria!",
+      "role_type.role": "writer"
+    },
+    "64": {
+      "aka_title.id_end": "3",
+      "aka_title.id_start": "2",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "#4: Jane's Memory",
+      "role_type.role": "writer"
+    },
+    "65": {
+      "aka_title.id_end": "379",
+      "aka_title.id_start": "412",
+      "aka_title.production_year": "1994",
+      "aka_title.title": "' n Nuwe Lewe",
+      "role_type.role": "writer"
+    },
+    "66": {
+      "aka_title.id_end": "151",
+      "aka_title.id_start": "166",
+      "aka_title.production_year": "2004",
+      "aka_title.title": "'Neath Cavalry's Shadow",
+      "role_type.role": "cinematographer"
+    },
+    "67": {
+      "aka_title.id_end": "4",
+      "aka_title.id_start": "4",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "!Huff",
+      "role_type.role": "writer"
+    },
+    "68": {
+      "aka_title.id_end": "2",
+      "aka_title.id_start": "5",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "!Women Art Revolution",
+      "role_type.role": "writer"
+    },
+    "69": {
+      "aka_title.id_end": "471",
+      "aka_title.id_start": "308",
+      "aka_title.production_year": "1930",
+      "aka_title.title": "...of the Dead",
+      "role_type.role": "production designer"
+    },
+    "70": {
+      "aka_title.id_end": "2",
+      "aka_title.id_start": "4",
+      "aka_title.production_year": "1888",
+      "aka_title.title": "!Women Art Revolution",
+      "role_type.role": "composer"
+    },
+    "71": {
+      "aka_title.id_end": "225",
+      "aka_title.id_start": "97",
+      "aka_title.production_year": "1925",
+      "aka_title.title": "'Neath the Southern Cross",
+      "role_type.role": "writer"
+    },
+    "72": {
+      "aka_title.id_end": "3",
+      "aka_title.id_start": "224",
+      "aka_title.production_year": "1971",
+      "aka_title.title": "#9",
+      "role_type.role": "cinematographer"
+    },
+    "73": {
+      "aka_title.id_end": "2",
+      "aka_title.id_start": "224",
+      "aka_title.production_year": "1969",
+      "aka_title.title": "#7 Train from Main Street",
+      "role_type.role": "cinematographer"
+    },
+    "74": {
+      "aka_title.id_end": "341",
+      "aka_title.id_start": "224",
+      "aka_title.production_year": "2014",
+      "aka_title.title": "!Women Art Revolution",
+      "role_type.role": "cinematographer"
+    },
+    "75": {
+      "aka_title.id_end": "340",
+      "aka_title.id_start": "224",
+      "aka_title.production_year": "2012",
+      "aka_title.title": "!Huff",
+      "role_type.role": "cinematographer"
+    },
+    "76": {
+      "aka_title.id_end": "57",
+      "aka_title.id_start": "14",
+      "aka_title.production_year": "1915",
+      "aka_title.title": "...e giustizia per tutti",
+      "role_type.role": "guest"
+    },
+    "77": {
+      "aka_title.id_end": "300",
+      "aka_title.id_start": "345",
+      "aka_title.production_year": "1917",
+      "aka_title.title": "'The Tree of Life' - Die Hintergr\u00fcnde",
+      "role_type.role": "composer"
+    },
+    "78": {
+      "aka_title.id_end": "55",
+      "aka_title.id_start": "14",
+      "aka_title.production_year": "1914",
+      "aka_title.title": "...e il cielo rispose...",
+      "role_type.role": "guest"
+    },
+    "79": {
+      "aka_title.id_end": "414",
+      "aka_title.id_start": "446",
+      "aka_title.production_year": "2010",
+      "aka_title.title": "...bitte, bitte eine Frau!",
+      "role_type.role": "cinematographer"
+    },
+    "80": {
+      "aka_title.id_end": "414",
+      "aka_title.id_start": "24",
+      "aka_title.production_year": "2014",
+      "aka_title.title": "'Tis Pity She's a Whore",
+      "role_type.role": "editor"
+    },
+    "81": {
+      "aka_title.id_end": "176",
+      "aka_title.id_start": "20",
+      "aka_title.production_year": "1986",
+      "aka_title.title": "...was f\u00fcr eine Nacht, Junge!",
+      "role_type.role": "composer"
+    },
+    "82": {
+      "aka_title.id_end": "5",
+      "aka_title.id_start": "3",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "#10: Painted Lightning",
+      "role_type.role": "editor"
+    },
+    "83": {
+      "aka_title.id_end": "1",
+      "aka_title.id_start": "3",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "#1.13",
+      "role_type.role": "editor"
+    },
+    "84": {
+      "aka_title.id_end": "292",
+      "aka_title.id_start": "413",
+      "aka_title.production_year": "1914",
+      "aka_title.title": "...la meilleur de la vie...",
+      "role_type.role": "writer"
+    },
+    "85": {
+      "aka_title.id_end": "2",
+      "aka_title.id_start": "3",
+      "aka_title.production_year": "1888",
+      "aka_title.title": "#10: Painted Lightning",
+      "role_type.role": "editor"
+    },
+    "86": {
+      "aka_title.id_end": "2",
+      "aka_title.id_start": "3",
+      "aka_title.production_year": "1891",
+      "aka_title.title": "!Women Art Revolution",
+      "role_type.role": "editor"
+    },
+    "87": {
+      "aka_title.id_end": "2",
+      "aka_title.id_start": "3",
+      "aka_title.production_year": "1891",
+      "aka_title.title": "\"Sesso e il poliziotto sposato",
+      "role_type.role": "cinematographer"
+    },
+    "88": {
+      "aka_title.id_end": "5",
+      "aka_title.id_start": "3",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "#1.13",
+      "role_type.role": "production designer"
+    },
+    "89": {
+      "aka_title.id_end": "276",
+      "aka_title.id_start": "502",
+      "aka_title.production_year": "2007",
+      "aka_title.title": "'s Reis am Weg",
+      "role_type.role": "production designer"
+    },
+    "90": {
+      "aka_title.id_end": "1",
+      "aka_title.id_start": "3",
+      "aka_title.production_year": "1888",
+      "aka_title.title": "\"Sesso e il poliziotto sposato",
+      "role_type.role": "composer"
+    },
+    "91": {
+      "aka_title.id_end": "6",
+      "aka_title.id_start": "3",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "\"Sesso e il poliziotto sposato",
+      "role_type.role": "editor"
+    },
+    "92": {
+      "aka_title.id_end": "102",
+      "aka_title.id_start": "7",
+      "aka_title.production_year": "1907",
+      "aka_title.title": "$ale of the Century",
+      "role_type.role": "miscellaneous crew"
+    },
+    "93": {
+      "aka_title.id_end": "101",
+      "aka_title.id_start": "7",
+      "aka_title.production_year": "1907",
+      "aka_title.title": "$chlaraffenland",
+      "role_type.role": "miscellaneous crew"
+    },
+    "94": {
+      "aka_title.id_end": "341",
+      "aka_title.id_start": "136",
+      "aka_title.production_year": "1947",
+      "aka_title.title": "#9",
+      "role_type.role": "production designer"
+    },
+    "95": {
+      "aka_title.id_end": "156",
+      "aka_title.id_start": "10",
+      "aka_title.production_year": "1890",
+      "aka_title.title": "(Days When the Lighthouse Shines a Light)",
+      "role_type.role": "guest"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Default configuration",
+    "2": "Acquisition Function Maximizer: Random Search (sorted)",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)",
+    "5": "Acquisition Function Maximizer: Random Search (sorted)",
+    "6": "Acquisition Function Maximizer: Random Search (sorted)",
+    "7": "Acquisition Function Maximizer: Random Search (sorted)",
+    "8": "Acquisition Function Maximizer: Random Search (sorted)",
+    "9": "Acquisition Function Maximizer: Random Search (sorted)",
+    "10": "Acquisition Function Maximizer: Random Search (sorted)",
+    "11": "Acquisition Function Maximizer: Random Search (sorted)",
+    "12": "Acquisition Function Maximizer: Random Search (sorted)",
+    "13": "Acquisition Function Maximizer: Random Search (sorted)",
+    "14": "Acquisition Function Maximizer: Random Search (sorted)",
+    "15": "Acquisition Function Maximizer: Random Search (sorted)",
+    "16": "Random Search",
+    "17": "Random Search",
+    "18": "Random Search",
+    "19": "Acquisition Function Maximizer: Random Search (sorted)",
+    "20": "Acquisition Function Maximizer: Random Search (sorted)",
+    "21": "Acquisition Function Maximizer: Random Search (sorted)",
+    "22": "Acquisition Function Maximizer: Random Search (sorted)",
+    "23": "Acquisition Function Maximizer: Local Search",
+    "24": "Acquisition Function Maximizer: Local Search",
+    "25": "Acquisition Function Maximizer: Local Search",
+    "26": "Random Search",
+    "27": "Acquisition Function Maximizer: Local Search",
+    "28": "Random Search",
+    "29": "Acquisition Function Maximizer: Local Search",
+    "30": "Acquisition Function Maximizer: Random Search (sorted)",
+    "31": "Acquisition Function Maximizer: Local Search",
+    "32": "Acquisition Function Maximizer: Random Search (sorted)",
+    "33": "Acquisition Function Maximizer: Local Search",
+    "34": "Acquisition Function Maximizer: Random Search (sorted)",
+    "35": "Acquisition Function Maximizer: Local Search",
+    "36": "Random Search",
+    "37": "Acquisition Function Maximizer: Random Search (sorted)",
+    "38": "Acquisition Function Maximizer: Local Search",
+    "39": "Acquisition Function Maximizer: Local Search",
+    "40": "Acquisition Function Maximizer: Local Search",
+    "41": "Acquisition Function Maximizer: Local Search",
+    "42": "Acquisition Function Maximizer: Local Search",
+    "43": "Acquisition Function Maximizer: Local Search",
+    "44": "Acquisition Function Maximizer: Local Search",
+    "45": "Random Search",
+    "46": "Acquisition Function Maximizer: Local Search",
+    "47": "Acquisition Function Maximizer: Local Search",
+    "48": "Acquisition Function Maximizer: Random Search (sorted)",
+    "49": "Random Search",
+    "50": "Acquisition Function Maximizer: Local Search",
+    "51": "Acquisition Function Maximizer: Local Search",
+    "52": "Acquisition Function Maximizer: Local Search",
+    "53": "Acquisition Function Maximizer: Local Search",
+    "54": "Acquisition Function Maximizer: Local Search",
+    "55": "Random Search",
+    "56": "Acquisition Function Maximizer: Local Search",
+    "57": "Random Search",
+    "58": "Acquisition Function Maximizer: Local Search",
+    "59": "Acquisition Function Maximizer: Local Search",
+    "60": "Acquisition Function Maximizer: Random Search (sorted)",
+    "61": "Acquisition Function Maximizer: Local Search",
+    "62": "Random Search",
+    "63": "Random Search",
+    "64": "Acquisition Function Maximizer: Local Search",
+    "65": "Random Search",
+    "66": "Random Search",
+    "67": "Acquisition Function Maximizer: Local Search",
+    "68": "Acquisition Function Maximizer: Local Search",
+    "69": "Random Search",
+    "70": "Acquisition Function Maximizer: Local Search",
+    "71": "Random Search",
+    "72": "Acquisition Function Maximizer: Local Search",
+    "73": "Acquisition Function Maximizer: Local Search",
+    "74": "Acquisition Function Maximizer: Random Search (sorted)",
+    "75": "Acquisition Function Maximizer: Local Search",
+    "76": "Acquisition Function Maximizer: Random Search (sorted)",
+    "77": "Random Search",
+    "78": "Acquisition Function Maximizer: Local Search",
+    "79": "Random Search",
+    "80": "Acquisition Function Maximizer: Local Search",
+    "81": "Random Search",
+    "82": "Acquisition Function Maximizer: Local Search",
+    "83": "Acquisition Function Maximizer: Local Search",
+    "84": "Random Search",
+    "85": "Acquisition Function Maximizer: Local Search",
+    "86": "Acquisition Function Maximizer: Local Search",
+    "87": "Acquisition Function Maximizer: Local Search",
+    "88": "Acquisition Function Maximizer: Local Search",
+    "89": "Random Search",
+    "90": "Acquisition Function Maximizer: Local Search",
+    "91": "Acquisition Function Maximizer: Local Search",
+    "92": "Acquisition Function Maximizer: Random Search (sorted)",
+    "93": "Acquisition Function Maximizer: Local Search",
+    "94": "Random Search",
+    "95": "Acquisition Function Maximizer: Local Search"
+  }
+}

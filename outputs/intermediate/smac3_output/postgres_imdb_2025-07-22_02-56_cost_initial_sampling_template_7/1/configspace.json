@@ -1,0 +1,41 @@
+{
+  "hyperparameters": [
+    {
+      "name": "comp_cast_type.id_end",
+      "type": "ordinal",
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "default": "1"
+    },
+    {
+      "name": "comp_cast_type.id_start",
+      "type": "ordinal",
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "default": "1"
+    },
+    {
+      "name": "comp_cast_type.kind",
+      "type": "ordinal",
+      "sequence": [
+        "complete+verified",
+        "cast",
+        "complete",
+        "crew"
+      ],
+      "default": "complete+verified"
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

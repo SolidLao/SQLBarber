@@ -1,0 +1,36 @@
+{
+  "hyperparameters": [
+    {
+      "name": "kind_type.id_end",
+      "type": "ordinal",
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "default": "1"
+    },
+    {
+      "name": "kind_type.id_start",
+      "type": "ordinal",
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "default": "1"
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

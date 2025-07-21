@@ -1,0 +1,972 @@
+{
+    "tables": {
+        "movie_info": {
+            "size": "1831 MB",
+            "row_count": 14835720,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 14835720
+                },
+                "movie_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2468825
+                },
+                "info_type_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 71
+                },
+                "info": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 2720930
+                },
+                "note": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 133610
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "info_type_id_movie_info",
+                    "definition": "CREATE INDEX info_type_id_movie_info ON public.movie_info USING btree (info_type_id)"
+                },
+                {
+                    "name": "movie_id_movie_info",
+                    "definition": "CREATE INDEX movie_id_movie_info ON public.movie_info USING btree (movie_id)"
+                },
+                {
+                    "name": "movie_info_pkey",
+                    "definition": "CREATE UNIQUE INDEX movie_info_pkey ON public.movie_info USING btree (id)"
+                }
+            ]
+        },
+        "aka_name": {
+            "size": "125 MB",
+            "row_count": 901343,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 901343
+                },
+                "person_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 588222
+                },
+                "name": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 810620
+                },
+                "imdb_index": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 5
+                },
+                "name_pcode_cf": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 22017
+                },
+                "name_pcode_nf": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 21138
+                },
+                "surname_pcode": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 4312
+                },
+                "md5sum": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 810625
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "aka_name_pkey",
+                    "definition": "CREATE UNIQUE INDEX aka_name_pkey ON public.aka_name USING btree (id)"
+                },
+                {
+                    "name": "person_id_aka_name",
+                    "definition": "CREATE INDEX person_id_aka_name ON public.aka_name USING btree (person_id)"
+                }
+            ]
+        },
+        "movie_keyword": {
+            "size": "360 MB",
+            "row_count": 4523930,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 4523930
+                },
+                "movie_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 476794
+                },
+                "keyword_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 134170
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "keyword_id_movie_keyword",
+                    "definition": "CREATE INDEX keyword_id_movie_keyword ON public.movie_keyword USING btree (keyword_id)"
+                },
+                {
+                    "name": "movie_id_movie_keyword",
+                    "definition": "CREATE INDEX movie_id_movie_keyword ON public.movie_keyword USING btree (movie_id)"
+                },
+                {
+                    "name": "movie_keyword_pkey",
+                    "definition": "CREATE UNIQUE INDEX movie_keyword_pkey ON public.movie_keyword USING btree (id)"
+                }
+            ]
+        },
+        "title": {
+            "size": "352 MB",
+            "row_count": 2528312,
+            "columns": {
+                "episode_of_id": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 51481
+                },
+                "season_nr": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 96
+                },
+                "episode_nr": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 14906
+                },
+                "production_year": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 132
+                },
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2528312
+                },
+                "imdb_id": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 0
+                },
+                "kind_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 6
+                },
+                "md5sum": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 2528312
+                },
+                "title": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 1483632
+                },
+                "imdb_index": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 24
+                },
+                "phonetic_code": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 23259
+                },
+                "series_years": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 1407
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "kind_id_title",
+                    "definition": "CREATE INDEX kind_id_title ON public.title USING btree (kind_id)"
+                },
+                {
+                    "name": "title_pkey",
+                    "definition": "CREATE UNIQUE INDEX title_pkey ON public.title USING btree (id)"
+                }
+            ]
+        },
+        "role_type": {
+            "size": "24 kB",
+            "row_count": 12,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 12
+                },
+                "role": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 12
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "role_type_pkey",
+                    "definition": "CREATE UNIQUE INDEX role_type_pkey ON public.role_type USING btree (id)"
+                }
+            ]
+        },
+        "movie_companies": {
+            "size": "282 MB",
+            "row_count": 2609129,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2609129
+                },
+                "movie_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 1087236
+                },
+                "company_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 234997
+                },
+                "company_type_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2
+                },
+                "note": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 66450
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "company_type_id_movie_companies",
+                    "definition": "CREATE INDEX company_type_id_movie_companies ON public.movie_companies USING btree (company_type_id)"
+                },
+                {
+                    "name": "movie_id_movie_companies",
+                    "definition": "CREATE INDEX movie_id_movie_companies ON public.movie_companies USING btree (movie_id)"
+                },
+                {
+                    "name": "company_id_movie_companies",
+                    "definition": "CREATE INDEX company_id_movie_companies ON public.movie_companies USING btree (company_id)"
+                },
+                {
+                    "name": "movie_companies_pkey",
+                    "definition": "CREATE UNIQUE INDEX movie_companies_pkey ON public.movie_companies USING btree (id)"
+                }
+            ]
+        },
+        "company_name": {
+            "size": "29 MB",
+            "row_count": 234997,
+            "columns": {
+                "imdb_id": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 0
+                },
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 234997
+                },
+                "country_code": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 215
+                },
+                "md5sum": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 234997
+                },
+                "name_pcode_nf": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 18486
+                },
+                "name_pcode_sf": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 17446
+                },
+                "name": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 224385
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "company_name_pkey",
+                    "definition": "CREATE UNIQUE INDEX company_name_pkey ON public.company_name USING btree (id)"
+                }
+            ]
+        },
+        "comp_cast_type": {
+            "size": "24 kB",
+            "row_count": 4,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 4
+                },
+                "kind": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 4
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "comp_cast_type_pkey",
+                    "definition": "CREATE UNIQUE INDEX comp_cast_type_pkey ON public.comp_cast_type USING btree (id)"
+                }
+            ]
+        },
+        "company_type": {
+            "size": "24 kB",
+            "row_count": 4,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 4
+                },
+                "kind": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 4
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "company_type_pkey",
+                    "definition": "CREATE UNIQUE INDEX company_type_pkey ON public.company_type USING btree (id)"
+                }
+            ]
+        },
+        "cast_info": {
+            "size": "3881 MB",
+            "row_count": 36244344,
+            "columns": {
+                "person_role_id": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 3140339
+                },
+                "person_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 4051810
+                },
+                "movie_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2331601
+                },
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 36244344
+                },
+                "role_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 11
+                },
+                "nr_order": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 1094
+                },
+                "note": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 715571
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "cast_info_pkey",
+                    "definition": "CREATE UNIQUE INDEX cast_info_pkey ON public.cast_info USING btree (id)"
+                },
+                {
+                    "name": "movie_id_cast_info",
+                    "definition": "CREATE INDEX movie_id_cast_info ON public.cast_info USING btree (movie_id)"
+                },
+                {
+                    "name": "person_role_id_cast_info",
+                    "definition": "CREATE INDEX person_role_id_cast_info ON public.cast_info USING btree (person_role_id)"
+                },
+                {
+                    "name": "person_id_cast_info",
+                    "definition": "CREATE INDEX person_id_cast_info ON public.cast_info USING btree (person_id)"
+                },
+                {
+                    "name": "role_id_cast_info",
+                    "definition": "CREATE INDEX role_id_cast_info ON public.cast_info USING btree (role_id)"
+                }
+            ]
+        },
+        "movie_info_idx": {
+            "size": "122 MB",
+            "row_count": 1380035,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 1380035
+                },
+                "movie_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 459925
+                },
+                "info_type_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 5
+                },
+                "info": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 146245
+                },
+                "note": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 0
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "info_type_id_movie_info_idx",
+                    "definition": "CREATE INDEX info_type_id_movie_info_idx ON public.movie_info_idx USING btree (info_type_id)"
+                },
+                {
+                    "name": "movie_info_idx_pkey",
+                    "definition": "CREATE UNIQUE INDEX movie_info_idx_pkey ON public.movie_info_idx USING btree (id)"
+                },
+                {
+                    "name": "movie_id_movie_info_idx",
+                    "definition": "CREATE INDEX movie_id_movie_info_idx ON public.movie_info_idx USING btree (movie_id)"
+                }
+            ]
+        },
+        "movie_link": {
+            "size": "3088 kB",
+            "row_count": 29997,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 29997
+                },
+                "movie_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 6411
+                },
+                "linked_movie_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 16169
+                },
+                "link_type_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 16
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "movie_id_movie_link",
+                    "definition": "CREATE INDEX movie_id_movie_link ON public.movie_link USING btree (movie_id)"
+                },
+                {
+                    "name": "linked_movie_id_movie_link",
+                    "definition": "CREATE INDEX linked_movie_id_movie_link ON public.movie_link USING btree (linked_movie_id)"
+                },
+                {
+                    "name": "link_type_id_movie_link",
+                    "definition": "CREATE INDEX link_type_id_movie_link ON public.movie_link USING btree (link_type_id)"
+                },
+                {
+                    "name": "movie_link_pkey",
+                    "definition": "CREATE UNIQUE INDEX movie_link_pkey ON public.movie_link USING btree (id)"
+                }
+            ]
+        },
+        "info_type": {
+            "size": "24 kB",
+            "row_count": 113,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 113
+                },
+                "info": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 113
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "info_type_pkey",
+                    "definition": "CREATE UNIQUE INDEX info_type_pkey ON public.info_type USING btree (id)"
+                }
+            ]
+        },
+        "name": {
+            "size": "524 MB",
+            "row_count": 4167491,
+            "columns": {
+                "imdb_id": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 0
+                },
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 4167491
+                },
+                "imdb_index": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 179
+                },
+                "gender": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 2
+                },
+                "name_pcode_cf": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 23603
+                },
+                "name_pcode_nf": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 23261
+                },
+                "surname_pcode": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 4671
+                },
+                "md5sum": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 4167491
+                },
+                "name": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 3587400
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "name_pkey",
+                    "definition": "CREATE UNIQUE INDEX name_pkey ON public.name USING btree (id)"
+                }
+            ]
+        },
+        "kind_type": {
+            "size": "24 kB",
+            "row_count": 7,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 7
+                },
+                "kind": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 7
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "kind_type_pkey",
+                    "definition": "CREATE UNIQUE INDEX kind_type_pkey ON public.kind_type USING btree (id)"
+                }
+            ]
+        },
+        "keyword": {
+            "size": "10 MB",
+            "row_count": 134170,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 134170
+                },
+                "keyword": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 134170
+                },
+                "phonetic_code": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 15481
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "keyword_pkey",
+                    "definition": "CREATE UNIQUE INDEX keyword_pkey ON public.keyword USING btree (id)"
+                }
+            ]
+        },
+        "char_name": {
+            "size": "352 MB",
+            "row_count": 3140339,
+            "columns": {
+                "imdb_id": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 0
+                },
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 3140339
+                },
+                "imdb_index": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 6
+                },
+                "md5sum": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 3140339
+                },
+                "name_pcode_nf": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 23076
+                },
+                "surname_pcode": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 17198
+                },
+                "name": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 3139743
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "char_name_pkey",
+                    "definition": "CREATE UNIQUE INDEX char_name_pkey ON public.char_name USING btree (id)"
+                }
+            ]
+        },
+        "link_type": {
+            "size": "24 kB",
+            "row_count": 18,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 18
+                },
+                "link": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 18
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "link_type_pkey",
+                    "definition": "CREATE UNIQUE INDEX link_type_pkey ON public.link_type USING btree (id)"
+                }
+            ]
+        },
+        "aka_title": {
+            "size": "65 MB",
+            "row_count": 361472,
+            "columns": {
+                "episode_of_id": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 754
+                },
+                "season_nr": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 40
+                },
+                "episode_nr": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 162
+                },
+                "kind_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 6
+                },
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 361472
+                },
+                "production_year": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 128
+                },
+                "movie_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 205631
+                },
+                "md5sum": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 346289
+                },
+                "title": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 313624
+                },
+                "imdb_index": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 12
+                },
+                "phonetic_code": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 20013
+                },
+                "note": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 3360
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "aka_title_pkey",
+                    "definition": "CREATE UNIQUE INDEX aka_title_pkey ON public.aka_title USING btree (id)"
+                },
+                {
+                    "name": "kind_id_aka_title",
+                    "definition": "CREATE INDEX kind_id_aka_title ON public.aka_title USING btree (kind_id)"
+                },
+                {
+                    "name": "movie_id_aka_title",
+                    "definition": "CREATE INDEX movie_id_aka_title ON public.aka_title USING btree (movie_id)"
+                }
+            ]
+        },
+        "person_info": {
+            "size": "551 MB",
+            "row_count": 2963664,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2963664
+                },
+                "person_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 550721
+                },
+                "info_type_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 22
+                },
+                "info": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 1925067
+                },
+                "note": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 49991
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "info_type_id_person_info",
+                    "definition": "CREATE INDEX info_type_id_person_info ON public.person_info USING btree (info_type_id)"
+                },
+                {
+                    "name": "person_id_person_info",
+                    "definition": "CREATE INDEX person_id_person_info ON public.person_info USING btree (person_id)"
+                },
+                {
+                    "name": "person_info_pkey",
+                    "definition": "CREATE UNIQUE INDEX person_info_pkey ON public.person_info USING btree (id)"
+                }
+            ]
+        },
+        "complete_cast": {
+            "size": "11 MB",
+            "row_count": 135086,
+            "columns": {
+                "id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 135086
+                },
+                "movie_id": {
+                    "data_type": "integer",
+                    "is_nullable": true,
+                    "unique_values": 93514
+                },
+                "subject_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2
+                },
+                "status_id": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2
+                }
+            },
+            "primary_keys": [
+                "id"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "complete_cast_pkey",
+                    "definition": "CREATE UNIQUE INDEX complete_cast_pkey ON public.complete_cast USING btree (id)"
+                },
+                {
+                    "name": "movie_id_complete_cast",
+                    "definition": "CREATE INDEX movie_id_complete_cast ON public.complete_cast USING btree (movie_id)"
+                }
+            ]
+        }
+    }
+}

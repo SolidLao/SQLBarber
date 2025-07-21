@@ -1,0 +1,142 @@
+{
+    "name": "postgres_imdb_2025-07-22_02-56_template_10_cost_4000.0_to_5000.0",
+    "deterministic": true,
+    "objectives": "cost",
+    "crash_cost": Infinity,
+    "termination_cost_threshold": Infinity,
+    "walltime_limit": Infinity,
+    "cputime_limit": Infinity,
+    "trial_walltime_limit": null,
+    "trial_memory_limit": null,
+    "n_trials": 670,
+    "use_default_config": true,
+    "instances": null,
+    "instance_features": null,
+    "min_budget": null,
+    "max_budget": null,
+    "seed": 1,
+    "n_workers": 1,
+    "_meta": {
+        "facade": {
+            "name": "HyperparameterOptimizationFacade"
+        },
+        "runner": {
+            "name": "TargetFunctionRunner",
+            "code": "b'|\\x00j\\x00}\\x03g\\x00}\\x04|\\x03}\\x05|\\x01D\\x00]\\x8a}\\x06|\\x06\\xa0\\x01d\\x01\\xa1\\x01s\\x15|\\x06\\xa0\\x01d\\x02\\xa1\\x01r\\\\|\\x06\\xa0\\x01d\\x01\\xa1\\x01r&|\\x06d\\x03d\\x04\\x85\\x02\\x19\\x00}\\x07|\\x07\\x9b\\x00d\\x05\\x9d\\x02}\\x08n\\x0b|\\x06d\\x03d\\x06\\x85\\x02\\x19\\x00}\\x07|\\x07\\x9b\\x00d\\x07\\x9d\\x02}\\x08|\\x01|\\x06\\x19\\x00}\\t|\\x00j\\x02|\\x06\\x19\\x00\\xa0\\x03|\\t|\\t\\xa1\\x02}\\t|\\x01|\\x08\\x19\\x00}\\n|\\x00j\\x02|\\x08\\x19\\x00\\xa0\\x03|\\n|\\n\\xa1\\x02}\\n|\\x06\\xa0\\x01d\\x01\\xa1\\x01rVt\\x04|\\t|\\n\\x83\\x02}\\x0bn\\x13t\\x05|\\t|\\n\\x83\\x02}\\x0bn\\r|\\x01|\\x06\\x19\\x00}\\x0b|\\x00j\\x02|\\x06\\x19\\x00\\xa0\\x03|\\x0b|\\x0b\\xa1\\x02}\\x0bt\\x06|\\x0bt\\x07\\x83\\x02r\\x82|\\x0b\\xa0\\x08\\xa1\\x00}\\x0b|\\x04\\xa0\\t|\\x0b\\xa1\\x01\\x01\\x00|\\x05\\xa0\\nd\\x08|\\x06\\x9b\\x00d\\t\\x9d\\x03|\\x0b\\xa1\\x02}\\x05q\\t|\\x04\\xa0\\t|\\x0b\\xa1\\x01\\x01\\x00|\\x05\\xa0\\nd\\x08|\\x06\\x9b\\x00d\\t\\x9d\\x03t\\x07|\\x0b\\x83\\x01\\xa1\\x02}\\x05q\\td\\n|\\x05\\x9b\\x00d\\x0b\\x9d\\x03}\\x0c|\\x05\\x9b\\x00d\\x0b\\x9d\\x02}\\rz\\xceg\\x00}\\x0e|\\x00j\\x0bd\\x0ck\\x02r\\xe6t\\x0c\\xa0\\x0c\\xa1\\x00}\\x0f|\\x00j\\r\\xa0\\x0e|\\x0c\\xa1\\x01d\\r\\x19\\x00}\\x10t\\x0c\\xa0\\x0c\\xa1\\x00}\\x11|\\x00\\x04\\x00j\\x0f|\\x11|\\x0f\\x18\\x00d\\x0e\\x1b\\x007\\x00\\x02\\x00_\\x0f|\\x10r\\xe5t\\x10|\\x10\\x83\\x01d\\x0fk\\x04r\\xe5|\\x10D\\x00]\\x18}\\x12|\\x12d\\x0f\\x19\\x00}\\x13t\\x11\\xa0\\x12d\\x10|\\x13\\xa1\\x02}\\x14|\\x14r\\xe4|\\x0e\\xa0\\tt\\x13|\\x14\\xa0\\x14d\\x11\\xa1\\x01\\x83\\x01\\xa1\\x01\\x01\\x00q\\xccnh|\\x00j\\x0bd\\x12k\\x02\\x90\\x01r/t\\x0c\\xa0\\x0c\\xa1\\x00}\\x0f|\\x00j\\r\\xa0\\x0e|\\x0c\\xa1\\x01d\\r\\x19\\x00}\\x10t\\x0c\\xa0\\x0c\\xa1\\x00}\\x11|\\x00\\x04\\x00j\\x0f|\\x11|\\x0f\\x18\\x00d\\x0e\\x1b\\x007\\x00\\x02\\x00_\\x0f|\\x10\\x90\\x01r.t\\x10|\\x10\\x83\\x01d\\x0fk\\x04\\x90\\x01r.|\\x10D\\x00]\\x1a}\\x12|\\x12d\\x0f\\x19\\x00}\\x13t\\x11\\xa0\\x12d\\x13|\\x13\\xa1\\x02}\\x14|\\x14\\x90\\x01r,|\\x0e\\xa0\\tt\\x15|\\x14\\xa0\\x14d\\x11\\xa1\\x01\\x83\\x01\\xa1\\x01\\x01\\x00\\x90\\x01q\\x13n\\x1f|\\x00j\\x0bd\\x14k\\x02\\x90\\x01rNt\\x0c\\xa0\\x0c\\xa1\\x00}\\x0f|\\x00j\\r\\xa0\\x0e|\\r\\xa1\\x01d\\r\\x19\\x00}\\x10t\\x0c\\xa0\\x0c\\xa1\\x00}\\x11|\\x11|\\x0f\\x18\\x00}\\x15|\\x0e\\xa0\\t|\\x15\\xa1\\x01\\x01\\x00|\\x0e|\\x00j\\x16|\\x05<\\x00|\\x00\\xa0\\x17|\\x0e\\xa1\\x01}\\x16|\\x00j\\x18\\xa0\\t|\\x05\\xa1\\x01\\x01\\x00|\\x00j\\x19\\xa0\\t|\\x16\\xa1\\x01\\x01\\x00|\\x00\\xa0\\x1a|\\x00j\\x1b|\\x16\\xa1\\x02}\\x17|\\x17W\\x00S\\x00\\x04\\x00t\\x1c\\x90\\x01y\\x88\\x01\\x00}\\x18\\x01\\x00z\\x0et\\x1dd\\x15|\\x18\\x9b\\x00\\x9d\\x02\\x83\\x01\\x01\\x00W\\x00Y\\x00d\\x03}\\x18~\\x18d\\x16S\\x00d\\x03}\\x18~\\x18w\\x01w\\x00'"
+        },
+        "model": {
+            "name": "RandomForest",
+            "types": [
+                0,
+                0,
+                0
+            ],
+            "bounds": [
+                [
+                    0,
+                    499
+                ],
+                [
+                    0,
+                    499
+                ],
+                [
+                    0,
+                    499
+                ]
+            ],
+            "pca_components": 7,
+            "n_trees": 10,
+            "n_points_per_tree": -1,
+            "ratio_features": 1.0,
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "max_depth": 1048576,
+            "eps_purity": 1e-08,
+            "max_nodes": 1048576,
+            "bootstrapping": true
+        },
+        "acquisition_maximizer": {
+            "name": "LocalAndSortedRandomSearch",
+            "acquisition_function": {
+                "name": "EI",
+                "xi": 0.0,
+                "log": true
+            },
+            "challengers": 10000,
+            "seed": 1,
+            "random_search": {
+                "name": "RandomSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": true
+                },
+                "challengers": 5000,
+                "seed": 1
+            },
+            "local_search": {
+                "name": "LocalSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": true
+                },
+                "challengers": 5000,
+                "seed": 1,
+                "max_steps": null,
+                "n_steps_plateau_walk": 10,
+                "vectorization_min_obtain": 2,
+                "vectorization_max_obtain": 64
+            }
+        },
+        "acquisition_function": {
+            "name": "EI",
+            "xi": 0.0,
+            "log": true
+        },
+        "intensifier": {
+            "name": "Intensifier",
+            "max_incumbents": 10,
+            "seed": 1
+        },
+        "initial_design": {
+            "name": "LatinHypercubeInitialDesign",
+            "n_configs": 0,
+            "n_configs_per_hyperparameter": 10,
+            "additional_configs": [
+                {
+                    "aka_title.id_end": "1",
+                    "aka_title.id_start": "1",
+                    "aka_title.title": "!Huff"
+                }
+            ],
+            "seed": 1
+        },
+        "random_design": {
+            "name": "ProbabilityRandomDesign",
+            "seed": 0,
+            "probability": 0.2
+        },
+        "runhistory_encoder": {
+            "name": "RunHistoryLogScaledEncoder",
+            "considered_states": [
+                1,
+                2,
+                4
+            ],
+            "lower_budget_states": [],
+            "scale_percentage": 5,
+            "seed": 1
+        },
+        "multi_objective_algorithm": null,
+        "config_selector": {
+            "name": "ConfigSelector",
+            "retrain_after": 20,
+            "retries": 50,
+            "min_trials": 1
+        },
+        "version": "2.0.2"
+    },
+    "output_directory": "/home/SQLBarber/outputs/intermediate/smac3_output/postgres_imdb_2025-07-22_02-56_template_10_cost_4000.0_to_5000.0/1"
+}

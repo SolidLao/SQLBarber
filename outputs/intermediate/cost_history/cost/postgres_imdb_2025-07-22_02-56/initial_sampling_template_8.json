@@ -1,0 +1,602 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '224' AND '240'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.87,
+        8.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '445' AND '493'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.72,
+        9.69
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '30' AND '157'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.87,
+        12.72
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '420' AND '454'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.37,
+        9.33
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '53' AND '144'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.85,
+        11.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '398' AND '477'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.6,
+        11.5
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '120' AND '150'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.26,
+        9.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '242' AND '322'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.62,
+        11.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '137' AND '275'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.17,
+        14.01
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '100' AND '425'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        25.21,
+        24.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '74' AND '209'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.1,
+        13.94
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '213' AND '410'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        16.77,
+        16.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '140' AND '180'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.52,
+        9.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '371' AND '412'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.54,
+        9.51
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '182' AND '314'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        13.94,
+        13.85
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '249' AND '445'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        16.75,
+        16.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '18' AND '225'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        16.92,
+        16.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '401' AND '482'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.64,
+        11.55
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '217' AND '397'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        15.3,
+        15.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '104' AND '126'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.03,
+        9.02
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '47' AND '278'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.57,
+        17.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '86' AND '100'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.82,
+        8.81
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '123' AND '442'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        25.05,
+        24.67
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '211' AND '385'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        15.05,
+        14.93
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '18' AND '454'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        30.22,
+        29.7
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '24' AND '117'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.97,
+        11.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '65' AND '387'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        25.14,
+        24.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '165' AND '251'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.78,
+        11.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '8' AND '331'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        25.16,
+        24.78
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '117' AND '288'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        15.07,
+        14.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '44' AND '152'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.37,
+        12.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '327' AND '367'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.52,
+        9.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '165' AND '243'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.51,
+        11.46
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '2' AND '32'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.24,
+        9.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '206' AND '310'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.2,
+        12.13
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '179' AND '184'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.59,
+        8.59
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '303' AND '328'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.12,
+        9.11
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '147' AND '346'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        16.82,
+        16.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '114' AND '130'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.87,
+        8.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '44' AND '466'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        29.82,
+        29.32
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '213' AND '335'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.75,
+        12.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '39' AND '404'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        27.1,
+        26.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '283' AND '435'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.55,
+        14.37
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '419' AND '437'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.95,
+        8.93
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '202' AND '342'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.22,
+        14.05
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '12' AND '205'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        15.55,
+        15.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '355' AND '415'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        10.08,
+        10.01
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '343' AND '370'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.18,
+        9.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '137' AND '195'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.98,
+        9.94
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '298' AND '401'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.23,
+        12.11
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '196' AND '333'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.08,
+        13.99
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '36' AND '49'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.81,
+        8.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '80' AND '421'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        26.47,
+        26.25
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '233' AND '346'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.43,
+        12.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '86' AND '108'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.04,
+        9.02
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '266' AND '302'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.42,
+        9.38
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '95' AND '246'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.53,
+        14.35
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '59' AND '415'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        26.87,
+        26.63
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '453' AND '471'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.95,
+        8.93
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '270' AND '434'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.88,
+        14.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '63' AND '293'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.54,
+        17.39
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '168' AND '426'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        18.42,
+        18.11
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '22' AND '82'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        10.08,
+        10.01
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '6' AND '77'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.32,
+        11.28
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '175' AND '350'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        15.07,
+        14.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '228' AND '300'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.35,
+        11.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '23' AND '105'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.62,
+        11.57
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '68' AND '347'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        19.84,
+        19.65
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '308' AND '313'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.6,
+        8.59
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '41' AND '475'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        29.92,
+        29.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '174' AND '478'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.65,
+        20.28
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '250' AND '292'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.56,
+        9.53
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '61' AND '377'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.81,
+        20.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '132' AND '200'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.29,
+        11.21
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '265' AND '489'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.38,
+        17.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '168' AND '357'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        15.46,
+        15.34
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '171' AND '204'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.35,
+        9.31
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '73' AND '150'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.48,
+        11.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '13' AND '318'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.51,
+        20.31
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '353' AND '457'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.26,
+        12.13
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '10' AND '208'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        16.8,
+        16.56
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '88' AND '232'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.26,
+        14.17
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '3' AND '260'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        18.38,
+        18.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '358' AND '375'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.9,
+        8.88
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '175' AND '490'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.78,
+        20.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '26' AND '263'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.86,
+        17.57
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '121' AND '269'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.38,
+        14.28
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '187' AND '259'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.39,
+        11.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '191' AND '337'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.31,
+        14.21
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '346' AND '419'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.39,
+        11.34
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '282' AND '431'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.4,
+        14.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '124' AND '393'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        19.56,
+        19.38
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '143' AND '500'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        26.89,
+        26.66
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '48' AND '255'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        16.92,
+        16.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '93' AND '380'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.04,
+        19.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '64' AND '365'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.41,
+        20.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '103' AND '218'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.5,
+        12.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '29' AND '31'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.5,
+        8.5
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '71' AND '492'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        29.57,
+        29.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '256' AND '494'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.75,
+        17.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '69' AND '447'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        27.44,
+        27.2
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '304' AND '404'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.16,
+        12.04
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '7' AND '307'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.55,
+        20.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '289' AND '486'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        16.77,
+        16.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '164' AND '462'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.48,
+        20.13
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '161' AND '452'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.29,
+        19.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '155' AND '319'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.88,
+        14.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '39' AND '432'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        28.84,
+        28.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '79' AND '277'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        16.69,
+        16.56
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '233' AND '284'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.79,
+        9.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '226' AND '429'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        16.83,
+        16.7
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '365' AND '385'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.0,
+        8.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '370' AND '467'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.07,
+        11.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '53' AND '447'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        29.07,
+        28.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '14' AND '353'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        26.41,
+        26.18
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '296' AND '480'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        15.32,
+        15.2
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '76' AND '324'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        18.01,
+        17.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '472' AND '498'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.16,
+        9.13
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '126' AND '222'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.04,
+        11.93
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '295' AND '360'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.2,
+        11.12
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '321' AND '389'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.29,
+        11.21
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '239' AND '272'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.33,
+        9.31
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '141' AND '282'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.19,
+        14.1
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '114' AND '229'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.5,
+        12.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '158' AND '463'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.51,
+        20.31
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '84' AND '290'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.01,
+        16.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '109' AND '408'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.53,
+        20.17
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '221' AND '486'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        19.47,
+        19.29
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '57' AND '312'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        18.33,
+        18.02
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '55' AND '376'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        24.94,
+        24.73
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '273' AND '494'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.41,
+        17.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '380' AND '391'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.75,
+        8.75
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '146' AND '188'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.58,
+        9.53
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '105' AND '439'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        26.47,
+        26.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '90' AND '324'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.76,
+        17.48
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '129' AND '396'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        19.66,
+        19.34
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '132' AND '198'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        11.21,
+        11.16
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '193' AND '468'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        19.87,
+        19.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '92' AND '395'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.46,
+        20.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '237' AND '457'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.27,
+        17.12
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '333' AND '479'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        14.39,
+        14.21
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '244' AND '430'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        15.47,
+        15.25
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '409' AND '442'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        9.33,
+        9.31
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '189' AND '469'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        20.01,
+        19.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '96' AND '336'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.8,
+        17.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '15' AND '254'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        17.9,
+        17.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '156' AND '256'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        12.16,
+        12.04
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '35' AND '379'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        26.54,
+        26.32
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '172' AND '360'\n  AND gender = 'f'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        15.41,
+        15.29
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 8\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['name']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       name,\n       imdb_id\nFROM name\nWHERE id BETWEEN '1' AND '1'\n  AND gender = 'm'\nGROUP BY id,\n         name,\n         imdb_id;": [
+        8.45,
+        8.45
+    ]
+}

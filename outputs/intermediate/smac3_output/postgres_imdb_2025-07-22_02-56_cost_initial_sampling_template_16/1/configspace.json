@@ -1,0 +1,35 @@
+{
+  "hyperparameters": [
+    {
+      "name": "complete_cast.status_id_end",
+      "type": "ordinal",
+      "sequence": [
+        "3",
+        "4"
+      ],
+      "default": "3"
+    },
+    {
+      "name": "complete_cast.status_id_start",
+      "type": "ordinal",
+      "sequence": [
+        "3",
+        "4"
+      ],
+      "default": "3"
+    },
+    {
+      "name": "complete_cast.subject_id",
+      "type": "ordinal",
+      "sequence": [
+        "1",
+        "2"
+      ],
+      "default": "1"
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

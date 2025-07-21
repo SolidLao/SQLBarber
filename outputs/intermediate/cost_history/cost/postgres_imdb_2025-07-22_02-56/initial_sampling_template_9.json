@@ -1,0 +1,602 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '51' AND '92'\n  AND info = 'LD audio noise'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '59' AND '112'\n  AND info = 'runtimes'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '36' AND '42'\n  AND info = 'countries'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '8' AND '95'\n  AND info = 'LD video standard'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '33' AND '82'\n  AND info = 'sound mix'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '56' AND '90'\n  AND info = 'LD frequency response'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '34' AND '37'\n  AND info = 'LD review'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '4' AND '55'\n  AND info = 'mpaa'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '31' AND '48'\n  AND info = 'LD certification'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '21' AND '23'\n  AND info = 'LD subtitles'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '27' AND '48'\n  AND info = 'taglines'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '52' AND '93'\n  AND info = 'LD length'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '32' AND '60'\n  AND info = 'votes'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '73' AND '84'\n  AND info = 'article'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '42' AND '66'\n  AND info = 'LD release date'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '10' AND '101'\n  AND info = 'LD catalog number'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '4' AND '95'\n  AND info = 'LD video quality'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '18' AND '91'\n  AND info = 'trade mark'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '50' AND '55'\n  AND info = 'LD pressing plant'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '29' AND '103'\n  AND info = 'LD number of chapter stops'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '11' AND '75'\n  AND info = 'LD certification'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '20' AND '81'\n  AND info = 'screenplay-teleplay'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '10' AND '28'\n  AND info = 'admissions'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '87' AND '93'\n  AND info = 'LD video artifacts'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '54' AND '103'\n  AND info = 'studios'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '6' AND '25'\n  AND info = 'LD number of sides'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '18' AND '88'\n  AND info = 'LD close captions-teletext-ld-g'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '29' AND '57'\n  AND info = 'goofs'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '2' AND '33'\n  AND info = 'LD digital sound'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '27' AND '37'\n  AND info = 'languages'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '16' AND '35'\n  AND info = 'certificates'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '74' AND '83'\n  AND info = 'release dates'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '55' AND '94'\n  AND info = 'goofs'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '8' AND '85'\n  AND info = 'books'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '70' AND '78'\n  AND info = 'LD year'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '41' AND '112'\n  AND info = 'LD dialogue intellegibility'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '74' AND '99'\n  AND info = 'mini biography'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '34' AND '45'\n  AND info = 'LD supplement'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '26' AND '83'\n  AND info = 'alternate versions'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '6' AND '10'\n  AND info = 'LD number'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '48' AND '57'\n  AND info = 'height'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '92' AND '104'\n  AND info = 'crazy credits'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '41' AND '64'\n  AND info = 'color info'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '22' AND '95'\n  AND info = 'color info'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '6' AND '46'\n  AND info = 'LD supplement'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '47' AND '111'\n  AND info = 'LD quality of source'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '19' AND '81'\n  AND info = 'article'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '30' AND '78'\n  AND info = 'gross'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '44' AND '62'\n  AND info = 'copyright holder'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '35' AND '68'\n  AND info = 'LD official retail price'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '69' AND '76'\n  AND info = 'printed media reviews'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '8' AND '39'\n  AND info = 'agent address'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '18' AND '108'\n  AND info = 'portrayed in'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '67' AND '79'\n  AND info = 'other literature'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '15' AND '25'\n  AND info = 'LD disc format'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '27' AND '60'\n  AND info = 'mini biography'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '34' AND '56'\n  AND info = 'birth notes'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '94' AND '104'\n  AND info = 'LD audio quality'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '16' AND '103'\n  AND info = 'LD language'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '1' AND '99'\n  AND info = 'LD release country'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '67' AND '107'\n  AND info = 'LD close captions-teletext-ld-g'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '2' AND '97'\n  AND info = 'goofs'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '5' AND '43'\n  AND info = 'LD contrast'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '2' AND '91'\n  AND info = 'spouse'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '80' AND '113'\n  AND info = 'birth name'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '61' AND '68'\n  AND info = 'LD color rendition'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '24' AND '60'\n  AND info = 'LD picture format'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '16' AND '73'\n  AND info = 'budget'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '7' AND '71'\n  AND info = 'magazine cover photo'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '79' AND '108'\n  AND info = 'certificates'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '33' AND '108'\n  AND info = 'birth name'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '66' AND '77'\n  AND info = 'LD catalog number'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '14' AND '99'\n  AND info = 'other works'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '30' AND '32'\n  AND info = 'LD original title'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '78' AND '111'\n  AND info = 'pictorial'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '38' AND '109'\n  AND info = 'LD label'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '30' AND '39'\n  AND info = 'LD original title'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '17' AND '68'\n  AND info = 'LD spaciality'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '3' AND '68'\n  AND info = 'biographical movies'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '12' AND '104'\n  AND info = 'filming dates'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '47' AND '51'\n  AND info = 'LD quality of source'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '20' AND '80'\n  AND info = 'other literature'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '1' AND '38'\n  AND info = 'LD aspect ratio'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '55' AND '81'\n  AND info = 'other works'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '40' AND '108'\n  AND info = 'LD analog right'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '21' AND '60'\n  AND info = 'LD picture format'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '28' AND '83'\n  AND info = 'LD release country'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '39' AND '59'\n  AND info = 'LD group genre'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '66' AND '76'\n  AND info = 'LD color information'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '72' AND '78'\n  AND info = 'portrayed in'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '97' AND '98'\n  AND info = 'keywords'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '89' AND '95'\n  AND info = 'LD review'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '101' AND '113'\n  AND info = 'LD production country'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '11' AND '106'\n  AND info = 'LD sound encoding'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '21' AND '110'\n  AND info = 'genres'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '15' AND '63'\n  AND info = 'LD video noise'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '24' AND '101'\n  AND info = 'votes distribution'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '7' AND '20'\n  AND info = 'countries'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '16' AND '88'\n  AND info = 'LD category'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '112' AND '112'\n  AND info = 'LD sound encoding'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '90' AND '101'\n  AND info = 'locations'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '53' AND '69'\n  AND info = 'trivia'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '26' AND '70'\n  AND info = 'soundtrack'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '48' AND '66'\n  AND info = 'top 250 rank'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '37' AND '42'\n  AND info = 'rentals'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '3' AND '37'\n  AND info = 'LD status of availablility'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '45' AND '72'\n  AND info = 'bottom 10 rank'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '9' AND '71'\n  AND info = 'LD quality program'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '63' AND '93'\n  AND info = 'spouse'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '53' AND '70'\n  AND info = 'languages'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '52' AND '87'\n  AND info = 'LD subtitles'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '32' AND '83'\n  AND info = 'plot'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '28' AND '106'\n  AND info = 'gross'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '2' AND '12'\n  AND info = 'runtimes'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '4' AND '90'\n  AND info = 'filming dates'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '98' AND '109'\n  AND info = 'LD laserdisc title'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '17' AND '86'\n  AND info = 'release dates'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '49' AND '107'\n  AND info = 'tech info'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '40' AND '50'\n  AND info = 'production dates'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '23' AND '82'\n  AND info = 'LD laserdisc title'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '47' AND '73'\n  AND info = 'novel'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '62' AND '71'\n  AND info = 'opening weekend'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '64' AND '76'\n  AND info = 'death notes'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '52' AND '80'\n  AND info = 'where now'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '59' AND '105'\n  AND info = 'interviews'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '19' AND '54'\n  AND info = 'birth date'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '50' AND '93'\n  AND info = 'LD additional information'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '86' AND '110'\n  AND info = 'votes distribution'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '13' AND '36'\n  AND info = 'LD release date'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '85' AND '105'\n  AND info = 'quotes'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '14' AND '62'\n  AND info = 'LD category'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '86' AND '106'\n  AND info = 'LD analog left'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '43' AND '46'\n  AND info = 'LD production country'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '12' AND '100'\n  AND info = 'LD number of chapter stops'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '17' AND '74'\n  AND info = 'death date'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '11' AND '30'\n  AND info = 'LD pressing plant'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '45' AND '58'\n  AND info = 'alternate versions'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '5' AND '106'\n  AND info = 'LD color information'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '90' AND '100'\n  AND info = 'death date'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '54' AND '84'\n  AND info = 'nick names'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '7' AND '76'\n  AND info = 'trade mark'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '13' AND '98'\n  AND info = 'rating'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '65' AND '100'\n  AND info = 'LD disc size'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '23' AND '43'\n  AND info = 'LD number'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '22' AND '89'\n  AND info = 'height'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '44' AND '58'\n  AND info = 'studios'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '24' AND '58'\n  AND info = 'interviews'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '64' AND '86'\n  AND info = 'weekend gross'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '39' AND '97'\n  AND info = 'adaption'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 9\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['info_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT info,\n       COUNT(id) AS count_id,\n       MIN(id) AS min_id,\n       MAX(id) AS max_id,\n       AVG(id) AS avg_id\nFROM info_type\nWHERE id BETWEEN '1' AND '1'\n  AND info = 'books'\nGROUP BY info;": [
+        3.0,
+        2.98
+    ]
+}

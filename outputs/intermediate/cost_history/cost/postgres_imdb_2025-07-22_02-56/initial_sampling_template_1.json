@@ -1,0 +1,170 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('3' AS BIGINT) AND CAST('5' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('3' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('2' AS BIGINT) AND CAST('5' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('2' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('5' AS BIGINT) AND CAST('6' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('5' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('4' AS BIGINT) AND CAST('5' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('4' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('1' AS BIGINT) AND CAST('7' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('1' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('1' AS BIGINT) AND CAST('2' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('1' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('1' AS BIGINT) AND CAST('4' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('1' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('4' AS BIGINT) AND CAST('4' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('4' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('5' AS BIGINT) AND CAST('7' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('5' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('2' AS BIGINT) AND CAST('7' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('2' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('4' AS BIGINT) AND CAST('6' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('4' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('3' AS BIGINT) AND CAST('4' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('3' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('2' AS BIGINT) AND CAST('6' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('2' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('1' AS BIGINT) AND CAST('5' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('1' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('3' AS BIGINT) AND CAST('7' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('3' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('2' AS BIGINT) AND CAST('4' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('2' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('3' AS BIGINT) AND CAST('6' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('3' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('1' AS BIGINT) AND CAST('3' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('1' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('1' AS BIGINT) AND CAST('6' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('1' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('7' AS BIGINT) AND CAST('7' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('7' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('3' AS BIGINT) AND CAST('3' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('3' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('2' AS BIGINT) AND CAST('2' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('2' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('2' AS BIGINT) AND CAST('3' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('2' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('1' AS BIGINT) AND CAST('1' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('1' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('6' AS BIGINT) AND CAST('7' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('6' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('6' AS BIGINT) AND CAST('6' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('6' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('5' AS BIGINT) AND CAST('5' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('5' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 1\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['kind_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM kind_type\nWHERE id BETWEEN CAST('4' AS BIGINT) AND CAST('7' AS BIGINT)\n  AND kind IN\n    (SELECT kind\n     FROM kind_type\n     GROUP BY kind\n     HAVING MAX(id) > CAST('4' AS BIGINT));": [
+        2.34,
+        1.1,
+        1.19,
+        1.07
+    ]
+}

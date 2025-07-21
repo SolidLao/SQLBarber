@@ -1,0 +1,39 @@
+{
+  "hyperparameters": [
+    {
+      "name": "cast_info.role_id",
+      "type": "ordinal",
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "default": "1"
+    },
+    {
+      "name": "title.kind_id",
+      "type": "ordinal",
+      "sequence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "default": "1"
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

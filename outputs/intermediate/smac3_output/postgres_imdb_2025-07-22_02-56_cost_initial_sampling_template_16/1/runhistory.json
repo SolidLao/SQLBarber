@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "submitted": 8,
+    "finished": 8,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      1791095845,
+      null,
+      0.9993020751399863,
+      0.0020520687103271484,
+      1,
+      1753124639.2580552,
+      1753124639.2608638,
+      {}
+    ],
+    [
+      2,
+      null,
+      1791095845,
+      null,
+      0.9991157993395021,
+      0.0017924308776855469,
+      1,
+      1753124639.2626917,
+      1753124639.2651546,
+      {}
+    ],
+    [
+      3,
+      null,
+      1791095845,
+      null,
+      0.9994854659568841,
+      0.0016651153564453125,
+      1,
+      1753124639.2673056,
+      1753124639.2697544,
+      {}
+    ],
+    [
+      4,
+      null,
+      1791095845,
+      null,
+      0.9995468535321861,
+      0.0013549327850341797,
+      1,
+      1753124639.2718241,
+      1753124639.274035,
+      {}
+    ],
+    [
+      5,
+      null,
+      1791095845,
+      null,
+      0.9994541019868504,
+      0.0013585090637207031,
+      1,
+      1753124639.2760935,
+      1753124639.2782097,
+      {}
+    ],
+    [
+      6,
+      null,
+      1791095845,
+      null,
+      0.9995841727845246,
+      0.0017116069793701172,
+      1,
+      1753124639.2803714,
+      1753124639.2828422,
+      {}
+    ],
+    [
+      7,
+      null,
+      1791095845,
+      null,
+      0.9994854659568841,
+      0.0017757415771484375,
+      1,
+      1753124639.3294332,
+      1753124639.3318067,
+      {}
+    ],
+    [
+      8,
+      null,
+      1791095845,
+      null,
+      0.9995841727845246,
+      0.0017707347869873047,
+      1,
+      1753124639.3344789,
+      1753124639.3370435,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "complete_cast.status_id_end": "4",
+      "complete_cast.status_id_start": "4",
+      "complete_cast.subject_id": "1"
+    },
+    "2": {
+      "complete_cast.status_id_end": "4",
+      "complete_cast.status_id_start": "4",
+      "complete_cast.subject_id": "2"
+    },
+    "3": {
+      "complete_cast.status_id_end": "3",
+      "complete_cast.status_id_start": "4",
+      "complete_cast.subject_id": "2"
+    },
+    "4": {
+      "complete_cast.status_id_end": "3",
+      "complete_cast.status_id_start": "3",
+      "complete_cast.subject_id": "1"
+    },
+    "5": {
+      "complete_cast.status_id_end": "3",
+      "complete_cast.status_id_start": "3",
+      "complete_cast.subject_id": "2"
+    },
+    "6": {
+      "complete_cast.status_id_end": "4",
+      "complete_cast.status_id_start": "3",
+      "complete_cast.subject_id": "1"
+    },
+    "7": {
+      "complete_cast.status_id_end": "4",
+      "complete_cast.status_id_start": "3",
+      "complete_cast.subject_id": "2"
+    },
+    "8": {
+      "complete_cast.status_id_end": "3",
+      "complete_cast.status_id_start": "4",
+      "complete_cast.subject_id": "1"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Latin Hypercube",
+    "2": "Acquisition Function Maximizer: Local Search",
+    "3": "Initial Design: Latin Hypercube",
+    "4": "Initial Design: Latin Hypercube",
+    "5": "Initial Design: Latin Hypercube",
+    "6": "Initial Design: Latin Hypercube",
+    "7": "Acquisition Function Maximizer: Random Search (sorted)",
+    "8": "Random Search"
+  }
+}

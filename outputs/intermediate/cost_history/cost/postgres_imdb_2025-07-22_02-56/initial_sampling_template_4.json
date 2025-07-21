@@ -1,0 +1,722 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('6' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('11' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('7' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('4' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('11' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('4' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('10' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('4' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('6' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('5' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('7' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('9' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('7' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('6' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('10' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('4' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('3' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('3' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('4' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('8' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('6' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('1' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('5' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('8' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('4' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('7' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('11' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('5' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('9' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('9' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('8' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('2' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('3' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('7' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('6' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('11' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('7' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('2' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('7' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('3' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('7' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('8' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('5' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('7' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('5' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('4' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('9' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('5' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('6' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('9' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('7' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('9' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('7' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('7' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('6' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('1' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('7' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('8' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('7' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('9' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('9' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('8' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('12' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('6' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('8' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('8' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('7' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('6' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('4' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('2' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('7' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('10' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('5' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('8' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('2' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('9' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('8' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('10' AS INTEGER)\n  AND id <= CAST('11' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('7' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('12' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('3' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('5' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('10' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('7' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('5' AS INTEGER)\n  AND id <= CAST('9' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('11' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('1' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('1' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('1' AS INTEGER)\n  AND id <= CAST('3' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('12' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('6' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('10' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('7' AS INTEGER)\n  AND id <= CAST('7' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('3' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 4\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['role_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 3\n\nSELECT id,\n       ROLE\nFROM role_type\nWHERE id >= CAST('4' AS INTEGER)\n  AND id <= CAST('6' AS INTEGER)\n  AND\n    (SELECT COUNT(*)\n     FROM role_type AS sub\n     WHERE sub.role = role_type.role) >= CAST('8' AS INTEGER);": [
+        9.32,
+        1.16,
+        1.15
+    ]
+}

@@ -1,0 +1,1723 @@
+{
+  "stats": {
+    "submitted": 95,
+    "finished": 95,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      1791095845,
+      null,
+      0.9985916666666667,
+      0.0003974437713623047,
+      1,
+      1753124959.5004795,
+      1753124959.5039299,
+      {}
+    ],
+    [
+      2,
+      null,
+      1791095845,
+      null,
+      0.9961883333333333,
+      0.00035452842712402344,
+      1,
+      1753124959.576058,
+      1753124959.5791354,
+      {}
+    ],
+    [
+      3,
+      null,
+      1791095845,
+      null,
+      0.997865,
+      0.00028514862060546875,
+      1,
+      1753124959.5811548,
+      1753124959.5844123,
+      {}
+    ],
+    [
+      4,
+      null,
+      1791095845,
+      null,
+      0.9983016666666666,
+      0.00032639503479003906,
+      1,
+      1753124959.5865934,
+      1753124959.59004,
+      {}
+    ],
+    [
+      5,
+      null,
+      1791095845,
+      null,
+      0.998295,
+      0.0002789497375488281,
+      1,
+      1753124959.5923998,
+      1753124959.59577,
+      {}
+    ],
+    [
+      6,
+      null,
+      1791095845,
+      null,
+      0.9982833333333333,
+      0.0003256797790527344,
+      1,
+      1753124959.5976992,
+      1753124959.6009429,
+      {}
+    ],
+    [
+      7,
+      null,
+      1791095845,
+      null,
+      0.9969233333333334,
+      0.00032401084899902344,
+      1,
+      1753124959.603145,
+      1753124959.6065738,
+      {}
+    ],
+    [
+      8,
+      null,
+      1791095845,
+      null,
+      0.998335,
+      0.0002758502960205078,
+      1,
+      1753124959.6089509,
+      1753124959.612235,
+      {}
+    ],
+    [
+      9,
+      null,
+      1791095845,
+      null,
+      0.998355,
+      0.00027632713317871094,
+      1,
+      1753124959.6143315,
+      1753124959.6174474,
+      {}
+    ],
+    [
+      10,
+      null,
+      1791095845,
+      null,
+      0.997185,
+      0.0002911090850830078,
+      1,
+      1753124959.6195536,
+      1753124959.6228347,
+      {}
+    ],
+    [
+      11,
+      null,
+      1791095845,
+      null,
+      0.9983816666666666,
+      0.00029015541076660156,
+      1,
+      1753124959.6250021,
+      1753124959.6286674,
+      {}
+    ],
+    [
+      12,
+      null,
+      1791095845,
+      null,
+      0.9974866666666666,
+      0.0003139972686767578,
+      1,
+      1753124959.6309326,
+      1753124959.6341226,
+      {}
+    ],
+    [
+      13,
+      null,
+      1791095845,
+      null,
+      0.9971733333333334,
+      0.0002758502960205078,
+      1,
+      1753124959.6364007,
+      1753124959.6396213,
+      {}
+    ],
+    [
+      14,
+      null,
+      1791095845,
+      null,
+      0.9985533333333333,
+      0.0002741813659667969,
+      1,
+      1753124959.6418924,
+      1753124959.6450825,
+      {}
+    ],
+    [
+      15,
+      null,
+      1791095845,
+      null,
+      0.9976366666666666,
+      0.0002903938293457031,
+      1,
+      1753124959.6474721,
+      1753124959.6506586,
+      {}
+    ],
+    [
+      16,
+      null,
+      1791095845,
+      null,
+      0.9983666666666666,
+      0.0002887248992919922,
+      1,
+      1753124959.6533992,
+      1753124959.657045,
+      {}
+    ],
+    [
+      17,
+      null,
+      1791095845,
+      null,
+      0.9975383333333333,
+      0.0002849102020263672,
+      1,
+      1753124959.6598375,
+      1753124959.6633492,
+      {}
+    ],
+    [
+      18,
+      null,
+      1791095845,
+      null,
+      0.9978466666666667,
+      0.00027680397033691406,
+      1,
+      1753124959.665937,
+      1753124959.6691346,
+      {}
+    ],
+    [
+      19,
+      null,
+      1791095845,
+      null,
+      0.9984333333333333,
+      0.0002892017364501953,
+      1,
+      1753124959.6716373,
+      1753124959.674843,
+      {}
+    ],
+    [
+      20,
+      null,
+      1791095845,
+      null,
+      0.99858,
+      0.000274658203125,
+      1,
+      1753124959.6772835,
+      1753124959.6805086,
+      {}
+    ],
+    [
+      21,
+      null,
+      1791095845,
+      null,
+      0.9981366666666667,
+      0.00029087066650390625,
+      1,
+      1753124959.683109,
+      1753124959.6862686,
+      {}
+    ],
+    [
+      22,
+      null,
+      1791095845,
+      null,
+      0.9961883333333333,
+      0.00028514862060546875,
+      1,
+      1753124959.8224225,
+      1753124959.8255954,
+      {}
+    ],
+    [
+      23,
+      null,
+      1791095845,
+      null,
+      0.997645,
+      0.00028705596923828125,
+      1,
+      1753124959.828286,
+      1753124959.831531,
+      {}
+    ],
+    [
+      24,
+      null,
+      1791095845,
+      null,
+      0.997825,
+      0.0002760887145996094,
+      1,
+      1753124959.8342814,
+      1753124959.8374438,
+      {}
+    ],
+    [
+      25,
+      null,
+      1791095845,
+      null,
+      0.99782,
+      0.0002741813659667969,
+      1,
+      1753124959.8402483,
+      1753124959.8434472,
+      {}
+    ],
+    [
+      26,
+      null,
+      1791095845,
+      null,
+      0.9961916666666667,
+      0.0002753734588623047,
+      1,
+      1753124959.846252,
+      1753124959.8494055,
+      {}
+    ],
+    [
+      27,
+      null,
+      1791095845,
+      null,
+      0.9982833333333333,
+      0.0002734661102294922,
+      1,
+      1753124959.8521826,
+      1753124959.855419,
+      {}
+    ],
+    [
+      28,
+      null,
+      1791095845,
+      null,
+      0.9983433333333334,
+      0.0002732276916503906,
+      1,
+      1753124959.858238,
+      1753124959.861392,
+      {}
+    ],
+    [
+      29,
+      null,
+      1791095845,
+      null,
+      0.9969116666666666,
+      0.00027489662170410156,
+      1,
+      1753124959.864474,
+      1753124959.8677154,
+      {}
+    ],
+    [
+      30,
+      null,
+      1791095845,
+      null,
+      0.9983466666666667,
+      0.00027370452880859375,
+      1,
+      1753124959.870574,
+      1753124959.8737957,
+      {}
+    ],
+    [
+      31,
+      null,
+      1791095845,
+      null,
+      0.99779,
+      0.00027441978454589844,
+      1,
+      1753124959.8766758,
+      1753124959.8799162,
+      {}
+    ],
+    [
+      32,
+      null,
+      1791095845,
+      null,
+      0.99778,
+      0.0003058910369873047,
+      1,
+      1753124959.8828492,
+      1753124959.8860006,
+      {}
+    ],
+    [
+      33,
+      null,
+      1791095845,
+      null,
+      0.9975883333333333,
+      0.0002741813659667969,
+      1,
+      1753124959.888988,
+      1753124959.892227,
+      {}
+    ],
+    [
+      34,
+      null,
+      1791095845,
+      null,
+      0.997585,
+      0.00029087066650390625,
+      1,
+      1753124959.8952882,
+      1753124959.8984475,
+      {}
+    ],
+    [
+      35,
+      null,
+      1791095845,
+      null,
+      0.9968966666666667,
+      0.0002758502960205078,
+      1,
+      1753124959.9014528,
+      1753124959.9047964,
+      {}
+    ],
+    [
+      36,
+      null,
+      1791095845,
+      null,
+      0.99841,
+      0.00030159950256347656,
+      1,
+      1753124959.9079235,
+      1753124959.9112368,
+      {}
+    ],
+    [
+      37,
+      null,
+      1791095845,
+      null,
+      0.9968966666666667,
+      0.0002770423889160156,
+      1,
+      1753124959.914263,
+      1753124959.9173534,
+      {}
+    ],
+    [
+      38,
+      null,
+      1791095845,
+      null,
+      0.9978533333333334,
+      0.000274658203125,
+      1,
+      1753124959.9204905,
+      1753124959.9235961,
+      {}
+    ],
+    [
+      39,
+      null,
+      1791095845,
+      null,
+      0.9971616666666666,
+      0.0002760887145996094,
+      1,
+      1753124959.9266853,
+      1753124959.929791,
+      {}
+    ],
+    [
+      40,
+      null,
+      1791095845,
+      null,
+      0.9981183333333333,
+      0.000274658203125,
+      1,
+      1753124959.932893,
+      1753124959.9360142,
+      {}
+    ],
+    [
+      41,
+      null,
+      1791095845,
+      null,
+      0.9981116666666666,
+      0.0002853870391845703,
+      1,
+      1753124959.9391532,
+      1753124959.942312,
+      {}
+    ],
+    [
+      42,
+      null,
+      1791095845,
+      null,
+      0.9961433333333334,
+      0.00029015541076660156,
+      1,
+      1753124960.1057692,
+      1753124960.1090739,
+      {}
+    ],
+    [
+      43,
+      null,
+      1791095845,
+      null,
+      0.9961466666666666,
+      0.00028586387634277344,
+      1,
+      1753124960.112563,
+      1753124960.1158442,
+      {}
+    ],
+    [
+      44,
+      null,
+      1791095845,
+      null,
+      0.996195,
+      0.00028514862060546875,
+      1,
+      1753124960.1194608,
+      1753124960.122625,
+      {}
+    ],
+    [
+      45,
+      null,
+      1791095845,
+      null,
+      0.9980733333333334,
+      0.0002913475036621094,
+      1,
+      1753124960.126076,
+      1753124960.1292496,
+      {}
+    ],
+    [
+      46,
+      null,
+      1791095845,
+      null,
+      0.9961883333333333,
+      0.00027489662170410156,
+      1,
+      1753124960.1331818,
+      1753124960.136435,
+      {}
+    ],
+    [
+      47,
+      null,
+      1791095845,
+      null,
+      0.9961883333333333,
+      0.0002772808074951172,
+      1,
+      1753124960.1398556,
+      1753124960.143023,
+      {}
+    ],
+    [
+      48,
+      null,
+      1791095845,
+      null,
+      0.99606,
+      0.0002849102020263672,
+      1,
+      1753124960.1465995,
+      1753124960.149833,
+      {}
+    ],
+    [
+      49,
+      null,
+      1791095845,
+      null,
+      0.9982566666666667,
+      0.0002865791320800781,
+      1,
+      1753124960.153975,
+      1753124960.1571815,
+      {}
+    ],
+    [
+      50,
+      null,
+      1791095845,
+      null,
+      0.9960683333333333,
+      0.000308990478515625,
+      1,
+      1753124960.161012,
+      1753124960.1643255,
+      {}
+    ],
+    [
+      51,
+      null,
+      1791095845,
+      null,
+      0.9978133333333333,
+      0.0002751350402832031,
+      1,
+      1753124960.168205,
+      1753124960.1714566,
+      {}
+    ],
+    [
+      52,
+      null,
+      1791095845,
+      null,
+      0.997655,
+      0.000331878662109375,
+      1,
+      1753124960.1754856,
+      1753124960.179097,
+      {}
+    ],
+    [
+      53,
+      null,
+      1791095845,
+      null,
+      0.9976516666666667,
+      0.00030493736267089844,
+      1,
+      1753124960.1830316,
+      1753124960.1862056,
+      {}
+    ],
+    [
+      54,
+      null,
+      1791095845,
+      null,
+      1.0,
+      0.00017762184143066406,
+      1,
+      1753124960.190619,
+      1753124960.1936333,
+      {}
+    ],
+    [
+      55,
+      null,
+      1791095845,
+      null,
+      0.99831,
+      0.00027632713317871094,
+      1,
+      1753124960.1975114,
+      1753124960.200802,
+      {}
+    ],
+    [
+      56,
+      null,
+      1791095845,
+      null,
+      0.9977116666666667,
+      0.0002758502960205078,
+      1,
+      1753124960.204544,
+      1753124960.2076633,
+      {}
+    ],
+    [
+      57,
+      null,
+      1791095845,
+      null,
+      0.9983016666666666,
+      0.00027680397033691406,
+      1,
+      1753124960.2115328,
+      1753124960.2146394,
+      {}
+    ],
+    [
+      58,
+      null,
+      1791095845,
+      null,
+      0.9983583333333333,
+      0.00027680397033691406,
+      1,
+      1753124960.2184844,
+      1753124960.2215753,
+      {}
+    ],
+    [
+      59,
+      null,
+      1791095845,
+      null,
+      0.997535,
+      0.00027751922607421875,
+      1,
+      1753124960.2254865,
+      1753124960.228684,
+      {}
+    ],
+    [
+      60,
+      null,
+      1791095845,
+      null,
+      0.9969666666666667,
+      0.00027751922607421875,
+      1,
+      1753124960.2337623,
+      1753124960.2372103,
+      {}
+    ],
+    [
+      61,
+      null,
+      1791095845,
+      null,
+      0.9985833333333334,
+      0.00027489662170410156,
+      1,
+      1753124960.241272,
+      1753124960.2446039,
+      {}
+    ],
+    [
+      62,
+      null,
+      1791095845,
+      null,
+      0.99755,
+      0.0003082752227783203,
+      1,
+      1753124960.2627537,
+      1753124960.2659383,
+      {}
+    ],
+    [
+      63,
+      null,
+      1791095845,
+      null,
+      0.99784,
+      0.0002753734588623047,
+      1,
+      1753124960.270174,
+      1753124960.273353,
+      {}
+    ],
+    [
+      64,
+      null,
+      1791095845,
+      null,
+      0.9960866666666667,
+      0.0005965232849121094,
+      1,
+      1753124960.5372071,
+      1753124960.5406861,
+      {}
+    ],
+    [
+      65,
+      null,
+      1791095845,
+      null,
+      0.9983316666666666,
+      0.0003292560577392578,
+      1,
+      1753124960.5451891,
+      1753124960.548364,
+      {}
+    ],
+    [
+      66,
+      null,
+      1791095845,
+      null,
+      0.9982266666666667,
+      0.0002875328063964844,
+      1,
+      1753124960.5527058,
+      1753124960.5559373,
+      {}
+    ],
+    [
+      67,
+      null,
+      1791095845,
+      null,
+      0.9961883333333333,
+      0.0003066062927246094,
+      1,
+      1753124960.5606492,
+      1753124960.564002,
+      {}
+    ],
+    [
+      68,
+      null,
+      1791095845,
+      null,
+      0.9985566666666666,
+      0.0003085136413574219,
+      1,
+      1753124960.5684276,
+      1753124960.5721216,
+      {}
+    ],
+    [
+      69,
+      null,
+      1791095845,
+      null,
+      0.9961883333333333,
+      0.0003070831298828125,
+      1,
+      1753124960.576721,
+      1753124960.5802166,
+      {}
+    ],
+    [
+      70,
+      null,
+      1791095845,
+      null,
+      0.998335,
+      0.00029778480529785156,
+      1,
+      1753124960.5850003,
+      1753124960.5883512,
+      {}
+    ],
+    [
+      71,
+      null,
+      1791095845,
+      null,
+      0.9961916666666667,
+      0.00029087066650390625,
+      1,
+      1753124960.5928407,
+      1753124960.5961993,
+      {}
+    ],
+    [
+      72,
+      null,
+      1791095845,
+      null,
+      0.996185,
+      0.0002968311309814453,
+      1,
+      1753124960.600727,
+      1753124960.6040754,
+      {}
+    ],
+    [
+      73,
+      null,
+      1791095845,
+      null,
+      0.996215,
+      0.0003001689910888672,
+      1,
+      1753124960.608706,
+      1753124960.6121898,
+      {}
+    ],
+    [
+      74,
+      null,
+      1791095845,
+      null,
+      0.9962,
+      0.0002942085266113281,
+      1,
+      1753124960.617076,
+      1753124960.6206126,
+      {}
+    ],
+    [
+      75,
+      null,
+      1791095845,
+      null,
+      0.9978583333333333,
+      0.0003027915954589844,
+      1,
+      1753124960.625273,
+      1753124960.6288488,
+      {}
+    ],
+    [
+      76,
+      null,
+      1791095845,
+      null,
+      0.9984933333333333,
+      0.0003190040588378906,
+      1,
+      1753124960.6338956,
+      1753124960.637475,
+      {}
+    ],
+    [
+      77,
+      null,
+      1791095845,
+      null,
+      0.9977116666666667,
+      0.0004076957702636719,
+      1,
+      1753124960.6435158,
+      1753124960.647175,
+      {}
+    ],
+    [
+      78,
+      null,
+      1791095845,
+      null,
+      0.99755,
+      0.0003578662872314453,
+      1,
+      1753124960.6522827,
+      1753124960.6560783,
+      {}
+    ],
+    [
+      79,
+      null,
+      1791095845,
+      null,
+      0.9982916666666667,
+      0.0003650188446044922,
+      1,
+      1753124960.661389,
+      1753124960.665178,
+      {}
+    ],
+    [
+      80,
+      null,
+      1791095845,
+      null,
+      0.9961433333333334,
+      0.0003743171691894531,
+      1,
+      1753124960.6707602,
+      1753124960.6745415,
+      {}
+    ],
+    [
+      81,
+      null,
+      1791095845,
+      null,
+      0.9961466666666666,
+      0.0003292560577392578,
+      1,
+      1753124960.6797483,
+      1753124960.683139,
+      {}
+    ],
+    [
+      82,
+      null,
+      1791095845,
+      null,
+      0.9976483333333334,
+      0.0003266334533691406,
+      1,
+      1753124960.7073421,
+      1753124960.7106235,
+      {}
+    ],
+    [
+      83,
+      null,
+      1791095845,
+      null,
+      0.9960566666666667,
+      0.0005629062652587891,
+      1,
+      1753124960.9031475,
+      1753124960.9066195,
+      {}
+    ],
+    [
+      84,
+      null,
+      1791095845,
+      null,
+      0.99605,
+      0.00035691261291503906,
+      1,
+      1753124960.9119916,
+      1753124960.9152977,
+      {}
+    ],
+    [
+      85,
+      null,
+      1791095845,
+      null,
+      0.9960833333333333,
+      0.0003371238708496094,
+      1,
+      1753124960.9204638,
+      1753124960.923779,
+      {}
+    ],
+    [
+      86,
+      null,
+      1791095845,
+      null,
+      0.9962,
+      0.00028443336486816406,
+      1,
+      1753124960.9289646,
+      1753124960.9321017,
+      {}
+    ],
+    [
+      87,
+      null,
+      1791095845,
+      null,
+      0.9981566666666667,
+      0.0003027915954589844,
+      1,
+      1753124960.937237,
+      1753124960.9407516,
+      {}
+    ],
+    [
+      88,
+      null,
+      1791095845,
+      null,
+      0.9961916666666667,
+      0.00027942657470703125,
+      1,
+      1753124960.9459937,
+      1753124960.9491103,
+      {}
+    ],
+    [
+      89,
+      null,
+      1791095845,
+      null,
+      0.9962066666666667,
+      0.0002961158752441406,
+      1,
+      1753124960.9541109,
+      1753124960.9572833,
+      {}
+    ],
+    [
+      90,
+      null,
+      1791095845,
+      null,
+      0.99618,
+      0.0002770423889160156,
+      1,
+      1753124960.9623575,
+      1753124960.9654763,
+      {}
+    ],
+    [
+      91,
+      null,
+      1791095845,
+      null,
+      0.9969,
+      0.0002932548522949219,
+      1,
+      1753124960.9710982,
+      1753124960.9744751,
+      {}
+    ],
+    [
+      92,
+      null,
+      1791095845,
+      null,
+      0.9977716666666666,
+      0.0003123283386230469,
+      1,
+      1753124960.979948,
+      1753124960.98339,
+      {}
+    ],
+    [
+      93,
+      null,
+      1791095845,
+      null,
+      0.9961883333333333,
+      0.00027632713317871094,
+      1,
+      1753124960.989203,
+      1753124960.992755,
+      {}
+    ],
+    [
+      94,
+      null,
+      1791095845,
+      null,
+      0.996215,
+      0.00028705596923828125,
+      1,
+      1753124960.9981427,
+      1753124961.0014105,
+      {}
+    ],
+    [
+      95,
+      null,
+      1791095845,
+      null,
+      0.9983016666666666,
+      0.00032830238342285156,
+      1,
+      1753124961.007151,
+      1753124961.0104046,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "movie_companies.id_end": "1",
+      "movie_companies.id_start": "1",
+      "movie_companies.note": "(1949) (USA) (theatrical) (USA: New York) (re-release)"
+    },
+    "2": {
+      "movie_companies.id_end": "72",
+      "movie_companies.id_start": "490",
+      "movie_companies.note": "(1991-) (UK) (TV)"
+    },
+    "3": {
+      "movie_companies.id_end": "236",
+      "movie_companies.id_start": "403",
+      "movie_companies.note": "(1987) (France) (all media)"
+    },
+    "4": {
+      "movie_companies.id_end": "130",
+      "movie_companies.id_start": "216",
+      "movie_companies.note": "(2008) (Germany) (DVD) (as Edelkids)"
+    },
+    "5": {
+      "movie_companies.id_end": "391",
+      "movie_companies.id_start": "479",
+      "movie_companies.note": "(2003) (USA) (theatrical) (Canada)"
+    },
+    "6": {
+      "movie_companies.id_end": "179",
+      "movie_companies.id_start": "87",
+      "movie_companies.note": "(2003) (Japan) (theatrical) (Far East)"
+    },
+    "7": {
+      "movie_companies.id_end": "449",
+      "movie_companies.id_start": "51",
+      "movie_companies.note": "(2005) (USA) (TV) (Channel 41)"
+    },
+    "8": {
+      "movie_companies.id_end": "145",
+      "movie_companies.id_start": "69",
+      "movie_companies.note": "(Australia) (theatrical)"
+    },
+    "9": {
+      "movie_companies.id_end": "282",
+      "movie_companies.id_start": "353",
+      "movie_companies.note": "(2001) (Turkey) (all media)"
+    },
+    "10": {
+      "movie_companies.id_end": "38",
+      "movie_companies.id_start": "358",
+      "movie_companies.note": "(1985-2000) (Japan) (TV)"
+    },
+    "11": {
+      "movie_companies.id_end": "336",
+      "movie_companies.id_start": "399",
+      "movie_companies.note": "(1993) (USA) (TV) (1993-1998)"
+    },
+    "12": {
+      "movie_companies.id_end": "134",
+      "movie_companies.id_start": "414",
+      "movie_companies.note": "(2010) (Puerto Rico) (all media)"
+    },
+    "13": {
+      "movie_companies.id_end": "73",
+      "movie_companies.id_start": "396",
+      "movie_companies.note": "(1990) (worldwide) (video)"
+    },
+    "14": {
+      "movie_companies.id_end": "461",
+      "movie_companies.id_start": "472",
+      "movie_companies.note": "(2010-) (USA) (all media)"
+    },
+    "15": {
+      "movie_companies.id_end": "255",
+      "movie_companies.id_start": "490",
+      "movie_companies.note": "(1936) (USA) (theatrical) (as Warner Bros. Pictures, Inc.)"
+    },
+    "16": {
+      "movie_companies.id_end": "388",
+      "movie_companies.id_start": "455",
+      "movie_companies.note": "(1977) (France) (theatrical)"
+    },
+    "17": {
+      "movie_companies.id_end": "50",
+      "movie_companies.id_start": "314",
+      "movie_companies.note": "(2010) (Lebanon) (theatrical)"
+    },
+    "18": {
+      "movie_companies.id_end": "453",
+      "movie_companies.id_start": "281",
+      "movie_companies.note": "(1971) (Mexico) (VHS)"
+    },
+    "19": {
+      "movie_companies.id_end": "204",
+      "movie_companies.id_start": "157",
+      "movie_companies.note": "(1976) (Belgium) (TV)"
+    },
+    "20": {
+      "movie_companies.id_end": "256",
+      "movie_companies.id_start": "253",
+      "movie_companies.note": "(2001) (Estonia) (TV) (only first season)"
+    },
+    "21": {
+      "movie_companies.id_end": "277",
+      "movie_companies.id_start": "142",
+      "movie_companies.note": "(1984) (Portugal) (TV)"
+    },
+    "22": {
+      "movie_companies.id_end": "71",
+      "movie_companies.id_start": "489",
+      "movie_companies.note": "(2006) (Colombia) (theatrical)"
+    },
+    "23": {
+      "movie_companies.id_end": "255",
+      "movie_companies.id_start": "488",
+      "movie_companies.note": "(1936) (USA) (theatrical) (as Warner Bros. Pictures, Inc.)"
+    },
+    "24": {
+      "movie_companies.id_end": "309",
+      "movie_companies.id_start": "488",
+      "movie_companies.note": "(2009) (Canada) (DVD) (Blu-ray)"
+    },
+    "25": {
+      "movie_companies.id_end": "309",
+      "movie_companies.id_start": "489",
+      "movie_companies.note": "(2005-) (Switzerland) (TV) (Italian speaking region)"
+    },
+    "26": {
+      "movie_companies.id_end": "53",
+      "movie_companies.id_start": "470",
+      "movie_companies.note": "(2005-) (Mexico) (TV) (Azteca 7)"
+    },
+    "27": {
+      "movie_companies.id_end": "392",
+      "movie_companies.id_start": "484",
+      "movie_companies.note": "(2003) (USA) (theatrical) (Canada)"
+    },
+    "28": {
+      "movie_companies.id_end": "3",
+      "movie_companies.id_start": "77",
+      "movie_companies.note": "(1996-2001) (Germany) (TV)"
+    },
+    "29": {
+      "movie_companies.id_end": "450",
+      "movie_companies.id_start": "49",
+      "movie_companies.note": "(????) (Hungary) (VHS)"
+    },
+    "30": {
+      "movie_companies.id_end": "140",
+      "movie_companies.id_start": "67",
+      "movie_companies.note": "(2007) (Turkey) (all media)"
+    },
+    "31": {
+      "movie_companies.id_end": "77",
+      "movie_companies.id_start": "266",
+      "movie_companies.note": "(1981) (1986) (Finland) (TV)"
+    },
+    "32": {
+      "movie_companies.id_end": "73",
+      "movie_companies.id_start": "265",
+      "movie_companies.note": "(2020) (worldwide) (all media)"
+    },
+    "33": {
+      "movie_companies.id_end": "65",
+      "movie_companies.id_start": "314",
+      "movie_companies.note": "(1983) (Brazil) (theatrical)"
+    },
+    "34": {
+      "movie_companies.id_end": "65",
+      "movie_companies.id_start": "316",
+      "movie_companies.note": "(1983) (Brazil) (theatrical)"
+    },
+    "35": {
+      "movie_companies.id_end": "16",
+      "movie_companies.id_start": "422",
+      "movie_companies.note": "(2008) (Germany) (DVD) (as Edelkids)"
+    },
+    "36": {
+      "movie_companies.id_end": "150",
+      "movie_companies.id_start": "204",
+      "movie_companies.note": "(USA) (video) (as California Cheerleaders)"
+    },
+    "37": {
+      "movie_companies.id_end": "16",
+      "movie_companies.id_start": "422",
+      "movie_companies.note": "(1969) (Yugoslavia) (TV)"
+    },
+    "38": {
+      "movie_companies.id_end": "26",
+      "movie_companies.id_start": "196",
+      "movie_companies.note": "(2009) (Japan) (all media) (Xbox 360 version)"
+    },
+    "39": {
+      "movie_companies.id_end": "70",
+      "movie_companies.id_start": "396",
+      "movie_companies.note": "(2013) (USA) (DVD) (Blu-Ray)"
+    },
+    "40": {
+      "movie_companies.id_end": "26",
+      "movie_companies.id_start": "167",
+      "movie_companies.note": "(2005) (Netherlands) (DVD) (VHS)"
+    },
+    "41": {
+      "movie_companies.id_end": "26",
+      "movie_companies.id_start": "169",
+      "movie_companies.note": "(2005) (Netherlands) (DVD) (VHS)"
+    },
+    "42": {
+      "movie_companies.id_end": "58",
+      "movie_companies.id_start": "490",
+      "movie_companies.note": "(1999) (Republic of Macedonia) (TV)"
+    },
+    "43": {
+      "movie_companies.id_end": "59",
+      "movie_companies.id_start": "490",
+      "movie_companies.note": "(2000) (USA) (TV)"
+    },
+    "44": {
+      "movie_companies.id_end": "73",
+      "movie_companies.id_start": "489",
+      "movie_companies.note": "(1991-) (UK) (TV)"
+    },
+    "45": {
+      "movie_companies.id_end": "433",
+      "movie_companies.id_start": "279",
+      "movie_companies.note": "(2002) (worldwide) (all media) (sales)"
+    },
+    "46": {
+      "movie_companies.id_end": "70",
+      "movie_companies.id_start": "488",
+      "movie_companies.note": "(1933) (UK) (theatrical) (as Fox Film Co. Ltd.)"
+    },
+    "47": {
+      "movie_companies.id_end": "53",
+      "movie_companies.id_start": "471",
+      "movie_companies.note": "(1998-2000) (Canada) (TV)"
+    },
+    "48": {
+      "movie_companies.id_end": "21",
+      "movie_companies.id_start": "477",
+      "movie_companies.note": "(2005-) (USA) (TV) (repeats)"
+    },
+    "49": {
+      "movie_companies.id_end": "398",
+      "movie_companies.id_start": "498",
+      "movie_companies.note": "(2001) (Switzerland) (TV)"
+    },
+    "50": {
+      "movie_companies.id_end": "21",
+      "movie_companies.id_start": "475",
+      "movie_companies.note": "(1988) (Austria) (theatrical)"
+    },
+    "51": {
+      "movie_companies.id_end": "309",
+      "movie_companies.id_start": "491",
+      "movie_companies.note": "(2009) (Slovakia) (all media)"
+    },
+    "52": {
+      "movie_companies.id_end": "260",
+      "movie_companies.id_start": "489",
+      "movie_companies.note": "(1949-1951) (TV)"
+    },
+    "53": {
+      "movie_companies.id_end": "259",
+      "movie_companies.id_start": "489",
+      "movie_companies.note": "(2003) (South Korea) (TV)"
+    },
+    "54": {
+      "movie_companies.id_end": "280",
+      "movie_companies.id_start": "493",
+      "movie_companies.note": "(?) (USA) (DVD) (as 'Warner WW2 Collection, Vol. 2')"
+    },
+    "55": {
+      "movie_companies.id_end": "98",
+      "movie_companies.id_start": "182",
+      "movie_companies.note": "(2008) (Canada) (TV) (British Columbia)"
+    },
+    "56": {
+      "movie_companies.id_end": "280",
+      "movie_companies.id_start": "492",
+      "movie_companies.note": "(1934) (UK) (theatrical) (Europe)"
+    },
+    "57": {
+      "movie_companies.id_end": "11",
+      "movie_companies.id_start": "97",
+      "movie_companies.note": "(1982) (Spain) (TV)"
+    },
+    "58": {
+      "movie_companies.id_end": "387",
+      "movie_companies.id_start": "456",
+      "movie_companies.note": "(1977) (France) (theatrical)"
+    },
+    "59": {
+      "movie_companies.id_end": "50",
+      "movie_companies.id_start": "315",
+      "movie_companies.note": "(1949) (USA) (theatrical) (USA: New York) (re-release)"
+    },
+    "60": {
+      "movie_companies.id_end": "36",
+      "movie_companies.id_start": "421",
+      "movie_companies.note": "(1934) (USA) (theatrical) (Texas)"
+    },
+    "61": {
+      "movie_companies.id_end": "2",
+      "movie_companies.id_start": "4",
+      "movie_companies.note": "(1949) (USA) (theatrical) (USA: New York) (re-release)"
+    },
+    "62": {
+      "movie_companies.id_end": "318",
+      "movie_companies.id_start": "57",
+      "movie_companies.note": "(2009) (USA) (DVD) (and Blu-ray)"
+    },
+    "63": {
+      "movie_companies.id_end": "406",
+      "movie_companies.id_start": "232",
+      "movie_companies.note": "(1993) (Pakistan) (TV)"
+    },
+    "64": {
+      "movie_companies.id_end": "23",
+      "movie_companies.id_start": "472",
+      "movie_companies.note": "(2008) (Australia) (DVD)"
+    },
+    "65": {
+      "movie_companies.id_end": "211",
+      "movie_companies.id_start": "288",
+      "movie_companies.note": "(2007) (UK) (TV) (BBC 1) (original airing)"
+    },
+    "66": {
+      "movie_companies.id_end": "223",
+      "movie_companies.id_start": "331",
+      "movie_companies.note": "(19??) (Denmark) (VHS)"
+    },
+    "67": {
+      "movie_companies.id_end": "75",
+      "movie_companies.id_start": "493",
+      "movie_companies.note": "(2006) (Colombia) (theatrical)"
+    },
+    "68": {
+      "movie_companies.id_end": "110",
+      "movie_companies.id_start": "100",
+      "movie_companies.note": "(1946) (Ecuador) (theatrical)"
+    },
+    "69": {
+      "movie_companies.id_end": "73",
+      "movie_companies.id_start": "491",
+      "movie_companies.note": "(1965-1966) (Finland) (TV)"
+    },
+    "70": {
+      "movie_companies.id_end": "9",
+      "movie_companies.id_start": "85",
+      "movie_companies.note": "(????) (India) (theatrical)"
+    },
+    "71": {
+      "movie_companies.id_end": "73",
+      "movie_companies.id_start": "490",
+      "movie_companies.note": "(1994-1997) (original airing)"
+    },
+    "72": {
+      "movie_companies.id_end": "73",
+      "movie_companies.id_start": "492",
+      "movie_companies.note": "(2012) (UK) (TV) (Sky Arts)"
+    },
+    "73": {
+      "movie_companies.id_end": "54",
+      "movie_companies.id_start": "464",
+      "movie_companies.note": "(1998-2000) (Canada) (TV)"
+    },
+    "74": {
+      "movie_companies.id_end": "52",
+      "movie_companies.id_start": "467",
+      "movie_companies.note": "(2012) (Sri Lanka) (TV)"
+    },
+    "75": {
+      "movie_companies.id_end": "135",
+      "movie_companies.id_start": "304",
+      "movie_companies.note": "(2007) (Slovenia) (DVD)"
+    },
+    "76": {
+      "movie_companies.id_end": "51",
+      "movie_companies.id_start": "80",
+      "movie_companies.note": "(1962) (Brazil) (theatrical)"
+    },
+    "77": {
+      "movie_companies.id_end": "321",
+      "movie_companies.id_start": "109",
+      "movie_companies.note": "(2000) (Japan) (all media) (PlayStation 2)"
+    },
+    "78": {
+      "movie_companies.id_end": "306",
+      "movie_companies.id_start": "45",
+      "movie_companies.note": "(1999) (Denmark)"
+    },
+    "79": {
+      "movie_companies.id_end": "25",
+      "movie_companies.id_start": "114",
+      "movie_companies.note": "(2003) (USA) (theatrical) (Canada)"
+    },
+    "80": {
+      "movie_companies.id_end": "57",
+      "movie_companies.id_start": "489",
+      "movie_companies.note": "(2009-) (Portugal) (TV)"
+    },
+    "81": {
+      "movie_companies.id_end": "58",
+      "movie_companies.id_start": "489",
+      "movie_companies.note": "(2011) (Estonia) (TV) (Latvia) (Lithuania)"
+    },
+    "82": {
+      "movie_companies.id_end": "277",
+      "movie_companies.id_start": "45",
+      "movie_companies.note": "(1975) (USA) (TV) (original U.S. airing)"
+    },
+    "83": {
+      "movie_companies.id_end": "20",
+      "movie_companies.id_start": "477",
+      "movie_companies.note": "(2009) (Finland) (TV) (as Sub)"
+    },
+    "84": {
+      "movie_companies.id_end": "20",
+      "movie_companies.id_start": "480",
+      "movie_companies.note": "(2009) (Finland) (TV) (as Sub)"
+    },
+    "85": {
+      "movie_companies.id_end": "18",
+      "movie_companies.id_start": "468",
+      "movie_companies.note": "(2009) (Finland) (TV) (as Sub)"
+    },
+    "86": {
+      "movie_companies.id_end": "75",
+      "movie_companies.id_start": "490",
+      "movie_companies.note": "(2008) (Dominican Republic) (theatrical)"
+    },
+    "87": {
+      "movie_companies.id_end": "49",
+      "movie_companies.id_start": "179",
+      "movie_companies.note": "(2007-2017) (Australia) (all media)"
+    },
+    "88": {
+      "movie_companies.id_end": "75",
+      "movie_companies.id_start": "492",
+      "movie_companies.note": "(2003) (USA) (on-line)"
+    },
+    "89": {
+      "movie_companies.id_end": "77",
+      "movie_companies.id_start": "490",
+      "movie_companies.note": "(2012) (UK) (TV) (Sky Arts)"
+    },
+    "90": {
+      "movie_companies.id_end": "75",
+      "movie_companies.id_start": "495",
+      "movie_companies.note": "(1994-1997) (original airing)"
+    },
+    "91": {
+      "movie_companies.id_end": "57",
+      "movie_companies.id_start": "462",
+      "movie_companies.note": "(1998-2000) (Canada) (TV)"
+    },
+    "92": {
+      "movie_companies.id_end": "301",
+      "movie_companies.id_start": "106",
+      "movie_companies.note": "(1955) (USA) (TV)"
+    },
+    "93": {
+      "movie_companies.id_end": "73",
+      "movie_companies.id_start": "491",
+      "movie_companies.note": "(2013) (Lebanon) (all media) (Middle East)"
+    },
+    "94": {
+      "movie_companies.id_end": "58",
+      "movie_companies.id_start": "468",
+      "movie_companies.note": "(2005) (USA) (DVD) (season one)"
+    },
+    "95": {
+      "movie_companies.id_end": "257",
+      "movie_companies.id_start": "343",
+      "movie_companies.note": "(2008-) (UK) (TV) (BBC 1)"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Default configuration",
+    "2": "Acquisition Function Maximizer: Random Search (sorted)",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)",
+    "5": "Acquisition Function Maximizer: Random Search (sorted)",
+    "6": "Acquisition Function Maximizer: Random Search (sorted)",
+    "7": "Acquisition Function Maximizer: Random Search (sorted)",
+    "8": "Acquisition Function Maximizer: Random Search (sorted)",
+    "9": "Acquisition Function Maximizer: Random Search (sorted)",
+    "10": "Acquisition Function Maximizer: Random Search (sorted)",
+    "11": "Acquisition Function Maximizer: Random Search (sorted)",
+    "12": "Acquisition Function Maximizer: Random Search (sorted)",
+    "13": "Acquisition Function Maximizer: Random Search (sorted)",
+    "14": "Acquisition Function Maximizer: Random Search (sorted)",
+    "15": "Acquisition Function Maximizer: Random Search (sorted)",
+    "16": "Random Search",
+    "17": "Random Search",
+    "18": "Random Search",
+    "19": "Acquisition Function Maximizer: Random Search (sorted)",
+    "20": "Acquisition Function Maximizer: Random Search (sorted)",
+    "21": "Acquisition Function Maximizer: Random Search (sorted)",
+    "22": "Acquisition Function Maximizer: Local Search",
+    "23": "Acquisition Function Maximizer: Local Search",
+    "24": "Acquisition Function Maximizer: Random Search (sorted)",
+    "25": "Acquisition Function Maximizer: Local Search",
+    "26": "Random Search",
+    "27": "Acquisition Function Maximizer: Local Search",
+    "28": "Random Search",
+    "29": "Acquisition Function Maximizer: Local Search",
+    "30": "Acquisition Function Maximizer: Local Search",
+    "31": "Acquisition Function Maximizer: Random Search (sorted)",
+    "32": "Acquisition Function Maximizer: Local Search",
+    "33": "Acquisition Function Maximizer: Random Search (sorted)",
+    "34": "Acquisition Function Maximizer: Local Search",
+    "35": "Acquisition Function Maximizer: Random Search (sorted)",
+    "36": "Random Search",
+    "37": "Acquisition Function Maximizer: Local Search",
+    "38": "Acquisition Function Maximizer: Local Search",
+    "39": "Acquisition Function Maximizer: Local Search",
+    "40": "Acquisition Function Maximizer: Random Search (sorted)",
+    "41": "Acquisition Function Maximizer: Local Search",
+    "42": "Acquisition Function Maximizer: Random Search (sorted)",
+    "43": "Acquisition Function Maximizer: Local Search",
+    "44": "Acquisition Function Maximizer: Local Search",
+    "45": "Random Search",
+    "46": "Acquisition Function Maximizer: Local Search",
+    "47": "Acquisition Function Maximizer: Local Search",
+    "48": "Acquisition Function Maximizer: Random Search (sorted)",
+    "49": "Random Search",
+    "50": "Acquisition Function Maximizer: Local Search",
+    "51": "Acquisition Function Maximizer: Local Search",
+    "52": "Acquisition Function Maximizer: Local Search",
+    "53": "Acquisition Function Maximizer: Local Search",
+    "54": "Acquisition Function Maximizer: Random Search (sorted)",
+    "55": "Random Search",
+    "56": "Acquisition Function Maximizer: Local Search",
+    "57": "Random Search",
+    "58": "Acquisition Function Maximizer: Local Search",
+    "59": "Acquisition Function Maximizer: Local Search",
+    "60": "Acquisition Function Maximizer: Local Search",
+    "61": "Acquisition Function Maximizer: Local Search",
+    "62": "Random Search",
+    "63": "Random Search",
+    "64": "Acquisition Function Maximizer: Local Search",
+    "65": "Random Search",
+    "66": "Random Search",
+    "67": "Acquisition Function Maximizer: Local Search",
+    "68": "Random Search",
+    "69": "Acquisition Function Maximizer: Local Search",
+    "70": "Random Search",
+    "71": "Acquisition Function Maximizer: Local Search",
+    "72": "Acquisition Function Maximizer: Local Search",
+    "73": "Acquisition Function Maximizer: Local Search",
+    "74": "Acquisition Function Maximizer: Local Search",
+    "75": "Acquisition Function Maximizer: Random Search (sorted)",
+    "76": "Random Search",
+    "77": "Random Search",
+    "78": "Acquisition Function Maximizer: Local Search",
+    "79": "Random Search",
+    "80": "Acquisition Function Maximizer: Local Search",
+    "81": "Acquisition Function Maximizer: Local Search",
+    "82": "Random Search",
+    "83": "Acquisition Function Maximizer: Local Search",
+    "84": "Acquisition Function Maximizer: Local Search",
+    "85": "Acquisition Function Maximizer: Local Search",
+    "86": "Acquisition Function Maximizer: Local Search",
+    "87": "Random Search",
+    "88": "Acquisition Function Maximizer: Local Search",
+    "89": "Acquisition Function Maximizer: Local Search",
+    "90": "Acquisition Function Maximizer: Local Search",
+    "91": "Acquisition Function Maximizer: Local Search",
+    "92": "Random Search",
+    "93": "Acquisition Function Maximizer: Local Search",
+    "94": "Acquisition Function Maximizer: Local Search",
+    "95": "Random Search"
+  }
+}

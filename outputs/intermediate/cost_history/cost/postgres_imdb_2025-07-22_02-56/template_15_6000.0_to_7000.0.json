@@ -1,0 +1,715 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '1' AND '1'\n  AND cast_info.person_role_id = '1'\n  AND person_info.note = '!Bluebeard1440';": [
+        1540.87,
+        1540.67,
+        1035.99,
+        8.59,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '72' AND '490'\n  AND cast_info.person_role_id = '116'\n  AND person_info.note = '<dinkie@dds.nl>';": [
+        1558.99,
+        1558.78,
+        1054.1,
+        26.7,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '236' AND '403'\n  AND cast_info.person_role_id = '8'\n  AND person_info.note = '<r.blokland@twi.tudelft.nl>';": [
+        1546.31,
+        1546.1,
+        1041.42,
+        14.02,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '130' AND '216'\n  AND cast_info.person_role_id = '217'\n  AND person_info.note = '& matt-282 and Jack Backstreet (qv's & corrections by A. Nonymous)';": [],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '391' AND '479'\n  AND cast_info.person_role_id = '491'\n  AND person_info.note = '<grubby44@hotmail.com>';": [
+        1543.21,
+        1543.01,
+        1038.33,
+        10.93,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '87' AND '179'\n  AND cast_info.person_role_id = '457'\n  AND person_info.note = '<rudipolt@aol.com>';": [
+        1543.33,
+        1543.12,
+        1038.44,
+        11.04,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '51' AND '449'\n  AND cast_info.person_role_id = '210'\n  AND person_info.note = ''Rita J. Runyon'';": [],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '69' AND '145'\n  AND cast_info.person_role_id = '265'\n  AND person_info.note = '- Mohammad Mondal';": [
+        1542.9,
+        1542.69,
+        1038.01,
+        10.61,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '282' AND '353'\n  AND cast_info.person_role_id = '122'\n  AND person_info.note = '<annemartel32@yahoo.com>';": [
+        1542.76,
+        1542.56,
+        1037.88,
+        10.48,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '38' AND '358'\n  AND cast_info.person_role_id = '394'\n  AND person_info.note = '<jbiro@home.com>';": [
+        1555.38,
+        1555.17,
+        1050.49,
+        23.09,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '336' AND '399'\n  AND cast_info.person_role_id = '317'\n  AND person_info.note = '<theblackqueen@yahoo.com>';": [
+        1542.54,
+        1542.33,
+        1037.65,
+        10.25,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '134' AND '414'\n  AND cast_info.person_role_id = '385'\n  AND person_info.note = '<MICHAELPEM@aol.com>';": [
+        1550.32,
+        1550.11,
+        1045.43,
+        18.04,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '73' AND '396'\n  AND cast_info.person_role_id = '318'\n  AND person_info.note = '()';": [
+        1555.47,
+        1555.26,
+        1050.58,
+        23.18,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '461' AND '472'\n  AND cast_info.person_role_id = '142'\n  AND person_info.note = '<avacca@psmedia.com>';": [
+        1541.17,
+        1540.96,
+        1036.28,
+        8.88,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '255' AND '490'\n  AND cast_info.person_role_id = '72'\n  AND person_info.note = '(via) her abc medianet profile (qv's & corrections by A. Nonymous)';": [],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '26' AND '197'\n  AND cast_info.person_role_id = '368'\n  AND person_info.note = '85937';": [
+        1546.42,
+        1546.21,
+        1041.53,
+        14.13,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '392' AND '472'\n  AND cast_info.person_role_id = '283'\n  AND person_info.note = '1st Reel Entertainment';": [
+        1543.01,
+        1542.8,
+        1038.12,
+        10.72,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '23' AND '105'\n  AND cast_info.person_role_id = '266'\n  AND person_info.note = '4 ever vinz';": [
+        1543.06,
+        1542.85,
+        1038.17,
+        10.77,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '157' AND '204'\n  AND cast_info.person_role_id = '2'\n  AND person_info.note = '<quaalude@ktc.co.nz>';": [
+        1542.13,
+        1541.93,
+        1037.25,
+        9.85,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '253' AND '256'\n  AND cast_info.person_role_id = '23'\n  AND person_info.note = '<brian@idotvads.com>';": [
+        1540.96,
+        1540.76,
+        1036.08,
+        8.68,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '142' AND '277'\n  AND cast_info.person_role_id = '31'\n  AND person_info.note = '\"Pierre Patrick\"';": [
+        1545.47,
+        1545.27,
+        1040.59,
+        13.19,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '71' AND '491'\n  AND cast_info.person_role_id = '116'\n  AND person_info.note = '<dominic@firstedition.u-net.com>';": [
+        1559.06,
+        1558.85,
+        1054.17,
+        26.77,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '53' AND '88'\n  AND cast_info.person_role_id = '453'\n  AND person_info.note = '(anonymous)';": [
+        1541.8,
+        1541.59,
+        1036.91,
+        9.51,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '54' AND '87'\n  AND cast_info.person_role_id = '455'\n  AND person_info.note = '(anonymous)';": [
+        1541.75,
+        1541.54,
+        1036.86,
+        9.46,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '84' AND '184'\n  AND cast_info.person_role_id = '76'\n  AND person_info.note = '<hleit@cybercity.westnet.net.uk>';": [
+        1543.53,
+        1543.32,
+        1038.64,
+        11.24,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '339' AND '372'\n  AND cast_info.person_role_id = '354'\n  AND person_info.note = '104 films';": [
+        1541.75,
+        1541.54,
+        1036.86,
+        9.46,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '85' AND '185'\n  AND cast_info.person_role_id = '77'\n  AND person_info.note = '<hml111@aol.com>';": [
+        1543.53,
+        1543.32,
+        1038.64,
+        11.24,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '221' AND '493'\n  AND cast_info.person_role_id = '104'\n  AND person_info.note = '<filmprod@tin.it>';": [
+        1550.12,
+        1549.91,
+        1045.23,
+        17.83,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '71' AND '396'\n  AND cast_info.person_role_id = '318'\n  AND person_info.note = '(2013)';": [
+        1555.51,
+        1555.31,
+        1050.63,
+        23.23,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '137' AND '370'\n  AND cast_info.person_role_id = '44'\n  AND person_info.note = '4thK';": [
+        1548.08,
+        1547.88,
+        1043.2,
+        15.8,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '139' AND '370'\n  AND cast_info.person_role_id = '43'\n  AND person_info.note = '42West';": [
+        1548.02,
+        1547.81,
+        1043.13,
+        15.73,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '128' AND '349'\n  AND cast_info.person_role_id = '78'\n  AND person_info.note = '-Farley';": [
+        1547.75,
+        1547.54,
+        1042.86,
+        15.46,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '127' AND '349'\n  AND cast_info.person_role_id = '77'\n  AND person_info.note = '-BD';": [
+        1547.79,
+        1547.58,
+        1042.9,
+        15.51,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '24' AND '194'\n  AND cast_info.person_role_id = '367'\n  AND person_info.note = '88 Calibre';": [
+        1546.4,
+        1546.19,
+        1041.51,
+        14.11,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '40' AND '358'\n  AND cast_info.person_role_id = '394'\n  AND person_info.note = '<jahertzb@students.wisc.edu>';": [
+        1555.33,
+        1555.13,
+        1050.45,
+        23.05,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '183' AND '267'\n  AND cast_info.person_role_id = '353'\n  AND person_info.note = '<sysop@hal9k.com>';": [
+        1543.1,
+        1542.89,
+        1038.21,
+        10.81,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '144' AND '459'\n  AND cast_info.person_role_id = '263'\n  AND person_info.note = '4 Proof Film';": [
+        1555.24,
+        1555.04,
+        1050.36,
+        22.96,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '144' AND '462'\n  AND cast_info.person_role_id = '264'\n  AND person_info.note = '4 Entertainment Groups';": [
+        1555.33,
+        1555.13,
+        1050.45,
+        23.05,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '141' AND '275'\n  AND cast_info.person_role_id = '34'\n  AND person_info.note = '\"Pierre Patrick\"';": [
+        1545.43,
+        1545.22,
+        1040.54,
+        13.14,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '25' AND '106'\n  AND cast_info.person_role_id = '266'\n  AND person_info.note = '400Sites';": [
+        1543.03,
+        1542.83,
+        1038.15,
+        10.75,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '191' AND '382'\n  AND cast_info.person_role_id = '150'\n  AND person_info.note = '\"Eksmo\"...........and me :)';": [
+        1546.96,
+        1546.75,
+        1042.07,
+        14.67,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '68' AND '491'\n  AND cast_info.person_role_id = '113'\n  AND person_info.note = '<dominic@firstedition.u-net.com>';": [
+        1559.12,
+        1558.92,
+        1054.24,
+        26.84,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '70' AND '494'\n  AND cast_info.person_role_id = '115'\n  AND person_info.note = '<dominic@firstedition.u-net.com>';": [
+        1559.15,
+        1558.94,
+        1054.26,
+        26.86,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '21' AND '468'\n  AND cast_info.person_role_id = '358'\n  AND person_info.note = '<clrent3@onthenet.com.au>';": [
+        1559.78,
+        1559.57,
+        1054.89,
+        27.49,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '438' AND '478'\n  AND cast_info.person_role_id = '34'\n  AND person_info.note = '104 films';": [
+        1541.93,
+        1541.72,
+        1037.04,
+        9.64,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '21' AND '468'\n  AND cast_info.person_role_id = '358'\n  AND person_info.note = '<cpechin@lmnotv.com>';": [
+        1559.78,
+        1559.57,
+        1054.89,
+        27.49,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '70' AND '398'\n  AND cast_info.person_role_id = '318'\n  AND person_info.note = '(Douglas E. Sand) sanddoug@aol.com';": [
+        1555.6,
+        1555.4,
+        1050.72,
+        23.32,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '74' AND '395'\n  AND cast_info.person_role_id = '319'\n  AND person_info.note = '(:';": [
+        1555.42,
+        1555.22,
+        1050.54,
+        23.14,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '84' AND '469'\n  AND cast_info.person_role_id = '49'\n  AND person_info.note = '<bbjamin@micronet.fr>';": [
+        1558.11,
+        1557.9,
+        1053.22,
+        25.83,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '16' AND '218'\n  AND cast_info.person_role_id = '200'\n  AND person_info.note = ': ]';": [
+        1547.25,
+        1547.04,
+        1042.36,
+        14.96,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '15' AND '217'\n  AND cast_info.person_role_id = '199'\n  AND person_info.note = ':)';": [
+        1547.25,
+        1547.04,
+        1042.36,
+        14.96,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '126' AND '350'\n  AND cast_info.person_role_id = '73'\n  AND person_info.note = '-Jimmy Ouyang';": [
+        1547.84,
+        1547.63,
+        1042.95,
+        15.55,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '127' AND '348'\n  AND cast_info.person_role_id = '76'\n  AND person_info.note = '-B. Larsen';": [
+        1547.75,
+        1547.54,
+        1042.86,
+        15.46,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '225' AND '494'\n  AND cast_info.person_role_id = '104'\n  AND person_info.note = '<flo_oliver@hotmail.com>';": [
+        1550.03,
+        1549.82,
+        1045.14,
+        17.74,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '254' AND '289'\n  AND cast_info.person_role_id = '157'\n  AND person_info.note = '(Douglas E. Sand) sanddoug@aol.com';": [
+        1541.8,
+        1541.59,
+        1036.91,
+        9.51,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '389' AND '404'\n  AND cast_info.person_role_id = '311'\n  AND person_info.note = ''Tom Weaver' <TomWeavr@aol.com>';": [],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '211' AND '288'\n  AND cast_info.person_role_id = '29'\n  AND person_info.note = '807';": [
+        1542.92,
+        1542.71,
+        1038.03,
+        10.63,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '117' AND '498'\n  AND cast_info.person_role_id = '178'\n  AND person_info.note = '<daviesa@cs.man.ac.uk>';": [
+        1558.02,
+        1557.81,
+        1053.13,
+        25.74,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '117' AND '499'\n  AND cast_info.person_role_id = '180'\n  AND person_info.note = '<david_l_heyman@csgi.com>';": [
+        1558.04,
+        1557.84,
+        1053.16,
+        25.76,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '390' AND '406'\n  AND cast_info.person_role_id = '310'\n  AND person_info.note = ''Rudolf Ulrich', Gruenwald n. Munich, Germany';": [],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '211' AND '397'\n  AND cast_info.person_role_id = '220'\n  AND person_info.note = '(Unknown)';": [
+        1546.82,
+        1546.62,
+        1041.94,
+        14.54,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '137' AND '331'\n  AND cast_info.person_role_id = '110'\n  AND person_info.note = '-Farley';": [
+        1547.03,
+        1546.82,
+        1042.14,
+        14.74,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '9' AND '33'\n  AND cast_info.person_role_id = '85'\n  AND person_info.note = '<rockwell@deltanet.com>';": [
+        1541.5,
+        1541.3,
+        1036.62,
+        9.22,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '23' AND '467'\n  AND cast_info.person_role_id = '359'\n  AND person_info.note = '<ckellaway@fulbright.com>';": [
+        1559.69,
+        1559.48,
+        1054.8,
+        27.4,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '273' AND '276'\n  AND cast_info.person_role_id = '266'\n  AND person_info.note = '-self';": [
+        1540.96,
+        1540.76,
+        1036.08,
+        8.68,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '52' AND '221'\n  AND cast_info.person_role_id = '368'\n  AND person_info.note = '121Studios';": [
+        1546.37,
+        1546.17,
+        1041.49,
+        14.09,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '21' AND '467'\n  AND cast_info.person_role_id = '359'\n  AND person_info.note = '<cslater@west.net>';": [
+        1559.73,
+        1559.52,
+        1054.84,
+        27.45,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '25' AND '445'\n  AND cast_info.person_role_id = '417'\n  AND person_info.note = '<rdesalvo@earthlink.net>';": [
+        1559.06,
+        1558.85,
+        1054.17,
+        26.77,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '124' AND '325'\n  AND cast_info.person_role_id = '408'\n  AND person_info.note = '<Jfriday714@webtv.net>';": [
+        1547.23,
+        1547.02,
+        1042.34,
+        14.94,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '26' AND '445'\n  AND cast_info.person_role_id = '416'\n  AND person_info.note = '<r.blokland@twi.tudelft.nl>';": [
+        1559.01,
+        1558.8,
+        1054.12,
+        26.73,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '22' AND '192'\n  AND cast_info.person_role_id = '175'\n  AND person_info.note = '<howdy@bigfoot.com>';": [
+        1546.4,
+        1546.19,
+        1041.51,
+        14.11,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '70' AND '397'\n  AND cast_info.person_role_id = '323'\n  AND person_info.note = ''Tom Weaver' <TomWeavr@aol.com>';": [],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '254' AND '493'\n  AND cast_info.person_role_id = '68'\n  AND person_info.note = '(s)';": [
+        1548.24,
+        1548.03,
+        1043.35,
+        15.96,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '439' AND '481'\n  AND cast_info.person_role_id = '36'\n  AND person_info.note = '1/20(2010)';": [
+        1542.0,
+        1541.79,
+        1037.11,
+        9.71,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '159' AND '403'\n  AND cast_info.person_role_id = '159'\n  AND person_info.note = '(Douglas E. Sand) sanddoug@aol.com';": [
+        1549.38,
+        1549.17,
+        1044.49,
+        17.09,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '389' AND '405'\n  AND cast_info.person_role_id = '309'\n  AND person_info.note = '()';": [
+        1541.3,
+        1541.09,
+        1036.41,
+        9.02,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '132' AND '441'\n  AND cast_info.person_role_id = '345'\n  AND person_info.note = '63x927is58401';": [
+        1555.09,
+        1554.88,
+        1050.2,
+        22.8,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '159' AND '404'\n  AND cast_info.person_role_id = '159'\n  AND person_info.note = ''Tom Weaver' <TomWeavr@aol.com>';": [],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '55' AND '431'\n  AND cast_info.person_role_id = '464'\n  AND person_info.note = '- Brian Purcell';": [
+        1557.89,
+        1557.68,
+        1053.0,
+        25.6,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '190' AND '379'\n  AND cast_info.person_role_id = '152'\n  AND person_info.note = '\"MC Funky J <MCfunkyJ@aol.com>\"';": [
+        1546.89,
+        1546.68,
+        1042.0,
+        14.61,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '15' AND '206'\n  AND cast_info.person_role_id = '144'\n  AND person_info.note = '<lwollich@aol.com>';": [
+        1546.96,
+        1546.75,
+        1042.07,
+        14.67,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '19' AND '469'\n  AND cast_info.person_role_id = '356'\n  AND person_info.note = '<cpechin@lmnotv.com>';": [
+        1559.55,
+        1559.35,
+        1054.67,
+        27.27,
+        23.25,
+        9.1,
+        13.89,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '17' AND '470'\n  AND cast_info.person_role_id = '355'\n  AND person_info.note = '<cslater@west.net>';": [
+        1559.59,
+        1559.39,
+        1054.71,
+        27.31,
+        23.29,
+        9.1,
+        13.94,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '222' AND '247'\n  AND cast_info.person_role_id = '245'\n  AND person_info.note = '518';": [
+        1541.55,
+        1541.34,
+        1036.66,
+        9.26,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '18' AND '469'\n  AND cast_info.person_role_id = '357'\n  AND person_info.note = '<clrent3@onthenet.com.au>';": [
+        1559.56,
+        1559.36,
+        1054.68,
+        27.28,
+        23.26,
+        9.1,
+        13.9,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '70' AND '488'\n  AND cast_info.person_role_id = '115'\n  AND person_info.note = '<dsmith7855@aol.com> (qv's & corrections by A. Nonymous)';": [],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '70' AND '488'\n  AND cast_info.person_role_id = '115'\n  AND person_info.note = '<dominic@firstedition.u-net.com>';": [
+        1558.99,
+        1558.78,
+        1054.1,
+        26.7,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '70' AND '485'\n  AND cast_info.person_role_id = '115'\n  AND person_info.note = '<doublex@sover.net>';": [
+        1558.92,
+        1558.71,
+        1054.03,
+        26.64,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '339' AND '363'\n  AND cast_info.person_role_id = '396'\n  AND person_info.note = '-MB';": [
+        1541.5,
+        1541.3,
+        1036.62,
+        9.22,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '19' AND '446'\n  AND cast_info.person_role_id = '416'\n  AND person_info.note = '<r-wong@students.uiuc.edu>';": [
+        1559.24,
+        1559.03,
+        1054.35,
+        26.95,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '13' AND '411'\n  AND cast_info.person_role_id = '309'\n  AND person_info.note = '<ernesto.alto@iol.it>';": [
+        1558.47,
+        1558.26,
+        1053.58,
+        26.18,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '14' AND '410'\n  AND cast_info.person_role_id = '307'\n  AND person_info.note = '<ernesto.alto@iol.it>';": [
+        1558.4,
+        1558.2,
+        1053.52,
+        26.12,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '53' AND '432'\n  AND cast_info.person_role_id = '465'\n  AND person_info.note = '- Abhijit Naik';": [
+        1557.95,
+        1557.75,
+        1053.07,
+        25.67,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '37' AND '113'\n  AND cast_info.person_role_id = '145'\n  AND person_info.note = '2009';": [
+        1542.9,
+        1542.69,
+        1038.01,
+        10.61,
+        1027.39,
+        498.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 15\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['cast_info', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT COUNT(cast_info.id) AS total_cast,\n       AVG(cast_info.nr_order) AS avg_nr_order,\n       MIN(cast_info.id) AS min_cast_id,\n       MAX(cast_info.id) AS max_cast_id,\n       SUM(cast_info.person_role_id) AS total_person_role,\n       COUNT(name.id) AS total_name_records\nFROM cast_info\nJOIN cast_info AS name ON cast_info.person_id = name.person_id\nJOIN cast_info AS person_info ON cast_info.person_id = person_info.person_id\nWHERE cast_info.id BETWEEN '24' AND '469'\n  AND cast_info.person_role_id = '354'\n  AND person_info.note = '<cormacj@vincents.ie>';": [
+        1559.71,
+        1559.5,
+        1054.82,
+        27.42,
+        1027.39,
+        498.43
+    ]
+}

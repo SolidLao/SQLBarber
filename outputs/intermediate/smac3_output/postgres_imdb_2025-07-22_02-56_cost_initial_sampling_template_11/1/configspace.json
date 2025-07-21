@@ -1,0 +1,22 @@
+{
+  "hyperparameters": [
+    {
+      "name": "kind_type.kind",
+      "type": "ordinal",
+      "sequence": [
+        "tv movie",
+        "tv mini series",
+        "episode",
+        "video game",
+        "video movie",
+        "tv series",
+        "movie"
+      ],
+      "default": "tv movie"
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

@@ -1,0 +1,447 @@
+{
+    "num_tables": 28,
+    "num_queries": 207,
+    "num_templates": 24,
+    "templates": [
+        {
+            "template_id": 1,
+            "num_queries": 7,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 3.672,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                1268
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 2,
+            "num_queries": 50,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 0.87654,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                1273
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 3,
+            "num_queries": 50,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 2.21868,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                1274
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 4,
+            "num_queries": 1,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 0.016,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                1275
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 5,
+            "num_queries": 5,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 2.8616,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                1283
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 6,
+            "num_queries": 5,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 0.06,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 2,
+            "read_table_ids": [
+                1285
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 7,
+            "num_queries": 3,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 8.17,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                910452
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 8,
+            "num_queries": 2,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 2.035,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                1364941
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 9,
+            "num_queries": 1,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 6.159,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                2388246
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 10,
+            "num_queries": 2,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 0.017,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                2406675
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 11,
+            "num_queries": 1,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 28.911,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 3,
+            "read_table_ids": [
+                2406675
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 12,
+            "num_queries": 1,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 5.723,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                3110338
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 13,
+            "num_queries": 3,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 1.2583333333333333,
+            "num_joins": 0,
+            "num_scans": 1,
+            "num_aggregations": 2,
+            "read_table_ids": [
+                3110338
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 14,
+            "num_queries": 62,
+            "num_tables_accessed": 2,
+            "avg_execution_duration_s": 1.477741935483871,
+            "num_joins": 1,
+            "num_scans": 2,
+            "num_aggregations": 0,
+            "read_table_ids": [
+                1275,
+                1283
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 15,
+            "num_queries": 3,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 3.8183333333333334,
+            "num_joins": 2,
+            "num_scans": 3,
+            "num_aggregations": 7,
+            "read_table_ids": [
+                133975
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 16,
+            "num_queries": 3,
+            "num_tables_accessed": 1,
+            "avg_execution_duration_s": 6.419333333333334,
+            "num_joins": 2,
+            "num_scans": 3,
+            "num_aggregations": 8,
+            "read_table_ids": [
+                133975
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 17,
+            "num_queries": 1,
+            "num_tables_accessed": 8,
+            "avg_execution_duration_s": 39.804,
+            "num_joins": 7,
+            "num_scans": 8,
+            "num_aggregations": 6,
+            "read_table_ids": [
+                1364941,
+                2388243,
+                2388245,
+                2388247,
+                2388248,
+                2388249,
+                2504895,
+                910452
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 18,
+            "num_queries": 1,
+            "num_tables_accessed": 8,
+            "avg_execution_duration_s": 20.267,
+            "num_joins": 7,
+            "num_scans": 8,
+            "num_aggregations": 6,
+            "read_table_ids": [
+                1364941,
+                2388243,
+                2388245,
+                2388247,
+                2388248,
+                2388249,
+                2504895,
+                910452
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 19,
+            "num_queries": 1,
+            "num_tables_accessed": 9,
+            "avg_execution_duration_s": 22.209,
+            "num_joins": 8,
+            "num_scans": 9,
+            "num_aggregations": 6,
+            "read_table_ids": [
+                1283,
+                1364941,
+                2388243,
+                2388244,
+                2388245,
+                2388246,
+                2388247,
+                2388248,
+                2388249
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 20,
+            "num_queries": 1,
+            "num_tables_accessed": 8,
+            "avg_execution_duration_s": 32.474,
+            "num_joins": 8,
+            "num_scans": 9,
+            "num_aggregations": 6,
+            "read_table_ids": [
+                1273,
+                1364941,
+                2388243,
+                2388245,
+                2388247,
+                2388248,
+                2388249,
+                2677312
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 21,
+            "num_queries": 1,
+            "num_tables_accessed": 9,
+            "avg_execution_duration_s": 22.298,
+            "num_joins": 8,
+            "num_scans": 9,
+            "num_aggregations": 6,
+            "read_table_ids": [
+                1283,
+                1364941,
+                2388243,
+                2388245,
+                2388247,
+                2388248,
+                2388249,
+                2406675,
+                2406676
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 22,
+            "num_queries": 1,
+            "num_tables_accessed": 9,
+            "avg_execution_duration_s": 41.706,
+            "num_joins": 9,
+            "num_scans": 11,
+            "num_aggregations": 6,
+            "read_table_ids": [
+                1274,
+                1364941,
+                2388243,
+                2388245,
+                2388247,
+                2388248,
+                2388249,
+                2552482,
+                2600983
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 23,
+            "num_queries": 1,
+            "num_tables_accessed": 9,
+            "avg_execution_duration_s": 46.718,
+            "num_joins": 9,
+            "num_scans": 11,
+            "num_aggregations": 6,
+            "read_table_ids": [
+                1275,
+                1364941,
+                2388243,
+                2388245,
+                2388247,
+                2388248,
+                2388249,
+                2552482,
+                2600983
+            ],
+            "write_table_ids": []
+        },
+        {
+            "template_id": 24,
+            "num_queries": 1,
+            "num_tables_accessed": 13,
+            "avg_execution_duration_s": 145.867,
+            "num_joins": 27,
+            "num_scans": 37,
+            "num_aggregations": 21,
+            "read_table_ids": [
+                1364941,
+                2388243,
+                2388245,
+                2388247,
+                2388248,
+                2388249,
+                2552477,
+                2552478,
+                2552479,
+                2552480,
+                2552481,
+                2552482,
+                910452
+            ],
+            "write_table_ids": []
+        }
+    ],
+    "table_access_counts": {
+        "queries": {
+            "1283": 69,
+            "1275": 64,
+            "1273": 51,
+            "1274": 51,
+            "1364941": 10,
+            "2388243": 8,
+            "910452": 6,
+            "2388245": 8,
+            "2388247": 8,
+            "2388248": 8,
+            "2388249": 8,
+            "2504895": 2,
+            "2552480": 1,
+            "2552481": 1,
+            "2552482": 3,
+            "2552477": 1,
+            "2552478": 1,
+            "2552479": 1,
+            "2388244": 1,
+            "2388246": 2,
+            "2406675": 4,
+            "2406676": 1,
+            "2600983": 2,
+            "2677312": 1,
+            "1268": 7,
+            "1285": 5,
+            "3110338": 4,
+            "133975": 6
+        },
+        "templates": {
+            "1268": 1,
+            "1273": 2,
+            "1274": 2,
+            "1275": 3,
+            "1283": 4,
+            "1285": 1,
+            "910452": 4,
+            "1364941": 9,
+            "2388246": 2,
+            "2406675": 3,
+            "3110338": 2,
+            "133975": 2,
+            "2388243": 8,
+            "2388245": 8,
+            "2388247": 8,
+            "2388248": 8,
+            "2388249": 8,
+            "2504895": 2,
+            "2388244": 1,
+            "2677312": 1,
+            "2406676": 1,
+            "2552482": 3,
+            "2600983": 2,
+            "2552480": 1,
+            "2552481": 1,
+            "2552477": 1,
+            "2552478": 1,
+            "2552479": 1
+        }
+    }
+}

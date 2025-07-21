@@ -1,0 +1,614 @@
+{
+    "tables": {
+        "customer": {
+            "size": "354 MB",
+            "row_count": 1500000,
+            "columns": {
+                "c_acctbal": {
+                    "data_type": "numeric",
+                    "is_nullable": false,
+                    "unique_values": 818834
+                },
+                "c_nationkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 25
+                },
+                "c_custkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 1500000
+                },
+                "c_phone": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 1499963
+                },
+                "c_mktsegment": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 5
+                },
+                "c_comment": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 1496636
+                },
+                "c_name": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 1500000
+                },
+                "c_address": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 1500000
+                }
+            },
+            "primary_keys": [
+                "c_custkey"
+            ],
+            "foreign_keys": [
+                {
+                    "column": "c_nationkey",
+                    "references": {
+                        "table": "nation",
+                        "column": "n_nationkey"
+                    }
+                }
+            ],
+            "indexes": [
+                {
+                    "name": "customer_pkey",
+                    "definition": "CREATE UNIQUE INDEX customer_pkey ON public.customer USING btree (c_custkey)"
+                },
+                {
+                    "name": "c_ck",
+                    "definition": "CREATE UNIQUE INDEX c_ck ON public.customer USING btree (c_custkey)"
+                },
+                {
+                    "name": "c_nk",
+                    "definition": "CREATE INDEX c_nk ON public.customer USING btree (c_nationkey)"
+                }
+            ]
+        },
+        "orders": {
+            "size": "2926 MB",
+            "row_count": 15000000,
+            "columns": {
+                "o_orderkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 15000000
+                },
+                "o_custkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 999982
+                },
+                "o_totalprice": {
+                    "data_type": "numeric",
+                    "is_nullable": false,
+                    "unique_values": 11944103
+                },
+                "o_orderdate": {
+                    "data_type": "date",
+                    "is_nullable": false,
+                    "unique_values": 2406
+                },
+                "o_shippriority": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 1
+                },
+                "o_orderpriority": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 5
+                },
+                "o_orderstatus": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 3
+                },
+                "o_clerk": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 10000
+                },
+                "o_comment": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 14097230
+                }
+            },
+            "primary_keys": [
+                "o_orderkey"
+            ],
+            "foreign_keys": [
+                {
+                    "column": "o_custkey",
+                    "references": {
+                        "table": "customer",
+                        "column": "c_custkey"
+                    }
+                }
+            ],
+            "indexes": [
+                {
+                    "name": "orders_pkey",
+                    "definition": "CREATE UNIQUE INDEX orders_pkey ON public.orders USING btree (o_orderkey)"
+                },
+                {
+                    "name": "o_ok",
+                    "definition": "CREATE UNIQUE INDEX o_ok ON public.orders USING btree (o_orderkey)"
+                },
+                {
+                    "name": "o_ck",
+                    "definition": "CREATE INDEX o_ck ON public.orders USING btree (o_custkey)"
+                },
+                {
+                    "name": "o_od",
+                    "definition": "CREATE INDEX o_od ON public.orders USING btree (o_orderdate)"
+                }
+            ]
+        },
+        "lineitem": {
+            "size": "14 GB",
+            "row_count": 59986052,
+            "columns": {
+                "l_commitdate": {
+                    "data_type": "date",
+                    "is_nullable": false,
+                    "unique_values": 2466
+                },
+                "l_receiptdate": {
+                    "data_type": "date",
+                    "is_nullable": false,
+                    "unique_values": 2555
+                },
+                "l_linenumber": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 7
+                },
+                "l_quantity": {
+                    "data_type": "numeric",
+                    "is_nullable": false,
+                    "unique_values": 50
+                },
+                "l_orderkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 15000000
+                },
+                "l_extendedprice": {
+                    "data_type": "numeric",
+                    "is_nullable": false,
+                    "unique_values": 1351462
+                },
+                "l_discount": {
+                    "data_type": "numeric",
+                    "is_nullable": false,
+                    "unique_values": 11
+                },
+                "l_tax": {
+                    "data_type": "numeric",
+                    "is_nullable": false,
+                    "unique_values": 9
+                },
+                "l_partkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2000000
+                },
+                "l_suppkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 100000
+                },
+                "l_shipdate": {
+                    "data_type": "date",
+                    "is_nullable": false,
+                    "unique_values": 2526
+                },
+                "l_comment": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 34378943
+                },
+                "l_returnflag": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 3
+                },
+                "l_linestatus": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 2
+                },
+                "l_shipinstruct": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 4
+                },
+                "l_shipmode": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 7
+                }
+            },
+            "primary_keys": [
+                "l_orderkey",
+                "l_linenumber"
+            ],
+            "foreign_keys": [
+                {
+                    "column": "l_orderkey",
+                    "references": {
+                        "table": "orders",
+                        "column": "o_orderkey"
+                    }
+                },
+                {
+                    "column": "l_partkey",
+                    "references": {
+                        "table": "partsupp",
+                        "column": "ps_partkey"
+                    }
+                },
+                {
+                    "column": "l_partkey",
+                    "references": {
+                        "table": "partsupp",
+                        "column": "ps_suppkey"
+                    }
+                },
+                {
+                    "column": "l_suppkey",
+                    "references": {
+                        "table": "partsupp",
+                        "column": "ps_partkey"
+                    }
+                },
+                {
+                    "column": "l_suppkey",
+                    "references": {
+                        "table": "partsupp",
+                        "column": "ps_suppkey"
+                    }
+                }
+            ],
+            "indexes": [
+                {
+                    "name": "lineitem_pkey",
+                    "definition": "CREATE UNIQUE INDEX lineitem_pkey ON public.lineitem USING btree (l_orderkey, l_linenumber)"
+                },
+                {
+                    "name": "l_ok",
+                    "definition": "CREATE INDEX l_ok ON public.lineitem USING btree (l_orderkey)"
+                },
+                {
+                    "name": "l_pk",
+                    "definition": "CREATE INDEX l_pk ON public.lineitem USING btree (l_partkey)"
+                },
+                {
+                    "name": "l_sk",
+                    "definition": "CREATE INDEX l_sk ON public.lineitem USING btree (l_suppkey)"
+                },
+                {
+                    "name": "l_sd",
+                    "definition": "CREATE INDEX l_sd ON public.lineitem USING btree (l_shipdate)"
+                },
+                {
+                    "name": "l_cd",
+                    "definition": "CREATE INDEX l_cd ON public.lineitem USING btree (l_commitdate)"
+                },
+                {
+                    "name": "l_rd",
+                    "definition": "CREATE INDEX l_rd ON public.lineitem USING btree (l_receiptdate)"
+                },
+                {
+                    "name": "l_pk_sk",
+                    "definition": "CREATE INDEX l_pk_sk ON public.lineitem USING btree (l_partkey, l_suppkey)"
+                },
+                {
+                    "name": "l_sk_pk",
+                    "definition": "CREATE INDEX l_sk_pk ON public.lineitem USING btree (l_suppkey, l_partkey)"
+                }
+            ]
+        },
+        "region": {
+            "size": "40 kB",
+            "row_count": 5,
+            "columns": {
+                "r_regionkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 5
+                },
+                "r_name": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 5
+                },
+                "r_comment": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 5
+                }
+            },
+            "primary_keys": [
+                "r_regionkey"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "region_pkey",
+                    "definition": "CREATE UNIQUE INDEX region_pkey ON public.region USING btree (r_regionkey)"
+                },
+                {
+                    "name": "r_rk",
+                    "definition": "CREATE UNIQUE INDEX r_rk ON public.region USING btree (r_regionkey)"
+                }
+            ]
+        },
+        "nation": {
+            "size": "56 kB",
+            "row_count": 25,
+            "columns": {
+                "n_nationkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 25
+                },
+                "n_regionkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 5
+                },
+                "n_name": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 25
+                },
+                "n_comment": {
+                    "data_type": "character varying",
+                    "is_nullable": true,
+                    "unique_values": 25
+                }
+            },
+            "primary_keys": [
+                "n_nationkey"
+            ],
+            "foreign_keys": [
+                {
+                    "column": "n_regionkey",
+                    "references": {
+                        "table": "region",
+                        "column": "r_regionkey"
+                    }
+                }
+            ],
+            "indexes": [
+                {
+                    "name": "nation_pkey",
+                    "definition": "CREATE UNIQUE INDEX nation_pkey ON public.nation USING btree (n_nationkey)"
+                },
+                {
+                    "name": "n_nk",
+                    "definition": "CREATE UNIQUE INDEX n_nk ON public.nation USING btree (n_nationkey)"
+                },
+                {
+                    "name": "n_rk",
+                    "definition": "CREATE INDEX n_rk ON public.nation USING btree (n_regionkey)"
+                }
+            ]
+        },
+        "part": {
+            "size": "406 MB",
+            "row_count": 2000000,
+            "columns": {
+                "p_size": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 50
+                },
+                "p_retailprice": {
+                    "data_type": "numeric",
+                    "is_nullable": false,
+                    "unique_values": 31681
+                },
+                "p_partkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2000000
+                },
+                "p_brand": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 25
+                },
+                "p_type": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 150
+                },
+                "p_container": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 40
+                },
+                "p_comment": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 806046
+                },
+                "p_name": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 1999828
+                },
+                "p_mfgr": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 5
+                }
+            },
+            "primary_keys": [
+                "p_partkey"
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "name": "part_pkey",
+                    "definition": "CREATE UNIQUE INDEX part_pkey ON public.part USING btree (p_partkey)"
+                },
+                {
+                    "name": "p_pk",
+                    "definition": "CREATE UNIQUE INDEX p_pk ON public.part USING btree (p_partkey)"
+                }
+            ]
+        },
+        "supplier": {
+            "size": "22 MB",
+            "row_count": 100000,
+            "columns": {
+                "s_nationkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 25
+                },
+                "s_suppkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 100000
+                },
+                "s_acctbal": {
+                    "data_type": "numeric",
+                    "is_nullable": false,
+                    "unique_values": 95588
+                },
+                "s_comment": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 99983
+                },
+                "s_phone": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 100000
+                },
+                "s_name": {
+                    "data_type": "character",
+                    "is_nullable": false,
+                    "unique_values": 100000
+                },
+                "s_address": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 100000
+                }
+            },
+            "primary_keys": [
+                "s_suppkey"
+            ],
+            "foreign_keys": [
+                {
+                    "column": "s_nationkey",
+                    "references": {
+                        "table": "nation",
+                        "column": "n_nationkey"
+                    }
+                }
+            ],
+            "indexes": [
+                {
+                    "name": "supplier_pkey",
+                    "definition": "CREATE UNIQUE INDEX supplier_pkey ON public.supplier USING btree (s_suppkey)"
+                },
+                {
+                    "name": "s_sk",
+                    "definition": "CREATE UNIQUE INDEX s_sk ON public.supplier USING btree (s_suppkey)"
+                },
+                {
+                    "name": "s_nk",
+                    "definition": "CREATE INDEX s_nk ON public.supplier USING btree (s_nationkey)"
+                }
+            ]
+        },
+        "partsupp": {
+            "size": "2108 MB",
+            "row_count": 8000000,
+            "columns": {
+                "ps_partkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 2000000
+                },
+                "ps_suppkey": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 100000
+                },
+                "ps_availqty": {
+                    "data_type": "integer",
+                    "is_nullable": false,
+                    "unique_values": 9999
+                },
+                "ps_supplycost": {
+                    "data_type": "numeric",
+                    "is_nullable": false,
+                    "unique_values": 99901
+                },
+                "ps_comment": {
+                    "data_type": "character varying",
+                    "is_nullable": false,
+                    "unique_values": 7914164
+                }
+            },
+            "primary_keys": [
+                "ps_partkey",
+                "ps_suppkey"
+            ],
+            "foreign_keys": [
+                {
+                    "column": "ps_partkey",
+                    "references": {
+                        "table": "part",
+                        "column": "p_partkey"
+                    }
+                },
+                {
+                    "column": "ps_suppkey",
+                    "references": {
+                        "table": "supplier",
+                        "column": "s_suppkey"
+                    }
+                }
+            ],
+            "indexes": [
+                {
+                    "name": "partsupp_pkey",
+                    "definition": "CREATE UNIQUE INDEX partsupp_pkey ON public.partsupp USING btree (ps_partkey, ps_suppkey)"
+                },
+                {
+                    "name": "ps_pk",
+                    "definition": "CREATE INDEX ps_pk ON public.partsupp USING btree (ps_partkey)"
+                },
+                {
+                    "name": "ps_sk",
+                    "definition": "CREATE INDEX ps_sk ON public.partsupp USING btree (ps_suppkey)"
+                },
+                {
+                    "name": "ps_pk_sk",
+                    "definition": "CREATE UNIQUE INDEX ps_pk_sk ON public.partsupp USING btree (ps_partkey, ps_suppkey)"
+                },
+                {
+                    "name": "ps_sk_pk",
+                    "definition": "CREATE UNIQUE INDEX ps_sk_pk ON public.partsupp USING btree (ps_suppkey, ps_partkey)"
+                }
+            ]
+        }
+    }
+}

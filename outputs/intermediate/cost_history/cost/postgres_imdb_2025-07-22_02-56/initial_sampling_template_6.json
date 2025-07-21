@@ -1,0 +1,902 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '224'\n  AND id <= '403'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '224')\nGROUP BY status_id;": [
+        2770.3,
+        2756.76,
+        2419.57,
+        13.29
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '259'\n  AND id <= '493'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '259')\nGROUP BY status_id;": [
+        2772.53,
+        2756.67,
+        2419.57,
+        15.77
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '157'\n  AND id <= '186'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '157')\nGROUP BY status_id;": [
+        2766.2,
+        2756.92,
+        2419.57,
+        9.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '35'\n  AND id <= '420'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '35')\nGROUP BY status_id;": [
+        2782.2,
+        2757.22,
+        2419.57,
+        24.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '144'\n  AND id <= '361'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '144')\nGROUP BY status_id;": [
+        2772.57,
+        2756.95,
+        2419.57,
+        15.31
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '246'\n  AND id <= '398'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '246')\nGROUP BY status_id;": [
+        2769.31,
+        2756.7,
+        2419.57,
+        12.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '150'\n  AND id <= '161'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '150')\nGROUP BY status_id;": [
+        2765.72,
+        2756.94,
+        2419.57,
+        8.75
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '15'\n  AND id <= '242'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '15')\nGROUP BY status_id;": [
+        2772.94,
+        2757.27,
+        2419.57,
+        15.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '137'\n  AND id <= '210'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '137')\nGROUP BY status_id;": [
+        2767.44,
+        2756.97,
+        2419.57,
+        10.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '90'\n  AND id <= '100'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '90')\nGROUP BY status_id;": [
+        2765.82,
+        2757.09,
+        2419.57,
+        8.72
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '116'\n  AND id <= '209'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '116')\nGROUP BY status_id;": [
+        2768.11,
+        2757.02,
+        2419.57,
+        10.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '227'\n  AND id <= '410'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '227')\nGROUP BY status_id;": [
+        2770.41,
+        2756.75,
+        2419.57,
+        13.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '140'\n  AND id <= '265'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '140')\nGROUP BY status_id;": [
+        2768.98,
+        2756.96,
+        2419.57,
+        11.83
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '323'\n  AND id <= '371'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '323')\nGROUP BY status_id;": [
+        2766.29,
+        2756.51,
+        2419.57,
+        9.74
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '182'\n  AND id <= '289'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '182')\nGROUP BY status_id;": [
+        2768.24,
+        2756.86,
+        2419.57,
+        11.34
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '42'\n  AND id <= '445'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '42')\nGROUP BY status_id;": [
+        2783.1,
+        2757.2,
+        2419.57,
+        25.34
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '18'\n  AND id <= '420'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '18')\nGROUP BY status_id;": [
+        2783.13,
+        2757.26,
+        2419.57,
+        25.31
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '78'\n  AND id <= '401'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '78')\nGROUP BY status_id;": [
+        2775.39,
+        2757.11,
+        2419.57,
+        18.17
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '217'\n  AND id <= '243'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '217')\nGROUP BY status_id;": [
+        2765.95,
+        2756.77,
+        2419.57,
+        9.16
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '126'\n  AND id <= '453'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '126')\nGROUP BY status_id;": [
+        2775.73,
+        2757.0,
+        2419.57,
+        18.28
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '47'\n  AND id <= '332'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '47')\nGROUP BY status_id;": [
+        2774.44,
+        2757.19,
+        2419.57,
+        17.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '86'\n  AND id <= '357'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '86')\nGROUP BY status_id;": [
+        2774.24,
+        2757.09,
+        2419.57,
+        16.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '41'\n  AND id <= '123'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '41')\nGROUP BY status_id;": [
+        2767.92,
+        2757.2,
+        2419.57,
+        10.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '385'\n  AND id <= '408'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '385')\nGROUP BY status_id;": [
+        2765.49,
+        2756.36,
+        2419.57,
+        9.08
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '237'\n  AND id <= '454'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '237')\nGROUP BY status_id;": [
+        2772.34,
+        2756.72,
+        2419.57,
+        15.31
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '24'\n  AND id <= '108'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '24')\nGROUP BY status_id;": [
+        2768.11,
+        2757.25,
+        2419.57,
+        10.73
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '76'\n  AND id <= '387'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '76')\nGROUP BY status_id;": [
+        2775.42,
+        2757.12,
+        2419.57,
+        17.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '126'\n  AND id <= '251'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '126')\nGROUP BY status_id;": [
+        2769.02,
+        2757.0,
+        2419.57,
+        11.83
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '8'\n  AND id <= '143'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '8')\nGROUP BY status_id;": [
+        2769.45,
+        2757.29,
+        2419.57,
+        12.11
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '117'\n  AND id <= '163'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '117')\nGROUP BY status_id;": [
+        2766.74,
+        2757.02,
+        2419.57,
+        9.69
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '71'\n  AND id <= '152'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '71')\nGROUP BY status_id;": [
+        2767.91,
+        2757.13,
+        2419.57,
+        10.65
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '328'\n  AND id <= '367'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '328')\nGROUP BY status_id;": [
+        2766.01,
+        2756.5,
+        2419.57,
+        9.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '243'\n  AND id <= '413'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '243')\nGROUP BY status_id;": [
+        2770.0,
+        2756.71,
+        2419.57,
+        13.04
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '32'\n  AND id <= '374'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '32')\nGROUP BY status_id;": [
+        2776.39,
+        2757.23,
+        2419.57,
+        18.69
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '310'\n  AND id <= '342'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '310')\nGROUP BY status_id;": [
+        2765.91,
+        2756.54,
+        2419.57,
+        9.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '179'\n  AND id <= '495'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '179')\nGROUP BY status_id;": [
+        2775.28,
+        2756.87,
+        2419.57,
+        17.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '328'\n  AND id <= '438'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '328')\nGROUP BY status_id;": [
+        2767.97,
+        2756.5,
+        2419.57,
+        11.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '147'\n  AND id <= '199'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '147')\nGROUP BY status_id;": [
+        2766.83,
+        2756.95,
+        2419.57,
+        9.85
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '114'\n  AND id <= '364'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '114')\nGROUP BY status_id;": [
+        2773.59,
+        2757.03,
+        2419.57,
+        16.21
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '24'\n  AND id <= '44'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '24')\nGROUP BY status_id;": [
+        2766.26,
+        2757.25,
+        2419.57,
+        9.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '213'\n  AND id <= '250'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '213')\nGROUP BY status_id;": [
+        2766.24,
+        2756.78,
+        2419.57,
+        9.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '404'\n  AND id <= '457'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '404')\nGROUP BY status_id;": [
+        2766.28,
+        2756.31,
+        2419.57,
+        9.88
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '180'\n  AND id <= '283'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '180')\nGROUP BY status_id;": [
+        2768.14,
+        2756.86,
+        2419.57,
+        11.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '96'\n  AND id <= '419'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '96')\nGROUP BY status_id;": [
+        2775.35,
+        2757.07,
+        2419.57,
+        18.17
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '23'\n  AND id <= '202'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '23')\nGROUP BY status_id;": [
+        2770.61,
+        2757.25,
+        2419.57,
+        13.29
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '205'\n  AND id <= '490'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '205')\nGROUP BY status_id;": [
+        2774.35,
+        2756.8,
+        2419.57,
+        17.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '82'\n  AND id <= '355'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '82')\nGROUP BY status_id;": [
+        2774.02,
+        2757.1,
+        2419.57,
+        16.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '132'\n  AND id <= '343'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '132')\nGROUP BY status_id;": [
+        2772.2,
+        2756.98,
+        2419.57,
+        15.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '195'\n  AND id <= '272'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '195')\nGROUP BY status_id;": [
+        2767.49,
+        2756.83,
+        2419.57,
+        10.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '154'\n  AND id <= '298'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '154')\nGROUP BY status_id;": [
+        2769.32,
+        2756.93,
+        2419.57,
+        12.33
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '304'\n  AND id <= '333'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '304')\nGROUP BY status_id;": [
+        2765.84,
+        2756.56,
+        2419.57,
+        9.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '36'\n  AND id <= '170'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '36')\nGROUP BY status_id;": [
+        2769.5,
+        2757.22,
+        2419.57,
+        12.08
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '80'\n  AND id <= '476'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '80')\nGROUP BY status_id;": [
+        2782.39,
+        2757.11,
+        2419.57,
+        25.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '294'\n  AND id <= '346'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '294')\nGROUP BY status_id;": [
+        2766.52,
+        2756.58,
+        2419.57,
+        9.85
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '64'\n  AND id <= '108'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '64')\nGROUP BY status_id;": [
+        2766.86,
+        2757.15,
+        2419.57,
+        9.63
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '119'\n  AND id <= '266'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '119')\nGROUP BY status_id;": [
+        2769.49,
+        2757.01,
+        2419.57,
+        12.41
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '148'\n  AND id <= '246'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '148')\nGROUP BY status_id;": [
+        2768.18,
+        2756.94,
+        2419.57,
+        11.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '415'\n  AND id <= '459'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '415')\nGROUP BY status_id;": [
+        2766.0,
+        2756.29,
+        2419.57,
+        9.63
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '68'\n  AND id <= '453'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '68')\nGROUP BY status_id;": [
+        2782.12,
+        2757.14,
+        2419.57,
+        24.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '4'\n  AND id <= '434'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '4')\nGROUP BY status_id;": [
+        2783.5,
+        2757.3,
+        2419.57,
+        26.05
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '293'\n  AND id <= '471'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '293')\nGROUP BY status_id;": [
+        2770.11,
+        2756.59,
+        2419.57,
+        13.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '6'\n  AND id <= '426'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '6')\nGROUP BY status_id;": [
+        2783.68,
+        2757.29,
+        2419.57,
+        25.81
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '22'\n  AND id <= '190'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '22')\nGROUP BY status_id;": [
+        2770.48,
+        2757.25,
+        2419.57,
+        12.99
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '6'\n  AND id <= '400'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '6')\nGROUP BY status_id;": [
+        2782.93,
+        2757.29,
+        2419.57,
+        25.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '350'\n  AND id <= '499'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '350')\nGROUP BY status_id;": [
+        2769.13,
+        2756.45,
+        2419.57,
+        12.46
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '270'\n  AND id <= '300'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '270')\nGROUP BY status_id;": [
+        2765.95,
+        2756.64,
+        2419.57,
+        9.25
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '105'\n  AND id <= '266'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '105')\nGROUP BY status_id;": [
+        2770.08,
+        2757.05,
+        2419.57,
+        12.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '68'\n  AND id <= '320'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '68')\nGROUP BY status_id;": [
+        2773.5,
+        2757.14,
+        2419.57,
+        16.27
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '31'\n  AND id <= '313'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '31')\nGROUP BY status_id;": [
+        2774.4,
+        2757.23,
+        2419.57,
+        17.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '349'\n  AND id <= '475'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '349')\nGROUP BY status_id;": [
+        2768.5,
+        2756.45,
+        2419.57,
+        11.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '145'\n  AND id <= '478'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '145')\nGROUP BY status_id;": [
+        2775.86,
+        2756.95,
+        2419.57,
+        18.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '292'\n  AND id <= '339'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '292')\nGROUP BY status_id;": [
+        2766.39,
+        2756.59,
+        2419.57,
+        9.71
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '61'\n  AND id <= '435'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '61')\nGROUP BY status_id;": [
+        2780.83,
+        2757.16,
+        2419.57,
+        23.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '132'\n  AND id <= '138'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '132')\nGROUP BY status_id;": [
+        2765.61,
+        2756.98,
+        2419.57,
+        8.61
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '345'\n  AND id <= '489'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '345')\nGROUP BY status_id;": [
+        2768.85,
+        2756.46,
+        2419.57,
+        12.33
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '168'\n  AND id <= '483'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '168')\nGROUP BY status_id;": [
+        2774.95,
+        2756.89,
+        2419.57,
+        17.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '130'\n  AND id <= '171'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '130')\nGROUP BY status_id;": [
+        2766.61,
+        2756.99,
+        2419.57,
+        9.55
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '73'\n  AND id <= '298'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '73')\nGROUP BY status_id;": [
+        2772.97,
+        2757.12,
+        2419.57,
+        15.53
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '13'\n  AND id <= '301'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '13')\nGROUP BY status_id;": [
+        2774.61,
+        2757.27,
+        2419.57,
+        17.23
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '51'\n  AND id <= '457'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '51')\nGROUP BY status_id;": [
+        2782.74,
+        2757.18,
+        2419.57,
+        25.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '208'\n  AND id <= '222'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '208')\nGROUP BY status_id;": [
+        2765.67,
+        2756.8,
+        2419.57,
+        8.83
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '88'\n  AND id <= '352'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '88')\nGROUP BY status_id;": [
+        2774.04,
+        2757.09,
+        2419.57,
+        16.57
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '3'\n  AND id <= '167'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '3')\nGROUP BY status_id;": [
+        2770.24,
+        2757.3,
+        2419.57,
+        12.88
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '242'\n  AND id <= '358'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '242')\nGROUP BY status_id;": [
+        2768.35,
+        2756.71,
+        2419.57,
+        11.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '175'\n  AND id <= '478'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '175')\nGROUP BY status_id;": [
+        2774.63,
+        2756.88,
+        2419.57,
+        17.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '91'\n  AND id <= '263'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '91')\nGROUP BY status_id;": [
+        2770.43,
+        2757.08,
+        2419.57,
+        13.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '121'\n  AND id <= '366'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '121')\nGROUP BY status_id;": [
+        2773.18,
+        2757.01,
+        2419.57,
+        16.08
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '172'\n  AND id <= '259'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '172')\nGROUP BY status_id;": [
+        2767.81,
+        2756.88,
+        2419.57,
+        10.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '290'\n  AND id <= '337'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '290')\nGROUP BY status_id;": [
+        2766.39,
+        2756.59,
+        2419.57,
+        9.71
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '318'\n  AND id <= '346'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '318')\nGROUP BY status_id;": [
+        2765.76,
+        2756.53,
+        2419.57,
+        9.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '426'\n  AND id <= '431'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '426')\nGROUP BY status_id;": [
+        2764.86,
+        2756.26,
+        2419.57,
+        8.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '393'\n  AND id <= '419'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '393')\nGROUP BY status_id;": [
+        2765.56,
+        2756.34,
+        2419.57,
+        9.16
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '444'\n  AND id <= '500'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '444')\nGROUP BY status_id;": [
+        2766.27,
+        2756.22,
+        2419.57,
+        9.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '48'\n  AND id <= '468'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '48')\nGROUP BY status_id;": [
+        2783.14,
+        2757.19,
+        2419.57,
+        25.81
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '93'\n  AND id <= '484'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '93')\nGROUP BY status_id;": [
+        2782.22,
+        2757.08,
+        2419.57,
+        25.01
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '64'\n  AND id <= '276'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '64')\nGROUP BY status_id;": [
+        2772.4,
+        2757.15,
+        2419.57,
+        15.17
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '103'\n  AND id <= '447'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '103')\nGROUP BY status_id;": [
+        2776.28,
+        2757.05,
+        2419.57,
+        18.74
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '29'\n  AND id <= '87'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '29')\nGROUP BY status_id;": [
+        2767.35,
+        2757.23,
+        2419.57,
+        10.02
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '71'\n  AND id <= '389'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '71')\nGROUP BY status_id;": [
+        2775.27,
+        2757.13,
+        2419.57,
+        18.03
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '493'\n  AND id <= '494'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '493')\nGROUP BY status_id;": [
+        2764.59,
+        2756.1,
+        2419.57,
+        8.47
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '395'\n  AND id <= '447'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '395')\nGROUP BY status_id;": [
+        2766.28,
+        2756.34,
+        2419.57,
+        9.85
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '232'\n  AND id <= '304'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '232')\nGROUP BY status_id;": [
+        2767.18,
+        2756.74,
+        2419.57,
+        10.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '114'\n  AND id <= '307'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '114')\nGROUP BY status_id;": [
+        2771.98,
+        2757.03,
+        2419.57,
+        14.67
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '212'\n  AND id <= '289'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '212')\nGROUP BY status_id;": [
+        2767.37,
+        2756.79,
+        2419.57,
+        10.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '164'\n  AND id <= '183'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '164')\nGROUP BY status_id;": [
+        2765.89,
+        2756.9,
+        2419.57,
+        8.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '11'\n  AND id <= '161'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '11')\nGROUP BY status_id;": [
+        2769.83,
+        2757.28,
+        2419.57,
+        12.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '195'\n  AND id <= '319'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '195')\nGROUP BY status_id;": [
+        2768.81,
+        2756.83,
+        2419.57,
+        11.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '39'\n  AND id <= '311'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '39')\nGROUP BY status_id;": [
+        2774.1,
+        2757.21,
+        2419.57,
+        16.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '277'\n  AND id <= '412'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '277')\nGROUP BY status_id;": [
+        2768.93,
+        2756.62,
+        2419.57,
+        12.11
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '233'\n  AND id <= '307'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '233')\nGROUP BY status_id;": [
+        2767.23,
+        2756.73,
+        2419.57,
+        10.46
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '226'\n  AND id <= '385'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '226')\nGROUP BY status_id;": [
+        2769.56,
+        2756.75,
+        2419.57,
+        12.74
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '138'\n  AND id <= '365'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '138')\nGROUP BY status_id;": [
+        2772.64,
+        2756.97,
+        2419.57,
+        15.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '123'\n  AND id <= '467'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '123')\nGROUP BY status_id;": [
+        2775.87,
+        2757.0,
+        2419.57,
+        18.74
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '8'\n  AND id <= '53'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '8')\nGROUP BY status_id;": [
+        2766.98,
+        2757.29,
+        2419.57,
+        9.66
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '14'\n  AND id <= '397'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '14')\nGROUP BY status_id;": [
+        2782.19,
+        2757.27,
+        2419.57,
+        24.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '433'\n  AND id <= '480'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '433')\nGROUP BY status_id;": [
+        2765.99,
+        2756.24,
+        2419.57,
+        9.71
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '76'\n  AND id <= '380'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '76')\nGROUP BY status_id;": [
+        2774.9,
+        2757.12,
+        2419.57,
+        17.67
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '216'\n  AND id <= '472'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '216')\nGROUP BY status_id;": [
+        2773.25,
+        2756.78,
+        2419.57,
+        16.38
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '177'\n  AND id <= '222'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '177')\nGROUP BY status_id;": [
+        2766.61,
+        2756.87,
+        2419.57,
+        9.66
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '99'\n  AND id <= '360'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '99')\nGROUP BY status_id;": [
+        2773.65,
+        2757.06,
+        2419.57,
+        16.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '206'\n  AND id <= '321'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '206')\nGROUP BY status_id;": [
+        2768.41,
+        2756.8,
+        2419.57,
+        11.56
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '272'\n  AND id <= '313'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '272')\nGROUP BY status_id;": [
+        2766.26,
+        2756.64,
+        2419.57,
+        9.55
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '282'\n  AND id <= '335'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '282')\nGROUP BY status_id;": [
+        2766.58,
+        2756.61,
+        2419.57,
+        9.88
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '229'\n  AND id <= '353'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '229')\nGROUP BY status_id;": [
+        2768.73,
+        2756.74,
+        2419.57,
+        11.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '261'\n  AND id <= '463'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '261')\nGROUP BY status_id;": [
+        2771.85,
+        2756.66,
+        2419.57,
+        14.89
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '84'\n  AND id <= '235'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '84')\nGROUP BY status_id;": [
+        2769.68,
+        2757.1,
+        2419.57,
+        12.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '220'\n  AND id <= '408'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '220')\nGROUP BY status_id;": [
+        2771.57,
+        2756.76,
+        2419.57,
+        14.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '378'\n  AND id <= '486'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '378')\nGROUP BY status_id;": [
+        2767.91,
+        2756.38,
+        2419.57,
+        11.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '57'\n  AND id <= '156'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '57')\nGROUP BY status_id;": [
+        2768.33,
+        2757.16,
+        2419.57,
+        11.12
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '376'\n  AND id <= '463'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '376')\nGROUP BY status_id;": [
+        2767.31,
+        2756.38,
+        2419.57,
+        10.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '59'\n  AND id <= '273'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '59')\nGROUP BY status_id;": [
+        2772.47,
+        2757.16,
+        2419.57,
+        15.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '380'\n  AND id <= '466'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '380')\nGROUP BY status_id;": [
+        2767.17,
+        2756.37,
+        2419.57,
+        10.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '188'\n  AND id <= '204'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '188')\nGROUP BY status_id;": [
+        2765.78,
+        2756.84,
+        2419.57,
+        8.89
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '52'\n  AND id <= '439'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '52')\nGROUP BY status_id;": [
+        2782.62,
+        2757.18,
+        2419.57,
+        24.9
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '72'\n  AND id <= '324'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '72')\nGROUP BY status_id;": [
+        2773.76,
+        2757.13,
+        2419.57,
+        16.27
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '46'\n  AND id <= '129'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '46')\nGROUP BY status_id;": [
+        2767.94,
+        2757.19,
+        2419.57,
+        10.7
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '198'\n  AND id <= '254'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '198')\nGROUP BY status_id;": [
+        2766.87,
+        2756.82,
+        2419.57,
+        9.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '20'\n  AND id <= '468'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '20')\nGROUP BY status_id;": [
+        2784.42,
+        2757.26,
+        2419.57,
+        26.55
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '395'\n  AND id <= '441'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '395')\nGROUP BY status_id;": [
+        2766.11,
+        2756.34,
+        2419.57,
+        9.69
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '237'\n  AND id <= '371'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '237')\nGROUP BY status_id;": [
+        2768.86,
+        2756.72,
+        2419.57,
+        12.08
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '30'\n  AND id <= '333'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '30')\nGROUP BY status_id;": [
+        2774.99,
+        2757.23,
+        2419.57,
+        17.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '57'\n  AND id <= '430'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '57')\nGROUP BY status_id;": [
+        2781.2,
+        2757.16,
+        2419.57,
+        23.51
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '286'\n  AND id <= '442'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '286')\nGROUP BY status_id;": [
+        2769.32,
+        2756.6,
+        2419.57,
+        12.65
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '101'\n  AND id <= '189'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '101')\nGROUP BY status_id;": [
+        2767.92,
+        2757.06,
+        2419.57,
+        10.81
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '96'\n  AND id <= '390'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '96')\nGROUP BY status_id;": [
+        2774.58,
+        2757.07,
+        2419.57,
+        17.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '193'\n  AND id <= '254'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '193')\nGROUP BY status_id;": [
+        2767.03,
+        2756.83,
+        2419.57,
+        10.1
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '105'\n  AND id <= '256'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '105')\nGROUP BY status_id;": [
+        2769.79,
+        2757.05,
+        2419.57,
+        12.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '280'\n  AND id <= '379'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '280')\nGROUP BY status_id;": [
+        2767.89,
+        2756.62,
+        2419.57,
+        11.12
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '172'\n  AND id <= '429'\n  AND status_id = '4'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '172')\nGROUP BY status_id;": [
+        2773.36,
+        2756.88,
+        2419.57,
+        16.38
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT status_id,\n       COUNT(*) AS total_count\nFROM complete_cast\nWHERE id >= '1'\n  AND id <= '1'\n  AND status_id = '3'\n  AND id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '1')\nGROUP BY status_id;": [
+        2765.77,
+        2757.3,
+        2419.57,
+        8.45
+    ]
+}

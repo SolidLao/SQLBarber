@@ -1,0 +1,72 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 11\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT kind,\n       COUNT(*) AS total_cast,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt2\n   WHERE kt2.kind = kind_type.kind\n     AND kt2.kind = 'tv mini series') AS status_count,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt3\n   WHERE kt3.kind = kind_type.kind\n     AND kt3.kind = 'tv mini series') AS other_count\nFROM kind_type\nWHERE kind_type.kind = 'tv mini series'\nGROUP BY kind;": [
+        3.31,
+        1.09,
+        1.1,
+        1.09,
+        1.09,
+        1.1,
+        1.09,
+        1.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 11\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT kind,\n       COUNT(*) AS total_cast,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt2\n   WHERE kt2.kind = kind_type.kind\n     AND kt2.kind = 'tv movie') AS status_count,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt3\n   WHERE kt3.kind = kind_type.kind\n     AND kt3.kind = 'tv movie') AS other_count\nFROM kind_type\nWHERE kind_type.kind = 'tv movie'\nGROUP BY kind;": [
+        3.31,
+        1.09,
+        1.1,
+        1.09,
+        1.09,
+        1.1,
+        1.09,
+        1.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 11\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT kind,\n       COUNT(*) AS total_cast,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt2\n   WHERE kt2.kind = kind_type.kind\n     AND kt2.kind = 'episode') AS status_count,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt3\n   WHERE kt3.kind = kind_type.kind\n     AND kt3.kind = 'episode') AS other_count\nFROM kind_type\nWHERE kind_type.kind = 'episode'\nGROUP BY kind;": [
+        3.31,
+        1.09,
+        1.1,
+        1.09,
+        1.09,
+        1.1,
+        1.09,
+        1.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 11\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT kind,\n       COUNT(*) AS total_cast,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt2\n   WHERE kt2.kind = kind_type.kind\n     AND kt2.kind = 'movie') AS status_count,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt3\n   WHERE kt3.kind = kind_type.kind\n     AND kt3.kind = 'movie') AS other_count\nFROM kind_type\nWHERE kind_type.kind = 'movie'\nGROUP BY kind;": [
+        3.31,
+        1.09,
+        1.1,
+        1.09,
+        1.09,
+        1.1,
+        1.09,
+        1.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 11\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT kind,\n       COUNT(*) AS total_cast,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt2\n   WHERE kt2.kind = kind_type.kind\n     AND kt2.kind = 'tv series') AS status_count,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt3\n   WHERE kt3.kind = kind_type.kind\n     AND kt3.kind = 'tv series') AS other_count\nFROM kind_type\nWHERE kind_type.kind = 'tv series'\nGROUP BY kind;": [
+        3.31,
+        1.09,
+        1.1,
+        1.09,
+        1.09,
+        1.1,
+        1.09,
+        1.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 11\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT kind,\n       COUNT(*) AS total_cast,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt2\n   WHERE kt2.kind = kind_type.kind\n     AND kt2.kind = 'video movie') AS status_count,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt3\n   WHERE kt3.kind = kind_type.kind\n     AND kt3.kind = 'video movie') AS other_count\nFROM kind_type\nWHERE kind_type.kind = 'video movie'\nGROUP BY kind;": [
+        3.31,
+        1.09,
+        1.1,
+        1.09,
+        1.09,
+        1.1,
+        1.09,
+        1.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 11\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT kind,\n       COUNT(*) AS total_cast,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt2\n   WHERE kt2.kind = kind_type.kind\n     AND kt2.kind = 'video game') AS status_count,\n\n  (SELECT COUNT(*)\n   FROM kind_type AS kt3\n   WHERE kt3.kind = kind_type.kind\n     AND kt3.kind = 'video game') AS other_count\nFROM kind_type\nWHERE kind_type.kind = 'video game'\nGROUP BY kind;": [
+        3.31,
+        1.09,
+        1.1,
+        1.09,
+        1.09,
+        1.1,
+        1.09,
+        1.09
+    ]
+}

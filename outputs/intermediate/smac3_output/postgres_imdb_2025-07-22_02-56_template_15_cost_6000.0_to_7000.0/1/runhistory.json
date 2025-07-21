@@ -1,0 +1,1818 @@
+{
+  "stats": {
+    "submitted": 95,
+    "finished": 95,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      1791095845,
+      null,
+      0.7431883333333333,
+      0.0008113384246826172,
+      1,
+      1753124957.7006128,
+      1753124957.7051501,
+      {}
+    ],
+    [
+      2,
+      null,
+      1791095845,
+      null,
+      0.7401683333333333,
+      0.0007734298706054688,
+      1,
+      1753124957.7891047,
+      1753124957.793477,
+      {}
+    ],
+    [
+      3,
+      null,
+      1791095845,
+      null,
+      0.7422816666666667,
+      0.0006723403930664062,
+      1,
+      1753124957.7956657,
+      1753124957.8000362,
+      {}
+    ],
+    [
+      4,
+      null,
+      1791095845,
+      null,
+      1.0,
+      0.00025916099548339844,
+      1,
+      1753124957.802249,
+      1753124957.8068473,
+      {}
+    ],
+    [
+      5,
+      null,
+      1791095845,
+      null,
+      0.7427983333333333,
+      0.0006413459777832031,
+      1,
+      1753124957.8089004,
+      1753124957.8132322,
+      {}
+    ],
+    [
+      6,
+      null,
+      1791095845,
+      null,
+      0.7427783333333333,
+      0.0006473064422607422,
+      1,
+      1753124957.8155332,
+      1753124957.8198805,
+      {}
+    ],
+    [
+      7,
+      null,
+      1791095845,
+      null,
+      1.0,
+      0.00020194053649902344,
+      1,
+      1753124957.8222916,
+      1753124957.826286,
+      {}
+    ],
+    [
+      8,
+      null,
+      1791095845,
+      null,
+      0.74285,
+      0.0006277561187744141,
+      1,
+      1753124957.8286226,
+      1753124957.8332314,
+      {}
+    ],
+    [
+      9,
+      null,
+      1791095845,
+      null,
+      0.7428733333333333,
+      0.0006182193756103516,
+      1,
+      1753124957.835607,
+      1753124957.8400102,
+      {}
+    ],
+    [
+      10,
+      null,
+      1791095845,
+      null,
+      0.7407699999999999,
+      0.0006732940673828125,
+      1,
+      1753124957.8422666,
+      1753124957.8466358,
+      {}
+    ],
+    [
+      11,
+      null,
+      1791095845,
+      null,
+      0.74291,
+      0.0006151199340820312,
+      1,
+      1753124957.8489187,
+      1753124957.8532312,
+      {}
+    ],
+    [
+      12,
+      null,
+      1791095845,
+      null,
+      0.7416133333333333,
+      0.0006229877471923828,
+      1,
+      1753124957.8556635,
+      1753124957.8599997,
+      {}
+    ],
+    [
+      13,
+      null,
+      1791095845,
+      null,
+      0.740755,
+      0.0007596015930175781,
+      1,
+      1753124957.862499,
+      1753124957.8673918,
+      {}
+    ],
+    [
+      14,
+      null,
+      1791095845,
+      null,
+      0.7431383333333333,
+      0.0007147789001464844,
+      1,
+      1753124957.8698852,
+      1753124957.8746932,
+      {}
+    ],
+    [
+      15,
+      null,
+      1791095845,
+      null,
+      1.0,
+      0.00019741058349609375,
+      1,
+      1753124957.877141,
+      1753124957.8809643,
+      {}
+    ],
+    [
+      16,
+      null,
+      1791095845,
+      null,
+      0.7422633333333333,
+      0.0006124973297119141,
+      1,
+      1753124957.8837054,
+      1753124957.8879905,
+      {}
+    ],
+    [
+      17,
+      null,
+      1791095845,
+      null,
+      0.7428316666666667,
+      0.0006551742553710938,
+      1,
+      1753124957.890591,
+      1753124957.8949258,
+      {}
+    ],
+    [
+      18,
+      null,
+      1791095845,
+      null,
+      0.7428233333333334,
+      0.0006134510040283203,
+      1,
+      1753124957.8975527,
+      1753124957.9018455,
+      {}
+    ],
+    [
+      19,
+      null,
+      1791095845,
+      null,
+      0.7429783333333333,
+      0.0006129741668701172,
+      1,
+      1753124957.9044733,
+      1753124957.9087577,
+      {}
+    ],
+    [
+      20,
+      null,
+      1791095845,
+      null,
+      0.7431733333333334,
+      0.0006120204925537109,
+      1,
+      1753124957.9114978,
+      1753124957.9158149,
+      {}
+    ],
+    [
+      21,
+      null,
+      1791095845,
+      null,
+      0.7424216666666666,
+      0.0006406307220458984,
+      1,
+      1753124957.9185321,
+      1753124957.922806,
+      {}
+    ],
+    [
+      22,
+      null,
+      1791095845,
+      null,
+      0.7401566666666667,
+      0.0010671615600585938,
+      1,
+      1753124958.1260426,
+      1753124958.1307883,
+      {}
+    ],
+    [
+      23,
+      null,
+      1791095845,
+      null,
+      0.7430333333333333,
+      0.0007655620574951172,
+      1,
+      1753124958.1340532,
+      1753124958.1384609,
+      {}
+    ],
+    [
+      24,
+      null,
+      1791095845,
+      null,
+      0.7430416666666666,
+      0.0007116794586181641,
+      1,
+      1753124958.141506,
+      1753124958.1460032,
+      {}
+    ],
+    [
+      25,
+      null,
+      1791095845,
+      null,
+      0.742745,
+      0.0006308555603027344,
+      1,
+      1753124958.148963,
+      1753124958.153312,
+      {}
+    ],
+    [
+      26,
+      null,
+      1791095845,
+      null,
+      0.7430416666666666,
+      0.0006194114685058594,
+      1,
+      1753124958.1563973,
+      1753124958.16067,
+      {}
+    ],
+    [
+      27,
+      null,
+      1791095845,
+      null,
+      0.742745,
+      0.0006191730499267578,
+      1,
+      1753124958.1638227,
+      1753124958.1681545,
+      {}
+    ],
+    [
+      28,
+      null,
+      1791095845,
+      null,
+      0.7416466666666667,
+      0.0006341934204101562,
+      1,
+      1753124958.171291,
+      1753124958.1755776,
+      {}
+    ],
+    [
+      29,
+      null,
+      1791095845,
+      null,
+      0.7407483333333333,
+      0.0006697177886962891,
+      1,
+      1753124958.1786044,
+      1753124958.1828797,
+      {}
+    ],
+    [
+      30,
+      null,
+      1791095845,
+      null,
+      0.7419866666666667,
+      0.000629425048828125,
+      1,
+      1753124958.1860733,
+      1753124958.1903255,
+      {}
+    ],
+    [
+      31,
+      null,
+      1791095845,
+      null,
+      0.7419966666666666,
+      0.0006155967712402344,
+      1,
+      1753124958.1934469,
+      1753124958.197714,
+      {}
+    ],
+    [
+      32,
+      null,
+      1791095845,
+      null,
+      0.7420416666666667,
+      0.0007300376892089844,
+      1,
+      1753124958.2008433,
+      1753124958.2056305,
+      {}
+    ],
+    [
+      33,
+      null,
+      1791095845,
+      null,
+      0.742035,
+      0.00061798095703125,
+      1,
+      1753124958.2088573,
+      1753124958.2130406,
+      {}
+    ],
+    [
+      34,
+      null,
+      1791095845,
+      null,
+      0.7422666666666666,
+      0.0006506443023681641,
+      1,
+      1753124958.2162611,
+      1753124958.2205296,
+      {}
+    ],
+    [
+      35,
+      null,
+      1791095845,
+      null,
+      0.7407783333333333,
+      0.0006470680236816406,
+      1,
+      1753124958.2238011,
+      1753124958.228012,
+      {}
+    ],
+    [
+      36,
+      null,
+      1791095845,
+      null,
+      0.7428166666666667,
+      0.0006134510040283203,
+      1,
+      1753124958.2316217,
+      1753124958.2358868,
+      {}
+    ],
+    [
+      37,
+      null,
+      1791095845,
+      null,
+      0.7407933333333334,
+      0.0006375312805175781,
+      1,
+      1753124958.2393088,
+      1753124958.243678,
+      {}
+    ],
+    [
+      38,
+      null,
+      1791095845,
+      null,
+      0.7407783333333333,
+      0.0006287097930908203,
+      1,
+      1753124958.2473354,
+      1753124958.2517986,
+      {}
+    ],
+    [
+      39,
+      null,
+      1791095845,
+      null,
+      0.7424283333333332,
+      0.0006394386291503906,
+      1,
+      1753124958.2553349,
+      1753124958.2596602,
+      {}
+    ],
+    [
+      40,
+      null,
+      1791095845,
+      null,
+      0.7428283333333333,
+      0.0006396770477294922,
+      1,
+      1753124958.2632155,
+      1753124958.267585,
+      {}
+    ],
+    [
+      41,
+      null,
+      1791095845,
+      null,
+      0.7421733333333334,
+      0.0006623268127441406,
+      1,
+      1753124958.2712033,
+      1753124958.2754905,
+      {}
+    ],
+    [
+      42,
+      null,
+      1791095845,
+      null,
+      0.7401466666666667,
+      0.0006635189056396484,
+      1,
+      1753124958.4892528,
+      1753124958.4936738,
+      {}
+    ],
+    [
+      43,
+      null,
+      1791095845,
+      null,
+      0.7401416666666667,
+      0.0007307529449462891,
+      1,
+      1753124958.4975991,
+      1753124958.5021017,
+      {}
+    ],
+    [
+      44,
+      null,
+      1791095845,
+      null,
+      0.7400366666666667,
+      0.0007634162902832031,
+      1,
+      1753124958.5062833,
+      1753124958.5108533,
+      {}
+    ],
+    [
+      45,
+      null,
+      1791095845,
+      null,
+      0.7430116666666666,
+      0.000659942626953125,
+      1,
+      1753124958.5151093,
+      1753124958.5199885,
+      {}
+    ],
+    [
+      46,
+      null,
+      1791095845,
+      null,
+      0.7400366666666667,
+      0.0006251335144042969,
+      1,
+      1753124958.5242116,
+      1753124958.5288672,
+      {}
+    ],
+    [
+      47,
+      null,
+      1791095845,
+      null,
+      0.7407333333333334,
+      0.0007185935974121094,
+      1,
+      1753124958.532814,
+      1753124958.5375385,
+      {}
+    ],
+    [
+      48,
+      null,
+      1791095845,
+      null,
+      0.7407633333333333,
+      0.0006630420684814453,
+      1,
+      1753124958.5416253,
+      1753124958.5460641,
+      {}
+    ],
+    [
+      49,
+      null,
+      1791095845,
+      null,
+      0.7403150000000001,
+      0.0006537437438964844,
+      1,
+      1753124958.5504038,
+      1753124958.5546973,
+      {}
+    ],
+    [
+      50,
+      null,
+      1791095845,
+      null,
+      0.7421249999999999,
+      0.0006537437438964844,
+      1,
+      1753124958.5587766,
+      1753124958.5630803,
+      {}
+    ],
+    [
+      51,
+      null,
+      1791095845,
+      null,
+      0.7421249999999999,
+      0.0006527900695800781,
+      1,
+      1753124958.5674713,
+      1753124958.5718565,
+      {}
+    ],
+    [
+      52,
+      null,
+      1791095845,
+      null,
+      0.7420266666666666,
+      0.00061798095703125,
+      1,
+      1753124958.5761294,
+      1753124958.5804858,
+      {}
+    ],
+    [
+      53,
+      null,
+      1791095845,
+      null,
+      0.7420416666666667,
+      0.0006165504455566406,
+      1,
+      1753124958.5851023,
+      1753124958.5892813,
+      {}
+    ],
+    [
+      54,
+      null,
+      1791095845,
+      null,
+      0.7416616666666667,
+      0.0006668567657470703,
+      1,
+      1753124958.5941217,
+      1753124958.5983891,
+      {}
+    ],
+    [
+      55,
+      null,
+      1791095845,
+      null,
+      0.7430333333333333,
+      0.0006139278411865234,
+      1,
+      1753124958.6027627,
+      1753124958.6069582,
+      {}
+    ],
+    [
+      56,
+      null,
+      1791095845,
+      null,
+      1.0,
+      0.0002048015594482422,
+      1,
+      1753124958.6111767,
+      1753124958.6149485,
+      {}
+    ],
+    [
+      57,
+      null,
+      1791095845,
+      null,
+      0.7428466666666667,
+      0.0006284713745117188,
+      1,
+      1753124958.6192875,
+      1753124958.6235301,
+      {}
+    ],
+    [
+      58,
+      null,
+      1791095845,
+      null,
+      0.7403299999999999,
+      0.0006389617919921875,
+      1,
+      1753124958.6278117,
+      1753124958.6321135,
+      {}
+    ],
+    [
+      59,
+      null,
+      1791095845,
+      null,
+      0.7403266666666667,
+      0.0006251335144042969,
+      1,
+      1753124958.6368697,
+      1753124958.6415825,
+      {}
+    ],
+    [
+      60,
+      null,
+      1791095845,
+      null,
+      1.0,
+      0.00022101402282714844,
+      1,
+      1753124958.6461134,
+      1753124958.6499412,
+      {}
+    ],
+    [
+      61,
+      null,
+      1791095845,
+      null,
+      0.7421966666666666,
+      0.0006494522094726562,
+      1,
+      1753124958.6544514,
+      1753124958.6586847,
+      {}
+    ],
+    [
+      62,
+      null,
+      1791095845,
+      null,
+      0.7421616666666666,
+      0.0006318092346191406,
+      1,
+      1753124958.6778023,
+      1753124958.6820664,
+      {}
+    ],
+    [
+      63,
+      null,
+      1791095845,
+      null,
+      0.7430833333333333,
+      0.0006186962127685547,
+      1,
+      1753124958.686605,
+      1753124958.6908066,
+      {}
+    ],
+    [
+      64,
+      null,
+      1791095845,
+      null,
+      0.7400516666666667,
+      0.0006475448608398438,
+      1,
+      1753124958.9046035,
+      1753124958.90882,
+      {}
+    ],
+    [
+      65,
+      null,
+      1791095845,
+      null,
+      0.7431733333333334,
+      0.0006201267242431641,
+      1,
+      1753124958.9134815,
+      1753124958.9176745,
+      {}
+    ],
+    [
+      66,
+      null,
+      1791095845,
+      null,
+      0.7422716666666667,
+      0.0006163120269775391,
+      1,
+      1753124958.9224782,
+      1753124958.926659,
+      {}
+    ],
+    [
+      67,
+      null,
+      1791095845,
+      null,
+      0.7400450000000001,
+      0.0006260871887207031,
+      1,
+      1753124958.9313142,
+      1753124958.9355094,
+      {}
+    ],
+    [
+      68,
+      null,
+      1791095845,
+      null,
+      0.7401566666666667,
+      0.0006830692291259766,
+      1,
+      1753124958.9401782,
+      1753124958.9444795,
+      {}
+    ],
+    [
+      69,
+      null,
+      1791095845,
+      null,
+      0.7421283333333333,
+      0.0006165504455566406,
+      1,
+      1753124958.9493737,
+      1753124958.9536333,
+      {}
+    ],
+    [
+      70,
+      null,
+      1791095845,
+      null,
+      0.740165,
+      0.0006878376007080078,
+      1,
+      1753124958.9585402,
+      1753124958.9630964,
+      {}
+    ],
+    [
+      71,
+      null,
+      1791095845,
+      null,
+      0.7422666666666666,
+      0.0006167888641357422,
+      1,
+      1753124958.9681494,
+      1753124958.972459,
+      {}
+    ],
+    [
+      72,
+      null,
+      1791095845,
+      null,
+      1.0,
+      0.000194549560546875,
+      1,
+      1753124958.9774284,
+      1753124958.9812994,
+      {}
+    ],
+    [
+      73,
+      null,
+      1791095845,
+      null,
+      0.74196,
+      0.0006566047668457031,
+      1,
+      1753124958.98651,
+      1753124958.990816,
+      {}
+    ],
+    [
+      74,
+      null,
+      1791095845,
+      null,
+      0.743,
+      0.0006158351898193359,
+      1,
+      1753124958.9958754,
+      1753124959.0003712,
+      {}
+    ],
+    [
+      75,
+      null,
+      1791095845,
+      null,
+      0.74177,
+      0.0006132125854492188,
+      1,
+      1753124959.0055227,
+      1753124959.0098362,
+      {}
+    ],
+    [
+      76,
+      null,
+      1791095845,
+      null,
+      0.7431166666666666,
+      0.00063323974609375,
+      1,
+      1753124959.0152383,
+      1753124959.019547,
+      {}
+    ],
+    [
+      77,
+      null,
+      1791095845,
+      null,
+      0.7408183333333334,
+      0.0006272792816162109,
+      1,
+      1753124959.024955,
+      1753124959.0294418,
+      {}
+    ],
+    [
+      78,
+      null,
+      1791095845,
+      null,
+      1.0,
+      0.0002009868621826172,
+      1,
+      1753124959.0350544,
+      1753124959.0389242,
+      {}
+    ],
+    [
+      79,
+      null,
+      1791095845,
+      null,
+      0.7403516666666666,
+      0.0006244182586669922,
+      1,
+      1753124959.0442379,
+      1753124959.0485916,
+      {}
+    ],
+    [
+      80,
+      null,
+      1791095845,
+      null,
+      0.742185,
+      0.0006568431854248047,
+      1,
+      1753124959.0538654,
+      1753124959.0582116,
+      {}
+    ],
+    [
+      81,
+      null,
+      1791095845,
+      null,
+      0.7421733333333334,
+      0.0006153583526611328,
+      1,
+      1753124959.0636845,
+      1753124959.0679934,
+      {}
+    ],
+    [
+      82,
+      null,
+      1791095845,
+      null,
+      0.740075,
+      0.0011131763458251953,
+      1,
+      1753124959.3206308,
+      1753124959.3258443,
+      {}
+    ],
+    [
+      83,
+      null,
+      1791095845,
+      null,
+      0.7400683333333333,
+      0.0007503032684326172,
+      1,
+      1753124959.331982,
+      1753124959.336734,
+      {}
+    ],
+    [
+      84,
+      null,
+      1791095845,
+      null,
+      0.7430749999999999,
+      0.0007700920104980469,
+      1,
+      1753124959.3428676,
+      1753124959.347294,
+      {}
+    ],
+    [
+      85,
+      null,
+      1791095845,
+      null,
+      0.7400733333333334,
+      0.0008068084716796875,
+      1,
+      1753124959.3531258,
+      1753124959.3579996,
+      {}
+    ],
+    [
+      86,
+      null,
+      1791095845,
+      null,
+      1.0,
+      0.0002086162567138672,
+      1,
+      1753124959.3637104,
+      1753124959.3679736,
+      {}
+    ],
+    [
+      87,
+      null,
+      1791095845,
+      null,
+      0.7401683333333333,
+      0.0006985664367675781,
+      1,
+      1753124959.3739595,
+      1753124959.3784494,
+      {}
+    ],
+    [
+      88,
+      null,
+      1791095845,
+      null,
+      0.7401800000000001,
+      0.0007083415985107422,
+      1,
+      1753124959.3847792,
+      1753124959.3895514,
+      {}
+    ],
+    [
+      89,
+      null,
+      1791095845,
+      null,
+      0.7430833333333333,
+      0.0006182193756103516,
+      1,
+      1753124959.3954341,
+      1753124959.3997827,
+      {}
+    ],
+    [
+      90,
+      null,
+      1791095845,
+      null,
+      0.7401266666666666,
+      0.0006654262542724609,
+      1,
+      1753124959.4057364,
+      1753124959.410054,
+      {}
+    ],
+    [
+      91,
+      null,
+      1791095845,
+      null,
+      0.740255,
+      0.0007336139678955078,
+      1,
+      1753124959.4157956,
+      1753124959.4201891,
+      {}
+    ],
+    [
+      92,
+      null,
+      1791095845,
+      null,
+      0.7402666666666666,
+      0.0006716251373291016,
+      1,
+      1753124959.4266624,
+      1753124959.4309895,
+      {}
+    ],
+    [
+      93,
+      null,
+      1791095845,
+      null,
+      0.7403416666666667,
+      0.0006313323974609375,
+      1,
+      1753124959.4367285,
+      1753124959.4410493,
+      {}
+    ],
+    [
+      94,
+      null,
+      1791095845,
+      null,
+      0.74285,
+      0.0006678104400634766,
+      1,
+      1753124959.447052,
+      1753124959.4513843,
+      {}
+    ],
+    [
+      95,
+      null,
+      1791095845,
+      null,
+      0.7400483333333333,
+      0.0006287097930908203,
+      1,
+      1753124959.457116,
+      1753124959.4614463,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "cast_info.id_end": "1",
+      "cast_info.id_start": "1",
+      "cast_info.person_role_id": "1",
+      "person_info.note": "!Bluebeard1440"
+    },
+    "2": {
+      "cast_info.id_end": "72",
+      "cast_info.id_start": "490",
+      "cast_info.person_role_id": "116",
+      "person_info.note": "<dinkie@dds.nl>"
+    },
+    "3": {
+      "cast_info.id_end": "236",
+      "cast_info.id_start": "403",
+      "cast_info.person_role_id": "8",
+      "person_info.note": "<r.blokland@twi.tudelft.nl>"
+    },
+    "4": {
+      "cast_info.id_end": "130",
+      "cast_info.id_start": "216",
+      "cast_info.person_role_id": "217",
+      "person_info.note": "& matt-282 and Jack Backstreet (qv's & corrections by A. Nonymous)"
+    },
+    "5": {
+      "cast_info.id_end": "391",
+      "cast_info.id_start": "479",
+      "cast_info.person_role_id": "491",
+      "person_info.note": "<grubby44@hotmail.com>"
+    },
+    "6": {
+      "cast_info.id_end": "179",
+      "cast_info.id_start": "87",
+      "cast_info.person_role_id": "457",
+      "person_info.note": "<rudipolt@aol.com>"
+    },
+    "7": {
+      "cast_info.id_end": "449",
+      "cast_info.id_start": "51",
+      "cast_info.person_role_id": "210",
+      "person_info.note": "'Rita J. Runyon'"
+    },
+    "8": {
+      "cast_info.id_end": "145",
+      "cast_info.id_start": "69",
+      "cast_info.person_role_id": "265",
+      "person_info.note": "- Mohammad Mondal"
+    },
+    "9": {
+      "cast_info.id_end": "282",
+      "cast_info.id_start": "353",
+      "cast_info.person_role_id": "122",
+      "person_info.note": "<annemartel32@yahoo.com>"
+    },
+    "10": {
+      "cast_info.id_end": "38",
+      "cast_info.id_start": "358",
+      "cast_info.person_role_id": "394",
+      "person_info.note": "<jbiro@home.com>"
+    },
+    "11": {
+      "cast_info.id_end": "336",
+      "cast_info.id_start": "399",
+      "cast_info.person_role_id": "317",
+      "person_info.note": "<theblackqueen@yahoo.com>"
+    },
+    "12": {
+      "cast_info.id_end": "134",
+      "cast_info.id_start": "414",
+      "cast_info.person_role_id": "385",
+      "person_info.note": "<MICHAELPEM@aol.com>"
+    },
+    "13": {
+      "cast_info.id_end": "73",
+      "cast_info.id_start": "396",
+      "cast_info.person_role_id": "318",
+      "person_info.note": "()"
+    },
+    "14": {
+      "cast_info.id_end": "461",
+      "cast_info.id_start": "472",
+      "cast_info.person_role_id": "142",
+      "person_info.note": "<avacca@psmedia.com>"
+    },
+    "15": {
+      "cast_info.id_end": "255",
+      "cast_info.id_start": "490",
+      "cast_info.person_role_id": "72",
+      "person_info.note": "(via) her abc medianet profile (qv's & corrections by A. Nonymous)"
+    },
+    "16": {
+      "cast_info.id_end": "197",
+      "cast_info.id_start": "26",
+      "cast_info.person_role_id": "368",
+      "person_info.note": "85937"
+    },
+    "17": {
+      "cast_info.id_end": "472",
+      "cast_info.id_start": "392",
+      "cast_info.person_role_id": "283",
+      "person_info.note": "1st Reel Entertainment"
+    },
+    "18": {
+      "cast_info.id_end": "105",
+      "cast_info.id_start": "23",
+      "cast_info.person_role_id": "266",
+      "person_info.note": "4 ever vinz"
+    },
+    "19": {
+      "cast_info.id_end": "204",
+      "cast_info.id_start": "157",
+      "cast_info.person_role_id": "2",
+      "person_info.note": "<quaalude@ktc.co.nz>"
+    },
+    "20": {
+      "cast_info.id_end": "256",
+      "cast_info.id_start": "253",
+      "cast_info.person_role_id": "23",
+      "person_info.note": "<brian@idotvads.com>"
+    },
+    "21": {
+      "cast_info.id_end": "277",
+      "cast_info.id_start": "142",
+      "cast_info.person_role_id": "31",
+      "person_info.note": "\"Pierre Patrick\""
+    },
+    "22": {
+      "cast_info.id_end": "71",
+      "cast_info.id_start": "491",
+      "cast_info.person_role_id": "116",
+      "person_info.note": "<dominic@firstedition.u-net.com>"
+    },
+    "23": {
+      "cast_info.id_end": "88",
+      "cast_info.id_start": "53",
+      "cast_info.person_role_id": "453",
+      "person_info.note": "(anonymous)"
+    },
+    "24": {
+      "cast_info.id_end": "87",
+      "cast_info.id_start": "54",
+      "cast_info.person_role_id": "455",
+      "person_info.note": "(anonymous)"
+    },
+    "25": {
+      "cast_info.id_end": "84",
+      "cast_info.id_start": "184",
+      "cast_info.person_role_id": "76",
+      "person_info.note": "<hleit@cybercity.westnet.net.uk>"
+    },
+    "26": {
+      "cast_info.id_end": "339",
+      "cast_info.id_start": "372",
+      "cast_info.person_role_id": "354",
+      "person_info.note": "104 films"
+    },
+    "27": {
+      "cast_info.id_end": "85",
+      "cast_info.id_start": "185",
+      "cast_info.person_role_id": "77",
+      "person_info.note": "<hml111@aol.com>"
+    },
+    "28": {
+      "cast_info.id_end": "493",
+      "cast_info.id_start": "221",
+      "cast_info.person_role_id": "104",
+      "person_info.note": "<filmprod@tin.it>"
+    },
+    "29": {
+      "cast_info.id_end": "71",
+      "cast_info.id_start": "396",
+      "cast_info.person_role_id": "318",
+      "person_info.note": "(2013)"
+    },
+    "30": {
+      "cast_info.id_end": "137",
+      "cast_info.id_start": "370",
+      "cast_info.person_role_id": "44",
+      "person_info.note": "4thK"
+    },
+    "31": {
+      "cast_info.id_end": "139",
+      "cast_info.id_start": "370",
+      "cast_info.person_role_id": "43",
+      "person_info.note": "42West"
+    },
+    "32": {
+      "cast_info.id_end": "128",
+      "cast_info.id_start": "349",
+      "cast_info.person_role_id": "78",
+      "person_info.note": "-Farley"
+    },
+    "33": {
+      "cast_info.id_end": "127",
+      "cast_info.id_start": "349",
+      "cast_info.person_role_id": "77",
+      "person_info.note": "-BD"
+    },
+    "34": {
+      "cast_info.id_end": "194",
+      "cast_info.id_start": "24",
+      "cast_info.person_role_id": "367",
+      "person_info.note": "88 Calibre"
+    },
+    "35": {
+      "cast_info.id_end": "40",
+      "cast_info.id_start": "358",
+      "cast_info.person_role_id": "394",
+      "person_info.note": "<jahertzb@students.wisc.edu>"
+    },
+    "36": {
+      "cast_info.id_end": "267",
+      "cast_info.id_start": "183",
+      "cast_info.person_role_id": "353",
+      "person_info.note": "<sysop@hal9k.com>"
+    },
+    "37": {
+      "cast_info.id_end": "144",
+      "cast_info.id_start": "459",
+      "cast_info.person_role_id": "263",
+      "person_info.note": "4 Proof Film"
+    },
+    "38": {
+      "cast_info.id_end": "144",
+      "cast_info.id_start": "462",
+      "cast_info.person_role_id": "264",
+      "person_info.note": "4 Entertainment Groups"
+    },
+    "39": {
+      "cast_info.id_end": "275",
+      "cast_info.id_start": "141",
+      "cast_info.person_role_id": "34",
+      "person_info.note": "\"Pierre Patrick\""
+    },
+    "40": {
+      "cast_info.id_end": "106",
+      "cast_info.id_start": "25",
+      "cast_info.person_role_id": "266",
+      "person_info.note": "400Sites"
+    },
+    "41": {
+      "cast_info.id_end": "382",
+      "cast_info.id_start": "191",
+      "cast_info.person_role_id": "150",
+      "person_info.note": "\"Eksmo\"...........and me :)"
+    },
+    "42": {
+      "cast_info.id_end": "68",
+      "cast_info.id_start": "491",
+      "cast_info.person_role_id": "113",
+      "person_info.note": "<dominic@firstedition.u-net.com>"
+    },
+    "43": {
+      "cast_info.id_end": "70",
+      "cast_info.id_start": "494",
+      "cast_info.person_role_id": "115",
+      "person_info.note": "<dominic@firstedition.u-net.com>"
+    },
+    "44": {
+      "cast_info.id_end": "21",
+      "cast_info.id_start": "468",
+      "cast_info.person_role_id": "358",
+      "person_info.note": "<clrent3@onthenet.com.au>"
+    },
+    "45": {
+      "cast_info.id_end": "438",
+      "cast_info.id_start": "478",
+      "cast_info.person_role_id": "34",
+      "person_info.note": "104 films"
+    },
+    "46": {
+      "cast_info.id_end": "21",
+      "cast_info.id_start": "468",
+      "cast_info.person_role_id": "358",
+      "person_info.note": "<cpechin@lmnotv.com>"
+    },
+    "47": {
+      "cast_info.id_end": "70",
+      "cast_info.id_start": "398",
+      "cast_info.person_role_id": "318",
+      "person_info.note": "(Douglas E. Sand) sanddoug@aol.com"
+    },
+    "48": {
+      "cast_info.id_end": "74",
+      "cast_info.id_start": "395",
+      "cast_info.person_role_id": "319",
+      "person_info.note": "(:"
+    },
+    "49": {
+      "cast_info.id_end": "469",
+      "cast_info.id_start": "84",
+      "cast_info.person_role_id": "49",
+      "person_info.note": "<bbjamin@micronet.fr>"
+    },
+    "50": {
+      "cast_info.id_end": "16",
+      "cast_info.id_start": "218",
+      "cast_info.person_role_id": "200",
+      "person_info.note": ": ]"
+    },
+    "51": {
+      "cast_info.id_end": "15",
+      "cast_info.id_start": "217",
+      "cast_info.person_role_id": "199",
+      "person_info.note": ":)"
+    },
+    "52": {
+      "cast_info.id_end": "126",
+      "cast_info.id_start": "350",
+      "cast_info.person_role_id": "73",
+      "person_info.note": "-Jimmy Ouyang"
+    },
+    "53": {
+      "cast_info.id_end": "127",
+      "cast_info.id_start": "348",
+      "cast_info.person_role_id": "76",
+      "person_info.note": "-B. Larsen"
+    },
+    "54": {
+      "cast_info.id_end": "494",
+      "cast_info.id_start": "225",
+      "cast_info.person_role_id": "104",
+      "person_info.note": "<flo_oliver@hotmail.com>"
+    },
+    "55": {
+      "cast_info.id_end": "289",
+      "cast_info.id_start": "254",
+      "cast_info.person_role_id": "157",
+      "person_info.note": "(Douglas E. Sand) sanddoug@aol.com"
+    },
+    "56": {
+      "cast_info.id_end": "389",
+      "cast_info.id_start": "404",
+      "cast_info.person_role_id": "311",
+      "person_info.note": "'Tom Weaver' <TomWeavr@aol.com>"
+    },
+    "57": {
+      "cast_info.id_end": "211",
+      "cast_info.id_start": "288",
+      "cast_info.person_role_id": "29",
+      "person_info.note": "807"
+    },
+    "58": {
+      "cast_info.id_end": "498",
+      "cast_info.id_start": "117",
+      "cast_info.person_role_id": "178",
+      "person_info.note": "<daviesa@cs.man.ac.uk>"
+    },
+    "59": {
+      "cast_info.id_end": "499",
+      "cast_info.id_start": "117",
+      "cast_info.person_role_id": "180",
+      "person_info.note": "<david_l_heyman@csgi.com>"
+    },
+    "60": {
+      "cast_info.id_end": "390",
+      "cast_info.id_start": "406",
+      "cast_info.person_role_id": "310",
+      "person_info.note": "'Rudolf Ulrich', Gruenwald n. Munich, Germany"
+    },
+    "61": {
+      "cast_info.id_end": "397",
+      "cast_info.id_start": "211",
+      "cast_info.person_role_id": "220",
+      "person_info.note": "(Unknown)"
+    },
+    "62": {
+      "cast_info.id_end": "331",
+      "cast_info.id_start": "137",
+      "cast_info.person_role_id": "110",
+      "person_info.note": "-Farley"
+    },
+    "63": {
+      "cast_info.id_end": "33",
+      "cast_info.id_start": "9",
+      "cast_info.person_role_id": "85",
+      "person_info.note": "<rockwell@deltanet.com>"
+    },
+    "64": {
+      "cast_info.id_end": "23",
+      "cast_info.id_start": "467",
+      "cast_info.person_role_id": "359",
+      "person_info.note": "<ckellaway@fulbright.com>"
+    },
+    "65": {
+      "cast_info.id_end": "273",
+      "cast_info.id_start": "276",
+      "cast_info.person_role_id": "266",
+      "person_info.note": "-self"
+    },
+    "66": {
+      "cast_info.id_end": "221",
+      "cast_info.id_start": "52",
+      "cast_info.person_role_id": "368",
+      "person_info.note": "121Studios"
+    },
+    "67": {
+      "cast_info.id_end": "21",
+      "cast_info.id_start": "467",
+      "cast_info.person_role_id": "359",
+      "person_info.note": "<cslater@west.net>"
+    },
+    "68": {
+      "cast_info.id_end": "25",
+      "cast_info.id_start": "445",
+      "cast_info.person_role_id": "417",
+      "person_info.note": "<rdesalvo@earthlink.net>"
+    },
+    "69": {
+      "cast_info.id_end": "124",
+      "cast_info.id_start": "325",
+      "cast_info.person_role_id": "408",
+      "person_info.note": "<Jfriday714@webtv.net>"
+    },
+    "70": {
+      "cast_info.id_end": "26",
+      "cast_info.id_start": "445",
+      "cast_info.person_role_id": "416",
+      "person_info.note": "<r.blokland@twi.tudelft.nl>"
+    },
+    "71": {
+      "cast_info.id_end": "192",
+      "cast_info.id_start": "22",
+      "cast_info.person_role_id": "175",
+      "person_info.note": "<howdy@bigfoot.com>"
+    },
+    "72": {
+      "cast_info.id_end": "70",
+      "cast_info.id_start": "397",
+      "cast_info.person_role_id": "323",
+      "person_info.note": "'Tom Weaver' <TomWeavr@aol.com>"
+    },
+    "73": {
+      "cast_info.id_end": "254",
+      "cast_info.id_start": "493",
+      "cast_info.person_role_id": "68",
+      "person_info.note": "(s)"
+    },
+    "74": {
+      "cast_info.id_end": "439",
+      "cast_info.id_start": "481",
+      "cast_info.person_role_id": "36",
+      "person_info.note": "1/20(2010)"
+    },
+    "75": {
+      "cast_info.id_end": "159",
+      "cast_info.id_start": "403",
+      "cast_info.person_role_id": "159",
+      "person_info.note": "(Douglas E. Sand) sanddoug@aol.com"
+    },
+    "76": {
+      "cast_info.id_end": "389",
+      "cast_info.id_start": "405",
+      "cast_info.person_role_id": "309",
+      "person_info.note": "()"
+    },
+    "77": {
+      "cast_info.id_end": "132",
+      "cast_info.id_start": "441",
+      "cast_info.person_role_id": "345",
+      "person_info.note": "63x927is58401"
+    },
+    "78": {
+      "cast_info.id_end": "159",
+      "cast_info.id_start": "404",
+      "cast_info.person_role_id": "159",
+      "person_info.note": "'Tom Weaver' <TomWeavr@aol.com>"
+    },
+    "79": {
+      "cast_info.id_end": "431",
+      "cast_info.id_start": "55",
+      "cast_info.person_role_id": "464",
+      "person_info.note": "- Brian Purcell"
+    },
+    "80": {
+      "cast_info.id_end": "379",
+      "cast_info.id_start": "190",
+      "cast_info.person_role_id": "152",
+      "person_info.note": "\"MC Funky J <MCfunkyJ@aol.com>\""
+    },
+    "81": {
+      "cast_info.id_end": "15",
+      "cast_info.id_start": "206",
+      "cast_info.person_role_id": "144",
+      "person_info.note": "<lwollich@aol.com>"
+    },
+    "82": {
+      "cast_info.id_end": "19",
+      "cast_info.id_start": "469",
+      "cast_info.person_role_id": "356",
+      "person_info.note": "<cpechin@lmnotv.com>"
+    },
+    "83": {
+      "cast_info.id_end": "17",
+      "cast_info.id_start": "470",
+      "cast_info.person_role_id": "355",
+      "person_info.note": "<cslater@west.net>"
+    },
+    "84": {
+      "cast_info.id_end": "247",
+      "cast_info.id_start": "222",
+      "cast_info.person_role_id": "245",
+      "person_info.note": "518"
+    },
+    "85": {
+      "cast_info.id_end": "18",
+      "cast_info.id_start": "469",
+      "cast_info.person_role_id": "357",
+      "person_info.note": "<clrent3@onthenet.com.au>"
+    },
+    "86": {
+      "cast_info.id_end": "70",
+      "cast_info.id_start": "488",
+      "cast_info.person_role_id": "115",
+      "person_info.note": "<dsmith7855@aol.com> (qv's & corrections by A. Nonymous)"
+    },
+    "87": {
+      "cast_info.id_end": "70",
+      "cast_info.id_start": "488",
+      "cast_info.person_role_id": "115",
+      "person_info.note": "<dominic@firstedition.u-net.com>"
+    },
+    "88": {
+      "cast_info.id_end": "70",
+      "cast_info.id_start": "485",
+      "cast_info.person_role_id": "115",
+      "person_info.note": "<doublex@sover.net>"
+    },
+    "89": {
+      "cast_info.id_end": "339",
+      "cast_info.id_start": "363",
+      "cast_info.person_role_id": "396",
+      "person_info.note": "-MB"
+    },
+    "90": {
+      "cast_info.id_end": "19",
+      "cast_info.id_start": "446",
+      "cast_info.person_role_id": "416",
+      "person_info.note": "<r-wong@students.uiuc.edu>"
+    },
+    "91": {
+      "cast_info.id_end": "13",
+      "cast_info.id_start": "411",
+      "cast_info.person_role_id": "309",
+      "person_info.note": "<ernesto.alto@iol.it>"
+    },
+    "92": {
+      "cast_info.id_end": "14",
+      "cast_info.id_start": "410",
+      "cast_info.person_role_id": "307",
+      "person_info.note": "<ernesto.alto@iol.it>"
+    },
+    "93": {
+      "cast_info.id_end": "432",
+      "cast_info.id_start": "53",
+      "cast_info.person_role_id": "465",
+      "person_info.note": "- Abhijit Naik"
+    },
+    "94": {
+      "cast_info.id_end": "37",
+      "cast_info.id_start": "113",
+      "cast_info.person_role_id": "145",
+      "person_info.note": "2009"
+    },
+    "95": {
+      "cast_info.id_end": "24",
+      "cast_info.id_start": "469",
+      "cast_info.person_role_id": "354",
+      "person_info.note": "<cormacj@vincents.ie>"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Default configuration",
+    "2": "Acquisition Function Maximizer: Random Search (sorted)",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)",
+    "5": "Acquisition Function Maximizer: Random Search (sorted)",
+    "6": "Acquisition Function Maximizer: Random Search (sorted)",
+    "7": "Acquisition Function Maximizer: Random Search (sorted)",
+    "8": "Acquisition Function Maximizer: Random Search (sorted)",
+    "9": "Acquisition Function Maximizer: Random Search (sorted)",
+    "10": "Acquisition Function Maximizer: Random Search (sorted)",
+    "11": "Acquisition Function Maximizer: Random Search (sorted)",
+    "12": "Acquisition Function Maximizer: Random Search (sorted)",
+    "13": "Acquisition Function Maximizer: Random Search (sorted)",
+    "14": "Acquisition Function Maximizer: Random Search (sorted)",
+    "15": "Acquisition Function Maximizer: Random Search (sorted)",
+    "16": "Random Search",
+    "17": "Random Search",
+    "18": "Random Search",
+    "19": "Acquisition Function Maximizer: Random Search (sorted)",
+    "20": "Acquisition Function Maximizer: Random Search (sorted)",
+    "21": "Acquisition Function Maximizer: Random Search (sorted)",
+    "22": "Acquisition Function Maximizer: Local Search",
+    "23": "Acquisition Function Maximizer: Random Search (sorted)",
+    "24": "Acquisition Function Maximizer: Local Search",
+    "25": "Acquisition Function Maximizer: Random Search (sorted)",
+    "26": "Random Search",
+    "27": "Acquisition Function Maximizer: Local Search",
+    "28": "Random Search",
+    "29": "Acquisition Function Maximizer: Local Search",
+    "30": "Acquisition Function Maximizer: Random Search (sorted)",
+    "31": "Acquisition Function Maximizer: Local Search",
+    "32": "Acquisition Function Maximizer: Local Search",
+    "33": "Acquisition Function Maximizer: Random Search (sorted)",
+    "34": "Acquisition Function Maximizer: Local Search",
+    "35": "Acquisition Function Maximizer: Local Search",
+    "36": "Random Search",
+    "37": "Acquisition Function Maximizer: Local Search",
+    "38": "Acquisition Function Maximizer: Random Search (sorted)",
+    "39": "Acquisition Function Maximizer: Local Search",
+    "40": "Acquisition Function Maximizer: Local Search",
+    "41": "Acquisition Function Maximizer: Random Search (sorted)",
+    "42": "Acquisition Function Maximizer: Local Search",
+    "43": "Acquisition Function Maximizer: Local Search",
+    "44": "Acquisition Function Maximizer: Random Search (sorted)",
+    "45": "Random Search",
+    "46": "Acquisition Function Maximizer: Local Search",
+    "47": "Acquisition Function Maximizer: Local Search",
+    "48": "Acquisition Function Maximizer: Local Search",
+    "49": "Random Search",
+    "50": "Acquisition Function Maximizer: Random Search (sorted)",
+    "51": "Acquisition Function Maximizer: Local Search",
+    "52": "Acquisition Function Maximizer: Local Search",
+    "53": "Acquisition Function Maximizer: Local Search",
+    "54": "Acquisition Function Maximizer: Local Search",
+    "55": "Random Search",
+    "56": "Acquisition Function Maximizer: Local Search",
+    "57": "Random Search",
+    "58": "Acquisition Function Maximizer: Random Search (sorted)",
+    "59": "Acquisition Function Maximizer: Local Search",
+    "60": "Acquisition Function Maximizer: Random Search (sorted)",
+    "61": "Acquisition Function Maximizer: Local Search",
+    "62": "Random Search",
+    "63": "Random Search",
+    "64": "Acquisition Function Maximizer: Local Search",
+    "65": "Random Search",
+    "66": "Random Search",
+    "67": "Acquisition Function Maximizer: Local Search",
+    "68": "Acquisition Function Maximizer: Random Search (sorted)",
+    "69": "Random Search",
+    "70": "Acquisition Function Maximizer: Local Search",
+    "71": "Random Search",
+    "72": "Acquisition Function Maximizer: Local Search",
+    "73": "Acquisition Function Maximizer: Local Search",
+    "74": "Acquisition Function Maximizer: Local Search",
+    "75": "Acquisition Function Maximizer: Local Search",
+    "76": "Acquisition Function Maximizer: Local Search",
+    "77": "Random Search",
+    "78": "Acquisition Function Maximizer: Random Search (sorted)",
+    "79": "Random Search",
+    "80": "Acquisition Function Maximizer: Local Search",
+    "81": "Random Search",
+    "82": "Acquisition Function Maximizer: Local Search",
+    "83": "Acquisition Function Maximizer: Local Search",
+    "84": "Random Search",
+    "85": "Acquisition Function Maximizer: Local Search",
+    "86": "Acquisition Function Maximizer: Local Search",
+    "87": "Acquisition Function Maximizer: Local Search",
+    "88": "Acquisition Function Maximizer: Local Search",
+    "89": "Random Search",
+    "90": "Acquisition Function Maximizer: Local Search",
+    "91": "Acquisition Function Maximizer: Random Search (sorted)",
+    "92": "Acquisition Function Maximizer: Local Search",
+    "93": "Acquisition Function Maximizer: Local Search",
+    "94": "Random Search",
+    "95": "Acquisition Function Maximizer: Local Search"
+  }
+}

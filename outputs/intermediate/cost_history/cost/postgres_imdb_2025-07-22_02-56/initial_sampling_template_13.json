@@ -1,0 +1,452 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '172';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '278';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '176';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '47';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '157';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '469';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '471';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '184';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '446';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '48';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '141';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '497';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '398';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '20';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '140';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '55';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '112';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '369';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '356';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '36';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '479';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '310';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '329';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '104';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '404';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '429';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '252';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '352';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '26';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '271';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '448';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '260';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '366';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '2';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '14';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '216';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '323';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '435';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '92';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '457';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '22';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '285';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '461';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '317';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '495';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '419';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '494';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '337';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '196';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '363';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '343';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '213';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '415';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '424';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '170';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '390';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '100';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '75';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '386';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '372';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '161';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '238';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '106';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '137';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '291';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '202';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '489';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '280';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '334';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '190';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '124';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '116';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '203';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '226';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '299';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '377';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '10';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '120';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '441';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '206';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '324';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '247';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '38';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '70';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '209';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '110';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '341';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '349';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '33';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '134';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '287';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '232';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '408';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '223';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '28';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '11';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '52';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '440';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '307';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '465';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '257';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '87';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '474';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '374';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '193';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '219';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '315';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '293';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '66';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '431';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '266';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '231';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '64';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '146';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '412';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '80';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '272';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '131';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '359';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '485';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '41';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '164';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '388';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '244';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '331';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '380';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '96';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '304';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '6';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '58';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '396';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '255';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '453';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '181';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '401';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '481';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '167';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '83';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '185';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '155';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '239';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '125';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '423';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '150';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '73';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '89';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '1';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '88';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '394';": [
+        25185.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 13\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Rewrite Attempts Number for Constraints Check: 3\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT *\nFROM movie_info_idx\nWHERE id > '455';": [
+        25185.44
+    ]
+}

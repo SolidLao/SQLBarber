@@ -1,0 +1,752 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '235'::integer\n       AND id < '419'::integer);": [
+        12526.0,
+        8.24,
+        7.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '274'::integer\n       AND id < '522'::integer);": [
+        12527.33,
+        9.56,
+        8.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '164'::integer\n       AND id < '197'::integer);": [
+        12522.85,
+        5.09,
+        5.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '37'::integer\n       AND id < '438'::integer);": [
+        12534.5,
+        16.74,
+        15.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '150'::integer\n       AND id < '377'::integer);": [
+        12526.9,
+        9.14,
+        8.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '260'::integer\n       AND id < '414'::integer);": [
+        12525.37,
+        7.61,
+        7.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '156'::integer\n       AND id < '168'::integer);": [
+        12522.42,
+        4.66,
+        4.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '16'::integer\n       AND id < '256'::integer);": [
+        12527.17,
+        9.41,
+        8.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '143'::integer\n       AND id < '221'::integer);": [
+        12523.79,
+        6.03,
+        5.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '93'::integer\n       AND id < '103'::integer);": [
+        12522.38,
+        4.62,
+        4.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '119'::integer\n       AND id < '220'::integer);": [
+        12524.26,
+        6.51,
+        6.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '238'::integer\n       AND id < '426'::integer);": [
+        12526.09,
+        8.33,
+        7.88
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '146'::integer\n       AND id < '280'::integer);": [
+        12524.96,
+        7.2,
+        6.88
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '339'::integer\n       AND id < '387'::integer);": [
+        12523.16,
+        5.4,
+        5.28
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '193'::integer\n       AND id < '305'::integer);": [
+        12524.49,
+        6.73,
+        6.46
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '44'::integer\n       AND id < '474'::integer);": [
+        12535.1,
+        17.35,
+        16.34
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '19'::integer\n       AND id < '438'::integer);": [
+        12534.88,
+        17.12,
+        16.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '80'::integer\n       AND id < '417'::integer);": [
+        12529.17,
+        11.41,
+        10.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '228'::integer\n       AND id < '257'::integer);": [
+        12522.78,
+        5.02,
+        4.94
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '130'::integer\n       AND id < '482'::integer);": [
+        12529.49,
+        11.72,
+        10.9
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '49'::integer\n       AND id < '348'::integer);": [
+        12528.38,
+        10.62,
+        9.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '89'::integer\n       AND id < '373'::integer);": [
+        12528.07,
+        10.31,
+        9.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '43'::integer\n       AND id < '127'::integer);": [
+        12523.93,
+        6.17,
+        5.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '401'::integer\n       AND id < '424'::integer);": [
+        12522.65,
+        4.89,
+        4.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '251'::integer\n       AND id < '483'::integer);": [
+        12526.99,
+        9.23,
+        8.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '25'::integer\n       AND id < '111'::integer);": [
+        12523.95,
+        6.19,
+        5.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '78'::integer\n       AND id < '403'::integer);": [
+        12528.92,
+        11.16,
+        10.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '130'::integer\n       AND id < '265'::integer);": [
+        12524.99,
+        7.23,
+        6.9
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '8'::integer\n       AND id < '149'::integer);": [
+        12525.1,
+        7.34,
+        7.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '120'::integer\n       AND id < '170'::integer);": [
+        12523.21,
+        5.45,
+        5.32
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '73'::integer\n       AND id < '158'::integer);": [
+        12523.93,
+        6.17,
+        5.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '344'::integer\n       AND id < '383'::integer);": [
+        12522.98,
+        5.22,
+        5.12
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '257'::integer\n       AND id < '429'::integer);": [
+        12525.75,
+        7.99,
+        7.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '34'::integer\n       AND id < '390'::integer);": [
+        12529.58,
+        11.81,
+        10.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '326'::integer\n       AND id < '358'::integer);": [
+        12522.85,
+        5.09,
+        5.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '190'::integer\n       AND id < '524'::integer);": [
+        12529.1,
+        11.34,
+        10.56
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '344'::integer\n       AND id < '467'::integer);": [
+        12524.74,
+        6.98,
+        6.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '153'::integer\n       AND id < '210'::integer);": [
+        12523.36,
+        5.6,
+        5.46
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '117'::integer\n       AND id < '380'::integer);": [
+        12527.64,
+        9.88,
+        9.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '25'::integer\n       AND id < '46'::integer);": [
+        12522.6,
+        4.84,
+        4.78
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '224'::integer\n       AND id < '264'::integer);": [
+        12523.01,
+        5.25,
+        5.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '420'::integer\n       AND id < '486'::integer);": [
+        12523.55,
+        5.79,
+        5.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '191'::integer\n       AND id < '299'::integer);": [
+        12524.42,
+        6.66,
+        6.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '99'::integer\n       AND id < '437'::integer);": [
+        12529.19,
+        11.43,
+        10.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '24'::integer\n       AND id < '213'::integer);": [
+        12526.11,
+        8.35,
+        7.9
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '216'::integer\n       AND id < '519'::integer);": [
+        12528.47,
+        10.71,
+        10.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '84'::integer\n       AND id < '371'::integer);": [
+        12528.14,
+        10.38,
+        9.7
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '136'::integer\n       AND id < '359'::integer);": [
+        12526.81,
+        9.05,
+        8.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '206'::integer\n       AND id < '288'::integer);": [
+        12523.88,
+        6.12,
+        5.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '160'::integer\n       AND id < '314'::integer);": [
+        12525.37,
+        7.61,
+        7.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '320'::integer\n       AND id < '349'::integer);": [
+        12522.78,
+        5.02,
+        4.94
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '38'::integer\n       AND id < '177'::integer);": [
+        12525.05,
+        7.29,
+        6.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '82'::integer\n       AND id < '505'::integer);": [
+        12534.97,
+        17.21,
+        16.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '310'::integer\n       AND id < '362'::integer);": [
+        12523.25,
+        5.49,
+        5.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '66'::integer\n       AND id < '111'::integer);": [
+        12523.12,
+        5.36,
+        5.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '123'::integer\n       AND id < '281'::integer);": [
+        12525.46,
+        7.7,
+        7.32
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '154'::integer\n       AND id < '260'::integer);": [
+        12524.38,
+        6.62,
+        6.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '432'::integer\n       AND id < '488'::integer);": [
+        12523.34,
+        5.58,
+        5.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '70'::integer\n       AND id < '482'::integer);": [
+        12534.72,
+        16.96,
+        16.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '4'::integer\n       AND id < '462'::integer);": [
+        12535.69,
+        17.93,
+        16.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '309'::integer\n       AND id < '500'::integer);": [
+        12526.13,
+        8.37,
+        7.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '6'::integer\n       AND id < '446'::integer);": [
+        12535.31,
+        17.55,
+        16.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '23'::integer\n       AND id < '201'::integer);": [
+        12525.86,
+        8.1,
+        7.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '6'::integer\n       AND id < '416'::integer);": [
+        12534.7,
+        16.94,
+        15.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '366'::integer\n       AND id < '528'::integer);": [
+        12525.55,
+        7.79,
+        7.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '286'::integer\n       AND id < '316'::integer);": [
+        12522.8,
+        5.04,
+        4.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '108'::integer\n       AND id < '281'::integer);": [
+        12525.77,
+        8.01,
+        7.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '70'::integer\n       AND id < '336'::integer);": [
+        12527.71,
+        9.95,
+        9.32
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '33'::integer\n       AND id < '329'::integer);": [
+        12528.32,
+        10.55,
+        9.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '365'::integer\n       AND id < '504'::integer);": [
+        12525.05,
+        7.29,
+        6.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '151'::integer\n       AND id < '507'::integer);": [
+        12529.58,
+        11.81,
+        10.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '308'::integer\n       AND id < '355'::integer);": [
+        12523.14,
+        5.38,
+        5.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '63'::integer\n       AND id < '464'::integer);": [
+        12534.5,
+        16.74,
+        15.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '136'::integer\n       AND id < '144'::integer);": [
+        12522.33,
+        4.57,
+        4.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '361'::integer\n       AND id < '518'::integer);": [
+        12525.43,
+        7.67,
+        7.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '175'::integer\n       AND id < '512'::integer);": [
+        12529.17,
+        11.41,
+        10.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '134'::integer\n       AND id < '178'::integer);": [
+        12523.09,
+        5.34,
+        5.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '75'::integer\n       AND id < '314'::integer);": [
+        12527.15,
+        9.38,
+        8.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '14'::integer\n       AND id < '317'::integer);": [
+        12528.47,
+        10.71,
+        10.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '53'::integer\n       AND id < '486'::integer);": [
+        12535.17,
+        17.41,
+        16.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '219'::integer\n       AND id < '233'::integer);": [
+        12522.47,
+        4.71,
+        4.66
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '91'::integer\n       AND id < '368'::integer);": [
+        12527.93,
+        10.17,
+        9.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '3'::integer\n       AND id < '174'::integer);": [
+        12525.73,
+        7.97,
+        7.56
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '256'::integer\n       AND id < '374'::integer);": [
+        12524.62,
+        6.87,
+        6.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '186'::integer\n       AND id < '507'::integer);": [
+        12528.83,
+        11.07,
+        10.32
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '94'::integer\n       AND id < '278'::integer);": [
+        12526.0,
+        8.24,
+        7.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '125'::integer\n       AND id < '382'::integer);": [
+        12527.51,
+        9.74,
+        9.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '180'::integer\n       AND id < '274'::integer);": [
+        12524.13,
+        6.37,
+        6.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '306'::integer\n       AND id < '353'::integer);": [
+        12523.14,
+        5.38,
+        5.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '334'::integer\n       AND id < '362'::integer);": [
+        12522.76,
+        5.0,
+        4.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '446'::integer\n       AND id < '456'::integer);": [
+        12522.38,
+        4.62,
+        4.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '409'::integer\n       AND id < '437'::integer);": [
+        12522.76,
+        5.0,
+        4.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '473'::integer\n       AND id < '530'::integer);": [
+        12523.36,
+        5.6,
+        5.46
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '50'::integer\n       AND id < '497'::integer);": [
+        12535.47,
+        17.71,
+        16.66
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '96'::integer\n       AND id < '513'::integer);": [
+        12534.84,
+        17.08,
+        16.1
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '66'::integer\n       AND id < '292'::integer);": [
+        12526.88,
+        9.11,
+        8.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '106'::integer\n       AND id < '476'::integer);": [
+        12529.87,
+        12.11,
+        11.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '31'::integer\n       AND id < '90'::integer);": [
+        12523.39,
+        5.63,
+        5.48
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '73'::integer\n       AND id < '405'::integer);": [
+        12529.08,
+        11.32,
+        10.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '522'::integer\n       AND id < '523'::integer);": [
+        12522.22,
+        4.46,
+        4.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '411'::integer\n       AND id < '476'::integer);": [
+        12523.52,
+        5.76,
+        5.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '246'::integer\n       AND id < '320'::integer);": [
+        12523.7,
+        5.94,
+        5.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '117'::integer\n       AND id < '323'::integer);": [
+        12526.45,
+        8.69,
+        8.2
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '223'::integer\n       AND id < '305'::integer);": [
+        12523.88,
+        6.12,
+        5.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '171'::integer\n       AND id < '194'::integer);": [
+        12522.65,
+        4.89,
+        4.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '11'::integer\n       AND id < '168'::integer);": [
+        12525.43,
+        7.67,
+        7.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '206'::integer\n       AND id < '335'::integer);": [
+        12524.85,
+        7.09,
+        6.78
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '41'::integer\n       AND id < '327'::integer);": [
+        12528.11,
+        10.35,
+        9.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '293'::integer\n       AND id < '428'::integer);": [
+        12524.99,
+        7.23,
+        6.9
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '247'::integer\n       AND id < '323'::integer);": [
+        12523.75,
+        5.99,
+        5.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '237'::integer\n       AND id < '401'::integer);": [
+        12525.57,
+        7.81,
+        7.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '144'::integer\n       AND id < '381'::integer);": [
+        12527.1,
+        9.34,
+        8.78
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '127'::integer\n       AND id < '496'::integer);": [
+        12529.84,
+        12.08,
+        11.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '8'::integer\n       AND id < '55'::integer);": [
+        12523.14,
+        5.38,
+        5.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '15'::integer\n       AND id < '413'::integer);": [
+        12534.43,
+        16.67,
+        15.74
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '460'::integer\n       AND id < '509'::integer);": [
+        12523.18,
+        5.43,
+        5.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '78'::integer\n       AND id < '396'::integer);": [
+        12528.79,
+        11.03,
+        10.28
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '227'::integer\n       AND id < '501'::integer);": [
+        12527.86,
+        10.1,
+        9.46
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '188'::integer\n       AND id < '233'::integer);": [
+        12523.12,
+        5.36,
+        5.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '102'::integer\n       AND id < '376'::integer);": [
+        12527.86,
+        10.1,
+        9.46
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '217'::integer\n       AND id < '337'::integer);": [
+        12524.67,
+        6.91,
+        6.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '288'::integer\n       AND id < '329'::integer);": [
+        12523.03,
+        5.27,
+        5.16
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '298'::integer\n       AND id < '351'::integer);": [
+        12523.27,
+        5.52,
+        5.38
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '240'::integer\n       AND id < '369'::integer);": [
+        12524.85,
+        7.09,
+        6.78
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '276'::integer\n       AND id < '492'::integer);": [
+        12526.65,
+        8.89,
+        8.38
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '86'::integer\n       AND id < '249'::integer);": [
+        12525.55,
+        7.79,
+        7.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '231'::integer\n       AND id < '424'::integer);": [
+        12526.18,
+        8.42,
+        7.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '394'::integer\n       AND id < '515'::integer);": [
+        12524.69,
+        6.93,
+        6.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '59'::integer\n       AND id < '162'::integer);": [
+        12524.31,
+        6.55,
+        6.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '392'::integer\n       AND id < '492'::integer);": [
+        12524.24,
+        6.48,
+        6.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '61'::integer\n       AND id < '289'::integer);": [
+        12526.92,
+        9.16,
+        8.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '396'::integer\n       AND id < '495'::integer);": [
+        12524.22,
+        6.46,
+        6.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '199'::integer\n       AND id < '215'::integer);": [
+        12522.51,
+        4.75,
+        4.7
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '54'::integer\n       AND id < '468'::integer);": [
+        12534.77,
+        17.01,
+        16.04
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '74'::integer\n       AND id < '340'::integer);": [
+        12527.71,
+        9.95,
+        9.32
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '48'::integer\n       AND id < '133'::integer);": [
+        12523.93,
+        6.17,
+        5.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '209'::integer\n       AND id < '269'::integer);": [
+        12523.41,
+        5.65,
+        5.5
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '21'::integer\n       AND id < '497'::integer);": [
+        12536.05,
+        18.29,
+        17.18
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '411'::integer\n       AND id < '470'::integer);": [
+        12523.39,
+        5.63,
+        5.48
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '251'::integer\n       AND id < '387'::integer);": [
+        12525.01,
+        7.25,
+        6.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '32'::integer\n       AND id < '349'::integer);": [
+        12528.76,
+        11.0,
+        10.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '59'::integer\n       AND id < '454'::integer);": [
+        12534.39,
+        16.63,
+        15.7
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '302'::integer\n       AND id < '471'::integer);": [
+        12525.68,
+        7.92,
+        7.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '104'::integer\n       AND id < '200'::integer);": [
+        12524.18,
+        6.42,
+        6.18
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '99'::integer\n       AND id < '406'::integer);": [
+        12528.54,
+        10.78,
+        10.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '204'::integer\n       AND id < '269'::integer);": [
+        12523.52,
+        5.76,
+        5.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '108'::integer\n       AND id < '271'::integer);": [
+        12525.55,
+        7.79,
+        7.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '296'::integer\n       AND id < '395'::integer);": [
+        12524.22,
+        6.46,
+        6.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '180'::integer\n       AND id < '452'::integer);": [
+        12527.82,
+        10.06,
+        9.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 10\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['aka_title']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 4\n\nSELECT *\nFROM aka_title\nWHERE title <> '{{aka_title.title_exclude}}'\n  AND id >\n    (SELECT AVG(id)\n     FROM aka_title\n     WHERE id > '1'::integer\n       AND id < '1'::integer);": [
+        12522.22,
+        4.46,
+        4.44
+    ]
+}

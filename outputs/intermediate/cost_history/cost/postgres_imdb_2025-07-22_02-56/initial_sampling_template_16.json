@@ -1,0 +1,59 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 16\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT base.movie_id,\n       COUNT(base.id) AS total_cast,\n       SUM(base.status_id) AS total_status,\n       AVG(base.status_id) AS avg_status,\n       MIN(base.status_id) AS min_status,\n       MAX(base.status_id) AS max_status,\n       COUNT(DISTINCT base.subject_id) AS distinct_subject_count\nFROM complete_cast AS base\nJOIN name ON base.id = name.id\nJOIN person_info ON base.id = person_info.id\nWHERE base.status_id BETWEEN '4' AND '4'\n  AND base.subject_id = '1'\nGROUP BY base.movie_id;": [
+        14328.19,
+        13862.01,
+        12723.19,
+        237443.37,
+        163851.36,
+        76974.03,
+        4233.83,
+        3095.01
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 16\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT base.movie_id,\n       COUNT(base.id) AS total_cast,\n       SUM(base.status_id) AS total_status,\n       AVG(base.status_id) AS avg_status,\n       MIN(base.status_id) AS min_status,\n       MAX(base.status_id) AS max_status,\n       COUNT(DISTINCT base.subject_id) AS distinct_subject_count\nFROM complete_cast AS base\nJOIN name ON base.id = name.id\nJOIN person_info ON base.id = person_info.id\nWHERE base.status_id BETWEEN '4' AND '4'\n  AND base.subject_id = '2'\nGROUP BY base.movie_id;": [
+        11309.65,
+        11041.54,
+        9001.43,
+        8769.09,
+        6702.04,
+        59684.96,
+        3709.44,
+        3095.01,
+        0.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 16\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT base.movie_id,\n       COUNT(base.id) AS total_cast,\n       SUM(base.status_id) AS total_status,\n       AVG(base.status_id) AS avg_status,\n       MIN(base.status_id) AS min_status,\n       MAX(base.status_id) AS max_status,\n       COUNT(DISTINCT base.subject_id) AS distinct_subject_count\nFROM complete_cast AS base\nJOIN name ON base.id = name.id\nJOIN person_info ON base.id = person_info.id\nWHERE base.status_id BETWEEN '3' AND '4'\n  AND base.subject_id = '2'\nGROUP BY base.movie_id;": [
+        19435.06,
+        18030.6,
+        14079.84,
+        237443.37,
+        163851.36,
+        76974.03,
+        5269.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 16\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT base.movie_id,\n       COUNT(base.id) AS total_cast,\n       SUM(base.status_id) AS total_status,\n       AVG(base.status_id) AS avg_status,\n       MIN(base.status_id) AS min_status,\n       MAX(base.status_id) AS max_status,\n       COUNT(DISTINCT base.subject_id) AS distinct_subject_count\nFROM complete_cast AS base\nJOIN name ON base.id = name.id\nJOIN person_info ON base.id = person_info.id\nWHERE base.status_id BETWEEN '3' AND '3'\n  AND base.subject_id = '1'\nGROUP BY base.movie_id;": [
+        22067.92,
+        20107.91,
+        14282.32,
+        237443.37,
+        163851.36,
+        76974.03,
+        5269.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 16\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT base.movie_id,\n       COUNT(base.id) AS total_cast,\n       SUM(base.status_id) AS total_status,\n       AVG(base.status_id) AS avg_status,\n       MIN(base.status_id) AS min_status,\n       MAX(base.status_id) AS max_status,\n       COUNT(DISTINCT base.subject_id) AS distinct_subject_count\nFROM complete_cast AS base\nJOIN name ON base.id = name.id\nJOIN person_info ON base.id = person_info.id\nWHERE base.status_id BETWEEN '3' AND '3'\n  AND base.subject_id = '2'\nGROUP BY base.movie_id;": [
+        18318.44,
+        17160.69,
+        13993.23,
+        237443.37,
+        163851.36,
+        76974.03,
+        5269.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 16\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 2\n--   Number of Aggregations: 6\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'name', 'person_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT base.movie_id,\n       COUNT(base.id) AS total_cast,\n       SUM(base.status_id) AS total_status,\n       AVG(base.status_id) AS avg_status,\n       MIN(base.status_id) AS min_status,\n       MAX(base.status_id) AS max_status,\n       COUNT(DISTINCT base.subject_id) AS distinct_subject_count\nFROM complete_cast AS base\nJOIN name ON base.id = name.id\nJOIN person_info ON base.id = person_info.id\nWHERE base.status_id BETWEEN '3' AND '4'\n  AND base.subject_id = '1'\nGROUP BY base.movie_id;": [
+        24048.45,
+        21693.79,
+        14433.88,
+        237443.37,
+        163851.36,
+        76974.03,
+        5269.86
+    ]
+}

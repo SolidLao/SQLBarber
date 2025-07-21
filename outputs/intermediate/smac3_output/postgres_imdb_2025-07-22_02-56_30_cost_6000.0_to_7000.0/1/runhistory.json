@@ -1,0 +1,1818 @@
+{
+  "stats": {
+    "submitted": 95,
+    "finished": 95,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      1791095845,
+      null,
+      0.511895,
+      0.0007154941558837891,
+      1,
+      1753124956.3279533,
+      1753124956.3310783,
+      {}
+    ],
+    [
+      2,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0005571842193603516,
+      1,
+      1753124956.405725,
+      1753124956.4089398,
+      {}
+    ],
+    [
+      3,
+      null,
+      1791095845,
+      null,
+      0.266965,
+      0.0006165504455566406,
+      1,
+      1753124956.4112124,
+      1753124956.4144123,
+      {}
+    ],
+    [
+      4,
+      null,
+      1791095845,
+      null,
+      0.30940999999999996,
+      0.00046753883361816406,
+      1,
+      1753124956.4166129,
+      1753124956.4197273,
+      {}
+    ],
+    [
+      5,
+      null,
+      1791095845,
+      null,
+      0.25300333333333336,
+      0.0004551410675048828,
+      1,
+      1753124956.4218645,
+      1753124956.4246924,
+      {}
+    ],
+    [
+      6,
+      null,
+      1791095845,
+      null,
+      0.17655833333333337,
+      0.0004527568817138672,
+      1,
+      1753124956.4268293,
+      1753124956.4295745,
+      {}
+    ],
+    [
+      7,
+      null,
+      1791095845,
+      null,
+      0.18864833333333342,
+      0.0004730224609375,
+      1,
+      1753124956.4317613,
+      1753124956.4345217,
+      {}
+    ],
+    [
+      8,
+      null,
+      1791095845,
+      null,
+      0.34273833333333326,
+      0.0004534721374511719,
+      1,
+      1753124956.4366932,
+      1753124956.4395072,
+      {}
+    ],
+    [
+      9,
+      null,
+      1791095845,
+      null,
+      0.43023333333333336,
+      0.0004379749298095703,
+      1,
+      1753124956.441817,
+      1753124956.4446445,
+      {}
+    ],
+    [
+      10,
+      null,
+      1791095845,
+      null,
+      0.02229166666666671,
+      0.0004405975341796875,
+      1,
+      1753124956.4469054,
+      1753124956.4496202,
+      {}
+    ],
+    [
+      11,
+      null,
+      1791095845,
+      null,
+      0.347275,
+      0.0005450248718261719,
+      1,
+      1753124956.4519649,
+      1753124956.4549637,
+      {}
+    ],
+    [
+      12,
+      null,
+      1791095845,
+      null,
+      0.537045,
+      0.0004355907440185547,
+      1,
+      1753124956.4573998,
+      1753124956.4602432,
+      {}
+    ],
+    [
+      13,
+      null,
+      1791095845,
+      null,
+      0.36013000000000006,
+      0.00047135353088378906,
+      1,
+      1753124956.4626682,
+      1753124956.4654238,
+      {}
+    ],
+    [
+      14,
+      null,
+      1791095845,
+      null,
+      0.5120333333333333,
+      0.0005362033843994141,
+      1,
+      1753124956.4680815,
+      1753124956.4711702,
+      {}
+    ],
+    [
+      15,
+      null,
+      1791095845,
+      null,
+      0.34403666666666666,
+      0.00045228004455566406,
+      1,
+      1753124956.473968,
+      1753124956.4768643,
+      {}
+    ],
+    [
+      16,
+      null,
+      1791095845,
+      null,
+      0.4756533333333334,
+      0.00048279762268066406,
+      1,
+      1753124956.4794965,
+      1753124956.4823549,
+      {}
+    ],
+    [
+      17,
+      null,
+      1791095845,
+      null,
+      0.520405,
+      0.0004553794860839844,
+      1,
+      1753124956.4849827,
+      1753124956.487844,
+      {}
+    ],
+    [
+      18,
+      null,
+      1791095845,
+      null,
+      0.45307329833523324,
+      0.00044083595275878906,
+      1,
+      1753124956.4906123,
+      1753124956.493341,
+      {}
+    ],
+    [
+      19,
+      null,
+      1791095845,
+      null,
+      0.4574666666666667,
+      0.0004661083221435547,
+      1,
+      1753124956.4960225,
+      1753124956.4988003,
+      {}
+    ],
+    [
+      20,
+      null,
+      1791095845,
+      null,
+      0.5119866666666667,
+      0.00043773651123046875,
+      1,
+      1753124956.5014133,
+      1753124956.504231,
+      {}
+    ],
+    [
+      21,
+      null,
+      1791095845,
+      null,
+      0.1097866666666667,
+      0.0004551410675048828,
+      1,
+      1753124956.5069864,
+      1753124956.5097113,
+      {}
+    ],
+    [
+      22,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0004470348358154297,
+      1,
+      1753124956.6464403,
+      1753124956.6492212,
+      {}
+    ],
+    [
+      23,
+      null,
+      1791095845,
+      null,
+      0.022248333333333314,
+      0.00045943260192871094,
+      1,
+      1753124956.6521149,
+      1753124956.6548967,
+      {}
+    ],
+    [
+      24,
+      null,
+      1791095845,
+      null,
+      0.5118716666666667,
+      0.0004360675811767578,
+      1,
+      1753124956.6577537,
+      1753124956.6605349,
+      {}
+    ],
+    [
+      25,
+      null,
+      1791095845,
+      null,
+      0.4728868031940048,
+      0.00048065185546875,
+      1,
+      1753124956.6634576,
+      1753124956.666189,
+      {}
+    ],
+    [
+      26,
+      null,
+      1791095845,
+      null,
+      0.40309833333333334,
+      0.00044083595275878906,
+      1,
+      1753124956.6691763,
+      1753124956.6719768,
+      {}
+    ],
+    [
+      27,
+      null,
+      1791095845,
+      null,
+      0.5192235047507586,
+      0.0004413127899169922,
+      1,
+      1753124956.6748357,
+      1753124956.6777067,
+      {}
+    ],
+    [
+      28,
+      null,
+      1791095845,
+      null,
+      0.2336929867582147,
+      0.00045561790466308594,
+      1,
+      1753124956.6808875,
+      1753124956.6837673,
+      {}
+    ],
+    [
+      29,
+      null,
+      1791095845,
+      null,
+      0.31294999999999995,
+      0.0004565715789794922,
+      1,
+      1753124956.6867442,
+      1753124956.6894577,
+      {}
+    ],
+    [
+      30,
+      null,
+      1791095845,
+      null,
+      0.5139135307723983,
+      0.0004410743713378906,
+      1,
+      1753124956.6924474,
+      1753124956.6951625,
+      {}
+    ],
+    [
+      31,
+      null,
+      1791095845,
+      null,
+      0.022481666666666733,
+      0.00044035911560058594,
+      1,
+      1753124956.698185,
+      1753124956.700881,
+      {}
+    ],
+    [
+      32,
+      null,
+      1791095845,
+      null,
+      0.18604166666666666,
+      0.0004570484161376953,
+      1,
+      1753124956.7040417,
+      1753124956.7068474,
+      {}
+    ],
+    [
+      33,
+      null,
+      1791095845,
+      null,
+      0.022461666666666713,
+      0.0004546642303466797,
+      1,
+      1753124956.7102916,
+      1753124956.713104,
+      {}
+    ],
+    [
+      34,
+      null,
+      1791095845,
+      null,
+      0.2669566666666666,
+      0.0004677772521972656,
+      1,
+      1753124956.7164218,
+      1753124956.7193651,
+      {}
+    ],
+    [
+      35,
+      null,
+      1791095845,
+      null,
+      0.3490333333333333,
+      0.0004394054412841797,
+      1,
+      1753124956.7227283,
+      1753124956.7254694,
+      {}
+    ],
+    [
+      36,
+      null,
+      1791095845,
+      null,
+      0.48151166666666667,
+      0.0004534721374511719,
+      1,
+      1753124956.7288916,
+      1753124956.7316968,
+      {}
+    ],
+    [
+      37,
+      null,
+      1791095845,
+      null,
+      0.48474000000000006,
+      0.0004425048828125,
+      1,
+      1753124956.7349975,
+      1753124956.7377007,
+      {}
+    ],
+    [
+      38,
+      null,
+      1791095845,
+      null,
+      0.03764988603025077,
+      0.0004544258117675781,
+      1,
+      1753124956.7411315,
+      1753124956.7439609,
+      {}
+    ],
+    [
+      39,
+      null,
+      1791095845,
+      null,
+      0.48461333333333334,
+      0.0004775524139404297,
+      1,
+      1753124956.7473447,
+      1753124956.7500825,
+      {}
+    ],
+    [
+      40,
+      null,
+      1791095845,
+      null,
+      0.22149821556269544,
+      0.000453948974609375,
+      1,
+      1753124956.753563,
+      1753124956.7563648,
+      {}
+    ],
+    [
+      41,
+      null,
+      1791095845,
+      null,
+      0.3240685664846158,
+      0.00047206878662109375,
+      1,
+      1753124956.7598205,
+      1753124956.7625897,
+      {}
+    ],
+    [
+      42,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0004973411560058594,
+      1,
+      1753124956.9244294,
+      1753124956.9273398,
+      {}
+    ],
+    [
+      43,
+      null,
+      1791095845,
+      null,
+      0.6657307126621206,
+      0.00044536590576171875,
+      1,
+      1753124956.9310603,
+      1753124956.9337633,
+      {}
+    ],
+    [
+      44,
+      null,
+      1791095845,
+      null,
+      0.3003120608208738,
+      0.0004553794860839844,
+      1,
+      1753124956.9373996,
+      1753124956.9402344,
+      {}
+    ],
+    [
+      45,
+      null,
+      1791095845,
+      null,
+      0.13853000000000004,
+      0.000553131103515625,
+      1,
+      1753124956.9439714,
+      1753124956.9470258,
+      {}
+    ],
+    [
+      46,
+      null,
+      1791095845,
+      null,
+      0.5753421832022354,
+      0.00044465065002441406,
+      1,
+      1753124956.9510496,
+      1753124956.9538517,
+      {}
+    ],
+    [
+      47,
+      null,
+      1791095845,
+      null,
+      0.5753414103397088,
+      0.0004410743713378906,
+      1,
+      1753124956.9576216,
+      1753124956.960556,
+      {}
+    ],
+    [
+      48,
+      null,
+      1791095845,
+      null,
+      0.343985,
+      0.0004863739013671875,
+      1,
+      1753124956.9644864,
+      1753124956.9674802,
+      {}
+    ],
+    [
+      49,
+      null,
+      1791095845,
+      null,
+      0.031558333333333355,
+      0.0005424022674560547,
+      1,
+      1753124956.9715796,
+      1753124956.9744089,
+      {}
+    ],
+    [
+      50,
+      null,
+      1791095845,
+      null,
+      0.12357690800437215,
+      0.00045418739318847656,
+      1,
+      1753124956.9783893,
+      1753124956.9811692,
+      {}
+    ],
+    [
+      51,
+      null,
+      1791095845,
+      null,
+      0.0223916666666667,
+      0.0004410743713378906,
+      1,
+      1753124956.9852643,
+      1753124956.9882417,
+      {}
+    ],
+    [
+      52,
+      null,
+      1791095845,
+      null,
+      0.3507716666666667,
+      0.0004570484161376953,
+      1,
+      1753124956.9925303,
+      1753124956.9955366,
+      {}
+    ],
+    [
+      53,
+      null,
+      1791095845,
+      null,
+      0.38012,
+      0.0005061626434326172,
+      1,
+      1753124956.9995358,
+      1753124957.0023086,
+      {}
+    ],
+    [
+      54,
+      null,
+      1791095845,
+      null,
+      0.3168916666666667,
+      0.0004932880401611328,
+      1,
+      1753124957.0065036,
+      1753124957.009637,
+      {}
+    ],
+    [
+      55,
+      null,
+      1791095845,
+      null,
+      0.4256683333333333,
+      0.0004525184631347656,
+      1,
+      1753124957.0138628,
+      1753124957.016668,
+      {}
+    ],
+    [
+      56,
+      null,
+      1791095845,
+      null,
+      0.4663933333333333,
+      0.0004544258117675781,
+      1,
+      1753124957.020755,
+      1753124957.0236092,
+      {}
+    ],
+    [
+      57,
+      null,
+      1791095845,
+      null,
+      0.45743333333333336,
+      0.0005238056182861328,
+      1,
+      1753124957.0277748,
+      1753124957.030648,
+      {}
+    ],
+    [
+      58,
+      null,
+      1791095845,
+      null,
+      0.42837666666666674,
+      0.0004744529724121094,
+      1,
+      1753124957.03483,
+      1753124957.0376027,
+      {}
+    ],
+    [
+      59,
+      null,
+      1791095845,
+      null,
+      0.3060316666666666,
+      0.0004525184631347656,
+      1,
+      1753124957.041826,
+      1753124957.0446415,
+      {}
+    ],
+    [
+      60,
+      null,
+      1791095845,
+      null,
+      0.33007166666666665,
+      0.00045371055603027344,
+      1,
+      1753124957.0488696,
+      1753124957.0519114,
+      {}
+    ],
+    [
+      61,
+      null,
+      1791095845,
+      null,
+      0.022446666666666726,
+      0.0004458427429199219,
+      1,
+      1753124957.0573094,
+      1753124957.0601518,
+      {}
+    ],
+    [
+      62,
+      null,
+      1791095845,
+      null,
+      0.4580692711341372,
+      0.0004856586456298828,
+      1,
+      1753124957.0796776,
+      1753124957.082475,
+      {}
+    ],
+    [
+      63,
+      null,
+      1791095845,
+      null,
+      0.511385,
+      0.00045490264892578125,
+      1,
+      1753124957.0869172,
+      1753124957.0896523,
+      {}
+    ],
+    [
+      64,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.00045371055603027344,
+      1,
+      1753124957.2452574,
+      1753124957.247974,
+      {}
+    ],
+    [
+      65,
+      null,
+      1791095845,
+      null,
+      0.2476733333333333,
+      0.0004551410675048828,
+      1,
+      1753124957.2523727,
+      1753124957.2551005,
+      {}
+    ],
+    [
+      66,
+      null,
+      1791095845,
+      null,
+      0.022445000000000048,
+      0.0005030632019042969,
+      1,
+      1753124957.2595186,
+      1753124957.2622795,
+      {}
+    ],
+    [
+      67,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0004520416259765625,
+      1,
+      1753124957.2668056,
+      1753124957.2695441,
+      {}
+    ],
+    [
+      68,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0004374980926513672,
+      1,
+      1753124957.2740777,
+      1753124957.276821,
+      {}
+    ],
+    [
+      69,
+      null,
+      1791095845,
+      null,
+      0.15877166666666664,
+      0.0004410743713378906,
+      1,
+      1753124957.281401,
+      1753124957.2841885,
+      {}
+    ],
+    [
+      70,
+      null,
+      1791095845,
+      null,
+      0.6657302337930497,
+      0.0004425048828125,
+      1,
+      1753124957.288902,
+      1753124957.291612,
+      {}
+    ],
+    [
+      71,
+      null,
+      1791095845,
+      null,
+      0.48335666666666666,
+      0.0004813671112060547,
+      1,
+      1753124957.296262,
+      1753124957.2990615,
+      {}
+    ],
+    [
+      72,
+      null,
+      1791095845,
+      null,
+      0.4285956841015729,
+      0.0004711151123046875,
+      1,
+      1753124957.3037982,
+      1753124957.3065586,
+      {}
+    ],
+    [
+      73,
+      null,
+      1791095845,
+      null,
+      0.02225166666666667,
+      0.00047278404235839844,
+      1,
+      1753124957.3112795,
+      1753124957.3140204,
+      {}
+    ],
+    [
+      74,
+      null,
+      1791095845,
+      null,
+      0.022241666666666604,
+      0.0004379749298095703,
+      1,
+      1753124957.3187585,
+      1753124957.3214853,
+      {}
+    ],
+    [
+      75,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.00045037269592285156,
+      1,
+      1753124957.3263323,
+      1753124957.329083,
+      {}
+    ],
+    [
+      76,
+      null,
+      1791095845,
+      null,
+      0.02244333333333326,
+      0.0004398822784423828,
+      1,
+      1753124957.333942,
+      1753124957.3367293,
+      {}
+    ],
+    [
+      77,
+      null,
+      1791095845,
+      null,
+      0.4277616666666667,
+      0.0004570484161376953,
+      1,
+      1753124957.3415895,
+      1753124957.3443987,
+      {}
+    ],
+    [
+      78,
+      null,
+      1791095845,
+      null,
+      0.022425000000000028,
+      0.00044226646423339844,
+      1,
+      1753124957.3492446,
+      1753124957.3521006,
+      {}
+    ],
+    [
+      79,
+      null,
+      1791095845,
+      null,
+      0.15518013369877837,
+      0.0004398822784423828,
+      1,
+      1753124957.3570912,
+      1753124957.359886,
+      {}
+    ],
+    [
+      80,
+      null,
+      1791095845,
+      null,
+      0.08396507027950839,
+      0.00043845176696777344,
+      1,
+      1753124957.3648446,
+      1753124957.3676405,
+      {}
+    ],
+    [
+      81,
+      null,
+      1791095845,
+      null,
+      0.15794000000000008,
+      0.0004527568817138672,
+      1,
+      1753124957.3726654,
+      1753124957.3754723,
+      {}
+    ],
+    [
+      82,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0004892349243164062,
+      1,
+      1753124957.5544906,
+      1753124957.5572352,
+      {}
+    ],
+    [
+      83,
+      null,
+      1791095845,
+      null,
+      0.40305499999999994,
+      0.00047087669372558594,
+      1,
+      1753124957.5623903,
+      1753124957.565162,
+      {}
+    ],
+    [
+      84,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0004394054412841797,
+      1,
+      1753124957.5702963,
+      1753124957.5731335,
+      {}
+    ],
+    [
+      85,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0004534721374511719,
+      1,
+      1753124957.5784252,
+      1753124957.5812259,
+      {}
+    ],
+    [
+      86,
+      null,
+      1791095845,
+      null,
+      0.4483366666666667,
+      0.0004572868347167969,
+      1,
+      1753124957.586455,
+      1753124957.5892186,
+      {}
+    ],
+    [
+      87,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.00043702125549316406,
+      1,
+      1753124957.5945246,
+      1753124957.5972457,
+      {}
+    ],
+    [
+      88,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.00044155120849609375,
+      1,
+      1753124957.602509,
+      1753124957.605204,
+      {}
+    ],
+    [
+      89,
+      null,
+      1791095845,
+      null,
+      0.0007751130194720846,
+      0.0004394054412841797,
+      1,
+      1753124957.6106143,
+      1753124957.61335,
+      {}
+    ],
+    [
+      90,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.00047707557678222656,
+      1,
+      1753124957.6188016,
+      1753124957.6216533,
+      {}
+    ],
+    [
+      91,
+      null,
+      1791095845,
+      null,
+      0.4091216666666667,
+      0.0005242824554443359,
+      1,
+      1753124957.6271532,
+      1753124957.6300075,
+      {}
+    ],
+    [
+      92,
+      null,
+      1791095845,
+      null,
+      0.1900183333333333,
+      0.0005736351013183594,
+      1,
+      1753124957.6355016,
+      1753124957.638336,
+      {}
+    ],
+    [
+      93,
+      null,
+      1791095845,
+      null,
+      0.263079548457257,
+      0.0004742145538330078,
+      1,
+      1753124957.644035,
+      1753124957.6468189,
+      {}
+    ],
+    [
+      94,
+      null,
+      1791095845,
+      null,
+      0.409135,
+      0.0004801750183105469,
+      1,
+      1753124957.6523015,
+      1753124957.6551023,
+      {}
+    ],
+    [
+      95,
+      null,
+      1791095845,
+      null,
+      0.42881109477329504,
+      0.0004868507385253906,
+      1,
+      1753124957.6606095,
+      1753124957.663436,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "complete_cast.id_end": "1",
+      "complete_cast.id_start": "1",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "1"
+    },
+    "2": {
+      "complete_cast.id_end": "72",
+      "complete_cast.id_start": "490",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "104"
+    },
+    "3": {
+      "complete_cast.id_end": "236",
+      "complete_cast.id_start": "403",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "110"
+    },
+    "4": {
+      "complete_cast.id_end": "130",
+      "complete_cast.id_start": "216",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "76"
+    },
+    "5": {
+      "complete_cast.id_end": "391",
+      "complete_cast.id_start": "479",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "50"
+    },
+    "6": {
+      "complete_cast.id_end": "179",
+      "complete_cast.id_start": "87",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "51"
+    },
+    "7": {
+      "complete_cast.id_end": "449",
+      "complete_cast.id_start": "51",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "51"
+    },
+    "8": {
+      "complete_cast.id_end": "145",
+      "complete_cast.id_start": "69",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "89"
+    },
+    "9": {
+      "complete_cast.id_end": "282",
+      "complete_cast.id_start": "353",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "8"
+    },
+    "10": {
+      "complete_cast.id_end": "38",
+      "complete_cast.id_start": "358",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "4"
+    },
+    "11": {
+      "complete_cast.id_end": "336",
+      "complete_cast.id_start": "399",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "78"
+    },
+    "12": {
+      "complete_cast.id_end": "134",
+      "complete_cast.id_start": "414",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "48"
+    },
+    "13": {
+      "complete_cast.id_end": "73",
+      "complete_cast.id_start": "396",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "86"
+    },
+    "14": {
+      "complete_cast.id_end": "461",
+      "complete_cast.id_start": "472",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "18"
+    },
+    "15": {
+      "complete_cast.id_end": "255",
+      "complete_cast.id_start": "490",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "46"
+    },
+    "16": {
+      "complete_cast.id_end": "266",
+      "complete_cast.id_start": "196",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "47"
+    },
+    "17": {
+      "complete_cast.id_end": "382",
+      "complete_cast.id_start": "357",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "71"
+    },
+    "18": {
+      "complete_cast.id_end": "314",
+      "complete_cast.id_start": "84",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "9"
+    },
+    "19": {
+      "complete_cast.id_end": "204",
+      "complete_cast.id_start": "157",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "108"
+    },
+    "20": {
+      "complete_cast.id_end": "256",
+      "complete_cast.id_start": "253",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "94"
+    },
+    "21": {
+      "complete_cast.id_end": "277",
+      "complete_cast.id_start": "142",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "50"
+    },
+    "22": {
+      "complete_cast.id_end": "70",
+      "complete_cast.id_start": "489",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "105"
+    },
+    "23": {
+      "complete_cast.id_end": "36",
+      "complete_cast.id_start": "356",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "3"
+    },
+    "24": {
+      "complete_cast.id_end": "5",
+      "complete_cast.id_start": "1",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "3"
+    },
+    "25": {
+      "complete_cast.id_end": "244",
+      "complete_cast.id_start": "3",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "110"
+    },
+    "26": {
+      "complete_cast.id_end": "486",
+      "complete_cast.id_start": "398",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "90"
+    },
+    "27": {
+      "complete_cast.id_end": "349",
+      "complete_cast.id_start": "77",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "106"
+    },
+    "28": {
+      "complete_cast.id_end": "341",
+      "complete_cast.id_start": "11",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "92"
+    },
+    "29": {
+      "complete_cast.id_end": "244",
+      "complete_cast.id_start": "4",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "109"
+    },
+    "30": {
+      "complete_cast.id_end": "349",
+      "complete_cast.id_start": "79",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "108"
+    },
+    "31": {
+      "complete_cast.id_end": "149",
+      "complete_cast.id_start": "462",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "102"
+    },
+    "32": {
+      "complete_cast.id_end": "203",
+      "complete_cast.id_start": "155",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "108"
+    },
+    "33": {
+      "complete_cast.id_end": "144",
+      "complete_cast.id_start": "462",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "97"
+    },
+    "34": {
+      "complete_cast.id_end": "238",
+      "complete_cast.id_start": "406",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "107"
+    },
+    "35": {
+      "complete_cast.id_end": "279",
+      "complete_cast.id_start": "255",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "98"
+    },
+    "36": {
+      "complete_cast.id_end": "318",
+      "complete_cast.id_start": "57",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "45"
+    },
+    "37": {
+      "complete_cast.id_end": "280",
+      "complete_cast.id_start": "254",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "105"
+    },
+    "38": {
+      "complete_cast.id_end": "255",
+      "complete_cast.id_start": "490",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "50"
+    },
+    "39": {
+      "complete_cast.id_end": "86",
+      "complete_cast.id_start": "52",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "4"
+    },
+    "40": {
+      "complete_cast.id_end": "371",
+      "complete_cast.id_start": "45",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "50"
+    },
+    "41": {
+      "complete_cast.id_end": "449",
+      "complete_cast.id_start": "53",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "50"
+    },
+    "42": {
+      "complete_cast.id_end": "70",
+      "complete_cast.id_start": "487",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "104"
+    },
+    "43": {
+      "complete_cast.id_end": "71",
+      "complete_cast.id_start": "493",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "106"
+    },
+    "44": {
+      "complete_cast.id_end": "21",
+      "complete_cast.id_start": "345",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "41"
+    },
+    "45": {
+      "complete_cast.id_end": "432",
+      "complete_cast.id_start": "367",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "66"
+    },
+    "46": {
+      "complete_cast.id_end": "36",
+      "complete_cast.id_start": "354",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "2"
+    },
+    "47": {
+      "complete_cast.id_end": "35",
+      "complete_cast.id_start": "352",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "2"
+    },
+    "48": {
+      "complete_cast.id_end": "26",
+      "complete_cast.id_start": "252",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "61"
+    },
+    "49": {
+      "complete_cast.id_end": "101",
+      "complete_cast.id_start": "229",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "42"
+    },
+    "50": {
+      "complete_cast.id_end": "26",
+      "complete_cast.id_start": "249",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "57"
+    },
+    "51": {
+      "complete_cast.id_end": "25",
+      "complete_cast.id_start": "344",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "17"
+    },
+    "52": {
+      "complete_cast.id_end": "70",
+      "complete_cast.id_start": "398",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "86"
+    },
+    "53": {
+      "complete_cast.id_end": "256",
+      "complete_cast.id_start": "490",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "54"
+    },
+    "54": {
+      "complete_cast.id_end": "255",
+      "complete_cast.id_start": "490",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "47"
+    },
+    "55": {
+      "complete_cast.id_end": "452",
+      "complete_cast.id_start": "281",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "72"
+    },
+    "56": {
+      "complete_cast.id_end": "392",
+      "complete_cast.id_start": "478",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "51"
+    },
+    "57": {
+      "complete_cast.id_end": "176",
+      "complete_cast.id_start": "232",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "103"
+    },
+    "58": {
+      "complete_cast.id_end": "96",
+      "complete_cast.id_start": "422",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "93"
+    },
+    "59": {
+      "complete_cast.id_end": "203",
+      "complete_cast.id_start": "465",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "42"
+    },
+    "60": {
+      "complete_cast.id_end": "206",
+      "complete_cast.id_start": "462",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "43"
+    },
+    "61": {
+      "complete_cast.id_end": "143",
+      "complete_cast.id_start": "461",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "98"
+    },
+    "62": {
+      "complete_cast.id_end": "370",
+      "complete_cast.id_start": "88",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "77"
+    },
+    "63": {
+      "complete_cast.id_end": "203",
+      "complete_cast.id_start": "195",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "62"
+    },
+    "64": {
+      "complete_cast.id_end": "70",
+      "complete_cast.id_start": "491",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "106"
+    },
+    "65": {
+      "complete_cast.id_end": "2",
+      "complete_cast.id_start": "339",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "51"
+    },
+    "66": {
+      "complete_cast.id_end": "341",
+      "complete_cast.id_start": "31",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "104"
+    },
+    "67": {
+      "complete_cast.id_end": "72",
+      "complete_cast.id_start": "491",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "106"
+    },
+    "68": {
+      "complete_cast.id_end": "72",
+      "complete_cast.id_start": "492",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "108"
+    },
+    "69": {
+      "complete_cast.id_end": "151",
+      "complete_cast.id_start": "99",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "4"
+    },
+    "70": {
+      "complete_cast.id_end": "68",
+      "complete_cast.id_start": "488",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "105"
+    },
+    "71": {
+      "complete_cast.id_end": "71",
+      "complete_cast.id_start": "141",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "85"
+    },
+    "72": {
+      "complete_cast.id_end": "143",
+      "complete_cast.id_start": "462",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "96"
+    },
+    "73": {
+      "complete_cast.id_end": "36",
+      "complete_cast.id_start": "355",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "3"
+    },
+    "74": {
+      "complete_cast.id_end": "34",
+      "complete_cast.id_start": "355",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "3"
+    },
+    "75": {
+      "complete_cast.id_end": "148",
+      "complete_cast.id_start": "465",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "95"
+    },
+    "76": {
+      "complete_cast.id_end": "138",
+      "complete_cast.id_start": "456",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "98"
+    },
+    "77": {
+      "complete_cast.id_end": "318",
+      "complete_cast.id_start": "455",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "70"
+    },
+    "78": {
+      "complete_cast.id_end": "28",
+      "complete_cast.id_start": "341",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "13"
+    },
+    "79": {
+      "complete_cast.id_end": "280",
+      "complete_cast.id_start": "407",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "90"
+    },
+    "80": {
+      "complete_cast.id_end": "143",
+      "complete_cast.id_start": "256",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "16"
+    },
+    "81": {
+      "complete_cast.id_end": "394",
+      "complete_cast.id_start": "170",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "13"
+    },
+    "82": {
+      "complete_cast.id_end": "71",
+      "complete_cast.id_start": "492",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "105"
+    },
+    "83": {
+      "complete_cast.id_end": "232",
+      "complete_cast.id_start": "158",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "98"
+    },
+    "84": {
+      "complete_cast.id_end": "71",
+      "complete_cast.id_start": "491",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "103"
+    },
+    "85": {
+      "complete_cast.id_end": "71",
+      "complete_cast.id_start": "491",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "106"
+    },
+    "86": {
+      "complete_cast.id_end": "70",
+      "complete_cast.id_start": "492",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "109"
+    },
+    "87": {
+      "complete_cast.id_end": "71",
+      "complete_cast.id_start": "492",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "106"
+    },
+    "88": {
+      "complete_cast.id_end": "271",
+      "complete_cast.id_start": "361",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "9"
+    },
+    "89": {
+      "complete_cast.id_end": "72",
+      "complete_cast.id_start": "496",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "107"
+    },
+    "90": {
+      "complete_cast.id_end": "74",
+      "complete_cast.id_start": "494",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "103"
+    },
+    "91": {
+      "complete_cast.id_end": "148",
+      "complete_cast.id_start": "466",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "95"
+    },
+    "92": {
+      "complete_cast.id_end": "91",
+      "complete_cast.id_start": "500",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "61"
+    },
+    "93": {
+      "complete_cast.id_end": "169",
+      "complete_cast.id_start": "433",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "47"
+    },
+    "94": {
+      "complete_cast.id_end": "147",
+      "complete_cast.id_start": "462",
+      "complete_cast.status_id": "4",
+      "movie_info.info_type_id": "95"
+    },
+    "95": {
+      "complete_cast.id_end": "94",
+      "complete_cast.id_start": "500",
+      "complete_cast.status_id": "3",
+      "movie_info.info_type_id": "57"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Default configuration",
+    "2": "Acquisition Function Maximizer: Random Search (sorted)",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)",
+    "5": "Acquisition Function Maximizer: Random Search (sorted)",
+    "6": "Acquisition Function Maximizer: Random Search (sorted)",
+    "7": "Acquisition Function Maximizer: Random Search (sorted)",
+    "8": "Acquisition Function Maximizer: Random Search (sorted)",
+    "9": "Acquisition Function Maximizer: Random Search (sorted)",
+    "10": "Acquisition Function Maximizer: Random Search (sorted)",
+    "11": "Acquisition Function Maximizer: Random Search (sorted)",
+    "12": "Acquisition Function Maximizer: Random Search (sorted)",
+    "13": "Acquisition Function Maximizer: Random Search (sorted)",
+    "14": "Acquisition Function Maximizer: Random Search (sorted)",
+    "15": "Acquisition Function Maximizer: Random Search (sorted)",
+    "16": "Random Search",
+    "17": "Random Search",
+    "18": "Random Search",
+    "19": "Acquisition Function Maximizer: Random Search (sorted)",
+    "20": "Acquisition Function Maximizer: Random Search (sorted)",
+    "21": "Acquisition Function Maximizer: Random Search (sorted)",
+    "22": "Acquisition Function Maximizer: Local Search",
+    "23": "Acquisition Function Maximizer: Local Search",
+    "24": "Acquisition Function Maximizer: Local Search",
+    "25": "Acquisition Function Maximizer: Random Search (sorted)",
+    "26": "Random Search",
+    "27": "Acquisition Function Maximizer: Random Search (sorted)",
+    "28": "Random Search",
+    "29": "Acquisition Function Maximizer: Local Search",
+    "30": "Acquisition Function Maximizer: Local Search",
+    "31": "Acquisition Function Maximizer: Local Search",
+    "32": "Acquisition Function Maximizer: Local Search",
+    "33": "Acquisition Function Maximizer: Random Search (sorted)",
+    "34": "Acquisition Function Maximizer: Local Search",
+    "35": "Acquisition Function Maximizer: Local Search",
+    "36": "Random Search",
+    "37": "Acquisition Function Maximizer: Random Search (sorted)",
+    "38": "Acquisition Function Maximizer: Local Search",
+    "39": "Acquisition Function Maximizer: Local Search",
+    "40": "Acquisition Function Maximizer: Local Search",
+    "41": "Acquisition Function Maximizer: Local Search",
+    "42": "Acquisition Function Maximizer: Local Search",
+    "43": "Acquisition Function Maximizer: Local Search",
+    "44": "Acquisition Function Maximizer: Local Search",
+    "45": "Random Search",
+    "46": "Acquisition Function Maximizer: Local Search",
+    "47": "Acquisition Function Maximizer: Local Search",
+    "48": "Acquisition Function Maximizer: Local Search",
+    "49": "Random Search",
+    "50": "Acquisition Function Maximizer: Random Search (sorted)",
+    "51": "Acquisition Function Maximizer: Random Search (sorted)",
+    "52": "Acquisition Function Maximizer: Local Search",
+    "53": "Acquisition Function Maximizer: Local Search",
+    "54": "Acquisition Function Maximizer: Local Search",
+    "55": "Random Search",
+    "56": "Acquisition Function Maximizer: Local Search",
+    "57": "Random Search",
+    "58": "Acquisition Function Maximizer: Local Search",
+    "59": "Acquisition Function Maximizer: Local Search",
+    "60": "Acquisition Function Maximizer: Random Search (sorted)",
+    "61": "Acquisition Function Maximizer: Local Search",
+    "62": "Random Search",
+    "63": "Random Search",
+    "64": "Acquisition Function Maximizer: Local Search",
+    "65": "Random Search",
+    "66": "Random Search",
+    "67": "Acquisition Function Maximizer: Local Search",
+    "68": "Acquisition Function Maximizer: Local Search",
+    "69": "Random Search",
+    "70": "Acquisition Function Maximizer: Local Search",
+    "71": "Random Search",
+    "72": "Acquisition Function Maximizer: Local Search",
+    "73": "Acquisition Function Maximizer: Local Search",
+    "74": "Acquisition Function Maximizer: Local Search",
+    "75": "Acquisition Function Maximizer: Local Search",
+    "76": "Acquisition Function Maximizer: Local Search",
+    "77": "Random Search",
+    "78": "Acquisition Function Maximizer: Local Search",
+    "79": "Random Search",
+    "80": "Acquisition Function Maximizer: Local Search",
+    "81": "Random Search",
+    "82": "Acquisition Function Maximizer: Local Search",
+    "83": "Random Search",
+    "84": "Acquisition Function Maximizer: Local Search",
+    "85": "Acquisition Function Maximizer: Local Search",
+    "86": "Acquisition Function Maximizer: Local Search",
+    "87": "Acquisition Function Maximizer: Local Search",
+    "88": "Random Search",
+    "89": "Acquisition Function Maximizer: Local Search",
+    "90": "Acquisition Function Maximizer: Local Search",
+    "91": "Acquisition Function Maximizer: Local Search",
+    "92": "Acquisition Function Maximizer: Local Search",
+    "93": "Random Search",
+    "94": "Acquisition Function Maximizer: Local Search",
+    "95": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

@@ -1,0 +1,891 @@
+{
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '1'\nWHERE cc.id >= '1'\n  AND cc.id <= '1'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '1')\nGROUP BY cc.status_id;": [
+        2928.63,
+        2757.3,
+        2419.57,
+        171.31,
+        8.45,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '104'\nWHERE cc.id >= '72'\n  AND cc.id <= '490'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '72')\nGROUP BY cc.status_id;": [
+        6842.38,
+        2757.13,
+        2419.57,
+        4085.22,
+        25.75,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '110'\nWHERE cc.id >= '236'\n  AND cc.id <= '403'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '236')\nGROUP BY cc.status_id;": [
+        4398.21,
+        2756.72,
+        2419.57,
+        1641.47,
+        12.96,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '76'\nWHERE cc.id >= '130'\n  AND cc.id <= '216'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '130')\nGROUP BY cc.status_id;": [
+        4143.54,
+        2756.99,
+        2419.57,
+        1386.54,
+        10.76,
+        59.81,
+        55.79,
+        4.73,
+        49.7
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '50'\nWHERE cc.id >= '391'\n  AND cc.id <= '479'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '391')\nGROUP BY cc.status_id;": [
+        4481.98,
+        2756.35,
+        2419.57,
+        1725.62,
+        10.81,
+        71.44,
+        67.43,
+        4.73,
+        61.09
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '51'\nWHERE cc.id >= '87'\n  AND cc.id <= '179'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '87')\nGROUP BY cc.status_id;": [
+        4940.65,
+        2757.09,
+        2419.57,
+        2183.54,
+        10.92,
+        86.89,
+        82.88,
+        4.73,
+        76.17
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '51'\nWHERE cc.id >= '51'\n  AND cc.id <= '449'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '51')\nGROUP BY cc.status_id;": [
+        4868.11,
+        2757.18,
+        2419.57,
+        2110.91,
+        25.2,
+        86.89,
+        82.88,
+        4.73,
+        76.17
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '89'\nWHERE cc.id >= '69'\n  AND cc.id <= '145'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '69')\nGROUP BY cc.status_id;": [
+        3943.57,
+        2757.14,
+        2419.57,
+        1186.42,
+        10.51,
+        55.99,
+        51.97,
+        4.73,
+        46.0
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '8'\nWHERE cc.id >= '282'\n  AND cc.id <= '353'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '282')\nGROUP BY cc.status_id;": [
+        3418.6,
+        2756.61,
+        2419.57,
+        661.9,
+        10.37,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '4'\nWHERE cc.id >= '38'\n  AND cc.id <= '358'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '38')\nGROUP BY cc.status_id;": [
+        5866.25,
+        2757.21,
+        2419.57,
+        3108.7,
+        18.08,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '78'\nWHERE cc.id >= '336'\n  AND cc.id <= '399'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '336')\nGROUP BY cc.status_id;": [
+        3916.35,
+        2756.48,
+        2419.57,
+        1159.85,
+        10.15,
+        67.62,
+        63.6,
+        4.73,
+        57.39
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '48'\nWHERE cc.id >= '134'\n  AND cc.id <= '414'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '134')\nGROUP BY cc.status_id;": [
+        2777.73,
+        2756.97,
+        2419.57,
+        20.74,
+        8.45,
+        12.27
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '86'\nWHERE cc.id >= '73'\n  AND cc.id <= '396'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '73')\nGROUP BY cc.status_id;": [
+        3839.22,
+        2757.12,
+        2419.57,
+        1082.08,
+        18.17,
+        55.99,
+        51.97,
+        4.73,
+        46.0
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '18'\nWHERE cc.id >= '461'\n  AND cc.id <= '472'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '461')\nGROUP BY cc.status_id;": [
+        2927.8,
+        2756.17,
+        2419.57,
+        171.61,
+        8.75,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '46'\nWHERE cc.id >= '255'\n  AND cc.id <= '490'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '255')\nGROUP BY cc.status_id;": [
+        3935.78,
+        2756.68,
+        2419.57,
+        1179.08,
+        15.8,
+        83.08,
+        79.07,
+        4.73,
+        72.48
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '47'\nWHERE cc.id >= '196'\n  AND cc.id <= '266'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '196')\nGROUP BY cc.status_id;": [
+        3146.08,
+        2756.82,
+        2419.57,
+        389.25,
+        10.34,
+        94.72,
+        90.7,
+        4.73,
+        83.87
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '71'\nWHERE cc.id >= '357'\n  AND cc.id <= '382'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '357')\nGROUP BY cc.status_id;": [
+        2877.57,
+        2756.43,
+        2419.57,
+        121.13,
+        9.13,
+        55.99,
+        51.97,
+        4.73,
+        46.0
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '9'\nWHERE cc.id >= '84'\n  AND cc.id <= '314'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '84')\nGROUP BY cc.status_id;": [
+        12798.79,
+        2757.1,
+        2419.57,
+        10041.56,
+        15.66,
+        161.7
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '108'\nWHERE cc.id >= '157'\n  AND cc.id <= '204'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '157')\nGROUP BY cc.status_id;": [
+        3255.2,
+        2756.92,
+        2419.57,
+        498.27,
+        9.71,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '94'\nWHERE cc.id >= '253'\n  AND cc.id <= '256'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '253')\nGROUP BY cc.status_id;": [
+        2928.08,
+        2756.68,
+        2419.57,
+        171.38,
+        8.53,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '50'\nWHERE cc.id >= '142'\n  AND cc.id <= '277'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '142')\nGROUP BY cc.status_id;": [
+        5341.28,
+        2756.95,
+        2419.57,
+        2584.31,
+        12.11,
+        71.44,
+        67.43,
+        4.73,
+        61.09
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '105'\nWHERE cc.id >= '70'\n  AND cc.id <= '489'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '70')\nGROUP BY cc.status_id;": [
+        6842.44,
+        2757.13,
+        2419.57,
+        4085.25,
+        25.78,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '3'\nWHERE cc.id >= '36'\n  AND cc.id <= '356'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '36')\nGROUP BY cc.status_id;": [
+        5866.51,
+        2757.22,
+        2419.57,
+        3108.89,
+        18.08,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '3'\nWHERE cc.id >= '1'\n  AND cc.id <= '5'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '1')\nGROUP BY cc.status_id;": [
+        2928.77,
+        2757.3,
+        2419.57,
+        171.44,
+        8.56,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '110'\nWHERE cc.id >= '3'\n  AND cc.id <= '244'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '3')\nGROUP BY cc.status_id;": [
+        13279.88,
+        2757.3,
+        2419.57,
+        10522.54,
+        15.96,
+        161.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '90'\nWHERE cc.id >= '398'\n  AND cc.id <= '486'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '398')\nGROUP BY cc.status_id;": [
+        3581.41,
+        2756.33,
+        2419.57,
+        825.07,
+        10.81,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '106'\nWHERE cc.id >= '77'\n  AND cc.id <= '349'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '77')\nGROUP BY cc.status_id;": [
+        14559.78,
+        2757.12,
+        2419.57,
+        11802.54,
+        16.79,
+        161.44
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '92'\nWHERE cc.id >= '11'\n  AND cc.id <= '341'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '11')\nGROUP BY cc.status_id;": [
+        9134.72,
+        2757.28,
+        2419.57,
+        6377.43,
+        18.36,
+        71.44,
+        67.43,
+        4.73,
+        61.09
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '109'\nWHERE cc.id >= '4'\n  AND cc.id <= '244'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '4')\nGROUP BY cc.status_id;": [
+        4122.3,
+        2757.3,
+        2419.57,
+        1364.99,
+        15.94,
+        21.07,
+        17.05,
+        4.73,
+        11.82
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '108'\nWHERE cc.id >= '79'\n  AND cc.id <= '349'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '79')\nGROUP BY cc.status_id;": [
+        14400.73,
+        2757.11,
+        2419.57,
+        11643.58,
+        16.74,
+        161.47
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '102'\nWHERE cc.id >= '149'\n  AND cc.id <= '462'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '149')\nGROUP BY cc.status_id;": [
+        5865.11,
+        2756.94,
+        2419.57,
+        3108.16,
+        17.92,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '108'\nWHERE cc.id >= '155'\n  AND cc.id <= '203'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '155')\nGROUP BY cc.status_id;": [
+        4883.75,
+        2756.93,
+        2419.57,
+        2126.81,
+        9.74,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '97'\nWHERE cc.id >= '144'\n  AND cc.id <= '462'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '144')\nGROUP BY cc.status_id;": [
+        5865.23,
+        2756.95,
+        2419.57,
+        3108.27,
+        18.03,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '107'\nWHERE cc.id >= '238'\n  AND cc.id <= '406'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '238')\nGROUP BY cc.status_id;": [
+        4398.26,
+        2756.72,
+        2419.57,
+        1641.5,
+        12.99,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '98'\nWHERE cc.id >= '255'\n  AND cc.id <= '279'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '255')\nGROUP BY cc.status_id;": [
+        3905.8,
+        2756.68,
+        2419.57,
+        1149.07,
+        9.11,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '45'\nWHERE cc.id >= '57'\n  AND cc.id <= '318'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '57')\nGROUP BY cc.status_id;": [
+        3110.93,
+        2757.16,
+        2419.57,
+        353.75,
+        16.49,
+        21.07,
+        17.05,
+        4.73,
+        11.82
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '105'\nWHERE cc.id >= '254'\n  AND cc.id <= '280'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '254')\nGROUP BY cc.status_id;": [
+        3091.56,
+        2756.68,
+        2419.57,
+        334.87,
+        9.16,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '50'\nWHERE cc.id >= '255'\n  AND cc.id <= '490'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '255')\nGROUP BY cc.status_id;": [
+        7273.86,
+        2756.68,
+        2419.57,
+        4517.17,
+        15.8,
+        71.44,
+        67.43,
+        4.73,
+        61.09
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '4'\nWHERE cc.id >= '52'\n  AND cc.id <= '86'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '52')\nGROUP BY cc.status_id;": [
+        3092.32,
+        2757.18,
+        2419.57,
+        335.1,
+        9.36,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '50'\nWHERE cc.id >= '45'\n  AND cc.id <= '371'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '45')\nGROUP BY cc.status_id;": [
+        8991.63,
+        2757.2,
+        2419.57,
+        6234.42,
+        18.25,
+        71.44,
+        67.43,
+        4.73,
+        61.09
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '50'\nWHERE cc.id >= '53'\n  AND cc.id <= '449'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '53')\nGROUP BY cc.status_id;": [
+        10356.08,
+        2757.18,
+        2419.57,
+        7598.87,
+        25.15,
+        71.44,
+        67.43,
+        4.73,
+        61.09
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '104'\nWHERE cc.id >= '70'\n  AND cc.id <= '487'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '70')\nGROUP BY cc.status_id;": [
+        6842.36,
+        2757.13,
+        2419.57,
+        4085.19,
+        25.72,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '106'\nWHERE cc.id >= '71'\n  AND cc.id <= '493'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '71')\nGROUP BY cc.status_id;": [
+        20941.2,
+        2757.13,
+        2419.57,
+        18183.88,
+        25.86,
+        160.68
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '41'\nWHERE cc.id >= '21'\n  AND cc.id <= '345'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '21')\nGROUP BY cc.status_id;": [
+        10004.46,
+        2757.25,
+        2419.57,
+        7247.17,
+        18.19,
+        83.08,
+        79.07,
+        4.73,
+        72.48
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '66'\nWHERE cc.id >= '367'\n  AND cc.id <= '432'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '367')\nGROUP BY cc.status_id;": [
+        5168.82,
+        2756.4,
+        2419.57,
+        2412.4,
+        10.21,
+        133.45,
+        129.43,
+        4.73,
+        121.73
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '2'\nWHERE cc.id >= '36'\n  AND cc.id <= '354'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '36')\nGROUP BY cc.status_id;": [
+        16483.86,
+        2757.22,
+        2419.57,
+        13725.1,
+        18.03,
+        161.22
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '2'\nWHERE cc.id >= '35'\n  AND cc.id <= '352'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '35')\nGROUP BY cc.status_id;": [
+        16483.83,
+        2757.22,
+        2419.57,
+        13725.07,
+        18.0,
+        161.22
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '61'\nWHERE cc.id >= '26'\n  AND cc.id <= '252'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '26')\nGROUP BY cc.status_id;": [
+        3936.09,
+        2757.24,
+        2419.57,
+        1178.84,
+        15.55,
+        83.08,
+        79.07,
+        4.73,
+        72.48
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '42'\nWHERE cc.id >= '101'\n  AND cc.id <= '229'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '101')\nGROUP BY cc.status_id;": [
+        5810.65,
+        2757.06,
+        2419.57,
+        3053.58,
+        11.91,
+        86.89,
+        82.88,
+        4.73,
+        76.17
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '57'\nWHERE cc.id >= '26'\n  AND cc.id <= '249'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '26')\nGROUP BY cc.status_id;": [
+        7987.01,
+        2757.24,
+        2419.57,
+        5229.76,
+        15.47,
+        86.89,
+        82.88,
+        4.73,
+        76.17
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '17'\nWHERE cc.id >= '25'\n  AND cc.id <= '344'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '25')\nGROUP BY cc.status_id;": [
+        5865.65,
+        2757.24,
+        2419.57,
+        3108.29,
+        18.06,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '86'\nWHERE cc.id >= '70'\n  AND cc.id <= '398'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '70')\nGROUP BY cc.status_id;": [
+        3895.37,
+        2757.13,
+        2419.57,
+        1138.22,
+        18.3,
+        55.99,
+        51.97,
+        4.73,
+        46.0
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '54'\nWHERE cc.id >= '256'\n  AND cc.id <= '490'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '256')\nGROUP BY cc.status_id;": [
+        3719.28,
+        2756.68,
+        2419.57,
+        962.59,
+        15.77,
+        67.62,
+        63.6,
+        4.73,
+        57.39
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '47'\nWHERE cc.id >= '255'\n  AND cc.id <= '490'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '255')\nGROUP BY cc.status_id;": [
+        4098.65,
+        2756.68,
+        2419.57,
+        1341.96,
+        15.8,
+        94.72,
+        90.7,
+        4.73,
+        83.87
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '72'\nWHERE cc.id >= '281'\n  AND cc.id <= '452'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '281')\nGROUP BY cc.status_id;": [
+        3445.99,
+        2756.62,
+        2419.57,
+        689.36,
+        13.07,
+        67.62,
+        63.6,
+        4.73,
+        57.39
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '51'\nWHERE cc.id >= '392'\n  AND cc.id <= '478'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '392')\nGROUP BY cc.status_id;": [
+        3201.64,
+        2756.34,
+        2419.57,
+        445.28,
+        10.76,
+        86.89,
+        82.88,
+        4.73,
+        76.17
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '103'\nWHERE cc.id >= '176'\n  AND cc.id <= '232'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '176')\nGROUP BY cc.status_id;": [
+        3255.4,
+        2756.87,
+        2419.57,
+        498.51,
+        9.96,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '93'\nWHERE cc.id >= '96'\n  AND cc.id <= '422'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '96')\nGROUP BY cc.status_id;": [
+        3429.74,
+        2757.07,
+        2419.57,
+        672.66,
+        18.25,
+        32.71,
+        28.7,
+        4.73,
+        23.22
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '42'\nWHERE cc.id >= '203'\n  AND cc.id <= '465'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '203')\nGROUP BY cc.status_id;": [
+        4163.81,
+        2756.81,
+        2419.57,
+        1406.99,
+        16.52,
+        86.89,
+        82.88,
+        4.73,
+        76.17
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '43'\nWHERE cc.id >= '206'\n  AND cc.id <= '462'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '206')\nGROUP BY cc.status_id;": [
+        4019.57,
+        2756.8,
+        2419.57,
+        1262.75,
+        16.38,
+        83.08,
+        79.07,
+        4.73,
+        72.48
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '98'\nWHERE cc.id >= '143'\n  AND cc.id <= '461'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '143')\nGROUP BY cc.status_id;": [
+        5865.32,
+        2756.95,
+        2419.57,
+        3108.27,
+        18.03,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '77'\nWHERE cc.id >= '88'\n  AND cc.id <= '370'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '88')\nGROUP BY cc.status_id;": [
+        12916.78,
+        2757.09,
+        2419.57,
+        10159.66,
+        17.07,
+        133.45,
+        129.43,
+        4.73,
+        121.73
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '62'\nWHERE cc.id >= '195'\n  AND cc.id <= '203'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '195')\nGROUP BY cc.status_id;": [
+        2931.69,
+        2756.83,
+        2419.57,
+        174.85,
+        8.67,
+        83.08,
+        79.07,
+        4.73,
+        72.48
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '106'\nWHERE cc.id >= '70'\n  AND cc.id <= '491'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '70')\nGROUP BY cc.status_id;": [
+        6842.49,
+        2757.13,
+        2419.57,
+        4085.3,
+        25.83,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '51'\nWHERE cc.id >= '2'\n  AND cc.id <= '339'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '2')\nGROUP BY cc.status_id;": [
+        4513.96,
+        2757.3,
+        2419.57,
+        1756.65,
+        18.55,
+        86.89,
+        82.88,
+        4.73,
+        76.17
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '104'\nWHERE cc.id >= '31'\n  AND cc.id <= '341'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '31')\nGROUP BY cc.status_id;": [
+        5865.33,
+        2757.23,
+        2419.57,
+        3108.07,
+        17.84,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '106'\nWHERE cc.id >= '72'\n  AND cc.id <= '491'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '72')\nGROUP BY cc.status_id;": [
+        6842.43,
+        2757.13,
+        2419.57,
+        4085.25,
+        25.78,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '108'\nWHERE cc.id >= '72'\n  AND cc.id <= '492'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '72')\nGROUP BY cc.status_id;": [
+        6842.42,
+        2757.13,
+        2419.57,
+        4085.28,
+        25.81,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '4'\nWHERE cc.id >= '99'\n  AND cc.id <= '151'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '99')\nGROUP BY cc.status_id;": [
+        5047.37,
+        2757.06,
+        2419.57,
+        2290.05,
+        9.85,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '105'\nWHERE cc.id >= '68'\n  AND cc.id <= '488'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '68')\nGROUP BY cc.status_id;": [
+        20941.17,
+        2757.14,
+        2419.57,
+        18183.83,
+        25.81,
+        160.68
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '85'\nWHERE cc.id >= '71'\n  AND cc.id <= '141'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '71')\nGROUP BY cc.status_id;": [
+        3099.86,
+        2757.13,
+        2419.57,
+        342.71,
+        10.34,
+        83.08,
+        79.07,
+        4.73,
+        72.48
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '96'\nWHERE cc.id >= '143'\n  AND cc.id <= '462'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '143')\nGROUP BY cc.status_id;": [
+        12250.52,
+        2756.95,
+        2419.57,
+        9493.53,
+        18.06,
+        110.17,
+        106.15,
+        4.73,
+        98.95
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '3'\nWHERE cc.id >= '36'\n  AND cc.id <= '355'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '36')\nGROUP BY cc.status_id;": [
+        5866.49,
+        2757.22,
+        2419.57,
+        3108.86,
+        18.06,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '3'\nWHERE cc.id >= '34'\n  AND cc.id <= '355'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '34')\nGROUP BY cc.status_id;": [
+        5866.55,
+        2757.22,
+        2419.57,
+        3108.92,
+        18.11,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '95'\nWHERE cc.id >= '148'\n  AND cc.id <= '465'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '148')\nGROUP BY cc.status_id;": [
+        6220.96,
+        2756.94,
+        2419.57,
+        3464.01,
+        18.0,
+        40.53,
+        36.52,
+        4.73,
+        30.91
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '98'\nWHERE cc.id >= '138'\n  AND cc.id <= '456'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '138')\nGROUP BY cc.status_id;": [
+        5865.34,
+        2756.97,
+        2419.57,
+        3108.27,
+        18.03,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '70'\nWHERE cc.id >= '318'\n  AND cc.id <= '455'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '318')\nGROUP BY cc.status_id;": [
+        3433.43,
+        2756.53,
+        2419.57,
+        676.89,
+        12.16,
+        83.08,
+        79.07,
+        4.73,
+        72.48
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '13'\nWHERE cc.id >= '28'\n  AND cc.id <= '341'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '28')\nGROUP BY cc.status_id;": [
+        5865.45,
+        2757.24,
+        2419.57,
+        3108.16,
+        17.92,
+        162.63
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '90'\nWHERE cc.id >= '280'\n  AND cc.id <= '407'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '280')\nGROUP BY cc.status_id;": [
+        8285.79,
+        2756.62,
+        2419.57,
+        5529.14,
+        11.88,
+        162.26
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '16'\nWHERE cc.id >= '143'\n  AND cc.id <= '256'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '143')\nGROUP BY cc.status_id;": [
+        7641.63,
+        2756.95,
+        2419.57,
+        4883.39,
+        11.5,
+        162.32
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '13'\nWHERE cc.id >= '170'\n  AND cc.id <= '394'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '170')\nGROUP BY cc.status_id;": [
+        5052.36,
+        2756.89,
+        2419.57,
+        2295.42,
+        15.5,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '105'\nWHERE cc.id >= '71'\n  AND cc.id <= '492'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '71')\nGROUP BY cc.status_id;": [
+        6842.49,
+        2757.13,
+        2419.57,
+        4085.3,
+        25.83,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '98'\nWHERE cc.id >= '158'\n  AND cc.id <= '232'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '158')\nGROUP BY cc.status_id;": [
+        3581.67,
+        2756.92,
+        2419.57,
+        824.71,
+        10.46,
+        162.84
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '103'\nWHERE cc.id >= '71'\n  AND cc.id <= '491'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '71')\nGROUP BY cc.status_id;": [
+        6842.45,
+        2757.13,
+        2419.57,
+        4085.28,
+        25.81,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '106'\nWHERE cc.id >= '71'\n  AND cc.id <= '491'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '71')\nGROUP BY cc.status_id;": [
+        6842.46,
+        2757.13,
+        2419.57,
+        4085.28,
+        25.81,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '109'\nWHERE cc.id >= '70'\n  AND cc.id <= '492'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '70')\nGROUP BY cc.status_id;": [
+        3309.98,
+        2757.13,
+        2419.57,
+        552.83,
+        25.86,
+        21.07,
+        17.05,
+        4.73,
+        11.82
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '106'\nWHERE cc.id >= '71'\n  AND cc.id <= '492'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '71')\nGROUP BY cc.status_id;": [
+        6842.49,
+        2757.13,
+        2419.57,
+        4085.3,
+        25.83,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '9'\nWHERE cc.id >= '271'\n  AND cc.id <= '361'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '271')\nGROUP BY cc.status_id;": [
+        6668.13,
+        2756.64,
+        2419.57,
+        3911.43,
+        10.87,
+        162.51
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '107'\nWHERE cc.id >= '72'\n  AND cc.id <= '496'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '72')\nGROUP BY cc.status_id;": [
+        7005.43,
+        2757.13,
+        2419.57,
+        4248.24,
+        25.92,
+        162.39
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '103'\nWHERE cc.id >= '74'\n  AND cc.id <= '494'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '74')\nGROUP BY cc.status_id;": [
+        6842.44,
+        2757.12,
+        2419.57,
+        4085.28,
+        25.81,
+        162.37
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '95'\nWHERE cc.id >= '148'\n  AND cc.id <= '466'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '148')\nGROUP BY cc.status_id;": [
+        3545.27,
+        2756.94,
+        2419.57,
+        788.31,
+        18.03,
+        40.53,
+        36.52,
+        4.73,
+        30.91
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '61'\nWHERE cc.id >= '91'\n  AND cc.id <= '500'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '91')\nGROUP BY cc.status_id;": [
+        4859.89,
+        2757.08,
+        2419.57,
+        2102.8,
+        25.5,
+        83.08,
+        79.07,
+        4.73,
+        72.48
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '47'\nWHERE cc.id >= '169'\n  AND cc.id <= '433'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '169')\nGROUP BY cc.status_id;": [
+        9498.99,
+        2756.89,
+        2419.57,
+        6742.08,
+        16.57,
+        94.72,
+        90.7,
+        4.73,
+        83.87
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '95'\nWHERE cc.id >= '147'\n  AND cc.id <= '462'\n  AND cc.status_id = '4'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '147')\nGROUP BY cc.status_id;": [
+        3545.19,
+        2756.95,
+        2419.57,
+        788.23,
+        17.95,
+        40.53,
+        36.52,
+        4.73,
+        30.91
+    ],
+    "-- Refined SQL Template Metadata\n-- Refinement Time: 2025-07-22 03:04:51\n-- Operation: both\n-- Old Join Path: complete_cast\n-- New Join Path: complete_cast JOIN movie_info\n-- Table Size Changes: Added movie_info (size: 1831 MB, row_count: 14835720) in the join to increase the computational cost.\n-- Structural Changes: Introduced a JOIN with movie_info on movie_id and added a new predicate on mi.info_type_id; maintained the nested query with aggregation condition.\n-- LLM Reasoning: To shift the execution cost into the target range [3000.0, 4000.0], a join with a larger table (movie_info) was introduced, slightly increasing the query complexity and cost while keeping the original constraints and nested subquery structure intact.\n\n-- SQL Template Metadata\n-- Template ID: 6\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 2\n--   Number of Joins: 1\n--   Number of Aggregations: 2\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['complete_cast', 'movie_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 2\n\nSELECT cc.status_id,\n       COUNT(*) AS total_count\nFROM complete_cast cc\nJOIN movie_info mi ON cc.movie_id = mi.movie_id\nAND mi.info_type_id = '57'\nWHERE cc.id >= '94'\n  AND cc.id <= '500'\n  AND cc.status_id = '3'\n  AND cc.id >\n    (SELECT AVG(id)\n     FROM complete_cast\n     WHERE id >= '94')\nGROUP BY cc.status_id;": [
+        12255.14,
+        2757.08,
+        2419.57,
+        9498.04,
+        25.42,
+        86.89,
+        82.88,
+        4.73,
+        76.17
+    ]
+}

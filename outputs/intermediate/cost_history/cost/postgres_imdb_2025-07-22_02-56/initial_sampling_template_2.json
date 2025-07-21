@@ -1,0 +1,1442 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '224'\n  AND id <= '403'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.84,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        14.36,
+        14.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '259'\n  AND id <= '493'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747393.65,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        15.82,
+        15.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '157'\n  AND id <= '186'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747386.92,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.35,
+        9.35
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '35'\n  AND id <= '420'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747403.92,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        25.83,
+        25.83
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '144'\n  AND id <= '361'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747393.44,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        15.37,
+        15.37
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '246'\n  AND id <= '398'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757790.71,
+        13.64,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '150'\n  AND id <= '161'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747386.33,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        8.88,
+        8.88
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '15'\n  AND id <= '242'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747393.2,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        15.62,
+        15.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '137'\n  AND id <= '210'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757787.59,
+        10.52,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '90'\n  AND id <= '100'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747386.3,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        8.86,
+        8.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '116'\n  AND id <= '209'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.76,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        11.06,
+        11.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '227'\n  AND id <= '410'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.94,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        14.45,
+        14.45
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '140'\n  AND id <= '265'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747390.48,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        12.92,
+        12.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '323'\n  AND id <= '371'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.38,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.87,
+        9.87
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '182'\n  AND id <= '289'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757788.52,
+        11.45,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '42'\n  AND id <= '445'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747403.88,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        26.32,
+        26.32
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '18'\n  AND id <= '420'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747403.86,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        26.27,
+        26.27
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '78'\n  AND id <= '401'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747400.64,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        23.18,
+        23.18
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '217'\n  AND id <= '243'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.36,
+        9.29,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '126'\n  AND id <= '453'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747401.27,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        23.3,
+        23.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '47'\n  AND id <= '332'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747395.62,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        18.17,
+        18.17
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '86'\n  AND id <= '357'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747395.67,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.79,
+        17.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '41'\n  AND id <= '123'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.34,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.77,
+        10.77
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '385'\n  AND id <= '408'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.27,
+        9.2,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '237'\n  AND id <= '454'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747393.93,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        15.37,
+        15.37
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '24'\n  AND id <= '108'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.37,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.81,
+        10.81
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '76'\n  AND id <= '387'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747401.21,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        22.87,
+        22.87
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '126'\n  AND id <= '251'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747390.48,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        12.92,
+        12.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '8'\n  AND id <= '143'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747390.71,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.19,
+        13.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '117'\n  AND id <= '163'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.87,
+        9.8,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '71'\n  AND id <= '152'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.59,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.75,
+        10.75
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '328'\n  AND id <= '367'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.07,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.62,
+        9.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '243'\n  AND id <= '413'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.72,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        14.11,
+        14.11
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '32'\n  AND id <= '374'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747402.89,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        23.68,
+        23.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '310'\n  AND id <= '342'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.51,
+        9.44,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '179'\n  AND id <= '495'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747400.55,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        23.0,
+        23.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '328'\n  AND id <= '438'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757788.58,
+        11.51,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '147'\n  AND id <= '199'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.42,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.96,
+        9.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '114'\n  AND id <= '364'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747395.09,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.25,
+        17.25
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '24'\n  AND id <= '44'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.2,
+        9.13,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '213'\n  AND id <= '250'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.02,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.58,
+        9.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '404'\n  AND id <= '457'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.7,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.01,
+        10.01
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '180'\n  AND id <= '283'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.93,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        11.33,
+        11.33
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '96'\n  AND id <= '419'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747401.17,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        23.18,
+        23.18
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '23'\n  AND id <= '202'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.9,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        14.36,
+        14.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '205'\n  AND id <= '490'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747397.08,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        18.17,
+        18.17
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '82'\n  AND id <= '355'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747395.75,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.86,
+        17.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '132'\n  AND id <= '343'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747392.71,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        15.19,
+        15.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '195'\n  AND id <= '272'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.19,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.63,
+        10.63
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '154'\n  AND id <= '298'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747390.9,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.41,
+        13.41
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '304'\n  AND id <= '333'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.42,
+        9.35,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '36'\n  AND id <= '170'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747390.96,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.14,
+        13.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '80'\n  AND id <= '476'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747404.23,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        26.12,
+        26.12
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '294'\n  AND id <= '346'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757787.03,
+        9.96,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '64'\n  AND id <= '108'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.32,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.76,
+        9.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '119'\n  AND id <= '266'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757790.57,
+        13.5,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '148'\n  AND id <= '246'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.78,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        11.2,
+        11.2
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '415'\n  AND id <= '459'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.32,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.76,
+        9.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '68'\n  AND id <= '453'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747403.3,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        25.83,
+        25.83
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '4'\n  AND id <= '434'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747404.58,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        27.02,
+        27.02
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '293'\n  AND id <= '471'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747392.26,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        14.31,
+        14.31
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '6'\n  AND id <= '426'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747404.65,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        26.77,
+        26.77
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '22'\n  AND id <= '190'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.99,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        14.06,
+        14.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '6'\n  AND id <= '400'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747404.67,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        26.07,
+        26.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '350'\n  AND id <= '499'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.13,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.55,
+        13.55
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '270'\n  AND id <= '300'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.45,
+        9.38,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '105'\n  AND id <= '266'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747392.12,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.86,
+        13.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '68'\n  AND id <= '320'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747394.9,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.29,
+        17.29
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '31'\n  AND id <= '313'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747395.53,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        18.08,
+        18.08
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '349'\n  AND id <= '475'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.02,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        12.94,
+        12.94
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '145'\n  AND id <= '478'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747401.24,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        23.45,
+        23.45
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '292'\n  AND id <= '339'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.92,
+        9.85,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '61'\n  AND id <= '435'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747403.12,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        25.53,
+        25.53
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '132'\n  AND id <= '138'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757785.82,
+        8.74,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '345'\n  AND id <= '489'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747390.88,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.41,
+        13.41
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '168'\n  AND id <= '483'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747400.6,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        22.96,
+        22.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '130'\n  AND id <= '171'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.74,
+        9.67,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '73'\n  AND id <= '298'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747393.24,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        15.57,
+        15.57
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '13'\n  AND id <= '301'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747395.71,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        18.26,
+        18.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '51'\n  AND id <= '457'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747404.1,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        26.39,
+        26.39
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '208'\n  AND id <= '222'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747386.47,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        8.97,
+        8.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '88'\n  AND id <= '352'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747395.12,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.61,
+        17.61
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '3'\n  AND id <= '167'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.42,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.95,
+        13.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '242'\n  AND id <= '358'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747389.14,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        11.67,
+        11.67
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '175'\n  AND id <= '478'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747396.1,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        18.64,
+        18.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '91'\n  AND id <= '263'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747392.48,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        14.16,
+        14.16
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '121'\n  AND id <= '366'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747394.61,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.11,
+        17.11
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '172'\n  AND id <= '259'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.36,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.91,
+        10.91
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '290'\n  AND id <= '337'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.92,
+        9.85,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '318'\n  AND id <= '346'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747386.8,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.33,
+        9.33
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '426'\n  AND id <= '431'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757785.79,
+        8.72,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '393'\n  AND id <= '419'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747386.76,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.29,
+        9.29
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '444'\n  AND id <= '500'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.56,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.07,
+        10.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '48'\n  AND id <= '468'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747404.33,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        26.77,
+        26.77
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '93'\n  AND id <= '484'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747403.58,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        25.98,
+        25.98
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '64'\n  AND id <= '276'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747392.76,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        15.23,
+        15.23
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '103'\n  AND id <= '447'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747401.3,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        23.75,
+        23.75
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '29'\n  AND id <= '87'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.87,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.14,
+        10.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '71'\n  AND id <= '389'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747400.51,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        23.05,
+        23.05
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '493'\n  AND id <= '494'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757785.68,
+        8.61,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '395'\n  AND id <= '447'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.54,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.96,
+        9.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '232'\n  AND id <= '304'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.96,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.5,
+        10.5
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '114'\n  AND id <= '307'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747393.15,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        14.72,
+        14.72
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '212'\n  AND id <= '289'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757787.71,
+        10.63,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '164'\n  AND id <= '183'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.15,
+        9.08,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '11'\n  AND id <= '161'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.25,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.57,
+        13.57
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '195'\n  AND id <= '319'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747390.45,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        12.89,
+        12.89
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '39'\n  AND id <= '311'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747395.73,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.83,
+        17.83
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '277'\n  AND id <= '412'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.01,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.19,
+        13.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '233'\n  AND id <= '307'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757787.64,
+        10.57,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '226'\n  AND id <= '385'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.51,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.82,
+        13.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '138'\n  AND id <= '365'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747393.14,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        15.62,
+        15.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '123'\n  AND id <= '467'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747401.32,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        23.75,
+        23.75
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '8'\n  AND id <= '53'\n  AND role_id = '10'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.28,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.78,
+        9.78
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '14'\n  AND id <= '397'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747403.48,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        25.78,
+        25.78
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '433'\n  AND id <= '480'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.92,
+        9.85,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '76'\n  AND id <= '380'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747396.31,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        18.67,
+        18.67
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '216'\n  AND id <= '472'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747394.85,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.41,
+        17.41
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '177'\n  AND id <= '222'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.28,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.78,
+        9.78
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '99'\n  AND id <= '360'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747394.99,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.54,
+        17.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '206'\n  AND id <= '321'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747389.12,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        11.65,
+        11.65
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '272'\n  AND id <= '313'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.74,
+        9.67,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '282'\n  AND id <= '335'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.49,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.01,
+        10.01
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '229'\n  AND id <= '353'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747390.53,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        12.89,
+        12.89
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '261'\n  AND id <= '463'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747392.61,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        14.96,
+        14.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '84'\n  AND id <= '235'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757790.69,
+        13.62,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '220'\n  AND id <= '408'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747392.32,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        14.58,
+        14.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '378'\n  AND id <= '486'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.93,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        11.47,
+        11.47
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '57'\n  AND id <= '156'\n  AND role_id = '7'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757788.29,
+        11.22,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '376'\n  AND id <= '463'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.59,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.91,
+        10.91
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '59'\n  AND id <= '273'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747392.73,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        15.28,
+        15.28
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '380'\n  AND id <= '466'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.34,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.88,
+        10.88
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '188'\n  AND id <= '204'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757786.09,
+        9.02,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '52'\n  AND id <= '439'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747403.96,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        25.89,
+        25.89
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '72'\n  AND id <= '324'\n  AND role_id = '2'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747395.46,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.29,
+        17.29
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '46'\n  AND id <= '129'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747388.25,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.79,
+        10.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '198'\n  AND id <= '254'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.59,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.07,
+        10.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '20'\n  AND id <= '468'\n  AND role_id = '5'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747405.11,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        27.51,
+        27.51
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '395'\n  AND id <= '441'\n  AND role_id = '3'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.3,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        9.8,
+        9.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '237'\n  AND id <= '371'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757790.21,
+        13.14,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '30'\n  AND id <= '333'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747396.1,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        18.64,
+        18.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '57'\n  AND id <= '430'\n  AND role_id = '6'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747403.06,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        25.51,
+        25.51
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '286'\n  AND id <= '442'\n  AND role_id = '9'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.22,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.73,
+        13.73
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '101'\n  AND id <= '189'\n  AND role_id = '11'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757788.0,
+        10.93,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '96'\n  AND id <= '390'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747396.05,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        18.42,
+        18.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '193'\n  AND id <= '254'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747387.95,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        10.21,
+        10.21
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '105'\n  AND id <= '256'\n  AND role_id = '4'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747391.2,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        13.62,
+        13.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '280'\n  AND id <= '379'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747389.17,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        11.22,
+        11.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '172'\n  AND id <= '429'\n  AND role_id = '8'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1747395.04,
+        1747376.83,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8,
+        17.43,
+        17.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 2\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.\n--   Tables Involved: ['cast_info']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       role_id\nFROM cast_info\nWHERE id >= '1'\n  AND id <= '1'\n  AND role_id = '1'\n  AND id IN\n    (SELECT MAX(id)\n     FROM cast_info\n     GROUP BY movie_id);": [
+        1757785.66,
+        8.59,
+        1734372.03,
+        1590691.09,
+        1381646.29,
+        403715.8
+    ]
+}

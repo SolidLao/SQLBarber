@@ -1,0 +1,261 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'crew') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'cast') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'crew') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'crew') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '2') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete+verified') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '3' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete+verified') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'cast') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'crew') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '2') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete+verified') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'crew') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'crew') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '3' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'cast') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '2') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete+verified') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'cast') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '3' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '4' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete+verified') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'cast') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '2') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'crew') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '3' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'cast') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '2') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '3' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete+verified') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '1') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete+verified') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '2') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'crew') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '3' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete+verified') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '2') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'cast') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '1' AND '1') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'crew') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '4' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'cast') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '4' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete+verified') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '3' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete+verified') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '4' AND '4') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'cast') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '3') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 7\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.\n--   Tables Involved: ['comp_cast_type']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 0\n\nSELECT\n  (SELECT COUNT(*)\n   FROM comp_cast_type\n   WHERE kind = 'complete') AS total_kind,\n       t.min_id,\n       t.max_id\nFROM\n  (SELECT MIN(id) AS min_id,\n          MAX(id) AS max_id\n   FROM comp_cast_type\n   WHERE id BETWEEN '2' AND '2') t;": [
+        2.15,
+        1.06,
+        1.05,
+        1.07,
+        1.06
+    ]
+}

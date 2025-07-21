@@ -1,0 +1,593 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '224' AND '403'\n  AND movie_companies.note = '(1968) (Japan) (theatrical) (subtitled)'\nGROUP BY movie_companies.note;": [
+        13.05,
+        13.05
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '259' AND '493'\n  AND movie_companies.note = '(2008) (USA) (DVD) (For BBC Video)'\nGROUP BY movie_companies.note;": [
+        14.16,
+        14.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '157' AND '186'\n  AND movie_companies.note = '(2002) (worldwide) (all media) (internet)'\nGROUP BY movie_companies.note;": [
+        9.04,
+        9.04
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '35' AND '420'\n  AND movie_companies.note = '(1998-2000) (Canada) (TV)'\nGROUP BY movie_companies.note;": [
+        18.2,
+        18.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '144' AND '361'\n  AND movie_companies.note = '(1974) (Netherlands) (theatrical)'\nGROUP BY movie_companies.note;": [
+        13.82,
+        13.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '246' AND '398'\n  AND movie_companies.note = '(1992-93) (UK) (TV)'\nGROUP BY movie_companies.note;": [
+        11.52,
+        11.51
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '150' AND '161'\n  AND movie_companies.note = '(1994-1997) (original airing)'\nGROUP BY movie_companies.note;": [
+        8.68,
+        8.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '15' AND '242'\n  AND movie_companies.note = '(2005) (Netherlands) (DVD) (VHS)'\nGROUP BY movie_companies.note;": [
+        14.02,
+        14.02
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '137' AND '210'\n  AND movie_companies.note = '(195?-195?) (USA) (TV)'\nGROUP BY movie_companies.note;": [
+        9.92,
+        9.91
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '90' AND '100'\n  AND movie_companies.note = '(1977) (USA) (theatrical) (subtitled)'\nGROUP BY movie_companies.note;": [
+        8.66,
+        8.65
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '116' AND '209'\n  AND movie_companies.note = '(1980) (UK) (VHS)'\nGROUP BY movie_companies.note;": [
+        10.32,
+        10.32
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '227' AND '410'\n  AND movie_companies.note = '(????) (Hungary) (VHS)'\nGROUP BY movie_companies.note;": [
+        13.14,
+        13.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '140' AND '265'\n  AND movie_companies.note = '(2009-) (Portugal) (TV)'\nGROUP BY movie_companies.note;": [
+        10.97,
+        10.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '323' AND '371'\n  AND movie_companies.note = '(2001) (USA) (all media) (PlayStation)'\nGROUP BY movie_companies.note;": [
+        9.42,
+        9.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '182' AND '289'\n  AND movie_companies.note = '(2007) (Latvia) (DVD)'\nGROUP BY movie_companies.note;": [
+        10.61,
+        10.61
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '42' AND '445'\n  AND movie_companies.note = '(2007) (Thailand) (DVD)'\nGROUP BY movie_companies.note;": [
+        18.55,
+        18.55
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '18' AND '420'\n  AND movie_companies.note = '(1999) (USA) (video) (Czech language only)'\nGROUP BY movie_companies.note;": [
+        18.53,
+        18.53
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '78' AND '401'\n  AND movie_companies.note = '(1988) (Hungary) (theatrical)'\nGROUP BY movie_companies.note;": [
+        16.96,
+        16.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '217' AND '243'\n  AND movie_companies.note = '(2010) (Italy) (TV) (Rai Due)'\nGROUP BY movie_companies.note;": [
+        8.97,
+        8.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '126' AND '453'\n  AND movie_companies.note = '(2010-2011) (Hungary) (TV) (seasons 2 - 4)'\nGROUP BY movie_companies.note;": [
+        17.03,
+        17.02
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '47' AND '332'\n  AND movie_companies.note = '(2000-2008) (Russia) (TV)'\nGROUP BY movie_companies.note;": [
+        15.19,
+        15.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '86' AND '357'\n  AND movie_companies.note = '(2010) (Japan) (video)'\nGROUP BY movie_companies.note;": [
+        14.9,
+        14.9
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '41' AND '123'\n  AND movie_companies.note = '(1967) (Canada) (theatrical) (re-release)'\nGROUP BY movie_companies.note;": [
+        10.1,
+        10.1
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '385' AND '408'\n  AND movie_companies.note = '(2002) (Netherlands) (DVD) (one episode)'\nGROUP BY movie_companies.note;": [
+        8.93,
+        8.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '237' AND '454'\n  AND movie_companies.note = '(1986) (USA) (VHS) (for Sports Channel)'\nGROUP BY movie_companies.note;": [
+        13.82,
+        13.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '24' AND '108'\n  AND movie_companies.note = '(1948-1950) (USA) (TV) (original airing)'\nGROUP BY movie_companies.note;": [
+        10.14,
+        10.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '76' AND '387'\n  AND movie_companies.note = '(1940) (USA) (theatrical) (as Loew's Incorporated)'\nGROUP BY movie_companies.note;": [],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '126' AND '251'\n  AND movie_companies.note = '(2003) (Belgium) (theatrical)'\nGROUP BY movie_companies.note;": [
+        10.97,
+        10.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '8' AND '143'\n  AND movie_companies.note = '(2010) (Canada) (DVD) (4 film set)'\nGROUP BY movie_companies.note;": [
+        11.18,
+        11.17
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '117' AND '163'\n  AND movie_companies.note = '(1999) (USA) (VHS) (director's cut)'\nGROUP BY movie_companies.note;": [],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '71' AND '152'\n  AND movie_companies.note = '(2011) (New Zealand) (all media) (internet streaming)'\nGROUP BY movie_companies.note;": [
+        10.07,
+        10.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '328' AND '367'\n  AND movie_companies.note = '(2006) (Japan) (all media)'\nGROUP BY movie_companies.note;": [
+        9.24,
+        9.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '243' AND '413'\n  AND movie_companies.note = '(2003) (Belgium) (theatrical)'\nGROUP BY movie_companies.note;": [
+        12.88,
+        12.87
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '32' AND '374'\n  AND movie_companies.note = '(1976) (Belgium) (TV)'\nGROUP BY movie_companies.note;": [
+        17.34,
+        17.34
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '310' AND '342'\n  AND movie_companies.note = '(2006) (Netherlands) (DVD) (seasons 3 and 4)'\nGROUP BY movie_companies.note;": [
+        9.11,
+        9.11
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '179' AND '495'\n  AND movie_companies.note = '(1982) (Spain) (TV)'\nGROUP BY movie_companies.note;": [
+        16.82,
+        16.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '328' AND '438'\n  AND movie_companies.note = '(1976) (Brazil) (TV)'\nGROUP BY movie_companies.note;": [
+        10.66,
+        10.66
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '147' AND '199'\n  AND movie_companies.note = '(2005) (Australia) (DVD) (season 1)'\nGROUP BY movie_companies.note;": [
+        9.49,
+        9.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '114' AND '364'\n  AND movie_companies.note = '(1995) (USA) (VHS) (pan/scan)'\nGROUP BY movie_companies.note;": [
+        14.49,
+        14.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '24' AND '44'\n  AND movie_companies.note = '(1982) (Netherlands) (TV) (13 episodes)'\nGROUP BY movie_companies.note;": [
+        8.86,
+        8.86
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '213' AND '250'\n  AND movie_companies.note = '(1985) (Belgium) (VHS)'\nGROUP BY movie_companies.note;": [
+        9.2,
+        9.2
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '404' AND '457'\n  AND movie_companies.note = '(Brazil) (VHS) (on \"Rindo com Max Linder\")'\nGROUP BY movie_companies.note;": [
+        9.51,
+        9.51
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '180' AND '283'\n  AND movie_companies.note = '(2011) (USA) (all media) (re-issue)'\nGROUP BY movie_companies.note;": [
+        10.52,
+        10.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '96' AND '419'\n  AND movie_companies.note = '(1967) (Venezuela) (TV)'\nGROUP BY movie_companies.note;": [
+        16.96,
+        16.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '23' AND '202'\n  AND movie_companies.note = '(2005) (Brazil) (VHS) (VCD)'\nGROUP BY movie_companies.note;": [
+        13.05,
+        13.05
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '205' AND '490'\n  AND movie_companies.note = '(2012) (Peru) (all media)'\nGROUP BY movie_companies.note;": [
+        15.19,
+        15.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '82' AND '355'\n  AND movie_companies.note = '(2010-) (Netherlands) (TV) (limited) (repeats)'\nGROUP BY movie_companies.note;": [
+        14.94,
+        14.94
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '132' AND '343'\n  AND movie_companies.note = '(1941) (UK) (theatrical) (edited) (re-release)'\nGROUP BY movie_companies.note;": [
+        13.71,
+        13.71
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '195' AND '272'\n  AND movie_companies.note = '(19??) (Denmark) (VHS)'\nGROUP BY movie_companies.note;": [
+        10.01,
+        10.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '154' AND '298'\n  AND movie_companies.note = '(2005) (USA) (DVD) (full-screen)'\nGROUP BY movie_companies.note;": [
+        11.36,
+        11.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '304' AND '333'\n  AND movie_companies.note = '(1930) (USA: Southeast) (theatrical)'\nGROUP BY movie_companies.note;": [
+        9.04,
+        9.04
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '36' AND '170'\n  AND movie_companies.note = '(1999) (UK) (cable tv)'\nGROUP BY movie_companies.note;": [
+        11.15,
+        11.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '80' AND '476'\n  AND movie_companies.note = '(2011) (Japan) (all media) (Xbox 360) (download only)'\nGROUP BY movie_companies.note;": [
+        18.42,
+        18.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '294' AND '346'\n  AND movie_companies.note = '(????) (USA) (DVD) (as \"Crazy, Crazy Love\")'\nGROUP BY movie_companies.note;": [
+        9.49,
+        9.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '64' AND '108'\n  AND movie_companies.note = '(2006) (USA) (DVD) (Rene Bond triple feature) (as 'Necromania') (softcore version)'\nGROUP BY movie_companies.note;": [],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '119' AND '266'\n  AND movie_companies.note = '(1995-2005) (Japan) (TV)'\nGROUP BY movie_companies.note;": [
+        11.4,
+        11.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '148' AND '246'\n  AND movie_companies.note = '(1960-1961)'\nGROUP BY movie_companies.note;": [
+        10.44,
+        10.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '415' AND '459'\n  AND movie_companies.note = '(1970s) (non-USA) (TV)'\nGROUP BY movie_companies.note;": [
+        9.33,
+        9.33
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '68' AND '453'\n  AND movie_companies.note = '(1916) (USA) (theatrical) (as Red Feather Photoplays)'\nGROUP BY movie_companies.note;": [
+        18.2,
+        18.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '4' AND '434'\n  AND movie_companies.note = '(1989) (USA) (VHS) (for MGM/UA Home Entertainment)'\nGROUP BY movie_companies.note;": [
+        23.12,
+        23.11
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '293' AND '471'\n  AND movie_companies.note = '(1999) (USA) (VHS) (as \"Pastries\")'\nGROUP BY movie_companies.note;": [
+        13.03,
+        13.03
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '6' AND '426'\n  AND movie_companies.note = '(1997-2006) (worldwide) (TV)'\nGROUP BY movie_companies.note;": [
+        22.92,
+        22.91
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '22' AND '190'\n  AND movie_companies.note = '(2009) (USA) (DVD) ([us])'\nGROUP BY movie_companies.note;": [
+        12.83,
+        12.83
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '6' AND '400'\n  AND movie_companies.note = '(1959) (Belgium) (all media)'\nGROUP BY movie_companies.note;": [
+        18.38,
+        18.37
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '350' AND '499'\n  AND movie_companies.note = '(VHS) (non-USA)'\nGROUP BY movie_companies.note;": [
+        11.45,
+        11.45
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '270' AND '300'\n  AND movie_companies.note = '(1948) (Sweden) (theatrical)'\nGROUP BY movie_companies.note;": [
+        9.06,
+        9.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '105' AND '266'\n  AND movie_companies.note = '(2001) (Estonia) (TV) (only first season)'\nGROUP BY movie_companies.note;": [
+        12.69,
+        12.69
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '68' AND '320'\n  AND movie_companies.note = '(1984-1987) (worldwide) (theatrical)'\nGROUP BY movie_companies.note;": [
+        14.52,
+        14.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '31' AND '313'\n  AND movie_companies.note = '(????) (USA) (VHS) (XXX double feature #97)'\nGROUP BY movie_companies.note;": [
+        15.12,
+        15.12
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '349' AND '475'\n  AND movie_companies.note = '(1923) (USA) (theatrical)'\nGROUP BY movie_companies.note;": [
+        11.0,
+        11.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '145' AND '478'\n  AND movie_companies.note = '(2003-) (Brazil) (TV)'\nGROUP BY movie_companies.note;": [
+        17.16,
+        17.16
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '292' AND '339'\n  AND movie_companies.note = '(1960-1968) (1973-1975) (USA) (TV)'\nGROUP BY movie_companies.note;": [
+        9.4,
+        9.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '61' AND '435'\n  AND movie_companies.note = '(1948-1950 and 1955-1963)'\nGROUP BY movie_companies.note;": [
+        17.97,
+        17.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '132' AND '138'\n  AND movie_companies.note = '(2008) (USA) (DVD) (For Granada)'\nGROUP BY movie_companies.note;": [
+        8.57,
+        8.56
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '345' AND '489'\n  AND movie_companies.note = '(Australia) (theatrical)'\nGROUP BY movie_companies.note;": [
+        11.36,
+        11.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '168' AND '483'\n  AND movie_companies.note = '(1993) (USA) (TV)'\nGROUP BY movie_companies.note;": [
+        16.8,
+        16.8
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '130' AND '171'\n  AND movie_companies.note = '(1996-2003) (USA) (TV)'\nGROUP BY movie_companies.note;": [
+        9.29,
+        9.28
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '73' AND '298'\n  AND movie_companies.note = '(2013) (China) (video)'\nGROUP BY movie_companies.note;": [
+        13.98,
+        13.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '13' AND '301'\n  AND movie_companies.note = '(1990) (worldwide) (video)'\nGROUP BY movie_companies.note;": [
+        15.26,
+        15.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '51' AND '457'\n  AND movie_companies.note = '(1977-1978) (USA) (all media)'\nGROUP BY movie_companies.note;": [
+        18.62,
+        18.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '208' AND '222'\n  AND movie_companies.note = '(2011) (Netherlands) (DVD) (season 2)'\nGROUP BY movie_companies.note;": [
+        8.75,
+        8.75
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '88' AND '352'\n  AND movie_companies.note = '(1979-) (USA) (all media)'\nGROUP BY movie_companies.note;": [
+        14.77,
+        14.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '3' AND '167'\n  AND movie_companies.note = '(1998) (Mexico) (TV)'\nGROUP BY movie_companies.note;": [
+        12.76,
+        12.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '242' AND '358'\n  AND movie_companies.note = '(1935) (Sweden) (theatrical)'\nGROUP BY movie_companies.note;": [
+        10.79,
+        10.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '175' AND '478'\n  AND movie_companies.note = '(2005-) (USA) (TV) (repeats)'\nGROUP BY movie_companies.note;": [
+        15.55,
+        15.55
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '91' AND '263'\n  AND movie_companies.note = '(1969) (UK) (TV)'\nGROUP BY movie_companies.note;": [
+        12.92,
+        12.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '121' AND '366'\n  AND movie_companies.note = '(1957) (USA) (TV) (in association with)'\nGROUP BY movie_companies.note;": [
+        14.38,
+        14.38
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '172' AND '259'\n  AND movie_companies.note = '(1985-) (Germany) (TV)'\nGROUP BY movie_companies.note;": [
+        10.21,
+        10.21
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '290' AND '337'\n  AND movie_companies.note = '(1984) (France) (VHS)'\nGROUP BY movie_companies.note;": [
+        9.4,
+        9.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '318' AND '346'\n  AND movie_companies.note = '(Philippines) (TV)'\nGROUP BY movie_companies.note;": [
+        9.02,
+        9.01
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '426' AND '431'\n  AND movie_companies.note = '(1981) (1986) (Finland) (TV)'\nGROUP BY movie_companies.note;": [
+        8.54,
+        8.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '393' AND '419'\n  AND movie_companies.note = '(2007) (UK) (all media) (Xbox 360 version) (download only)'\nGROUP BY movie_companies.note;": [
+        8.97,
+        8.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '444' AND '500'\n  AND movie_companies.note = '(2008) (USA) (DVD) (as \"All in the Family\")'\nGROUP BY movie_companies.note;": [
+        9.58,
+        9.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '48' AND '468'\n  AND movie_companies.note = '(Italy) (theatrical)'\nGROUP BY movie_companies.note;": [
+        22.92,
+        22.91
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '93' AND '484'\n  AND movie_companies.note = '(1977-1980) (UK) (TV) (BBC 1)'\nGROUP BY movie_companies.note;": [
+        18.33,
+        18.33
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '64' AND '276'\n  AND movie_companies.note = '(VHS) (Ontario)'\nGROUP BY movie_companies.note;": [
+        13.73,
+        13.73
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '103' AND '447'\n  AND movie_companies.note = '(2009) (USA) (DVD) (and Blu-ray)'\nGROUP BY movie_companies.note;": [
+        17.39,
+        17.38
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '29' AND '87'\n  AND movie_companies.note = '(1984) (Portugal) (TV)'\nGROUP BY movie_companies.note;": [
+        9.62,
+        9.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '71' AND '389'\n  AND movie_companies.note = '(1988) (Austria) (theatrical)'\nGROUP BY movie_companies.note;": [
+        16.85,
+        16.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '493' AND '494'\n  AND movie_companies.note = '(2011-) (Greece) (TV)'\nGROUP BY movie_companies.note;": [
+        8.48,
+        8.47
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '395' AND '447'\n  AND movie_companies.note = '(1996) (France) (TV)'\nGROUP BY movie_companies.note;": [
+        9.49,
+        9.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '232' AND '304'\n  AND movie_companies.note = '(1923) (Sweden) (theatrical)'\nGROUP BY movie_companies.note;": [
+        9.89,
+        9.89
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '114' AND '307'\n  AND movie_companies.note = '(2003) (USA) (theatrical) (presents) (in association with)'\nGROUP BY movie_companies.note;": [
+        13.35,
+        13.35
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '212' AND '289'\n  AND movie_companies.note = '(2002) (worldwide) (all media) (sales)'\nGROUP BY movie_companies.note;": [
+        10.01,
+        10.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '164' AND '183'\n  AND movie_companies.note = '(????) (India) (theatrical)'\nGROUP BY movie_companies.note;": [
+        8.84,
+        8.83
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '11' AND '161'\n  AND movie_companies.note = '(1972-1984) (USA) (TV)'\nGROUP BY movie_companies.note;": [
+        11.47,
+        11.47
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '195' AND '319'\n  AND movie_companies.note = '(1980) (USA) (VHS) (as Competitive Video)'\nGROUP BY movie_companies.note;": [
+        10.95,
+        10.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '39' AND '311'\n  AND movie_companies.note = '(2005) (Italy) (theatrical)'\nGROUP BY movie_companies.note;": [
+        14.92,
+        14.92
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '277' AND '412'\n  AND movie_companies.note = '(2008) (USA) (video) (online)'\nGROUP BY movie_companies.note;": [
+        11.18,
+        11.17
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '233' AND '307'\n  AND movie_companies.note = '(2004) (Netherlands) (TV)'\nGROUP BY movie_companies.note;": [
+        9.94,
+        9.94
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '226' AND '385'\n  AND movie_companies.note = '(1986-2007) (worldwide) (TV)'\nGROUP BY movie_companies.note;": [
+        12.65,
+        12.65
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '138' AND '365'\n  AND movie_companies.note = '(2010) (Puerto Rico) (all media)'\nGROUP BY movie_companies.note;": [
+        14.02,
+        14.02
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '123' AND '467'\n  AND movie_companies.note = '(1941) (UK) (theatrical) (edited) (re-release)'\nGROUP BY movie_companies.note;": [
+        17.39,
+        17.38
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '8' AND '53'\n  AND movie_companies.note = '(2007-2017) (Australia) (all media)'\nGROUP BY movie_companies.note;": [
+        9.35,
+        9.35
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '14' AND '397'\n  AND movie_companies.note = '(1977-1978) (USA) (all media)'\nGROUP BY movie_companies.note;": [
+        18.15,
+        18.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '433' AND '480'\n  AND movie_companies.note = '(1951) (USA) (all media) (8 mm and 16 mm silent with titles) (retitled)'\nGROUP BY movie_companies.note;": [
+        9.4,
+        9.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '76' AND '380'\n  AND movie_companies.note = '(1968) (Puerto Rico) (TV)'\nGROUP BY movie_companies.note;": [
+        15.57,
+        15.57
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '216' AND '472'\n  AND movie_companies.note = '(1971) (Mexico) (VHS)'\nGROUP BY movie_companies.note;": [
+        14.61,
+        14.61
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '177' AND '222'\n  AND movie_companies.note = '(19??) (Australia) (theatrical)'\nGROUP BY movie_companies.note;": [
+        9.35,
+        9.35
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '99' AND '360'\n  AND movie_companies.note = '(1949) (Germany) (theatrical)'\nGROUP BY movie_companies.note;": [
+        14.7,
+        14.7
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '206' AND '321'\n  AND movie_companies.note = '(2008) (USA) (all media) (PlayStation 2)'\nGROUP BY movie_companies.note;": [
+        10.77,
+        10.77
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '272' AND '313'\n  AND movie_companies.note = '(1998) (USA) (all media) (PlayStation)'\nGROUP BY movie_companies.note;": [
+        9.29,
+        9.28
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '282' AND '335'\n  AND movie_companies.note = '(1956) (USA) (theatrical) (presents)'\nGROUP BY movie_companies.note;": [
+        9.51,
+        9.51
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '229' AND '353'\n  AND movie_companies.note = '(2006) (Colombia) (theatrical)'\nGROUP BY movie_companies.note;": [
+        10.95,
+        10.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '261' AND '463'\n  AND movie_companies.note = '(1954) (France) (theatrical) (as Les Artistes Associés)'\nGROUP BY movie_companies.note;": [
+        13.53,
+        13.53
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '84' AND '235'\n  AND movie_companies.note = '(1949) (Uruguay) (theatrical)'\nGROUP BY movie_companies.note;": [
+        11.49,
+        11.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '220' AND '408'\n  AND movie_companies.note = '(2003) (Chile) (DVD)'\nGROUP BY movie_companies.note;": [
+        13.23,
+        13.23
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '378' AND '486'\n  AND movie_companies.note = '(1947) (Uruguay) (theatrical) (re-release)'\nGROUP BY movie_companies.note;": [
+        10.64,
+        10.63
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '57' AND '156'\n  AND movie_companies.note = '(2000) (UK) (all media) (PlayStation) (as \"Bomberman Fantasy Race\")'\nGROUP BY movie_companies.note;": [
+        10.46,
+        10.46
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '376' AND '463'\n  AND movie_companies.note = '(199?) (Netherlands) (VHS) (rental)'\nGROUP BY movie_companies.note;": [
+        10.21,
+        10.21
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '59' AND '273'\n  AND movie_companies.note = '(1947) (New Zealand) (theatrical) (re-release)'\nGROUP BY movie_companies.note;": [
+        13.75,
+        13.75
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '380' AND '466'\n  AND movie_companies.note = '(1950) (USA) (theatrical) (retitled re-release)'\nGROUP BY movie_companies.note;": [
+        10.19,
+        10.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '188' AND '204'\n  AND movie_companies.note = '(1958) (USA) (subtitled)'\nGROUP BY movie_companies.note;": [
+        8.77,
+        8.77
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '52' AND '439'\n  AND movie_companies.note = '(2007) (Egypt) (TV)'\nGROUP BY movie_companies.note;": [
+        18.24,
+        18.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '72' AND '324'\n  AND movie_companies.note = '(2008) (USA) (DVD) (Season 1)'\nGROUP BY movie_companies.note;": [
+        14.52,
+        14.52
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '46' AND '129'\n  AND movie_companies.note = '(1930) (Germany) (theatrical)'\nGROUP BY movie_companies.note;": [
+        10.12,
+        10.12
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '198' AND '254'\n  AND movie_companies.note = '(2005-2012) (Venezuela) (all media)'\nGROUP BY movie_companies.note;": [
+        9.58,
+        9.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '20' AND '468'\n  AND movie_companies.note = '(1937) (Malaysia) (theatrical)'\nGROUP BY movie_companies.note;": [
+        23.48,
+        23.48
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '395' AND '441'\n  AND movie_companies.note = '(2006) (USA) (DVD) (season 2)'\nGROUP BY movie_companies.note;": [
+        9.38,
+        9.38
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '237' AND '371'\n  AND movie_companies.note = '(2003) (Japan) (theatrical) (Far East)'\nGROUP BY movie_companies.note;": [
+        11.15,
+        11.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '30' AND '333'\n  AND movie_companies.note = '(2006) (Switzerland) (theatrical)'\nGROUP BY movie_companies.note;": [
+        15.55,
+        15.55
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '57' AND '430'\n  AND movie_companies.note = '(2009) (Canada) (DVD) (Blu-ray)'\nGROUP BY movie_companies.note;": [
+        17.97,
+        17.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '286' AND '442'\n  AND movie_companies.note = '(2003) (Norway) (theatrical)'\nGROUP BY movie_companies.note;": [
+        12.58,
+        12.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '101' AND '189'\n  AND movie_companies.note = '(2004) (worldwide) (VHS)'\nGROUP BY movie_companies.note;": [
+        10.23,
+        10.23
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '96' AND '390'\n  AND movie_companies.note = '(1956) (Cuba) (theatrical)'\nGROUP BY movie_companies.note;": [
+        15.37,
+        15.37
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '193' AND '254'\n  AND movie_companies.note = '(1948-1949) (USA) (TV)'\nGROUP BY movie_companies.note;": [
+        9.69,
+        9.69
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '105' AND '256'\n  AND movie_companies.note = '(2007) (France) (video)'\nGROUP BY movie_companies.note;": [
+        11.49,
+        11.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '280' AND '379'\n  AND movie_companies.note = '(2002) (Japan) (TV) (pay tv)'\nGROUP BY movie_companies.note;": [
+        10.46,
+        10.46
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '172' AND '429'\n  AND movie_companies.note = '(2008-2012) (Argentina) (TV)'\nGROUP BY movie_companies.note;": [
+        14.63,
+        14.63
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 5\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['movie_companies']\n-- Rewrite Attempts Number for Constraints Check: 2\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT movie_companies.note\nFROM movie_companies\nWHERE movie_companies.id BETWEEN '1' AND '1'\n  AND movie_companies.note = '(1949) (USA) (theatrical) (USA: New York) (re-release)'\nGROUP BY movie_companies.note;": [
+        8.45,
+        8.45
+    ]
+}

@@ -1,0 +1,455 @@
+[
+    {
+        "template_id": 1,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "tables_involved": [
+                "kind_type"
+            ]
+        }
+    },
+    {
+        "template_id": 2,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "tables_involved": [
+                "cast_info"
+            ]
+        }
+    },
+    {
+        "template_id": 3,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "tables_involved": [
+                "info_type"
+            ]
+        }
+    },
+    {
+        "template_id": 4,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "tables_involved": [
+                "role_type"
+            ]
+        }
+    },
+    {
+        "template_id": 5,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "tables_involved": [
+                "movie_companies"
+            ]
+        }
+    },
+    {
+        "template_id": 6,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 2,
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "tables_involved": [
+                "complete_cast"
+            ]
+        }
+    },
+    {
+        "template_id": 7,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "tables_involved": [
+                "comp_cast_type"
+            ]
+        }
+    },
+    {
+        "template_id": 8,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "tables_involved": [
+                "name"
+            ]
+        }
+    },
+    {
+        "template_id": 9,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "tables_involved": [
+                "info_type"
+            ]
+        }
+    },
+    {
+        "template_id": 10,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "tables_involved": [
+                "aka_title"
+            ]
+        }
+    },
+    {
+        "template_id": 11,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 3,
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "tables_involved": [
+                "kind_type"
+            ]
+        }
+    },
+    {
+        "template_id": 12,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "tables_involved": [
+                "keyword"
+            ]
+        }
+    },
+    {
+        "template_id": 13,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 0,
+            "num_aggregations": 2,
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "tables_involved": [
+                "movie_info_idx"
+            ]
+        }
+    },
+    {
+        "template_id": 14,
+        "constraints": {
+            "num_tables_accessed": 2,
+            "num_joins": 1,
+            "num_aggregations": 0,
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "tables_involved": [
+                "cast_info",
+                "title"
+            ]
+        }
+    },
+    {
+        "template_id": 15,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 2,
+            "num_aggregations": 6,
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "tables_involved": [
+                "cast_info",
+                "name",
+                "person_info"
+            ]
+        }
+    },
+    {
+        "template_id": 16,
+        "constraints": {
+            "num_tables_accessed": 1,
+            "num_joins": 2,
+            "num_aggregations": 6,
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "tables_involved": [
+                "complete_cast",
+                "name",
+                "person_info"
+            ]
+        }
+    },
+    {
+        "template_id": 17,
+        "constraints": {
+            "num_tables_accessed": 7,
+            "num_joins": 6,
+            "num_aggregations": 5,
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "tables_involved": [
+                "movie_info",
+                "aka_name",
+                "movie_keyword",
+                "title",
+                "role_type",
+                "movie_companies",
+                "company_name",
+                "comp_cast_type",
+                "company_type",
+                "cast_info",
+                "movie_info_idx",
+                "movie_link",
+                "info_type",
+                "name",
+                "kind_type",
+                "keyword",
+                "char_name",
+                "link_type",
+                "aka_title",
+                "person_info",
+                "complete_cast"
+            ]
+        }
+    },
+    {
+        "template_id": 18,
+        "constraints": {
+            "num_tables_accessed": 7,
+            "num_joins": 6,
+            "num_aggregations": 5,
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "tables_involved": [
+                "movie_info",
+                "aka_name",
+                "movie_keyword",
+                "title",
+                "role_type",
+                "movie_companies",
+                "company_name",
+                "comp_cast_type",
+                "company_type",
+                "cast_info",
+                "movie_info_idx",
+                "movie_link",
+                "info_type",
+                "name",
+                "kind_type",
+                "keyword",
+                "char_name",
+                "link_type",
+                "aka_title",
+                "person_info",
+                "complete_cast"
+            ]
+        }
+    },
+    {
+        "template_id": 19,
+        "constraints": {
+            "num_tables_accessed": 7,
+            "num_joins": 6,
+            "num_aggregations": 5,
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "tables_involved": [
+                "movie_info",
+                "aka_name",
+                "movie_keyword",
+                "title",
+                "role_type",
+                "movie_companies",
+                "company_name",
+                "comp_cast_type",
+                "company_type",
+                "cast_info",
+                "movie_info_idx",
+                "movie_link",
+                "info_type",
+                "name",
+                "kind_type",
+                "keyword",
+                "char_name",
+                "link_type",
+                "aka_title",
+                "person_info",
+                "complete_cast"
+            ]
+        }
+    },
+    {
+        "template_id": 20,
+        "constraints": {
+            "num_tables_accessed": 6,
+            "num_joins": 6,
+            "num_aggregations": 5,
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "tables_involved": [
+                "movie_info",
+                "aka_name",
+                "movie_keyword",
+                "title",
+                "role_type",
+                "movie_companies",
+                "company_name",
+                "comp_cast_type",
+                "company_type",
+                "cast_info",
+                "movie_info_idx",
+                "movie_link",
+                "info_type",
+                "name",
+                "kind_type",
+                "keyword",
+                "char_name",
+                "link_type",
+                "aka_title",
+                "person_info",
+                "complete_cast"
+            ]
+        }
+    },
+    {
+        "template_id": 21,
+        "constraints": {
+            "num_tables_accessed": 7,
+            "num_joins": 6,
+            "num_aggregations": 5,
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "tables_involved": [
+                "movie_info",
+                "aka_name",
+                "movie_keyword",
+                "title",
+                "role_type",
+                "movie_companies",
+                "company_name",
+                "comp_cast_type",
+                "company_type",
+                "cast_info",
+                "movie_info_idx",
+                "movie_link",
+                "info_type",
+                "name",
+                "kind_type",
+                "keyword",
+                "char_name",
+                "link_type",
+                "aka_title",
+                "person_info",
+                "complete_cast"
+            ]
+        }
+    },
+    {
+        "template_id": 22,
+        "constraints": {
+            "num_tables_accessed": 7,
+            "num_joins": 7,
+            "num_aggregations": 5,
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "tables_involved": [
+                "movie_info",
+                "aka_name",
+                "movie_keyword",
+                "title",
+                "role_type",
+                "movie_companies",
+                "company_name",
+                "comp_cast_type",
+                "company_type",
+                "cast_info",
+                "movie_info_idx",
+                "movie_link",
+                "info_type",
+                "name",
+                "kind_type",
+                "keyword",
+                "char_name",
+                "link_type",
+                "aka_title",
+                "person_info",
+                "complete_cast"
+            ]
+        }
+    },
+    {
+        "template_id": 23,
+        "constraints": {
+            "num_tables_accessed": 7,
+            "num_joins": 7,
+            "num_aggregations": 5,
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "tables_involved": [
+                "movie_info",
+                "aka_name",
+                "movie_keyword",
+                "title",
+                "role_type",
+                "movie_companies",
+                "company_name",
+                "comp_cast_type",
+                "company_type",
+                "cast_info",
+                "movie_info_idx",
+                "movie_link",
+                "info_type",
+                "name",
+                "kind_type",
+                "keyword",
+                "char_name",
+                "link_type",
+                "aka_title",
+                "person_info",
+                "complete_cast"
+            ]
+        }
+    },
+    {
+        "template_id": 24,
+        "constraints": {
+            "num_tables_accessed": 10,
+            "num_joins": 21,
+            "num_aggregations": 16,
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "tables_involved": [
+                "movie_info",
+                "aka_name",
+                "movie_keyword",
+                "title",
+                "role_type",
+                "movie_companies",
+                "company_name",
+                "comp_cast_type",
+                "company_type",
+                "cast_info",
+                "movie_info_idx",
+                "movie_link",
+                "info_type",
+                "name",
+                "kind_type",
+                "keyword",
+                "char_name",
+                "link_type",
+                "aka_title",
+                "person_info",
+                "complete_cast"
+            ]
+        }
+    }
+]

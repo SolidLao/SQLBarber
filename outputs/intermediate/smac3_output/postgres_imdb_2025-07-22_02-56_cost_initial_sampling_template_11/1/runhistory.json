@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "submitted": 7,
+    "finished": 7,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      1791095845,
+      null,
+      0.669,
+      0.0010106563568115234,
+      1,
+      1753124634.6422138,
+      1753124634.6438503,
+      {}
+    ],
+    [
+      2,
+      null,
+      1791095845,
+      null,
+      0.669,
+      0.0008273124694824219,
+      1,
+      1753124634.6454132,
+      1753124634.6468236,
+      {}
+    ],
+    [
+      3,
+      null,
+      1791095845,
+      null,
+      0.669,
+      0.0008196830749511719,
+      1,
+      1753124634.6485982,
+      1753124634.6501455,
+      {}
+    ],
+    [
+      4,
+      null,
+      1791095845,
+      null,
+      0.669,
+      0.0007879734039306641,
+      1,
+      1753124634.6519103,
+      1753124634.653447,
+      {}
+    ],
+    [
+      5,
+      null,
+      1791095845,
+      null,
+      0.669,
+      0.0007877349853515625,
+      1,
+      1753124634.6553056,
+      1753124634.656824,
+      {}
+    ],
+    [
+      6,
+      null,
+      1791095845,
+      null,
+      0.669,
+      0.0007812976837158203,
+      1,
+      1753124634.658628,
+      1753124634.6601326,
+      {}
+    ],
+    [
+      7,
+      null,
+      1791095845,
+      null,
+      0.669,
+      0.00080108642578125,
+      1,
+      1753124634.6947694,
+      1753124634.696264,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "kind_type.kind": "tv mini series"
+    },
+    "2": {
+      "kind_type.kind": "tv movie"
+    },
+    "3": {
+      "kind_type.kind": "episode"
+    },
+    "4": {
+      "kind_type.kind": "movie"
+    },
+    "5": {
+      "kind_type.kind": "tv series"
+    },
+    "6": {
+      "kind_type.kind": "video movie"
+    },
+    "7": {
+      "kind_type.kind": "video game"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Latin Hypercube",
+    "2": "Initial Design: Latin Hypercube",
+    "3": "Initial Design: Latin Hypercube",
+    "4": "Initial Design: Latin Hypercube",
+    "5": "Initial Design: Latin Hypercube",
+    "6": "Initial Design: Latin Hypercube",
+    "7": "Acquisition Function Maximizer: Random Search (sorted)"
+  }
+}

@@ -1,0 +1,1913 @@
+{
+  "stats": {
+    "submitted": 95,
+    "finished": 95,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      1791095845,
+      null,
+      0.7914,
+      0.011951208114624023,
+      1,
+      1753124951.0246935,
+      1753124951.040073,
+      {}
+    ],
+    [
+      2,
+      null,
+      1791095845,
+      null,
+      0.014550000000000063,
+      0.010898351669311523,
+      1,
+      1753124951.1304014,
+      1753124951.1444576,
+      {}
+    ],
+    [
+      3,
+      null,
+      1791095845,
+      null,
+      0.7530083333333333,
+      0.00758051872253418,
+      1,
+      1753124951.1468742,
+      1753124951.15791,
+      {}
+    ],
+    [
+      4,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004498958587646484,
+      1,
+      1753124951.1601443,
+      1753124951.170226,
+      {}
+    ],
+    [
+      5,
+      null,
+      1791095845,
+      null,
+      0.27982946361698446,
+      0.0044367313385009766,
+      1,
+      1753124951.1733844,
+      1753124951.181949,
+      {}
+    ],
+    [
+      6,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.005148887634277344,
+      1,
+      1753124951.184365,
+      1753124951.1928575,
+      {}
+    ],
+    [
+      7,
+      null,
+      1791095845,
+      null,
+      0.02971161643114073,
+      0.005301952362060547,
+      1,
+      1753124951.1955173,
+      1753124951.2043695,
+      {}
+    ],
+    [
+      8,
+      null,
+      1791095845,
+      null,
+      0.04648999999999992,
+      0.005476713180541992,
+      1,
+      1753124951.2070856,
+      1753124951.215848,
+      {}
+    ],
+    [
+      9,
+      null,
+      1791095845,
+      null,
+      0.2552916666666667,
+      0.004679679870605469,
+      1,
+      1753124951.218834,
+      1753124951.2270582,
+      {}
+    ],
+    [
+      10,
+      null,
+      1791095845,
+      null,
+      0.4236928118027712,
+      0.004553318023681641,
+      1,
+      1753124951.2296038,
+      1753124951.237659,
+      {}
+    ],
+    [
+      11,
+      null,
+      1791095845,
+      null,
+      0.32974499999999995,
+      0.004115581512451172,
+      1,
+      1753124951.2403798,
+      1753124951.2478383,
+      {}
+    ],
+    [
+      12,
+      null,
+      1791095845,
+      null,
+      0.49955889691342226,
+      0.004469394683837891,
+      1,
+      1753124951.2505558,
+      1753124951.2582185,
+      {}
+    ],
+    [
+      13,
+      null,
+      1791095845,
+      null,
+      0.40806,
+      0.003878355026245117,
+      1,
+      1753124951.2608187,
+      1753124951.2683058,
+      {}
+    ],
+    [
+      14,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004171848297119141,
+      1,
+      1753124951.2713025,
+      1753124951.2788599,
+      {}
+    ],
+    [
+      15,
+      null,
+      1791095845,
+      null,
+      0.7095933333333333,
+      0.00423121452331543,
+      1,
+      1753124951.2817533,
+      1753124951.2892659,
+      {}
+    ],
+    [
+      16,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004255533218383789,
+      1,
+      1753124951.2922294,
+      1753124951.2997866,
+      {}
+    ],
+    [
+      17,
+      null,
+      1791095845,
+      null,
+      0.25027,
+      0.0041255950927734375,
+      1,
+      1753124951.3027146,
+      1753124951.310574,
+      {}
+    ],
+    [
+      18,
+      null,
+      1791095845,
+      null,
+      0.4679654390349197,
+      0.004512310028076172,
+      1,
+      1753124951.313655,
+      1753124951.3215263,
+      {}
+    ],
+    [
+      19,
+      null,
+      1791095845,
+      null,
+      0.25563827422924,
+      0.004131793975830078,
+      1,
+      1753124951.3246114,
+      1753124951.3320315,
+      {}
+    ],
+    [
+      20,
+      null,
+      1791095845,
+      null,
+      0.19676042002545113,
+      0.004217386245727539,
+      1,
+      1753124951.3350852,
+      1753124951.342645,
+      {}
+    ],
+    [
+      21,
+      null,
+      1791095845,
+      null,
+      0.7310033333333333,
+      0.004403352737426758,
+      1,
+      1753124951.3456118,
+      1753124951.3535113,
+      {}
+    ],
+    [
+      22,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.01165008544921875,
+      1,
+      1753124951.5106862,
+      1753124951.5255015,
+      {}
+    ],
+    [
+      23,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0067293643951416016,
+      1,
+      1753124951.5293722,
+      1753124951.540325,
+      {}
+    ],
+    [
+      24,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.00502777099609375,
+      1,
+      1753124951.5434146,
+      1753124951.5516014,
+      {}
+    ],
+    [
+      25,
+      null,
+      1791095845,
+      null,
+      0.5711933333333333,
+      0.004103899002075195,
+      1,
+      1753124951.5547066,
+      1753124951.5620348,
+      {}
+    ],
+    [
+      26,
+      null,
+      1791095845,
+      null,
+      0.2362372683480357,
+      0.00417327880859375,
+      1,
+      1753124951.5653157,
+      1753124951.572728,
+      {}
+    ],
+    [
+      27,
+      null,
+      1791095845,
+      null,
+      0.5748016666666667,
+      0.004144430160522461,
+      1,
+      1753124951.5760105,
+      1753124951.5833404,
+      {}
+    ],
+    [
+      28,
+      null,
+      1791095845,
+      null,
+      0.6254066666666667,
+      0.00417017936706543,
+      1,
+      1753124951.5866394,
+      1753124951.5939398,
+      {}
+    ],
+    [
+      29,
+      null,
+      1791095845,
+      null,
+      0.6167233333333333,
+      0.004281520843505859,
+      1,
+      1753124951.5981846,
+      1753124951.605649,
+      {}
+    ],
+    [
+      30,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.005455970764160156,
+      1,
+      1753124951.6090083,
+      1753124951.6176586,
+      {}
+    ],
+    [
+      31,
+      null,
+      1791095845,
+      null,
+      0.5998033333333334,
+      0.007179737091064453,
+      1,
+      1753124951.62104,
+      1753124951.631651,
+      {}
+    ],
+    [
+      32,
+      null,
+      1791095845,
+      null,
+      0.04225499999999993,
+      0.004889011383056641,
+      1,
+      1753124951.6350942,
+      1753124951.6433928,
+      {}
+    ],
+    [
+      33,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004266500473022461,
+      1,
+      1753124951.6470428,
+      1753124951.654755,
+      {}
+    ],
+    [
+      34,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004377841949462891,
+      1,
+      1753124951.6587455,
+      1753124951.6665442,
+      {}
+    ],
+    [
+      35,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.006178617477416992,
+      1,
+      1753124951.6703956,
+      1753124951.6799748,
+      {}
+    ],
+    [
+      36,
+      null,
+      1791095845,
+      null,
+      0.3352266666666667,
+      0.006371498107910156,
+      1,
+      1753124951.6839006,
+      1753124951.6936574,
+      {}
+    ],
+    [
+      37,
+      null,
+      1791095845,
+      null,
+      0.5003237188478606,
+      0.0048313140869140625,
+      1,
+      1753124951.697413,
+      1753124951.7056003,
+      {}
+    ],
+    [
+      38,
+      null,
+      1791095845,
+      null,
+      0.45867500000000005,
+      0.003972530364990234,
+      1,
+      1753124951.709469,
+      1753124951.7167873,
+      {}
+    ],
+    [
+      39,
+      null,
+      1791095845,
+      null,
+      0.45087166666666667,
+      0.005469083786010742,
+      1,
+      1753124951.7207055,
+      1753124951.7295656,
+      {}
+    ],
+    [
+      40,
+      null,
+      1791095845,
+      null,
+      0.7694683333333333,
+      0.006872892379760742,
+      1,
+      1753124951.7335405,
+      1753124951.7437565,
+      {}
+    ],
+    [
+      41,
+      null,
+      1791095845,
+      null,
+      0.7772533333333334,
+      0.004544496536254883,
+      1,
+      1753124951.7478468,
+      1753124951.756424,
+      {}
+    ],
+    [
+      42,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.011909723281860352,
+      1,
+      1753124951.9362674,
+      1753124951.9516492,
+      {}
+    ],
+    [
+      43,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.007581233978271484,
+      1,
+      1753124951.9589467,
+      1753124951.9700072,
+      {}
+    ],
+    [
+      44,
+      null,
+      1791095845,
+      null,
+      0.15659195677895232,
+      0.006366252899169922,
+      1,
+      1753124951.9748733,
+      1753124951.9851298,
+      {}
+    ],
+    [
+      45,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.00560307502746582,
+      1,
+      1753124951.9892738,
+      1753124951.9982607,
+      {}
+    ],
+    [
+      46,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0038573741912841797,
+      1,
+      1753124952.0027413,
+      1753124952.0101767,
+      {}
+    ],
+    [
+      47,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.005240201950073242,
+      1,
+      1753124952.0147634,
+      1753124952.0231614,
+      {}
+    ],
+    [
+      48,
+      null,
+      1791095845,
+      null,
+      0.6410116666666668,
+      0.007088422775268555,
+      1,
+      1753124952.0274298,
+      1753124952.037717,
+      {}
+    ],
+    [
+      49,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0044307708740234375,
+      1,
+      1753124952.0420833,
+      1753124952.0499318,
+      {}
+    ],
+    [
+      50,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004215240478515625,
+      1,
+      1753124952.054173,
+      1753124952.0615711,
+      {}
+    ],
+    [
+      51,
+      null,
+      1791095845,
+      null,
+      0.4456483333333333,
+      0.0065305233001708984,
+      1,
+      1753124952.0660617,
+      1753124952.0758016,
+      {}
+    ],
+    [
+      52,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.005440473556518555,
+      1,
+      1753124952.0801415,
+      1753124952.0889022,
+      {}
+    ],
+    [
+      53,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004288911819458008,
+      1,
+      1753124952.0933979,
+      1753124952.1009297,
+      {}
+    ],
+    [
+      54,
+      null,
+      1791095845,
+      null,
+      0.7489883333333334,
+      0.0047419071197509766,
+      1,
+      1753124952.1054564,
+      1753124952.1133988,
+      {}
+    ],
+    [
+      55,
+      null,
+      1791095845,
+      null,
+      0.4367466666666666,
+      0.007488250732421875,
+      1,
+      1753124952.1178524,
+      1753124952.128629,
+      {}
+    ],
+    [
+      56,
+      null,
+      1791095845,
+      null,
+      0.3080097867187307,
+      0.004812002182006836,
+      1,
+      1753124952.1338007,
+      1753124952.1426306,
+      {}
+    ],
+    [
+      57,
+      null,
+      1791095845,
+      null,
+      0.3920583333333333,
+      0.006855964660644531,
+      1,
+      1753124952.1471329,
+      1753124952.1571386,
+      {}
+    ],
+    [
+      58,
+      null,
+      1791095845,
+      null,
+      0.4782133333333334,
+      0.005014657974243164,
+      1,
+      1753124952.1616786,
+      1753124952.1698914,
+      {}
+    ],
+    [
+      59,
+      null,
+      1791095845,
+      null,
+      0.26654333333333335,
+      0.004228115081787109,
+      1,
+      1753124952.1745214,
+      1753124952.1819737,
+      {}
+    ],
+    [
+      60,
+      null,
+      1791095845,
+      null,
+      0.3162516666666667,
+      0.00525975227355957,
+      1,
+      1753124952.18649,
+      1753124952.1948953,
+      {}
+    ],
+    [
+      61,
+      null,
+      1791095845,
+      null,
+      0.44267333333333336,
+      0.007344722747802734,
+      1,
+      1753124952.1995912,
+      1753124952.2100432,
+      {}
+    ],
+    [
+      62,
+      null,
+      1791095845,
+      null,
+      0.2924716666666667,
+      0.009796142578125,
+      1,
+      1753124952.2308812,
+      1753124952.2439125,
+      {}
+    ],
+    [
+      63,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.011262893676757812,
+      1,
+      1753124952.4745345,
+      1753124952.4890447,
+      {}
+    ],
+    [
+      64,
+      null,
+      1791095845,
+      null,
+      0.37520696269360765,
+      0.0077173709869384766,
+      1,
+      1753124952.4940753,
+      1753124952.5051403,
+      {}
+    ],
+    [
+      65,
+      null,
+      1791095845,
+      null,
+      0.3433543710085326,
+      0.006345272064208984,
+      1,
+      1753124952.5111673,
+      1753124952.5214126,
+      {}
+    ],
+    [
+      66,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004450082778930664,
+      1,
+      1753124952.5263052,
+      1753124952.5338578,
+      {}
+    ],
+    [
+      67,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004095792770385742,
+      1,
+      1753124952.5386496,
+      1753124952.5459294,
+      {}
+    ],
+    [
+      68,
+      null,
+      1791095845,
+      null,
+      0.5038233333333333,
+      0.005507469177246094,
+      1,
+      1753124952.551156,
+      1753124952.5599382,
+      {}
+    ],
+    [
+      69,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.005840301513671875,
+      1,
+      1753124952.5650887,
+      1753124952.5741687,
+      {}
+    ],
+    [
+      70,
+      null,
+      1791095845,
+      null,
+      0.4602780030902939,
+      0.004869222640991211,
+      1,
+      1753124952.579558,
+      1753124952.5876317,
+      {}
+    ],
+    [
+      71,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.006683349609375,
+      1,
+      1753124952.5926535,
+      1753124952.6025717,
+      {}
+    ],
+    [
+      72,
+      null,
+      1791095845,
+      null,
+      0.0037933333333333152,
+      0.005233287811279297,
+      1,
+      1753124952.6076322,
+      1753124952.6160922,
+      {}
+    ],
+    [
+      73,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004355669021606445,
+      1,
+      1753124952.6212447,
+      1753124952.6287947,
+      {}
+    ],
+    [
+      74,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.006972074508666992,
+      1,
+      1753124952.634109,
+      1753124952.6442566,
+      {}
+    ],
+    [
+      75,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004572153091430664,
+      1,
+      1753124952.649822,
+      1753124952.6578944,
+      {}
+    ],
+    [
+      76,
+      null,
+      1791095845,
+      null,
+      0.566785,
+      0.00611424446105957,
+      1,
+      1753124952.6633544,
+      1753124952.6726336,
+      {}
+    ],
+    [
+      77,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.0048062801361083984,
+      1,
+      1753124952.677975,
+      1753124952.685982,
+      {}
+    ],
+    [
+      78,
+      null,
+      1791095845,
+      null,
+      0.6423466666666666,
+      0.004506587982177734,
+      1,
+      1753124952.6915627,
+      1753124952.6993768,
+      {}
+    ],
+    [
+      79,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.007110118865966797,
+      1,
+      1753124952.7048364,
+      1753124952.7151356,
+      {}
+    ],
+    [
+      80,
+      null,
+      1791095845,
+      null,
+      0.46989499999999995,
+      0.004534244537353516,
+      1,
+      1753124952.720743,
+      1753124952.728586,
+      {}
+    ],
+    [
+      81,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.00641179084777832,
+      1,
+      1753124952.7341394,
+      1753124952.7437446,
+      {}
+    ],
+    [
+      82,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.01157379150390625,
+      1,
+      1753124952.9978843,
+      1753124953.012667,
+      {}
+    ],
+    [
+      83,
+      null,
+      1791095845,
+      null,
+      0.46224333333333334,
+      0.007920980453491211,
+      1,
+      1753124953.019779,
+      1753124953.031233,
+      {}
+    ],
+    [
+      84,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.006165504455566406,
+      1,
+      1753124953.0380428,
+      1753124953.0480852,
+      {}
+    ],
+    [
+      85,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.004559993743896484,
+      1,
+      1753124953.0539017,
+      1753124953.0617013,
+      {}
+    ],
+    [
+      86,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.005892276763916016,
+      1,
+      1753124953.0676112,
+      1753124953.0766811,
+      {}
+    ],
+    [
+      87,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.005166530609130859,
+      1,
+      1753124953.0824656,
+      1753124953.0907838,
+      {}
+    ],
+    [
+      88,
+      null,
+      1791095845,
+      null,
+      0.098055,
+      0.0051326751708984375,
+      1,
+      1753124953.0970542,
+      1753124953.1055913,
+      {}
+    ],
+    [
+      89,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.006453514099121094,
+      1,
+      1753124953.1116328,
+      1753124953.1214042,
+      {}
+    ],
+    [
+      90,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.010753870010375977,
+      1,
+      1753124953.12911,
+      1753124953.1438687,
+      {}
+    ],
+    [
+      91,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.00743556022644043,
+      1,
+      1753124953.151591,
+      1753124953.162459,
+      {}
+    ],
+    [
+      92,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.006015300750732422,
+      1,
+      1753124953.1691866,
+      1753124953.178846,
+      {}
+    ],
+    [
+      93,
+      null,
+      1791095845,
+      null,
+      0.4260466666666667,
+      0.0046842098236083984,
+      1,
+      1753124953.1848354,
+      1753124953.192722,
+      {}
+    ],
+    [
+      94,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.011408567428588867,
+      1,
+      1753124953.19883,
+      1753124953.2134137,
+      {}
+    ],
+    [
+      95,
+      null,
+      1791095845,
+      null,
+      0.0,
+      0.007338762283325195,
+      1,
+      1753124953.2247124,
+      1753124953.2353463,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "cast_info.nr_order": "2",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "1",
+      "movie_info.movie_id_start": "1",
+      "title.production_year": "1880"
+    },
+    "2": {
+      "cast_info.nr_order": "143",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "144",
+      "movie_info.movie_id_start": "325",
+      "title.production_year": "1919"
+    },
+    "3": {
+      "cast_info.nr_order": "711",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "410",
+      "movie_info.movie_id_start": "404",
+      "title.production_year": "1912"
+    },
+    "4": {
+      "cast_info.nr_order": "264",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "281",
+      "movie_info.movie_id_start": "77",
+      "title.production_year": "1944"
+    },
+    "5": {
+      "cast_info.nr_order": "4006",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "448",
+      "movie_info.movie_id_start": "112",
+      "title.production_year": "1910"
+    },
+    "6": {
+      "cast_info.nr_order": "369",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "124",
+      "movie_info.movie_id_start": "314",
+      "title.production_year": "1912"
+    },
+    "7": {
+      "cast_info.nr_order": "22000",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "333",
+      "movie_info.movie_id_start": "516",
+      "title.production_year": "2012"
+    },
+    "8": {
+      "cast_info.nr_order": "296",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "212",
+      "movie_info.movie_id_start": "44",
+      "title.production_year": "1987"
+    },
+    "9": {
+      "cast_info.nr_order": "1021",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "509",
+      "movie_info.movie_id_start": "388",
+      "title.production_year": "1974"
+    },
+    "10": {
+      "cast_info.nr_order": "77",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "508",
+      "movie_info.movie_id_start": "72",
+      "title.production_year": "1951"
+    },
+    "11": {
+      "cast_info.nr_order": "1305",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "401",
+      "movie_info.movie_id_start": "297",
+      "title.production_year": "1910"
+    },
+    "12": {
+      "cast_info.nr_order": "273",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "2",
+      "movie_info.movie_id_start": "470",
+      "title.production_year": "2013"
+    },
+    "13": {
+      "cast_info.nr_order": "147",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "336",
+      "movie_info.movie_id_start": "422",
+      "title.production_year": "1913"
+    },
+    "14": {
+      "cast_info.nr_order": "27001",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "219",
+      "movie_info.movie_id_start": "27",
+      "title.production_year": "1970"
+    },
+    "15": {
+      "cast_info.nr_order": "829",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "31",
+      "movie_info.movie_id_start": "16",
+      "title.production_year": "1961"
+    },
+    "16": {
+      "cast_info.nr_order": "390",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "433",
+      "movie_info.movie_id_start": "219",
+      "title.production_year": "1952"
+    },
+    "17": {
+      "cast_info.nr_order": "2198",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "276",
+      "movie_info.movie_id_start": "401",
+      "title.production_year": "1893"
+    },
+    "18": {
+      "cast_info.nr_order": "106",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "473",
+      "movie_info.movie_id_start": "3",
+      "title.production_year": "1963"
+    },
+    "19": {
+      "cast_info.nr_order": "436",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "330",
+      "movie_info.movie_id_start": "4",
+      "title.production_year": "1896"
+    },
+    "20": {
+      "cast_info.nr_order": "831",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "334",
+      "movie_info.movie_id_start": "50",
+      "title.production_year": "1991"
+    },
+    "21": {
+      "cast_info.nr_order": "1009",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "475",
+      "movie_info.movie_id_start": "485",
+      "title.production_year": "1979"
+    },
+    "22": {
+      "cast_info.nr_order": "28000",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "220",
+      "movie_info.movie_id_start": "28",
+      "title.production_year": "1968"
+    },
+    "23": {
+      "cast_info.nr_order": "266",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "279",
+      "movie_info.movie_id_start": "78",
+      "title.production_year": "1944"
+    },
+    "24": {
+      "cast_info.nr_order": "389",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "433",
+      "movie_info.movie_id_start": "218",
+      "title.production_year": "1952"
+    },
+    "25": {
+      "cast_info.nr_order": "488525",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "370",
+      "movie_info.movie_id_start": "418",
+      "title.production_year": "1983"
+    },
+    "26": {
+      "cast_info.nr_order": "10000",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "348",
+      "movie_info.movie_id_start": "36",
+      "title.production_year": "1920"
+    },
+    "27": {
+      "cast_info.nr_order": "970713",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "370",
+      "movie_info.movie_id_start": "417",
+      "title.production_year": "1982"
+    },
+    "28": {
+      "cast_info.nr_order": "266",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "85",
+      "movie_info.movie_id_start": "49",
+      "title.production_year": "1941"
+    },
+    "29": {
+      "cast_info.nr_order": "305",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "133",
+      "movie_info.movie_id_start": "170",
+      "title.production_year": "1915"
+    },
+    "30": {
+      "cast_info.nr_order": "370",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "126",
+      "movie_info.movie_id_start": "313",
+      "title.production_year": "1913"
+    },
+    "31": {
+      "cast_info.nr_order": "306",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "133",
+      "movie_info.movie_id_start": "173",
+      "title.production_year": "1912"
+    },
+    "32": {
+      "cast_info.nr_order": "294",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "211",
+      "movie_info.movie_id_start": "42",
+      "title.production_year": "1987"
+    },
+    "33": {
+      "cast_info.nr_order": "444",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "15",
+      "movie_info.movie_id_start": "221",
+      "title.production_year": "1931"
+    },
+    "34": {
+      "cast_info.nr_order": "459",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "16",
+      "movie_info.movie_id_start": "220",
+      "title.production_year": "1933"
+    },
+    "35": {
+      "cast_info.nr_order": "155",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "281",
+      "movie_info.movie_id_start": "504",
+      "title.production_year": "1956"
+    },
+    "36": {
+      "cast_info.nr_order": "1046",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "159",
+      "movie_info.movie_id_start": "56",
+      "title.production_year": "1918"
+    },
+    "37": {
+      "cast_info.nr_order": "273",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "3",
+      "movie_info.movie_id_start": "472",
+      "title.production_year": "2013"
+    },
+    "38": {
+      "cast_info.nr_order": "428",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "371",
+      "movie_info.movie_id_start": "295",
+      "title.production_year": "1940"
+    },
+    "39": {
+      "cast_info.nr_order": "428",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "374",
+      "movie_info.movie_id_start": "296",
+      "title.production_year": "1940"
+    },
+    "40": {
+      "cast_info.nr_order": "802",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "55",
+      "movie_info.movie_id_start": "57",
+      "title.production_year": "1953"
+    },
+    "41": {
+      "cast_info.nr_order": "803",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "55",
+      "movie_info.movie_id_start": "56",
+      "title.production_year": "1953"
+    },
+    "42": {
+      "cast_info.nr_order": "264",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "281",
+      "movie_info.movie_id_start": "80",
+      "title.production_year": "1944"
+    },
+    "43": {
+      "cast_info.nr_order": "459",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "13",
+      "movie_info.movie_id_start": "217",
+      "title.production_year": "1931"
+    },
+    "44": {
+      "cast_info.nr_order": "31",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "146",
+      "movie_info.movie_id_start": "426",
+      "title.production_year": "1940"
+    },
+    "45": {
+      "cast_info.nr_order": "444",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "14",
+      "movie_info.movie_id_start": "221",
+      "title.production_year": "1932"
+    },
+    "46": {
+      "cast_info.nr_order": "389",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "433",
+      "movie_info.movie_id_start": "216",
+      "title.production_year": "1950"
+    },
+    "47": {
+      "cast_info.nr_order": "390",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "430",
+      "movie_info.movie_id_start": "219",
+      "title.production_year": "1951"
+    },
+    "48": {
+      "cast_info.nr_order": "463",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "459",
+      "movie_info.movie_id_start": "488",
+      "title.production_year": "2001"
+    },
+    "49": {
+      "cast_info.nr_order": "370",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "124",
+      "movie_info.movie_id_start": "314",
+      "title.production_year": "1911"
+    },
+    "50": {
+      "cast_info.nr_order": "373",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "124",
+      "movie_info.movie_id_start": "316",
+      "title.production_year": "1910"
+    },
+    "51": {
+      "cast_info.nr_order": "355",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "82",
+      "movie_info.movie_id_start": "159",
+      "title.production_year": "1954"
+    },
+    "52": {
+      "cast_info.nr_order": "28000",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "222",
+      "movie_info.movie_id_start": "27",
+      "title.production_year": "1967"
+    },
+    "53": {
+      "cast_info.nr_order": "28000",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "218",
+      "movie_info.movie_id_start": "27",
+      "title.production_year": "1970"
+    },
+    "54": {
+      "cast_info.nr_order": "795",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "45",
+      "movie_info.movie_id_start": "38",
+      "title.production_year": "1963"
+    },
+    "55": {
+      "cast_info.nr_order": "353",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "80",
+      "movie_info.movie_id_start": "159",
+      "title.production_year": "1955"
+    },
+    "56": {
+      "cast_info.nr_order": "27",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "332",
+      "movie_info.movie_id_start": "427",
+      "title.production_year": "2012"
+    },
+    "57": {
+      "cast_info.nr_order": "444",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "89",
+      "movie_info.movie_id_start": "171",
+      "title.production_year": "2013"
+    },
+    "58": {
+      "cast_info.nr_order": "526",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "305",
+      "movie_info.movie_id_start": "235",
+      "title.production_year": "1931"
+    },
+    "59": {
+      "cast_info.nr_order": "210",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "215",
+      "movie_info.movie_id_start": "336",
+      "title.production_year": "1903"
+    },
+    "60": {
+      "cast_info.nr_order": "226",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "315",
+      "movie_info.movie_id_start": "209",
+      "title.production_year": "1972"
+    },
+    "61": {
+      "cast_info.nr_order": "90",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "387",
+      "movie_info.movie_id_start": "311",
+      "title.production_year": "1978"
+    },
+    "62": {
+      "cast_info.nr_order": "230",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "342",
+      "movie_info.movie_id_start": "231",
+      "title.production_year": "1960"
+    },
+    "63": {
+      "cast_info.nr_order": "28000",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "221",
+      "movie_info.movie_id_start": "30",
+      "title.production_year": "1970"
+    },
+    "64": {
+      "cast_info.nr_order": "226",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "180",
+      "movie_info.movie_id_start": "505",
+      "title.production_year": "2009"
+    },
+    "65": {
+      "cast_info.nr_order": "263",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "100",
+      "movie_info.movie_id_start": "473",
+      "title.production_year": "1914"
+    },
+    "66": {
+      "cast_info.nr_order": "28000",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "218",
+      "movie_info.movie_id_start": "26",
+      "title.production_year": "1971"
+    },
+    "67": {
+      "cast_info.nr_order": "27001",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "217",
+      "movie_info.movie_id_start": "28",
+      "title.production_year": "1971"
+    },
+    "68": {
+      "cast_info.nr_order": "317",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "53",
+      "movie_info.movie_id_start": "105",
+      "title.production_year": "2008"
+    },
+    "69": {
+      "cast_info.nr_order": "384",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "432",
+      "movie_info.movie_id_start": "218",
+      "title.production_year": "1953"
+    },
+    "70": {
+      "cast_info.nr_order": "1092",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "8",
+      "movie_info.movie_id_start": "488",
+      "title.production_year": "1903"
+    },
+    "71": {
+      "cast_info.nr_order": "387",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "433",
+      "movie_info.movie_id_start": "219",
+      "title.production_year": "1953"
+    },
+    "72": {
+      "cast_info.nr_order": "369",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "127",
+      "movie_info.movie_id_start": "311",
+      "title.production_year": "1911"
+    },
+    "73": {
+      "cast_info.nr_order": "271",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "280",
+      "movie_info.movie_id_start": "81",
+      "title.production_year": "1944"
+    },
+    "74": {
+      "cast_info.nr_order": "263",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "281",
+      "movie_info.movie_id_start": "84",
+      "title.production_year": "1944"
+    },
+    "75": {
+      "cast_info.nr_order": "387",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "431",
+      "movie_info.movie_id_start": "212",
+      "title.production_year": "1950"
+    },
+    "76": {
+      "cast_info.nr_order": "701",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "412",
+      "movie_info.movie_id_start": "462",
+      "title.production_year": "1901"
+    },
+    "77": {
+      "cast_info.nr_order": "396",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "430",
+      "movie_info.movie_id_start": "217",
+      "title.production_year": "1952"
+    },
+    "78": {
+      "cast_info.nr_order": "2034",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "139",
+      "movie_info.movie_id_start": "171",
+      "title.production_year": "1897"
+    },
+    "79": {
+      "cast_info.nr_order": "258",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "283",
+      "movie_info.movie_id_start": "78",
+      "title.production_year": "1944"
+    },
+    "80": {
+      "cast_info.nr_order": "57",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "478",
+      "movie_info.movie_id_start": "406",
+      "title.production_year": "1968"
+    },
+    "81": {
+      "cast_info.nr_order": "369",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "123",
+      "movie_info.movie_id_start": "316",
+      "title.production_year": "1911"
+    },
+    "82": {
+      "cast_info.nr_order": "461",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "15",
+      "movie_info.movie_id_start": "216",
+      "title.production_year": "1931"
+    },
+    "83": {
+      "cast_info.nr_order": "127",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "224",
+      "movie_info.movie_id_start": "149",
+      "title.production_year": "1926"
+    },
+    "84": {
+      "cast_info.nr_order": "444",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "15",
+      "movie_info.movie_id_start": "219",
+      "title.production_year": "1929"
+    },
+    "85": {
+      "cast_info.nr_order": "459",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "14",
+      "movie_info.movie_id_start": "220",
+      "title.production_year": "1937"
+    },
+    "86": {
+      "cast_info.nr_order": "444",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "12",
+      "movie_info.movie_id_start": "221",
+      "title.production_year": "1932"
+    },
+    "87": {
+      "cast_info.nr_order": "387",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "431",
+      "movie_info.movie_id_start": "213",
+      "title.production_year": "1950"
+    },
+    "88": {
+      "cast_info.nr_order": "1030",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "30",
+      "movie_info.movie_id_start": "186",
+      "title.production_year": "1990"
+    },
+    "89": {
+      "cast_info.nr_order": "390",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "428",
+      "movie_info.movie_id_start": "220",
+      "title.production_year": "1950"
+    },
+    "90": {
+      "cast_info.nr_order": "370",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "125",
+      "movie_info.movie_id_start": "313",
+      "title.production_year": "1915"
+    },
+    "91": {
+      "cast_info.nr_order": "263",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "280",
+      "movie_info.movie_id_start": "81",
+      "title.production_year": "1941"
+    },
+    "92": {
+      "cast_info.nr_order": "409",
+      "movie_companies.company_type_id": "1",
+      "movie_info.movie_id_end": "433",
+      "movie_info.movie_id_start": "216",
+      "title.production_year": "1952"
+    },
+    "93": {
+      "cast_info.nr_order": "1802",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "461",
+      "movie_info.movie_id_start": "379",
+      "title.production_year": "1958"
+    },
+    "94": {
+      "cast_info.nr_order": "276",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "280",
+      "movie_info.movie_id_start": "77",
+      "title.production_year": "1943"
+    },
+    "95": {
+      "cast_info.nr_order": "26002",
+      "movie_companies.company_type_id": "2",
+      "movie_info.movie_id_end": "219",
+      "movie_info.movie_id_start": "26",
+      "title.production_year": "1971"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Default configuration",
+    "2": "Acquisition Function Maximizer: Random Search (sorted)",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)",
+    "5": "Acquisition Function Maximizer: Random Search (sorted)",
+    "6": "Acquisition Function Maximizer: Random Search (sorted)",
+    "7": "Acquisition Function Maximizer: Random Search (sorted)",
+    "8": "Acquisition Function Maximizer: Random Search (sorted)",
+    "9": "Acquisition Function Maximizer: Random Search (sorted)",
+    "10": "Acquisition Function Maximizer: Random Search (sorted)",
+    "11": "Acquisition Function Maximizer: Random Search (sorted)",
+    "12": "Acquisition Function Maximizer: Random Search (sorted)",
+    "13": "Acquisition Function Maximizer: Random Search (sorted)",
+    "14": "Acquisition Function Maximizer: Random Search (sorted)",
+    "15": "Acquisition Function Maximizer: Random Search (sorted)",
+    "16": "Random Search",
+    "17": "Random Search",
+    "18": "Random Search",
+    "19": "Acquisition Function Maximizer: Random Search (sorted)",
+    "20": "Acquisition Function Maximizer: Random Search (sorted)",
+    "21": "Acquisition Function Maximizer: Random Search (sorted)",
+    "22": "Acquisition Function Maximizer: Local Search",
+    "23": "Acquisition Function Maximizer: Local Search",
+    "24": "Acquisition Function Maximizer: Local Search",
+    "25": "Acquisition Function Maximizer: Random Search (sorted)",
+    "26": "Random Search",
+    "27": "Acquisition Function Maximizer: Local Search",
+    "28": "Random Search",
+    "29": "Acquisition Function Maximizer: Local Search",
+    "30": "Acquisition Function Maximizer: Local Search",
+    "31": "Acquisition Function Maximizer: Random Search (sorted)",
+    "32": "Acquisition Function Maximizer: Local Search",
+    "33": "Acquisition Function Maximizer: Local Search",
+    "34": "Acquisition Function Maximizer: Random Search (sorted)",
+    "35": "Acquisition Function Maximizer: Local Search",
+    "36": "Random Search",
+    "37": "Acquisition Function Maximizer: Local Search",
+    "38": "Acquisition Function Maximizer: Random Search (sorted)",
+    "39": "Acquisition Function Maximizer: Local Search",
+    "40": "Acquisition Function Maximizer: Random Search (sorted)",
+    "41": "Acquisition Function Maximizer: Local Search",
+    "42": "Acquisition Function Maximizer: Local Search",
+    "43": "Acquisition Function Maximizer: Local Search",
+    "44": "Random Search",
+    "45": "Acquisition Function Maximizer: Local Search",
+    "46": "Acquisition Function Maximizer: Local Search",
+    "47": "Acquisition Function Maximizer: Local Search",
+    "48": "Random Search",
+    "49": "Acquisition Function Maximizer: Local Search",
+    "50": "Acquisition Function Maximizer: Local Search",
+    "51": "Acquisition Function Maximizer: Local Search",
+    "52": "Acquisition Function Maximizer: Local Search",
+    "53": "Acquisition Function Maximizer: Local Search",
+    "54": "Random Search",
+    "55": "Acquisition Function Maximizer: Random Search (sorted)",
+    "56": "Random Search",
+    "57": "Acquisition Function Maximizer: Local Search",
+    "58": "Acquisition Function Maximizer: Local Search",
+    "59": "Acquisition Function Maximizer: Local Search",
+    "60": "Acquisition Function Maximizer: Local Search",
+    "61": "Random Search",
+    "62": "Random Search",
+    "63": "Acquisition Function Maximizer: Local Search",
+    "64": "Random Search",
+    "65": "Random Search",
+    "66": "Acquisition Function Maximizer: Local Search",
+    "67": "Acquisition Function Maximizer: Local Search",
+    "68": "Random Search",
+    "69": "Acquisition Function Maximizer: Local Search",
+    "70": "Random Search",
+    "71": "Acquisition Function Maximizer: Local Search",
+    "72": "Acquisition Function Maximizer: Local Search",
+    "73": "Acquisition Function Maximizer: Local Search",
+    "74": "Acquisition Function Maximizer: Local Search",
+    "75": "Acquisition Function Maximizer: Local Search",
+    "76": "Random Search",
+    "77": "Acquisition Function Maximizer: Local Search",
+    "78": "Random Search",
+    "79": "Acquisition Function Maximizer: Local Search",
+    "80": "Random Search",
+    "81": "Acquisition Function Maximizer: Local Search",
+    "82": "Acquisition Function Maximizer: Local Search",
+    "83": "Random Search",
+    "84": "Acquisition Function Maximizer: Local Search",
+    "85": "Acquisition Function Maximizer: Local Search",
+    "86": "Acquisition Function Maximizer: Local Search",
+    "87": "Acquisition Function Maximizer: Local Search",
+    "88": "Random Search",
+    "89": "Acquisition Function Maximizer: Local Search",
+    "90": "Acquisition Function Maximizer: Local Search",
+    "91": "Acquisition Function Maximizer: Local Search",
+    "92": "Acquisition Function Maximizer: Local Search",
+    "93": "Random Search",
+    "94": "Acquisition Function Maximizer: Local Search",
+    "95": "Acquisition Function Maximizer: Local Search"
+  }
+}

@@ -1,0 +1,1818 @@
+{
+  "stats": {
+    "submitted": 95,
+    "finished": 95,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      1791095845,
+      null,
+      0.975065,
+      0.0018329620361328125,
+      1,
+      1753124953.2757583,
+      1753124953.2809477,
+      {}
+    ],
+    [
+      2,
+      null,
+      1791095845,
+      null,
+      0.2898683333333334,
+      0.002284526824951172,
+      1,
+      1753124953.3657787,
+      1753124953.3711479,
+      {}
+    ],
+    [
+      3,
+      null,
+      1791095845,
+      null,
+      0.7015,
+      0.0020856857299804688,
+      1,
+      1753124953.3732655,
+      1753124953.3786018,
+      {}
+    ],
+    [
+      4,
+      null,
+      1791095845,
+      null,
+      0.8487899999999999,
+      0.0020978450775146484,
+      1,
+      1753124953.3807387,
+      1753124953.3862407,
+      {}
+    ],
+    [
+      5,
+      null,
+      1791095845,
+      null,
+      0.8373183333333334,
+      0.002111196517944336,
+      1,
+      1753124953.3883414,
+      1753124953.3936582,
+      {}
+    ],
+    [
+      6,
+      null,
+      1791095845,
+      null,
+      0.8288633333333333,
+      0.002122640609741211,
+      1,
+      1753124953.3958454,
+      1753124953.4011533,
+      {}
+    ],
+    [
+      7,
+      null,
+      1791095845,
+      null,
+      0.3236083333333334,
+      0.0021677017211914062,
+      1,
+      1753124953.403449,
+      1753124953.4091485,
+      {}
+    ],
+    [
+      8,
+      null,
+      1791095845,
+      null,
+      0.8665183333333333,
+      0.0021283626556396484,
+      1,
+      1753124953.4115155,
+      1753124953.4170856,
+      {}
+    ],
+    [
+      9,
+      null,
+      1791095845,
+      null,
+      0.8728416666666666,
+      0.002132892608642578,
+      1,
+      1753124953.4194527,
+      1753124953.4248025,
+      {}
+    ],
+    [
+      10,
+      null,
+      1791095845,
+      null,
+      0.44778833333333334,
+      0.0021181106567382812,
+      1,
+      1753124953.4270804,
+      1753124953.432321,
+      {}
+    ],
+    [
+      11,
+      null,
+      1791095845,
+      null,
+      0.8706016666666667,
+      0.0021114349365234375,
+      1,
+      1753124953.4347353,
+      1753124953.440077,
+      {}
+    ],
+    [
+      12,
+      null,
+      1791095845,
+      null,
+      0.5204733333333333,
+      0.0021333694458007812,
+      1,
+      1753124953.4424803,
+      1753124953.447781,
+      {}
+    ],
+    [
+      13,
+      null,
+      1791095845,
+      null,
+      0.44280833333333336,
+      0.0021545886993408203,
+      1,
+      1753124953.450385,
+      1753124953.455779,
+      {}
+    ],
+    [
+      14,
+      null,
+      1791095845,
+      null,
+      0.95885,
+      0.0021381378173828125,
+      1,
+      1753124953.4582982,
+      1753124953.4635756,
+      {}
+    ],
+    [
+      15,
+      null,
+      1791095845,
+      null,
+      0.5887383333333334,
+      0.0021445751190185547,
+      1,
+      1753124953.4660733,
+      1753124953.4714475,
+      {}
+    ],
+    [
+      16,
+      null,
+      1791095845,
+      null,
+      0.8755516666666666,
+      0.002107381820678711,
+      1,
+      1753124953.4742548,
+      1753124953.4795587,
+      {}
+    ],
+    [
+      17,
+      null,
+      1791095845,
+      null,
+      0.80492,
+      0.0021317005157470703,
+      1,
+      1753124953.4823735,
+      1753124953.4876304,
+      {}
+    ],
+    [
+      18,
+      null,
+      1791095845,
+      null,
+      0.8409433333333334,
+      0.0021266937255859375,
+      1,
+      1753124953.490292,
+      1753124953.4956563,
+      {}
+    ],
+    [
+      19,
+      null,
+      1791095845,
+      null,
+      0.9080116666666667,
+      0.0021364688873291016,
+      1,
+      1753124953.4983335,
+      1753124953.503615,
+      {}
+    ],
+    [
+      20,
+      null,
+      1791095845,
+      null,
+      0.9751283333333334,
+      0.0022187232971191406,
+      1,
+      1753124953.506338,
+      1753124953.5116963,
+      {}
+    ],
+    [
+      21,
+      null,
+      1791095845,
+      null,
+      0.76156,
+      0.0022399425506591797,
+      1,
+      1753124953.5144002,
+      1753124953.5198343,
+      {}
+    ],
+    [
+      22,
+      null,
+      1791095845,
+      null,
+      0.2842216666666667,
+      0.0025587081909179688,
+      1,
+      1753124953.6869876,
+      1753124953.69271,
+      {}
+    ],
+    [
+      23,
+      null,
+      1791095845,
+      null,
+      0.43574999999999997,
+      0.00220489501953125,
+      1,
+      1753124953.695974,
+      1753124953.7012842,
+      {}
+    ],
+    [
+      24,
+      null,
+      1791095845,
+      null,
+      0.9722416666666667,
+      0.002123594284057617,
+      1,
+      1753124953.7042947,
+      1753124953.7095764,
+      {}
+    ],
+    [
+      25,
+      null,
+      1791095845,
+      null,
+      0.7390716666666667,
+      0.0021364688873291016,
+      1,
+      1753124953.712497,
+      1753124953.7178662,
+      {}
+    ],
+    [
+      26,
+      null,
+      1791095845,
+      null,
+      0.831075,
+      0.0021123886108398438,
+      1,
+      1753124953.7209406,
+      1753124953.726187,
+      {}
+    ],
+    [
+      27,
+      null,
+      1791095845,
+      null,
+      0.3145933333333334,
+      0.0020983219146728516,
+      1,
+      1753124953.7291605,
+      1753124953.7343476,
+      {}
+    ],
+    [
+      28,
+      null,
+      1791095845,
+      null,
+      0.7226933333333334,
+      0.0020818710327148438,
+      1,
+      1753124953.737416,
+      1753124953.7425816,
+      {}
+    ],
+    [
+      29,
+      null,
+      1791095845,
+      null,
+      0.5765733333333334,
+      0.002073049545288086,
+      1,
+      1753124953.745704,
+      1753124953.7509558,
+      {}
+    ],
+    [
+      30,
+      null,
+      1791095845,
+      null,
+      0.577985,
+      0.00214385986328125,
+      1,
+      1753124953.753989,
+      1753124953.7592711,
+      {}
+    ],
+    [
+      31,
+      null,
+      1791095845,
+      null,
+      0.72072,
+      0.0021390914916992188,
+      1,
+      1753124953.7624152,
+      1753124953.7679255,
+      {}
+    ],
+    [
+      32,
+      null,
+      1791095845,
+      null,
+      0.716485,
+      0.002123117446899414,
+      1,
+      1753124953.771132,
+      1753124953.7763715,
+      {}
+    ],
+    [
+      33,
+      null,
+      1791095845,
+      null,
+      0.7440516666666667,
+      0.0021140575408935547,
+      1,
+      1753124953.7798893,
+      1753124953.785253,
+      {}
+    ],
+    [
+      34,
+      null,
+      1791095845,
+      null,
+      0.4630850000000001,
+      0.0021615028381347656,
+      1,
+      1753124953.7885625,
+      1753124953.7939305,
+      {}
+    ],
+    [
+      35,
+      null,
+      1791095845,
+      null,
+      0.4638683333333333,
+      0.002088785171508789,
+      1,
+      1753124953.7972767,
+      1753124953.802743,
+      {}
+    ],
+    [
+      36,
+      null,
+      1791095845,
+      null,
+      0.24390333333333336,
+      0.0021543502807617188,
+      1,
+      1753124953.8061576,
+      1753124953.8115616,
+      {}
+    ],
+    [
+      37,
+      null,
+      1791095845,
+      null,
+      0.44422000000000006,
+      0.002167224884033203,
+      1,
+      1753124953.8152502,
+      1753124953.8206286,
+      {}
+    ],
+    [
+      38,
+      null,
+      1791095845,
+      null,
+      0.44040499999999994,
+      0.002132892608642578,
+      1,
+      1753124953.8242185,
+      1753124953.8295646,
+      {}
+    ],
+    [
+      39,
+      null,
+      1791095845,
+      null,
+      0.4460516666666666,
+      0.0020835399627685547,
+      1,
+      1753124953.8334856,
+      1753124953.8389297,
+      {}
+    ],
+    [
+      40,
+      null,
+      1791095845,
+      null,
+      0.9171866666666667,
+      0.0021414756774902344,
+      1,
+      1753124953.842567,
+      1753124953.847836,
+      {}
+    ],
+    [
+      41,
+      null,
+      1791095845,
+      null,
+      0.7973216666666667,
+      0.0020799636840820312,
+      1,
+      1753124953.8515651,
+      1753124953.8568442,
+      {}
+    ],
+    [
+      42,
+      null,
+      1791095845,
+      null,
+      0.2410916666666667,
+      0.0022377967834472656,
+      1,
+      1753124954.04602,
+      1753124954.0514007,
+      {}
+    ],
+    [
+      43,
+      null,
+      1791095845,
+      null,
+      0.2884566666666666,
+      0.0021588802337646484,
+      1,
+      1753124954.0554993,
+      1753124954.0608456,
+      {}
+    ],
+    [
+      44,
+      null,
+      1791095845,
+      null,
+      0.2828099999999999,
+      0.0020856857299804688,
+      1,
+      1753124954.064725,
+      1753124954.0699785,
+      {}
+    ],
+    [
+      45,
+      null,
+      1791095845,
+      null,
+      0.90877,
+      0.0021431446075439453,
+      1,
+      1753124954.0738518,
+      1753124954.0795374,
+      {}
+    ],
+    [
+      46,
+      null,
+      1791095845,
+      null,
+      0.58222,
+      0.0020699501037597656,
+      1,
+      1753124954.0834389,
+      1753124954.0886626,
+      {}
+    ],
+    [
+      47,
+      null,
+      1791095845,
+      null,
+      0.8330216666666667,
+      0.0021004676818847656,
+      1,
+      1753124954.0926352,
+      1753124954.097963,
+      {}
+    ],
+    [
+      48,
+      null,
+      1791095845,
+      null,
+      0.3245783333333333,
+      0.0021123886108398438,
+      1,
+      1753124954.1019888,
+      1753124954.1072693,
+      {}
+    ],
+    [
+      49,
+      null,
+      1791095845,
+      null,
+      0.9730683333333333,
+      0.002118349075317383,
+      1,
+      1753124954.1114352,
+      1753124954.1167088,
+      {}
+    ],
+    [
+      50,
+      null,
+      1791095845,
+      null,
+      0.32447499999999996,
+      0.0021126270294189453,
+      1,
+      1753124954.1208658,
+      1753124954.12649,
+      {}
+    ],
+    [
+      51,
+      null,
+      1791095845,
+      null,
+      0.39970666666666665,
+      0.002136707305908203,
+      1,
+      1753124954.1307812,
+      1753124954.136059,
+      {}
+    ],
+    [
+      52,
+      null,
+      1791095845,
+      null,
+      0.39688333333333337,
+      0.0021266937255859375,
+      1,
+      1753124954.1403809,
+      1753124954.1457253,
+      {}
+    ],
+    [
+      53,
+      null,
+      1791095845,
+      null,
+      0.9644966666666667,
+      0.002136707305908203,
+      1,
+      1753124954.1499054,
+      1753124954.1552825,
+      {}
+    ],
+    [
+      54,
+      null,
+      1791095845,
+      null,
+      0.5516633333333334,
+      0.0021195411682128906,
+      1,
+      1753124954.1595514,
+      1753124954.1648972,
+      {}
+    ],
+    [
+      55,
+      null,
+      1791095845,
+      null,
+      0.470375,
+      0.0021419525146484375,
+      1,
+      1753124954.1701705,
+      1753124954.1755052,
+      {}
+    ],
+    [
+      56,
+      null,
+      1791095845,
+      null,
+      0.5516633333333334,
+      0.0021195411682128906,
+      1,
+      1753124954.1800363,
+      1753124954.1854591,
+      {}
+    ],
+    [
+      57,
+      null,
+      1791095845,
+      null,
+      0.969725,
+      0.0021758079528808594,
+      1,
+      1753124954.1898615,
+      1753124954.1951613,
+      {}
+    ],
+    [
+      58,
+      null,
+      1791095845,
+      null,
+      0.5366683333333333,
+      0.002125263214111328,
+      1,
+      1753124954.1995273,
+      1753124954.2047946,
+      {}
+    ],
+    [
+      59,
+      null,
+      1791095845,
+      null,
+      0.5389583333333333,
+      0.0020792484283447266,
+      1,
+      1753124954.2091732,
+      1753124954.2145395,
+      {}
+    ],
+    [
+      60,
+      null,
+      1791095845,
+      null,
+      0.47013000000000005,
+      0.0021452903747558594,
+      1,
+      1753124954.2190888,
+      1753124954.2244937,
+      {}
+    ],
+    [
+      61,
+      null,
+      1791095845,
+      null,
+      0.4648,
+      0.0021975040435791016,
+      1,
+      1753124954.2291625,
+      1753124954.234581,
+      {}
+    ],
+    [
+      62,
+      null,
+      1791095845,
+      null,
+      0.7553449999999999,
+      0.0021467208862304688,
+      1,
+      1753124954.2546806,
+      1753124954.2599466,
+      {}
+    ],
+    [
+      63,
+      null,
+      1791095845,
+      null,
+      0.5059750000000001,
+      0.0021250247955322266,
+      1,
+      1753124954.264568,
+      1753124954.2699308,
+      {}
+    ],
+    [
+      64,
+      null,
+      1791095845,
+      null,
+      0.2427433333333333,
+      0.002135753631591797,
+      1,
+      1753124954.4757307,
+      1753124954.4811516,
+      {}
+    ],
+    [
+      65,
+      null,
+      1791095845,
+      null,
+      0.8889533333333334,
+      0.002187013626098633,
+      1,
+      1753124954.4858837,
+      1753124954.4913225,
+      {}
+    ],
+    [
+      66,
+      null,
+      1791095845,
+      null,
+      0.8720666666666667,
+      0.00214385986328125,
+      1,
+      1753124954.496142,
+      1753124954.501528,
+      {}
+    ],
+    [
+      67,
+      null,
+      1791095845,
+      null,
+      0.23965999999999998,
+      0.002145051956176758,
+      1,
+      1753124954.5062363,
+      1753124954.5115242,
+      {}
+    ],
+    [
+      68,
+      null,
+      1791095845,
+      null,
+      0.2856333333333334,
+      0.002072572708129883,
+      1,
+      1753124954.516372,
+      1753124954.5217242,
+      {}
+    ],
+    [
+      69,
+      null,
+      1791095845,
+      null,
+      0.8706016666666667,
+      0.002120494842529297,
+      1,
+      1753124954.526747,
+      1753124954.5320075,
+      {}
+    ],
+    [
+      70,
+      null,
+      1791095845,
+      null,
+      0.2898683333333334,
+      0.0020868778228759766,
+      1,
+      1753124954.5368612,
+      1753124954.5421321,
+      {}
+    ],
+    [
+      71,
+      null,
+      1791095845,
+      null,
+      0.797845,
+      0.0021386146545410156,
+      1,
+      1753124954.547266,
+      1753124954.5525744,
+      {}
+    ],
+    [
+      72,
+      null,
+      1791095845,
+      null,
+      0.2842216666666667,
+      0.0020956993103027344,
+      1,
+      1753124954.557597,
+      1753124954.5629966,
+      {}
+    ],
+    [
+      73,
+      null,
+      1791095845,
+      null,
+      0.5317449999999999,
+      0.0021305084228515625,
+      1,
+      1753124954.5681317,
+      1753124954.5736036,
+      {}
+    ],
+    [
+      74,
+      null,
+      1791095845,
+      null,
+      0.5332166666666667,
+      0.0021419525146484375,
+      1,
+      1753124954.5788934,
+      1753124954.5843687,
+      {}
+    ],
+    [
+      75,
+      null,
+      1791095845,
+      null,
+      0.31835500000000005,
+      0.0021088123321533203,
+      1,
+      1753124954.5895894,
+      1753124954.5950143,
+      {}
+    ],
+    [
+      76,
+      null,
+      1791095845,
+      null,
+      0.33255,
+      0.002140522003173828,
+      1,
+      1753124954.600257,
+      1753124954.6058536,
+      {}
+    ],
+    [
+      77,
+      null,
+      1791095845,
+      null,
+      0.6063883333333333,
+      0.002178668975830078,
+      1,
+      1753124954.6112063,
+      1753124954.6166792,
+      {}
+    ],
+    [
+      78,
+      null,
+      1791095845,
+      null,
+      0.32497833333333337,
+      0.002176523208618164,
+      1,
+      1753124954.6223187,
+      1753124954.6278172,
+      {}
+    ],
+    [
+      79,
+      null,
+      1791095845,
+      null,
+      0.4197033333333333,
+      0.0020990371704101562,
+      1,
+      1753124954.6331635,
+      1753124954.6384716,
+      {}
+    ],
+    [
+      80,
+      null,
+      1791095845,
+      null,
+      0.3226300000000001,
+      0.0021300315856933594,
+      1,
+      1753124954.643716,
+      1753124954.6490204,
+      {}
+    ],
+    [
+      81,
+      null,
+      1791095845,
+      null,
+      0.7914716666666667,
+      0.002165079116821289,
+      1,
+      1753124954.654429,
+      1753124954.6597404,
+      {}
+    ],
+    [
+      82,
+      null,
+      1791095845,
+      null,
+      0.24107166666666668,
+      0.0025000572204589844,
+      1,
+      1753124954.8983262,
+      1753124954.9041297,
+      {}
+    ],
+    [
+      83,
+      null,
+      1791095845,
+      null,
+      0.23965999999999998,
+      0.0022382736206054688,
+      1,
+      1753124954.909999,
+      1753124954.9155762,
+      {}
+    ],
+    [
+      84,
+      null,
+      1791095845,
+      null,
+      0.8508383333333334,
+      0.0021712779998779297,
+      1,
+      1753124954.9215553,
+      1753124954.9271774,
+      {}
+    ],
+    [
+      85,
+      null,
+      1791095845,
+      null,
+      0.24107166666666668,
+      0.0021181106567382812,
+      1,
+      1753124954.9330523,
+      1753124954.938702,
+      {}
+    ],
+    [
+      86,
+      null,
+      1791095845,
+      null,
+      0.6021533333333333,
+      0.002182483673095703,
+      1,
+      1753124954.9447196,
+      1753124954.9504316,
+      {}
+    ],
+    [
+      87,
+      null,
+      1791095845,
+      null,
+      0.2799866666666667,
+      0.0021407604217529297,
+      1,
+      1753124954.9569316,
+      1753124954.962692,
+      {}
+    ],
+    [
+      88,
+      null,
+      1791095845,
+      null,
+      0.5921016666666667,
+      0.002129077911376953,
+      1,
+      1753124954.9689097,
+      1753124954.9746208,
+      {}
+    ],
+    [
+      89,
+      null,
+      1791095845,
+      null,
+      0.431515,
+      0.0021142959594726562,
+      1,
+      1753124954.9809835,
+      1753124954.9866858,
+      {}
+    ],
+    [
+      90,
+      null,
+      1791095845,
+      null,
+      0.31139000000000006,
+      0.0021088123321533203,
+      1,
+      1753124954.9927263,
+      1753124954.9982011,
+      {}
+    ],
+    [
+      91,
+      null,
+      1791095845,
+      null,
+      0.2340133333333333,
+      0.0021615028381347656,
+      1,
+      1753124955.0050788,
+      1753124955.010599,
+      {}
+    ],
+    [
+      92,
+      null,
+      1791095845,
+      null,
+      0.8216316666666666,
+      0.0021028518676757812,
+      1,
+      1753124955.01669,
+      1753124955.0222564,
+      {}
+    ],
+    [
+      93,
+      null,
+      1791095845,
+      null,
+      0.21695333333333333,
+      0.002115488052368164,
+      1,
+      1753124955.02854,
+      1753124955.0340564,
+      {}
+    ],
+    [
+      94,
+      null,
+      1791095845,
+      null,
+      0.5887383333333334,
+      0.0021085739135742188,
+      1,
+      1753124955.0405862,
+      1753124955.046218,
+      {}
+    ],
+    [
+      95,
+      null,
+      1791095845,
+      null,
+      0.2948483333333334,
+      0.002097606658935547,
+      1,
+      1753124955.0526366,
+      1753124955.0579953,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "cast_info.id_end": "1",
+      "cast_info.id_start": "1",
+      "movie_info.note": "(ocean swim)",
+      "title.production_year": "1880"
+    },
+    "2": {
+      "cast_info.id_end": "72",
+      "cast_info.id_start": "490",
+      "movie_info.note": "(as Jenny's house)",
+      "title.production_year": "1902"
+    },
+    "3": {
+      "cast_info.id_end": "236",
+      "cast_info.id_start": "403",
+      "movie_info.note": "(Cinecitta Studios)",
+      "title.production_year": "1936"
+    },
+    "4": {
+      "cast_info.id_end": "130",
+      "cast_info.id_start": "216",
+      "movie_info.note": "(Kohen)",
+      "title.production_year": "2002"
+    },
+    "5": {
+      "cast_info.id_end": "391",
+      "cast_info.id_start": "479",
+      "movie_info.note": "(Bank and bus station)",
+      "title.production_year": "1912"
+    },
+    "6": {
+      "cast_info.id_end": "179",
+      "cast_info.id_start": "87",
+      "movie_info.note": "(Capcom Q-Sound)",
+      "title.production_year": "1913"
+    },
+    "7": {
+      "cast_info.id_end": "449",
+      "cast_info.id_start": "51",
+      "movie_info.note": "(Stephen Castle's office overlooking A40 Westway)",
+      "title.production_year": "1967"
+    },
+    "8": {
+      "cast_info.id_end": "145",
+      "cast_info.id_start": "69",
+      "movie_info.note": "(underwater scenes) (studio)",
+      "title.production_year": "1996"
+    },
+    "9": {
+      "cast_info.id_end": "282",
+      "cast_info.id_start": "353",
+      "movie_info.note": "(Millenium Metals)",
+      "title.production_year": "1998"
+    },
+    "10": {
+      "cast_info.id_end": "38",
+      "cast_info.id_start": "358",
+      "movie_info.note": "(interiors UK Navy Vessels) (Type 23 Frigates)",
+      "title.production_year": "2019"
+    },
+    "11": {
+      "cast_info.id_end": "336",
+      "cast_info.id_start": "399",
+      "movie_info.note": "(Briths School)",
+      "title.production_year": "1939"
+    },
+    "12": {
+      "cast_info.id_end": "134",
+      "cast_info.id_start": "414",
+      "movie_info.note": "(pageant hotel)",
+      "title.production_year": "1913"
+    },
+    "13": {
+      "cast_info.id_end": "73",
+      "cast_info.id_start": "396",
+      "movie_info.note": "(Marriage Guidance scenes)",
+      "title.production_year": "1890"
+    },
+    "14": {
+      "cast_info.id_end": "461",
+      "cast_info.id_start": "472",
+      "movie_info.note": "('Paranorma', Bow Clayton)",
+      "title.production_year": "1928"
+    },
+    "15": {
+      "cast_info.id_end": "255",
+      "cast_info.id_start": "490",
+      "movie_info.note": "(Nene's hometown)",
+      "title.production_year": "1909"
+    },
+    "16": {
+      "cast_info.id_end": "266",
+      "cast_info.id_start": "196",
+      "movie_info.note": "(opening title scene)",
+      "title.production_year": "2013"
+    },
+    "17": {
+      "cast_info.id_end": "280",
+      "cast_info.id_start": "382",
+      "movie_info.note": "(US Rangers headquarters)",
+      "title.production_year": "1944"
+    },
+    "18": {
+      "cast_info.id_end": "84",
+      "cast_info.id_start": "167",
+      "movie_info.note": "(recut version)",
+      "title.production_year": "1919"
+    },
+    "19": {
+      "cast_info.id_end": "204",
+      "cast_info.id_start": "157",
+      "movie_info.note": "(orphanage scenes)",
+      "title.production_year": "1963"
+    },
+    "20": {
+      "cast_info.id_end": "256",
+      "cast_info.id_start": "253",
+      "movie_info.note": "(Dog Years coffee shop)",
+      "title.production_year": "1911"
+    },
+    "21": {
+      "cast_info.id_end": "277",
+      "cast_info.id_start": "142",
+      "movie_info.note": "(Hughie's cottage)",
+      "title.production_year": "1991"
+    },
+    "22": {
+      "cast_info.id_end": "70",
+      "cast_info.id_start": "491",
+      "movie_info.note": "(Mine entrance and exteriors)",
+      "title.production_year": "1901"
+    },
+    "23": {
+      "cast_info.id_end": "70",
+      "cast_info.id_start": "397",
+      "movie_info.note": "(Stewarts' house)",
+      "title.production_year": "1890"
+    },
+    "24": {
+      "cast_info.id_end": "1",
+      "cast_info.id_start": "3",
+      "movie_info.note": "(ocean swim)",
+      "title.production_year": "1889"
+    },
+    "25": {
+      "cast_info.id_end": "218",
+      "cast_info.id_start": "76",
+      "movie_info.note": "(reduced to 128 mins before release)",
+      "title.production_year": "1906"
+    },
+    "26": {
+      "cast_info.id_end": "11",
+      "cast_info.id_start": "97",
+      "movie_info.note": "(Irene Jansen's residence)",
+      "title.production_year": "1948"
+    },
+    "27": {
+      "cast_info.id_end": "451",
+      "cast_info.id_start": "51",
+      "movie_info.note": "(as Akhtar K. Asif Studios)",
+      "title.production_year": "1968"
+    },
+    "28": {
+      "cast_info.id_end": "57",
+      "cast_info.id_start": "218",
+      "movie_info.note": "(Hermosa Beach Community Center) (Bates High School)",
+      "title.production_year": "1983"
+    },
+    "29": {
+      "cast_info.id_end": "244",
+      "cast_info.id_start": "3",
+      "movie_info.note": "(as flower shop)",
+      "title.production_year": "1897"
+    },
+    "30": {
+      "cast_info.id_end": "243",
+      "cast_info.id_start": "3",
+      "movie_info.note": "(2004-2005)",
+      "title.production_year": "1897"
+    },
+    "31": {
+      "cast_info.id_end": "417",
+      "cast_info.id_start": "264",
+      "movie_info.note": "(Tobis Klangfilm Eurocord)",
+      "title.production_year": "1902"
+    },
+    "32": {
+      "cast_info.id_end": "420",
+      "cast_info.id_start": "264",
+      "movie_info.note": "(the backpacker's village)",
+      "title.production_year": "1904"
+    },
+    "33": {
+      "cast_info.id_end": "217",
+      "cast_info.id_start": "78",
+      "movie_info.note": "(video store interiors)",
+      "title.production_year": "1907"
+    },
+    "34": {
+      "cast_info.id_end": "334",
+      "cast_info.id_start": "21",
+      "movie_info.note": "(opening scene with kids)",
+      "title.production_year": "1971"
+    },
+    "35": {
+      "cast_info.id_end": "334",
+      "cast_info.id_start": "21",
+      "movie_info.note": "(Nahuatl)",
+      "title.production_year": "1974"
+    },
+    "36": {
+      "cast_info.id_end": "468",
+      "cast_info.id_start": "26",
+      "movie_info.note": "(PAL, partly)",
+      "title.production_year": "2003"
+    },
+    "37": {
+      "cast_info.id_end": "35",
+      "cast_info.id_start": "357",
+      "movie_info.note": "(Monster Mania 5 convention)",
+      "title.production_year": "2019"
+    },
+    "38": {
+      "cast_info.id_end": "370",
+      "cast_info.id_start": "44",
+      "movie_info.note": "(exterior Swiss scenes)",
+      "title.production_year": "1984"
+    },
+    "39": {
+      "cast_info.id_end": "368",
+      "cast_info.id_start": "46",
+      "movie_info.note": "(exterior Swiss scenes)",
+      "title.production_year": "1984"
+    },
+    "40": {
+      "cast_info.id_end": "87",
+      "cast_info.id_start": "52",
+      "movie_info.note": "(a few words) (some dialogue with English subtitles, some without)",
+      "title.production_year": "2019"
+    },
+    "41": {
+      "cast_info.id_end": "184",
+      "cast_info.id_start": "76",
+      "movie_info.note": "(Vermont Film Festival)",
+      "title.production_year": "1909"
+    },
+    "42": {
+      "cast_info.id_end": "468",
+      "cast_info.id_start": "24",
+      "movie_info.note": "(interior: apartment, day)",
+      "title.production_year": "2002"
+    },
+    "43": {
+      "cast_info.id_end": "71",
+      "cast_info.id_start": "490",
+      "movie_info.note": "(part 1: speeding Corvette pulls over, SW corner)",
+      "title.production_year": "1898"
+    },
+    "44": {
+      "cast_info.id_end": "71",
+      "cast_info.id_start": "493",
+      "movie_info.note": "(1987-1998)",
+      "title.production_year": "1903"
+    },
+    "45": {
+      "cast_info.id_end": "404",
+      "cast_info.id_start": "452",
+      "movie_info.note": "(6 episodes) (season 2)",
+      "title.production_year": "1981"
+    },
+    "46": {
+      "cast_info.id_end": "253",
+      "cast_info.id_start": "491",
+      "movie_info.note": "(Nene's hometown)",
+      "title.production_year": "1907"
+    },
+    "47": {
+      "cast_info.id_end": "392",
+      "cast_info.id_start": "482",
+      "movie_info.note": "(The Blitzer House)",
+      "title.production_year": "1914"
+    },
+    "48": {
+      "cast_info.id_end": "452",
+      "cast_info.id_start": "54",
+      "movie_info.note": "(edited) (1958 re-release)",
+      "title.production_year": "1964"
+    },
+    "49": {
+      "cast_info.id_end": "167",
+      "cast_info.id_start": "176",
+      "movie_info.note": "( Plattdeutsch)",
+      "title.production_year": "1966"
+    },
+    "50": {
+      "cast_info.id_end": "445",
+      "cast_info.id_start": "51",
+      "movie_info.note": "(live tv broadcast) (including news breaks)",
+      "title.production_year": "1966"
+    },
+    "51": {
+      "cast_info.id_end": "401",
+      "cast_info.id_start": "48",
+      "movie_info.note": "(Wilson's Station)",
+      "title.production_year": "1966"
+    },
+    "52": {
+      "cast_info.id_end": "400",
+      "cast_info.id_start": "46",
+      "movie_info.note": "(slaughter house)",
+      "title.production_year": "1966"
+    },
+    "53": {
+      "cast_info.id_end": "464",
+      "cast_info.id_start": "472",
+      "movie_info.note": "(Dave Haynie interview episode)",
+      "title.production_year": "1931"
+    },
+    "54": {
+      "cast_info.id_end": "206",
+      "cast_info.id_start": "462",
+      "movie_info.note": "(street theatre and arrest scene)",
+      "title.production_year": "1895"
+    },
+    "55": {
+      "cast_info.id_end": "64",
+      "cast_info.id_start": "370",
+      "movie_info.note": "(club scene)",
+      "title.production_year": "1929"
+    },
+    "56": {
+      "cast_info.id_end": "207",
+      "cast_info.id_start": "463",
+      "movie_info.note": "(opening scene with kids)",
+      "title.production_year": "1896"
+    },
+    "57": {
+      "cast_info.id_end": "203",
+      "cast_info.id_start": "195",
+      "movie_info.note": "(Kohen)",
+      "title.production_year": "1955"
+    },
+    "58": {
+      "cast_info.id_end": "310",
+      "cast_info.id_start": "41",
+      "movie_info.note": "(street shots)",
+      "title.production_year": "1910"
+    },
+    "59": {
+      "cast_info.id_end": "310",
+      "cast_info.id_start": "46",
+      "movie_info.note": "(street shots)",
+      "title.production_year": "1907"
+    },
+    "60": {
+      "cast_info.id_end": "333",
+      "cast_info.id_start": "23",
+      "movie_info.note": "(opening scene with kids)",
+      "title.production_year": "1969"
+    },
+    "61": {
+      "cast_info.id_end": "335",
+      "cast_info.id_start": "23",
+      "movie_info.note": "(1986-1987)",
+      "title.production_year": "1968"
+    },
+    "62": {
+      "cast_info.id_end": "321",
+      "cast_info.id_start": "189",
+      "movie_info.note": "(live tv broadcast) (including news breaks)",
+      "title.production_year": "1925"
+    },
+    "63": {
+      "cast_info.id_end": "170",
+      "cast_info.id_start": "459",
+      "movie_info.note": "(underwater scenes - dive site - James Bond Wreck)",
+      "title.production_year": "1957"
+    },
+    "64": {
+      "cast_info.id_end": "468",
+      "cast_info.id_start": "24",
+      "movie_info.note": "(interior: apartment, day)",
+      "title.production_year": "2000"
+    },
+    "65": {
+      "cast_info.id_end": "151",
+      "cast_info.id_start": "99",
+      "movie_info.note": "(458 episodes)",
+      "title.production_year": "2019"
+    },
+    "66": {
+      "cast_info.id_end": "71",
+      "cast_info.id_start": "141",
+      "movie_info.note": "(Third section of film)",
+      "title.production_year": "1970"
+    },
+    "67": {
+      "cast_info.id_end": "468",
+      "cast_info.id_start": "23",
+      "movie_info.note": "(Miriam segment)",
+      "title.production_year": "2001"
+    },
+    "68": {
+      "cast_info.id_end": "68",
+      "cast_info.id_start": "488",
+      "movie_info.note": "(shopping center)",
+      "title.production_year": "1900"
+    },
+    "69": {
+      "cast_info.id_end": "240",
+      "cast_info.id_start": "177",
+      "movie_info.note": "(Marriage Guidance scenes)",
+      "title.production_year": "1900"
+    },
+    "70": {
+      "cast_info.id_end": "70",
+      "cast_info.id_start": "488",
+      "movie_info.note": "(exterior: as Long Island, NY mansion)",
+      "title.production_year": "1899"
+    },
+    "71": {
+      "cast_info.id_end": "165",
+      "cast_info.id_start": "280",
+      "movie_info.note": "(studios path\u00e9)",
+      "title.production_year": "2009"
+    },
+    "72": {
+      "cast_info.id_end": "68",
+      "cast_info.id_start": "489",
+      "movie_info.note": "(1987-1998)",
+      "title.production_year": "1905"
+    },
+    "73": {
+      "cast_info.id_end": "447",
+      "cast_info.id_start": "175",
+      "movie_info.note": "(expanded edit)",
+      "title.production_year": "1999"
+    },
+    "74": {
+      "cast_info.id_end": "445",
+      "cast_info.id_start": "174",
+      "movie_info.note": "(English, Chinese and Japanese Subtitles)",
+      "title.production_year": "1998"
+    },
+    "75": {
+      "cast_info.id_end": "453",
+      "cast_info.id_start": "53",
+      "movie_info.note": "(as flower shop)",
+      "title.production_year": "1969"
+    },
+    "76": {
+      "cast_info.id_end": "444",
+      "cast_info.id_start": "53",
+      "movie_info.note": "(as Akhtar K. Asif Studios)",
+      "title.production_year": "1969"
+    },
+    "77": {
+      "cast_info.id_end": "477",
+      "cast_info.id_start": "250",
+      "movie_info.note": "(Bank and bus station)",
+      "title.production_year": "1982"
+    },
+    "78": {
+      "cast_info.id_end": "449",
+      "cast_info.id_start": "54",
+      "movie_info.note": "(Stephen Castle's office overlooking A40 Westway)",
+      "title.production_year": "1970"
+    },
+    "79": {
+      "cast_info.id_end": "54",
+      "cast_info.id_start": "394",
+      "movie_info.note": "(overlook) (leg 5 pit stop) (leg 6 pit start)",
+      "title.production_year": "1975"
+    },
+    "80": {
+      "cast_info.id_end": "452",
+      "cast_info.id_start": "54",
+      "movie_info.note": "(Stephen Castle's office overlooking A40 Westway)",
+      "title.production_year": "1960"
+    },
+    "81": {
+      "cast_info.id_end": "366",
+      "cast_info.id_start": "247",
+      "movie_info.note": "(Turn Back, O Man)",
+      "title.production_year": "1969"
+    },
+    "82": {
+      "cast_info.id_end": "464",
+      "cast_info.id_start": "20",
+      "movie_info.note": "(Miriam segment)",
+      "title.production_year": "2001"
+    },
+    "83": {
+      "cast_info.id_end": "465",
+      "cast_info.id_start": "20",
+      "movie_info.note": "(1987-88)",
+      "title.production_year": "2001"
+    },
+    "84": {
+      "cast_info.id_end": "232",
+      "cast_info.id_start": "158",
+      "movie_info.note": "(Kodak Vision2 50D 7201, Vision2 250D 7205, Vision2 100T 7212, Vision2 200T 7217, Vision2 500T 7218)",
+      "title.production_year": "1901"
+    },
+    "85": {
+      "cast_info.id_end": "469",
+      "cast_info.id_start": "25",
+      "movie_info.note": "(26 Episodes)",
+      "title.production_year": "2001"
+    },
+    "86": {
+      "cast_info.id_end": "477",
+      "cast_info.id_start": "248",
+      "movie_info.note": "(The Blitzer House)",
+      "title.production_year": "1982"
+    },
+    "87": {
+      "cast_info.id_end": "67",
+      "cast_info.id_start": "491",
+      "movie_info.note": "(1987-1998)",
+      "title.production_year": "1907"
+    },
+    "88": {
+      "cast_info.id_end": "256",
+      "cast_info.id_start": "488",
+      "movie_info.note": "(interiors of Apartment Complex)",
+      "title.production_year": "1903"
+    },
+    "89": {
+      "cast_info.id_end": "361",
+      "cast_info.id_start": "31",
+      "movie_info.note": "(recut version)",
+      "title.production_year": "1897"
+    },
+    "90": {
+      "cast_info.id_end": "94",
+      "cast_info.id_start": "500",
+      "movie_info.note": "(opening scene with kids)",
+      "title.production_year": "1937"
+    },
+    "91": {
+      "cast_info.id_end": "468",
+      "cast_info.id_start": "20",
+      "movie_info.note": "(1987-88)",
+      "title.production_year": "2001"
+    },
+    "92": {
+      "cast_info.id_end": "388",
+      "cast_info.id_start": "483",
+      "movie_info.note": "(including commercials) (2003)",
+      "title.production_year": "1918"
+    },
+    "93": {
+      "cast_info.id_end": "29",
+      "cast_info.id_start": "490",
+      "movie_info.note": "(episode 8)",
+      "title.production_year": "1968"
+    },
+    "94": {
+      "cast_info.id_end": "256",
+      "cast_info.id_start": "491",
+      "movie_info.note": "(interiors of Apartment Complex)",
+      "title.production_year": "1909"
+    },
+    "95": {
+      "cast_info.id_end": "72",
+      "cast_info.id_start": "486",
+      "movie_info.note": "(1987-1998)",
+      "title.production_year": "1896"
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Default configuration",
+    "2": "Acquisition Function Maximizer: Random Search (sorted)",
+    "3": "Acquisition Function Maximizer: Random Search (sorted)",
+    "4": "Acquisition Function Maximizer: Random Search (sorted)",
+    "5": "Acquisition Function Maximizer: Random Search (sorted)",
+    "6": "Acquisition Function Maximizer: Random Search (sorted)",
+    "7": "Acquisition Function Maximizer: Random Search (sorted)",
+    "8": "Acquisition Function Maximizer: Random Search (sorted)",
+    "9": "Acquisition Function Maximizer: Random Search (sorted)",
+    "10": "Acquisition Function Maximizer: Random Search (sorted)",
+    "11": "Acquisition Function Maximizer: Random Search (sorted)",
+    "12": "Acquisition Function Maximizer: Random Search (sorted)",
+    "13": "Acquisition Function Maximizer: Random Search (sorted)",
+    "14": "Acquisition Function Maximizer: Random Search (sorted)",
+    "15": "Acquisition Function Maximizer: Random Search (sorted)",
+    "16": "Random Search",
+    "17": "Random Search",
+    "18": "Random Search",
+    "19": "Acquisition Function Maximizer: Random Search (sorted)",
+    "20": "Acquisition Function Maximizer: Random Search (sorted)",
+    "21": "Acquisition Function Maximizer: Random Search (sorted)",
+    "22": "Acquisition Function Maximizer: Local Search",
+    "23": "Acquisition Function Maximizer: Local Search",
+    "24": "Acquisition Function Maximizer: Local Search",
+    "25": "Acquisition Function Maximizer: Local Search",
+    "26": "Random Search",
+    "27": "Acquisition Function Maximizer: Local Search",
+    "28": "Random Search",
+    "29": "Acquisition Function Maximizer: Random Search (sorted)",
+    "30": "Acquisition Function Maximizer: Local Search",
+    "31": "Acquisition Function Maximizer: Random Search (sorted)",
+    "32": "Acquisition Function Maximizer: Local Search",
+    "33": "Acquisition Function Maximizer: Random Search (sorted)",
+    "34": "Acquisition Function Maximizer: Random Search (sorted)",
+    "35": "Acquisition Function Maximizer: Local Search",
+    "36": "Random Search",
+    "37": "Acquisition Function Maximizer: Local Search",
+    "38": "Acquisition Function Maximizer: Random Search (sorted)",
+    "39": "Acquisition Function Maximizer: Local Search",
+    "40": "Acquisition Function Maximizer: Local Search",
+    "41": "Acquisition Function Maximizer: Random Search (sorted)",
+    "42": "Acquisition Function Maximizer: Local Search",
+    "43": "Acquisition Function Maximizer: Local Search",
+    "44": "Acquisition Function Maximizer: Local Search",
+    "45": "Random Search",
+    "46": "Acquisition Function Maximizer: Local Search",
+    "47": "Acquisition Function Maximizer: Local Search",
+    "48": "Acquisition Function Maximizer: Local Search",
+    "49": "Random Search",
+    "50": "Acquisition Function Maximizer: Local Search",
+    "51": "Acquisition Function Maximizer: Local Search",
+    "52": "Acquisition Function Maximizer: Random Search (sorted)",
+    "53": "Acquisition Function Maximizer: Local Search",
+    "54": "Acquisition Function Maximizer: Random Search (sorted)",
+    "55": "Random Search",
+    "56": "Acquisition Function Maximizer: Local Search",
+    "57": "Random Search",
+    "58": "Acquisition Function Maximizer: Local Search",
+    "59": "Acquisition Function Maximizer: Random Search (sorted)",
+    "60": "Acquisition Function Maximizer: Local Search",
+    "61": "Acquisition Function Maximizer: Local Search",
+    "62": "Random Search",
+    "63": "Random Search",
+    "64": "Acquisition Function Maximizer: Local Search",
+    "65": "Random Search",
+    "66": "Random Search",
+    "67": "Acquisition Function Maximizer: Local Search",
+    "68": "Acquisition Function Maximizer: Local Search",
+    "69": "Random Search",
+    "70": "Acquisition Function Maximizer: Local Search",
+    "71": "Random Search",
+    "72": "Acquisition Function Maximizer: Local Search",
+    "73": "Acquisition Function Maximizer: Random Search (sorted)",
+    "74": "Acquisition Function Maximizer: Local Search",
+    "75": "Acquisition Function Maximizer: Local Search",
+    "76": "Acquisition Function Maximizer: Local Search",
+    "77": "Random Search",
+    "78": "Acquisition Function Maximizer: Local Search",
+    "79": "Random Search",
+    "80": "Acquisition Function Maximizer: Local Search",
+    "81": "Random Search",
+    "82": "Acquisition Function Maximizer: Local Search",
+    "83": "Acquisition Function Maximizer: Local Search",
+    "84": "Random Search",
+    "85": "Acquisition Function Maximizer: Local Search",
+    "86": "Acquisition Function Maximizer: Local Search",
+    "87": "Acquisition Function Maximizer: Local Search",
+    "88": "Acquisition Function Maximizer: Local Search",
+    "89": "Random Search",
+    "90": "Acquisition Function Maximizer: Random Search (sorted)",
+    "91": "Acquisition Function Maximizer: Local Search",
+    "92": "Acquisition Function Maximizer: Local Search",
+    "93": "Random Search",
+    "94": "Acquisition Function Maximizer: Local Search",
+    "95": "Acquisition Function Maximizer: Local Search"
+  }
+}

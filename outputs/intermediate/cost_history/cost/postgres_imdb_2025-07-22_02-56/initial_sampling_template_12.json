@@ -1,0 +1,602 @@
+{
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '41'\n  AND id <= '201'\nGROUP BY id,\n         keyword;": [
+        19.2,
+        18.81
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '92'\n  AND id <= '393'\nGROUP BY id,\n         keyword;": [
+        27.98,
+        27.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '33'\n  AND id <= '335'\nGROUP BY id,\n         keyword;": [
+        28.04,
+        27.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '295'\n  AND id <= '391'\nGROUP BY id,\n         keyword;": [
+        14.44,
+        14.2
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '364'\n  AND id <= '440'\nGROUP BY id,\n         keyword;": [
+        13.22,
+        13.03
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '239'\n  AND id <= '313'\nGROUP BY id,\n         keyword;": [
+        13.08,
+        12.9
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '238'\n  AND id <= '435'\nGROUP BY id,\n         keyword;": [
+        21.31,
+        20.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '351'\n  AND id <= '367'\nGROUP BY id,\n         keyword;": [
+        9.49,
+        9.45
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '242'\n  AND id <= '408'\nGROUP BY id,\n         keyword;": [
+        19.55,
+        19.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '121'\n  AND id <= '291'\nGROUP BY id,\n         keyword;": [
+        19.77,
+        19.35
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '25'\n  AND id <= '214'\nGROUP BY id,\n         keyword;": [
+        20.82,
+        20.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '312'\n  AND id <= '419'\nGROUP BY id,\n         keyword;": [
+        15.06,
+        14.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '39'\n  AND id <= '270'\nGROUP BY id,\n         keyword;": [
+        23.17,
+        22.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '258'\n  AND id <= '489'\nGROUP BY id,\n         keyword;": [
+        23.17,
+        22.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '23'\n  AND id <= '97'\nGROUP BY id,\n         keyword;": [
+        13.08,
+        12.9
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '109'\n  AND id <= '492'\nGROUP BY id,\n         keyword;": [
+        36.28,
+        35.35
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '124'\n  AND id <= '395'\nGROUP BY id,\n         keyword;": [
+        25.39,
+        24.72
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '132'\n  AND id <= '494'\nGROUP BY id,\n         keyword;": [
+        31.23,
+        30.34
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '356'\n  AND id <= '495'\nGROUP BY id,\n         keyword;": [
+        16.92,
+        16.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '106'\n  AND id <= '444'\nGROUP BY id,\n         keyword;": [
+        29.95,
+        29.13
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '56'\n  AND id <= '335'\nGROUP BY id,\n         keyword;": [
+        25.82,
+        25.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '238'\n  AND id <= '259'\nGROUP BY id,\n         keyword;": [
+        9.76,
+        9.7
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '287'\n  AND id <= '307'\nGROUP BY id,\n         keyword;": [
+        9.69,
+        9.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '81'\n  AND id <= '499'\nGROUP BY id,\n         keyword;": [
+        38.04,
+        37.02
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '78'\n  AND id <= '498'\nGROUP BY id,\n         keyword;": [
+        38.17,
+        37.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '141'\n  AND id <= '461'\nGROUP BY id,\n         keyword;": [
+        29.01,
+        28.23
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '32'\n  AND id <= '143'\nGROUP BY id,\n         keyword;": [
+        15.32,
+        15.05
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '209'\n  AND id <= '311'\nGROUP BY id,\n         keyword;": [
+        14.73,
+        14.48
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '132'\n  AND id <= '406'\nGROUP BY id,\n         keyword;": [
+        25.54,
+        24.87
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '208'\n  AND id <= '341'\nGROUP BY id,\n         keyword;": [
+        16.63,
+        16.31
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '423'\n  AND id <= '476'\nGROUP BY id,\n         keyword;": [
+        11.81,
+        11.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '144'\n  AND id <= '226'\nGROUP BY id,\n         keyword;": [
+        13.57,
+        13.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '13'\n  AND id <= '388'\nGROUP BY id,\n         keyword;": [
+        35.84,
+        34.93
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '147'\n  AND id <= '192'\nGROUP BY id,\n         keyword;": [
+        11.29,
+        11.18
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '103'\n  AND id <= '455'\nGROUP BY id,\n         keyword;": [
+        30.7,
+        29.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '191'\n  AND id <= '197'\nGROUP BY id,\n         keyword;": [
+        8.84,
+        8.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '223'\n  AND id <= '338'\nGROUP BY id,\n         keyword;": [
+        15.54,
+        15.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '95'\n  AND id <= '226'\nGROUP BY id,\n         keyword;": [
+        16.5,
+        16.18
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '429'\n  AND id <= '460'\nGROUP BY id,\n         keyword;": [
+        10.41,
+        10.33
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '92'\n  AND id <= '278'\nGROUP BY id,\n         keyword;": [
+        20.67,
+        20.21
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '136'\n  AND id <= '250'\nGROUP BY id,\n         keyword;": [
+        15.47,
+        15.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '122'\n  AND id <= '455'\nGROUP BY id,\n         keyword;": [
+        29.67,
+        28.85
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '385'\n  AND id <= '434'\nGROUP BY id,\n         keyword;": [
+        11.55,
+        11.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '2'\n  AND id <= '174'\nGROUP BY id,\n         keyword;": [
+        19.9,
+        19.48
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '23'\n  AND id <= '154'\nGROUP BY id,\n         keyword;": [
+        16.5,
+        16.18
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '99'\n  AND id <= '319'\nGROUP BY id,\n         keyword;": [
+        22.58,
+        22.04
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '58'\n  AND id <= '351'\nGROUP BY id,\n         keyword;": [
+        27.54,
+        26.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '330'\n  AND id <= '458'\nGROUP BY id,\n         keyword;": [
+        16.35,
+        16.03
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '125'\n  AND id <= '411'\nGROUP BY id,\n         keyword;": [
+        26.24,
+        25.54
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '68'\n  AND id <= '180'\nGROUP BY id,\n         keyword;": [
+        15.34,
+        15.07
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '86'\n  AND id <= '469'\nGROUP BY id,\n         keyword;": [
+        36.28,
+        35.35
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '77'\n  AND id <= '276'\nGROUP BY id,\n         keyword;": [
+        21.39,
+        20.91
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '8'\n  AND id <= '156'\nGROUP BY id,\n         keyword;": [
+        18.46,
+        18.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '159'\n  AND id <= '298'\nGROUP BY id,\n         keyword;": [
+        16.92,
+        16.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '210'\n  AND id <= '421'\nGROUP BY id,\n         keyword;": [
+        22.1,
+        21.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '233'\n  AND id <= '273'\nGROUP BY id,\n         keyword;": [
+        11.0,
+        10.9
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '114'\n  AND id <= '402'\nGROUP BY id,\n         keyword;": [
+        26.33,
+        25.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '231'\n  AND id <= '246'\nGROUP BY id,\n         keyword;": [
+        9.43,
+        9.39
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '20'\n  AND id <= '115'\nGROUP BY id,\n         keyword;": [
+        14.38,
+        14.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '131'\n  AND id <= '215'\nGROUP BY id,\n         keyword;": [
+        13.7,
+        13.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '153'\n  AND id <= '370'\nGROUP BY id,\n         keyword;": [
+        22.38,
+        21.85
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '201'\n  AND id <= '484'\nGROUP BY id,\n         keyword;": [
+        26.04,
+        25.35
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '149'\n  AND id <= '264'\nGROUP BY id,\n         keyword;": [
+        15.54,
+        15.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '401'\n  AND id <= '472'\nGROUP BY id,\n         keyword;": [
+        12.89,
+        12.71
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '35'\n  AND id <= '287'\nGROUP BY id,\n         keyword;": [
+        24.38,
+        23.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '163'\n  AND id <= '340'\nGROUP BY id,\n         keyword;": [
+        20.12,
+        19.69
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '171'\n  AND id <= '269'\nGROUP BY id,\n         keyword;": [
+        14.51,
+        14.27
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '51'\n  AND id <= '366'\nGROUP BY id,\n         keyword;": [
+        28.72,
+        27.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '12'\n  AND id <= '111'\nGROUP BY id,\n         keyword;": [
+        14.57,
+        14.33
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '294'\n  AND id <= '329'\nGROUP BY id,\n         keyword;": [
+        10.68,
+        10.59
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '28'\n  AND id <= '489'\nGROUP BY id,\n         keyword;": [
+        41.18,
+        40.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '74'\n  AND id <= '149'\nGROUP BY id,\n         keyword;": [
+        13.15,
+        12.96
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '346'\n  AND id <= '484'\nGROUP BY id,\n         keyword;": [
+        16.9,
+        16.56
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '285'\n  AND id <= '325'\nGROUP BY id,\n         keyword;": [
+        11.0,
+        10.9
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '65'\n  AND id <= '267'\nGROUP BY id,\n         keyword;": [
+        21.59,
+        21.1
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '57'\n  AND id <= '465'\nGROUP BY id,\n         keyword;": [
+        37.58,
+        36.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '29'\n  AND id <= '472'\nGROUP BY id,\n         keyword;": [
+        40.32,
+        39.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '103'\n  AND id <= '254'\nGROUP BY id,\n         keyword;": [
+        18.65,
+        18.28
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '265'\n  AND id <= '325'\nGROUP BY id,\n         keyword;": [
+        12.21,
+        12.06
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '193'\n  AND id <= '424'\nGROUP BY id,\n         keyword;": [
+        23.17,
+        22.6
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '105'\n  AND id <= '376'\nGROUP BY id,\n         keyword;": [
+        25.39,
+        24.72
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '322'\n  AND id <= '484'\nGROUP BY id,\n         keyword;": [
+        19.29,
+        18.89
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '163'\n  AND id <= '375'\nGROUP BY id,\n         keyword;": [
+        22.16,
+        21.64
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '131'\n  AND id <= '300'\nGROUP BY id,\n         keyword;": [
+        19.7,
+        19.29
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '58'\n  AND id <= '410'\nGROUP BY id,\n         keyword;": [
+        30.7,
+        29.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '331'\n  AND id <= '370'\nGROUP BY id,\n         keyword;": [
+        10.94,
+        10.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '2'\n  AND id <= '414'\nGROUP BY id,\n         keyword;": [
+        37.73,
+        36.73
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '44'\n  AND id <= '420'\nGROUP BY id,\n         keyword;": [
+        35.91,
+        34.99
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '136'\n  AND id <= '386'\nGROUP BY id,\n         keyword;": [
+        24.24,
+        23.63
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '313'\n  AND id <= '448'\nGROUP BY id,\n         keyword;": [
+        16.76,
+        16.43
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '139'\n  AND id <= '357'\nGROUP BY id,\n         keyword;": [
+        22.45,
+        21.91
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '157'\n  AND id <= '452'\nGROUP BY id,\n         keyword;": [
+        27.67,
+        26.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '61'\n  AND id <= '305'\nGROUP BY id,\n         keyword;": [
+        23.94,
+        23.34
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '441'\n  AND id <= '482'\nGROUP BY id,\n         keyword;": [
+        11.07,
+        10.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '116'\n  AND id <= '397'\nGROUP BY id,\n         keyword;": [
+        25.96,
+        25.27
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '363'\n  AND id <= '479'\nGROUP BY id,\n         keyword;": [
+        15.6,
+        15.32
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '72'\n  AND id <= '415'\nGROUP BY id,\n         keyword;": [
+        30.19,
+        29.36
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '306'\n  AND id <= '377'\nGROUP BY id,\n         keyword;": [
+        12.89,
+        12.71
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '47'\n  AND id <= '216'\nGROUP BY id,\n         keyword;": [
+        19.7,
+        19.29
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '81'\n  AND id <= '380'\nGROUP BY id,\n         keyword;": [
+        27.89,
+        27.16
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '177'\n  AND id <= '380'\nGROUP BY id,\n         keyword;": [
+        21.66,
+        21.16
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '349'\n  AND id <= '464'\nGROUP BY id,\n         keyword;": [
+        15.54,
+        15.26
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '68'\n  AND id <= '179'\nGROUP BY id,\n         keyword;": [
+        15.32,
+        15.05
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '6'\n  AND id <= '255'\nGROUP BY id,\n         keyword;": [
+        24.22,
+        23.61
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '398'\n  AND id <= '477'\nGROUP BY id,\n         keyword;": [
+        13.37,
+        13.17
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '441'\n  AND id <= '491'\nGROUP BY id,\n         keyword;": [
+        11.62,
+        11.49
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '355'\n  AND id <= '469'\nGROUP BY id,\n         keyword;": [
+        15.47,
+        15.19
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '216'\n  AND id <= '292'\nGROUP BY id,\n         keyword;": [
+        13.22,
+        13.03
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '99'\n  AND id <= '128'\nGROUP BY id,\n         keyword;": [
+        10.28,
+        10.21
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '249'\n  AND id <= '367'\nGROUP BY id,\n         keyword;": [
+        15.73,
+        15.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '204'\n  AND id <= '297'\nGROUP BY id,\n         keyword;": [
+        14.25,
+        14.02
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '76'\n  AND id <= '234'\nGROUP BY id,\n         keyword;": [
+        19.07,
+        18.68
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '301'\n  AND id <= '450'\nGROUP BY id,\n         keyword;": [
+        18.52,
+        18.16
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '34'\n  AND id <= '407'\nGROUP BY id,\n         keyword;": [
+        35.75,
+        34.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '361'\n  AND id <= '433'\nGROUP BY id,\n         keyword;": [
+        12.95,
+        12.78
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '63'\n  AND id <= '426'\nGROUP BY id,\n         keyword;": [
+        31.29,
+        30.4
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '281'\n  AND id <= '281'\nGROUP BY id,\n         keyword;": [
+        8.44,
+        8.44
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '258'\n  AND id <= '429'\nGROUP BY id,\n         keyword;": [
+        19.84,
+        19.42
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '306'\n  AND id <= '459'\nGROUP BY id,\n         keyword;": [
+        18.78,
+        18.41
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '185'\n  AND id <= '243'\nGROUP BY id,\n         keyword;": [
+        12.14,
+        12.0
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '88'\n  AND id <= '168'\nGROUP BY id,\n         keyword;": [
+        13.43,
+        13.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '51'\n  AND id <= '339'\nGROUP BY id,\n         keyword;": [
+        26.33,
+        25.62
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '229'\n  AND id <= '323'\nGROUP BY id,\n         keyword;": [
+        14.31,
+        14.08
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '40'\n  AND id <= '185'\nGROUP BY id,\n         keyword;": [
+        18.3,
+        17.95
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '275'\n  AND id <= '431'\nGROUP BY id,\n         keyword;": [
+        18.94,
+        18.56
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '87'\n  AND id <= '184'\nGROUP BY id,\n         keyword;": [
+        14.51,
+        14.27
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '223'\n  AND id <= '269'\nGROUP BY id,\n         keyword;": [
+        11.35,
+        11.24
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '70'\n  AND id <= '175'\nGROUP BY id,\n         keyword;": [
+        14.92,
+        14.67
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '221'\n  AND id <= '451'\nGROUP BY id,\n         keyword;": [
+        23.15,
+        22.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '10'\n  AND id <= '81'\nGROUP BY id,\n         keyword;": [
+        12.89,
+        12.71
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '205'\n  AND id <= '438'\nGROUP BY id,\n         keyword;": [
+        23.3,
+        22.73
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '192'\n  AND id <= '408'\nGROUP BY id,\n         keyword;": [
+        22.31,
+        21.79
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '357'\n  AND id <= '387'\nGROUP BY id,\n         keyword;": [
+        10.35,
+        10.27
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '248'\n  AND id <= '396'\nGROUP BY id,\n         keyword;": [
+        18.46,
+        18.09
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '47'\n  AND id <= '174'\nGROUP BY id,\n         keyword;": [
+        16.28,
+        15.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '15'\n  AND id <= '328'\nGROUP BY id,\n         keyword;": [
+        28.64,
+        27.87
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '168'\n  AND id <= '318'\nGROUP BY id,\n         keyword;": [
+        18.59,
+        18.22
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '171'\n  AND id <= '262'\nGROUP BY id,\n         keyword;": [
+        14.11,
+        13.89
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '14'\n  AND id <= '20'\nGROUP BY id,\n         keyword;": [
+        8.84,
+        8.82
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '5'\n  AND id <= '344'\nGROUP BY id,\n         keyword;": [
+        29.97,
+        29.15
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '24'\n  AND id <= '376'\nGROUP BY id,\n         keyword;": [
+        30.7,
+        29.84
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '53'\n  AND id <= '219'\nGROUP BY id,\n         keyword;": [
+        19.55,
+        19.14
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '119'\n  AND id <= '444'\nGROUP BY id,\n         keyword;": [
+        29.29,
+        28.5
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '208'\n  AND id <= '476'\nGROUP BY id,\n         keyword;": [
+        25.23,
+        24.58
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '51'\n  AND id <= '197'\nGROUP BY id,\n         keyword;": [
+        18.32,
+        17.97
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '114'\n  AND id <= '161'\nGROUP BY id,\n         keyword;": [
+        11.42,
+        11.3
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '88'\n  AND id <= '284'\nGROUP BY id,\n         keyword;": [
+        21.24,
+        20.76
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '187'\n  AND id <= '349'\nGROUP BY id,\n         keyword;": [
+        19.29,
+        18.89
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '146'\n  AND id <= '245'\nGROUP BY id,\n         keyword;": [
+        14.57,
+        14.33
+    ],
+    "-- SQL Template Metadata\n-- Template ID: 12\n-- Creation Time: 2025-07-22 02:58:48\n-- LLM Model: o3-mini\n-- Constraints:\n--   Number of unique Tables Accessed: 1\n--   Number of Joins: 0\n--   Number of Aggregations: 0\n--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.\n--   Tables Involved: ['keyword']\n-- Rewrite Attempts Number for Constraints Check: 1\n-- Rewrite Attempts Number for Grammar Check: 1\n\nSELECT id,\n       keyword\nFROM keyword\nWHERE id >= '1'\n  AND id <= '1'\nGROUP BY id,\n         keyword;": [
+        8.44,
+        8.44
+    ]
+}
