@@ -1,24 +1,25 @@
 -- SQL Template Metadata
 -- Template ID: 7
--- Creation Time: 2025-07-22 02:58:48
+-- Creation Time: 2025-10-15 03:28:41
 -- LLM Model: o3-mini
 -- Constraints:
 --   Number of unique Tables Accessed: 1
 --   Number of Joins: 0
 --   Number of Aggregations: 0
---   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.
---   Tables Involved: ['comp_cast_type']
+--   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.
+--   Tables Involved: ['role_type']
 -- Rewrite Attempts Number for Constraints Check: 1
--- Rewrite Attempts Number for Grammar Check: 0
+-- Rewrite Attempts Number for Grammar Check: 1
 
-SELECT
-  (SELECT COUNT(*)
-   FROM comp_cast_type
-   WHERE kind = '{{comp_cast_type.kind}}') AS total_kind,
-       t.min_id,
-       t.max_id
-FROM
-  (SELECT MIN(id) AS min_id,
-          MAX(id) AS max_id
-   FROM comp_cast_type
-   WHERE id BETWEEN '{{comp_cast_type.id_start}}' AND '{{comp_cast_type.id_end}}') t;
+SELECT ROLE,
+       COUNT(*) AS role_count,
+
+  (SELECT AVG(id)
+   FROM role_type t2
+   WHERE t2.role = t1.role
+     AND t2.id >= '{{role_type.id_start}}'
+     AND t2.id <= '{{role_type.id_end}}') AS avg_id
+FROM role_type t1
+WHERE id >= '{{role_type.id_start}}'
+  AND id <= '{{role_type.id_end}}'
+GROUP BY ROLE;

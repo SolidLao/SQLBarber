@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from smac.runhistory.runhistory import RunHistory
 from collections import OrderedDict
 from pathlib import Path
+from .cpu_cost_calculator import CPUCostCalculator
 
 class PredicateEnumerator:
     def __init__(self, task_name, db_controller, template_id, sql_template, target_cost, file_path, seed=1, target="cost", cost_type="sum_cost"):
@@ -31,10 +32,14 @@ class PredicateEnumerator:
         self.search_space = ConfigurationSpace()
         self.column_info = self.load_table_data_from_json(file_path)
 
-        self.supported_targets = ["card", "cost", "time"]
+        self.supported_targets = ["card", "cost", "time", "cpu"]
         if target not in self.supported_targets:
             raise ValueError(f"Invalid target '{target}'. Must be one of {self.supported_targets}.")
         self.target = target
+
+        # Initialize CPU cost calculator for cpu target
+        if self.target == "cpu":
+            self.cpu_cost_calculator = CPUCostCalculator(self.db_controller)
 
         self._root = Path(__file__).resolve().parents[2]
         self.result_path = f"{self._root}/outputs/intermediate/result_visualization/initial_sampling/{self.task_name}/initial_sampling_{self.template_id}_histogram.png"
@@ -295,7 +300,20 @@ class PredicateEnumerator:
                 end_time = time.time()
                 sql_execution_time = end_time - start_time
                 estimated_costs.append(sql_execution_time)
-           
+
+            elif self.target == "cpu":
+            # Calculate CPU cost using the CPU cost calculator
+                start_time = time.time()
+                cpu_cost = self.cpu_cost_calculator.calculate_cpu_cost(final_query)
+                end_time = time.time()
+                self.sql_execute_time += (end_time - start_time) / 60
+
+                if cpu_cost is not None:
+                    estimated_costs.append(cpu_cost)
+                else:
+                    # If CPU cost calculation fails, return high penalty
+                    return 1.0
+
             self.cost_history[final_query] = estimated_costs
             estimated_cost = self.calculate_cost(estimated_costs)
             self.queries.append(final_query)

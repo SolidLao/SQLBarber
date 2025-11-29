@@ -1,21 +1,24 @@
 -- SQL Template Metadata
 -- Template ID: 10
--- Creation Time: 2025-07-22 02:58:48
+-- Creation Time: 2025-10-15 03:28:41
 -- LLM Model: o3-mini
 -- Constraints:
 --   Number of unique Tables Accessed: 1
 --   Number of Joins: 0
 --   Number of Aggregations: 0
---   Semantic Requirement: The query should use aggregation, and have at least three predicate values to fill.
---   Tables Involved: ['aka_title']
+--   Semantic Requirement: The query should use group-by, and have at least two predicate values to fill.
+--   Tables Involved: ['movie_info']
 -- Rewrite Attempts Number for Constraints Check: 1
--- Rewrite Attempts Number for Grammar Check: 4
+-- Rewrite Attempts Number for Grammar Check: 1
 
-SELECT *
-FROM aka_title
-WHERE title <> '{{aka_title.title_exclude}}'
-  AND id >
-    (SELECT AVG(id)
-     FROM aka_title
-     WHERE id > '{{aka_title.id_start}}'::integer
-       AND id < '{{aka_title.id_end}}'::integer);
+SELECT movie_id,
+       info,
+       info_type_id,
+       note
+FROM movie_info
+WHERE movie_id BETWEEN '{{movie_info.movie_id_start}}' AND '{{movie_info.movie_id_end}}'
+  AND info = '{{movie_info.info}}'
+GROUP BY movie_id,
+         info,
+         info_type_id,
+         note;

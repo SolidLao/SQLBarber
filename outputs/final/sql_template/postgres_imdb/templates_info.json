@@ -5,9 +5,9 @@
             "num_tables_accessed": 1,
             "num_joins": 0,
             "num_aggregations": 0,
-            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
             "tables_involved": [
-                "kind_type"
+                "info_type"
             ]
         }
     },
@@ -17,9 +17,9 @@
             "num_tables_accessed": 1,
             "num_joins": 0,
             "num_aggregations": 0,
-            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
             "tables_involved": [
-                "cast_info"
+                "name"
             ]
         }
     },
@@ -29,9 +29,9 @@
             "num_tables_accessed": 1,
             "num_joins": 0,
             "num_aggregations": 0,
-            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
             "tables_involved": [
-                "info_type"
+                "char_name"
             ]
         }
     },
@@ -43,7 +43,7 @@
             "num_aggregations": 0,
             "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
             "tables_involved": [
-                "role_type"
+                "movie_companies"
             ]
         }
     },
@@ -53,9 +53,9 @@
             "num_tables_accessed": 1,
             "num_joins": 0,
             "num_aggregations": 0,
-            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
             "tables_involved": [
-                "movie_companies"
+                "name"
             ]
         }
     },
@@ -67,7 +67,7 @@
             "num_aggregations": 2,
             "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
             "tables_involved": [
-                "complete_cast"
+                "title"
             ]
         }
     },
@@ -77,9 +77,9 @@
             "num_tables_accessed": 1,
             "num_joins": 0,
             "num_aggregations": 0,
-            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
             "tables_involved": [
-                "comp_cast_type"
+                "role_type"
             ]
         }
     },
@@ -89,9 +89,9 @@
             "num_tables_accessed": 1,
             "num_joins": 0,
             "num_aggregations": 0,
-            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
             "tables_involved": [
-                "name"
+                "complete_cast"
             ]
         }
     },
@@ -103,7 +103,7 @@
             "num_aggregations": 0,
             "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
             "tables_involved": [
-                "info_type"
+                "comp_cast_type"
             ]
         }
     },
@@ -113,9 +113,9 @@
             "num_tables_accessed": 1,
             "num_joins": 0,
             "num_aggregations": 0,
-            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
             "tables_involved": [
-                "aka_title"
+                "movie_info"
             ]
         }
     },
@@ -125,9 +125,9 @@
             "num_tables_accessed": 1,
             "num_joins": 0,
             "num_aggregations": 3,
-            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
             "tables_involved": [
-                "kind_type"
+                "cast_info"
             ]
         }
     },
@@ -139,7 +139,7 @@
             "num_aggregations": 0,
             "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
             "tables_involved": [
-                "keyword"
+                "movie_info"
             ]
         }
     },
@@ -149,9 +149,9 @@
             "num_tables_accessed": 1,
             "num_joins": 0,
             "num_aggregations": 2,
-            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
             "tables_involved": [
-                "movie_info_idx"
+                "title"
             ]
         }
     },
@@ -161,7 +161,7 @@
             "num_tables_accessed": 2,
             "num_joins": 1,
             "num_aggregations": 0,
-            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
             "tables_involved": [
                 "cast_info",
                 "title"
@@ -174,11 +174,11 @@
             "num_tables_accessed": 1,
             "num_joins": 2,
             "num_aggregations": 6,
-            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
             "tables_involved": [
-                "cast_info",
-                "name",
-                "person_info"
+                "movie_companies",
+                "title",
+                "movie_link"
             ]
         }
     },
@@ -190,7 +190,7 @@
             "num_aggregations": 6,
             "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
             "tables_involved": [
-                "complete_cast",
+                "cast_info",
                 "name",
                 "person_info"
             ]
@@ -202,7 +202,7 @@
             "num_tables_accessed": 7,
             "num_joins": 6,
             "num_aggregations": 5,
-            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
             "tables_involved": [
                 "movie_info",
                 "aka_name",
@@ -234,7 +234,7 @@
             "num_tables_accessed": 7,
             "num_joins": 6,
             "num_aggregations": 5,
-            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
             "tables_involved": [
                 "movie_info",
                 "aka_name",
@@ -298,7 +298,7 @@
             "num_tables_accessed": 6,
             "num_joins": 6,
             "num_aggregations": 5,
-            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
             "tables_involved": [
                 "movie_info",
                 "aka_name",
@@ -330,7 +330,7 @@
             "num_tables_accessed": 7,
             "num_joins": 6,
             "num_aggregations": 5,
-            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
             "tables_involved": [
                 "movie_info",
                 "aka_name",
@@ -362,7 +362,7 @@
             "num_tables_accessed": 7,
             "num_joins": 7,
             "num_aggregations": 5,
-            "semantic_requirement": "The query should use aggregation, and have at least three predicate values to fill.",
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
             "tables_involved": [
                 "movie_info",
                 "aka_name",
@@ -426,7 +426,7 @@
             "num_tables_accessed": 10,
             "num_joins": 21,
             "num_aggregations": 16,
-            "semantic_requirement": "The query should use group-by, and have at least two predicate values to fill.",
+            "semantic_requirement": "The query should have a nested query with aggregation, at least two predicate values to fill.",
             "tables_involved": [
                 "movie_info",
                 "aka_name",

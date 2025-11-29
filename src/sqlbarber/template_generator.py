@@ -232,15 +232,17 @@ class AdvancedSQLTemplateGenerator:
         """
         Fetch and store database schema information in a structured format.
         (Includes table size, row count, column uniqueness counts, PK/FK info, and indexes.)
+
+        OPTIMIZED: Uses batched queries to minimize database round-trips.
         """
 
-        schema_path = self.schema_path 
+        schema_path = self.schema_path
         if os.path.exists(schema_path):
             with open(schema_path, "r", encoding="utf-8") as f:
                 schema = json.load(f)
         else:
-            schema = None  
-        
+            schema = None
+
         if schema is not None:
             return schema
 
@@ -260,44 +262,84 @@ class AdvancedSQLTemplateGenerator:
             self.log("No tables found in the database.")
             return schema
 
+        # OPTIMIZATION: Batch fetch all table sizes and row counts in 2 queries instead of N*2 queries
+        table_names = [table[0] for table in tables]
+
+        # Batch query for table sizes
+        table_sizes = {}
+        size_queries = " UNION ALL ".join([
+            f"SELECT '{table_name}' AS table_name, pg_size_pretty(pg_total_relation_size('{table_name}')) AS size"
+            for table_name in table_names
+        ])
+        if size_queries:
+            size_result = db_controller.execute_sql(f"SELECT * FROM ({size_queries}) AS sizes;")["result"]
+            if size_result:
+                table_sizes = {row[0]: row[1] for row in size_result}
+
+        # Batch query for row counts (using table statistics for speed)
+        row_counts = {}
+        # Try to use pg_class statistics first (much faster), fallback to COUNT(*) if needed
+        stats_query = f"""
+        SELECT schemaname || '.' || relname AS table_name, n_live_tup AS row_count
+        FROM pg_stat_user_tables
+        WHERE schemaname = 'public' AND relname IN ({','.join([f"'{t}'" for t in table_names])});
+        """
+        stats_result = db_controller.execute_sql(stats_query)["result"]
+        if stats_result:
+            # Extract just the table name from schema.table
+            row_counts = {row[0].split('.')[-1]: row[1] for row in stats_result}
+
         for table in tables:
             table_name = table[0]
             schema['tables'][table_name] = {}
             table_info = schema['tables'][table_name]
 
-            # --- TABLE SIZE ---
-            size_query = f"""
-            SELECT pg_size_pretty(pg_total_relation_size('{table_name}'));
-            """
-            size_result = db_controller.execute_sql(size_query)["result"]
-            table_info['size'] = size_result[0][0] if size_result else 'Unknown'
+            # --- TABLE SIZE (from batch query) ---
+            table_info['size'] = table_sizes.get(table_name, 'Unknown')
 
-            # --- ROW COUNT ---
-            row_count_query = f"SELECT COUNT(*) FROM {table_name};"
-            row_count_result = db_controller.execute_sql(row_count_query)["result"]
-            table_info['row_count'] = row_count_result[0][0] if row_count_result else 'Unknown'
+            # --- ROW COUNT (from batch query, fallback to COUNT if not available) ---
+            if table_name in row_counts:
+                table_info['row_count'] = row_counts[table_name]
+            else:
+                # Fallback to COUNT(*) if statistics not available
+                row_count_query = f"SELECT COUNT(*) FROM {table_name};"
+                row_count_result = db_controller.execute_sql(row_count_query)["result"]
+                table_info['row_count'] = row_count_result[0][0] if row_count_result else 'Unknown'
 
             # --- COLUMN INFORMATION ---
             column_query = f"""
             SELECT column_name, data_type, is_nullable
             FROM information_schema.columns
-            WHERE table_name = '{table_name}';
+            WHERE table_name = '{table_name}'
+            ORDER BY ordinal_position;
             """
             columns = db_controller.execute_sql(column_query)["result"]
             table_info['columns'] = {}
 
-            for column in columns:
-                column_name, data_type, is_nullable = column
-                # Unique values in the column
-                unique_count_query = f"SELECT COUNT(DISTINCT {column_name}) FROM {table_name};"
-                unique_count_result = db_controller.execute_sql(unique_count_query)["result"]
-                unique_count = unique_count_result[0][0] if unique_count_result else 'Unknown'
+            # OPTIMIZATION: Batch all COUNT(DISTINCT) queries into one query per table
+            if columns:
+                column_list = [col[0] for col in columns]
+                select_parts = [f"COUNT(DISTINCT {col}) AS distinct_{col}" for col in column_list]
+                batch_distinct_query = f"SELECT {', '.join(select_parts)} FROM {table_name};"
 
-                table_info['columns'][column_name] = {
-                    'data_type': data_type,
-                    'is_nullable': (is_nullable == 'YES'),
-                    'unique_values': unique_count
-                }
+                try:
+                    distinct_result = db_controller.execute_sql(batch_distinct_query)["result"]
+                    if distinct_result and distinct_result[0]:
+                        distinct_counts = distinct_result[0]
+                    else:
+                        distinct_counts = [0] * len(column_list)
+                except Exception as e:
+                    self.log(f"Error in batch distinct query for {table_name}: {e}")
+                    distinct_counts = [0] * len(column_list)
+
+                # Now populate column info with batched results
+                for idx, column in enumerate(columns):
+                    column_name, data_type, is_nullable = column
+                    table_info['columns'][column_name] = {
+                        'data_type': data_type,
+                        'is_nullable': (is_nullable == 'YES'),
+                        'unique_values': distinct_counts[idx] if idx < len(distinct_counts) else 0
+                    }
 
             # --- PRIMARY KEYS ---
             pk_query = f"""
@@ -1223,6 +1265,8 @@ Now let's think step by step and provide the SQL query template. Return the resu
             cost_type_name = "execution time"
         elif cost_type == "cardinality":
             cost_type_name = "sum of all the cardinalities in the execution plan"
+        elif cost_type == "cpu":
+            cost_type_name = "cpu usage"
         else:
             cost_type_name = cost_type
         

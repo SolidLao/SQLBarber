@@ -24,22 +24,19 @@ summary_name = f"{dbname}_{cost_type}_{min_cost}_{max_cost}_{num_intervals}_{dis
 target_dbms = "postgres" 
 config_path = "./configs/postgres.ini" 
 db_controller = create_db_controller(target_dbms, config_path)
-if dbname == "tpch":
-    db_controller._connect("benchbase")
-elif dbname == "imdb":
-    db_controller._connect("imdb")
+db_controller._connect(dbname)
 
 task_name = f"{target_dbms}_{dbname}"
 
 # prepare the DB column information, this only need to be done one time for each database
-column_info_file = f"{Path(__file__).resolve().parents[1]}/outputs/intermediate/db_meta_info/{task_name}/column_info.json"
-if not os.path.exists(column_info_file):
+column_info_folder = f"{Path(__file__).resolve().parents[1]}/outputs/intermediate/db_meta_info/{task_name}/"
+if not os.path.exists(f"{column_info_folder}column_info.json"):
     print(f"--- Column Information for {task_name} is not available, trying to get this information from the database. ---")
     print("This could take some time, depending on the size of the database. But this only need to be done for one time and reused in the future for a given database.")
     print("If there are significant changes to a database, please delete the file and re-execute this command.")
-    db_controller.get_column_info(column_info_file)
+    db_controller.get_column_info(column_info_folder)
 else:
-    print(f"DB column information loaded successfully from {column_info_file}")
+    print(f"DB column information loaded successfully from {column_info_folder}")
 
 # user specify which LLM to invoke
 try:

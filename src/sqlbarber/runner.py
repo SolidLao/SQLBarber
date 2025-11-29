@@ -34,7 +34,7 @@ class SQLBarberRunner:
         self.target = target
         if self.target == "card":
             self.cost_type = "sum_cost"
-        elif self.target == "cost":
+        elif self.target == "cost" or self.target == "time" or self.target == "cpu":
             self.cost_type = "output_cost"
         self.summary_name = summary_name
 
@@ -1706,11 +1706,11 @@ class SQLBarberRunner:
         # Step 5: Iteratively optimize until the current distribution matches the target distribution
         for iteration in range(num_iterations):
             self.log(f"Iteration {iteration + 1}/{num_iterations}")
-            
+
             # Step 6: Optimize for the interval with the largest difference
             # num_difference = self.optimize_for_interval_naive(profiling_result, reuse_history=reuse_history)
             num_difference = self.optimize_for_interval(profiling_result, reuse_history=reuse_history)
-            
+
             # Step 7: Optionally, plot the current vs. target distribution for monitoring
             distance = self.compare_and_plot_distributions(f"iteration_{iteration + 1}")
             distances.append(distance)
@@ -1721,6 +1721,24 @@ class SQLBarberRunner:
             if num_difference <= 0:
                 self.log("Target distribution is matched. Stopping optimization.")
                 break
+
+            # Stopping criteria 1: Check if total time exceeds 1 hour (3600 seconds)
+            elapsed_time = time.time() - start_time
+            if elapsed_time > 3600:
+                self.log(f"Stopping optimization: elapsed time ({elapsed_time:.2f}s) exceeded 1 hour.")
+                break
+
+            # Stopping criteria 2: Check if distance hasn't changed for the last 3 iterations
+            # We need at least 3 distance values after the current iteration (excluding initial profiling distances)
+            # distances has: [target_distribution, initial_profiling, refinement, iteration_1, iteration_2, ...]
+            # So iteration distances start from index 3
+            iteration_distances = distances[3:]  # Get only iteration distances
+            if len(iteration_distances) >= 3:
+                # Check the last 5 distances
+                last_three = iteration_distances[-3:]
+                if len(set(last_three)) == 1:  # All three distances are the same
+                    self.log(f"Stopping optimization: distance has not changed for the last 3 iterations (distance={last_three[0]}).")
+                    break
         end_time = time.time()
 
         # Step 8: Log the missing intervals for which no templates were found

@@ -9,28 +9,12 @@
             "info_type"
         ],
         [
-            "aka_name",
-            "name"
-        ],
-        [
             "movie_keyword",
             "title"
         ],
         [
             "movie_keyword",
             "keyword"
-        ],
-        [
-            "cast_info",
-            "title"
-        ],
-        [
-            "cast_info",
-            "role_type"
-        ],
-        [
-            "cast_info",
-            "name"
         ],
         [
             "movie_companies",
@@ -43,6 +27,18 @@
         [
             "movie_companies",
             "company_type"
+        ],
+        [
+            "cast_info",
+            "title"
+        ],
+        [
+            "cast_info",
+            "name"
+        ],
+        [
+            "cast_info",
+            "role_type"
         ],
         [
             "movie_info_idx",
@@ -61,75 +57,115 @@
             "link_type"
         ],
         [
-            "aka_title",
-            "title"
+            "title",
+            "kind_type"
+        ],
+        [
+            "aka_name",
+            "name"
         ],
         [
             "person_info",
             "name"
         ],
         [
-            "complete_cast",
+            "person_info",
+            "info_type"
+        ],
+        [
+            "aka_title",
             "title"
         ],
         [
-            "complete_cast",
-            "comp_cast_type"
-        ],
-        [
-            "complete_cast",
-            "name"
-        ],
-        [
-            "title",
+            "aka_title",
             "kind_type"
+        ],
+        [
+            "complete_cast",
+            "title"
         ]
     ],
     "2": [
+        "/* Join paths using title as a hub */",
         [
             "movie_info",
             "title",
-            "kind_type"
+            "movie_keyword"
         ],
         [
             "movie_info",
+            "title",
+            "movie_companies"
+        ],
+        [
+            "movie_info",
+            "title",
+            "cast_info"
+        ],
+        [
+            "movie_info",
+            "title",
+            "movie_info_idx"
+        ],
+        [
+            "movie_info",
+            "title",
+            "movie_link"
+        ],
+        [
+            "movie_info",
+            "title",
+            "aka_title"
+        ],
+        [
+            "movie_info",
+            "title",
+            "complete_cast"
+        ],
+        [
+            "movie_keyword",
+            "title",
+            "movie_companies"
+        ],
+        [
+            "movie_keyword",
+            "title",
+            "cast_info"
+        ],
+        [
+            "movie_keyword",
+            "title",
+            "movie_info_idx"
+        ],
+        [
+            "movie_keyword",
+            "title",
+            "movie_link"
+        ],
+        [
+            "movie_keyword",
             "title",
             "aka_title"
         ],
         [
             "movie_keyword",
             "title",
-            "kind_type"
-        ],
-        [
-            "movie_keyword",
-            "title",
-            "aka_title"
-        ],
-        [
-            "cast_info",
-            "title",
-            "kind_type"
-        ],
-        [
-            "cast_info",
-            "title",
-            "aka_title"
-        ],
-        [
-            "cast_info",
-            "name",
-            "person_info"
-        ],
-        [
-            "cast_info",
-            "name",
-            "aka_name"
+            "complete_cast"
         ],
         [
             "movie_companies",
             "title",
-            "kind_type"
+            "cast_info"
+        ],
+        [
+            "movie_companies",
+            "title",
+            "movie_info_idx"
+        ],
+        [
+            "movie_companies",
+            "title",
+            "movie_link"
         ],
         [
             "movie_companies",
@@ -137,52 +173,130 @@
             "aka_title"
         ],
         [
-            "movie_info_idx",
+            "movie_companies",
             "title",
-            "kind_type"
+            "complete_cast"
+        ],
+        [
+            "cast_info",
+            "title",
+            "movie_info_idx"
+        ],
+        [
+            "cast_info",
+            "title",
+            "movie_link"
+        ],
+        [
+            "cast_info",
+            "title",
+            "aka_title"
+        ],
+        [
+            "cast_info",
+            "title",
+            "complete_cast"
         ],
         [
             "movie_info_idx",
+            "title",
+            "movie_link"
+        ],
+        [
+            "movie_info_idx",
+            "title",
+            "aka_title"
+        ],
+        [
+            "movie_info_idx",
+            "title",
+            "complete_cast"
+        ],
+        [
+            "movie_link",
             "title",
             "aka_title"
         ],
         [
             "movie_link",
             "title",
-            "kind_type"
-        ],
-        [
-            "movie_link",
-            "title",
-            "aka_title"
-        ],
-        [
-            "person_info",
-            "name",
-            "aka_name"
-        ],
-        [
-            "complete_cast",
-            "title",
-            "kind_type"
-        ],
-        [
-            "complete_cast",
-            "title",
-            "aka_title"
-        ],
-        [
-            "complete_cast",
-            "name",
-            "person_info"
-        ],
-        [
-            "complete_cast",
-            "name",
-            "aka_name"
+            "complete_cast"
         ],
         [
             "aka_title",
+            "title",
+            "complete_cast"
+        ],
+        "/* Join paths using info_type as a hub */",
+        [
+            "movie_info",
+            "info_type",
+            "movie_info_idx"
+        ],
+        [
+            "movie_info",
+            "info_type",
+            "person_info"
+        ],
+        [
+            "movie_info_idx",
+            "info_type",
+            "person_info"
+        ],
+        "/* Join paths using name as a hub */",
+        [
+            "cast_info",
+            "name",
+            "aka_name"
+        ],
+        [
+            "cast_info",
+            "name",
+            "person_info"
+        ],
+        [
+            "aka_name",
+            "name",
+            "person_info"
+        ],
+        "/* Join paths via title joining to kind_type */",
+        [
+            "movie_info",
+            "title",
+            "kind_type"
+        ],
+        [
+            "movie_keyword",
+            "title",
+            "kind_type"
+        ],
+        [
+            "movie_companies",
+            "title",
+            "kind_type"
+        ],
+        [
+            "cast_info",
+            "title",
+            "kind_type"
+        ],
+        [
+            "movie_info_idx",
+            "title",
+            "kind_type"
+        ],
+        [
+            "movie_link",
+            "title",
+            "kind_type"
+        ],
+        [
+            "aka_title",
+            "title",
+            "kind_type"
+        ],
+        [
+            "complete_cast",
             "title",
             "kind_type"
         ]

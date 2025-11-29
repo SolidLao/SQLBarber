@@ -127,9 +127,11 @@ class PostgreSQLController(BaseDBController):
         Fetch all tables and their column metadata including min, max, total distinct count,
         and store up to 500 'sampled_distinct_values' for each column by sampling the actual
         column values in the table. (No random value generation for numeric columns.)
+
+        OPTIMIZED: Uses batched queries to minimize database round-trips.
         """
-        if not os.path.exists(folder_path):
-            os.makedirs(folder_path)
+        
+        os.makedirs(folder_path, exist_ok=True)
 
         table_metadata = {}
 
@@ -139,8 +141,8 @@ class PostgreSQLController(BaseDBController):
 
             # Step 1: Get all table names
             cursor.execute("""
-                SELECT table_name 
-                FROM information_schema.tables 
+                SELECT table_name
+                FROM information_schema.tables
                 WHERE table_schema = 'public';
             """)
             tables = cursor.fetchall()
@@ -151,12 +153,14 @@ class PostgreSQLController(BaseDBController):
 
                 # Step 2: Get columns for the current table
                 cursor.execute(f"""
-                    SELECT column_name, data_type 
-                    FROM information_schema.columns 
-                    WHERE table_name = '{table_name}';
+                    SELECT column_name, data_type
+                    FROM information_schema.columns
+                    WHERE table_name = '{table_name}'
+                    ORDER BY ordinal_position;
                 """)
                 columns = cursor.fetchall()
 
+                # Initialize metadata structure
                 for column in columns:
                     column_name, column_type = column
                     table_metadata[table_name][column_name] = {
@@ -167,23 +171,50 @@ class PostgreSQLController(BaseDBController):
                         'sampled_distinct_values': []
                     }
 
-                    # Step 3: Get min, max, and total distinct count for each column
+                # Step 3: OPTIMIZED - Batch all min/max/distinct_count into ONE query per table
+                if columns:
+                    # Build a single query that gets min, max, distinct count for all columns at once
+                    select_parts = []
+                    for column_name, _ in columns:
+                        select_parts.append(f"MIN({column_name}) AS min_{column_name}")
+                        select_parts.append(f"MAX({column_name}) AS max_{column_name}")
+                        select_parts.append(f"COUNT(DISTINCT {column_name}) AS distinct_{column_name}")
+
+                    combined_query = f"SELECT {', '.join(select_parts)} FROM {table_name};"
+
                     try:
-                        cursor.execute(f"""
-                            SELECT 
-                                MIN({column_name}), 
-                                MAX({column_name}), 
-                                COUNT(DISTINCT {column_name})
-                            FROM {table_name};
-                        """)
-                        min_value, max_value, distinct_count = cursor.fetchone()
+                        cursor.execute(combined_query)
+                        result = cursor.fetchone()
 
+                        # Parse results - every 3 values correspond to one column (min, max, distinct_count)
+                        for idx, (column_name, _) in enumerate(columns):
+                            col_info = table_metadata[table_name][column_name]
+                            col_info['min_value'] = result[idx * 3]
+                            col_info['max_value'] = result[idx * 3 + 1]
+                            col_info['distinct_count'] = result[idx * 3 + 2]
+                    except Exception as e:
+                        print(f"Error fetching batch metadata for table {table_name}: {e}")
+                        # Fallback to individual queries if batch query fails
+                        for column_name, _ in columns:
+                            try:
+                                cursor.execute(f"""
+                                    SELECT MIN({column_name}), MAX({column_name}), COUNT(DISTINCT {column_name})
+                                    FROM {table_name};
+                                """)
+                                min_value, max_value, distinct_count = cursor.fetchone()
+                                col_info = table_metadata[table_name][column_name]
+                                col_info['min_value'] = min_value
+                                col_info['max_value'] = max_value
+                                col_info['distinct_count'] = distinct_count
+                            except Exception as e2:
+                                print(f"Error fetching metadata for column {column_name}: {e2}")
+
+                # Step 4: Retrieve distinct values for each column
+                for column_name, _ in columns:
+                    try:
                         col_info = table_metadata[table_name][column_name]
-                        col_info['min_value'] = min_value
-                        col_info['max_value'] = max_value
-                        col_info['distinct_count'] = distinct_count
+                        distinct_count = col_info['distinct_count']
 
-                        # ---- Step 4: Retrieve up to 500 actual distinct values from the DB ----
                         if distinct_count <= 500:
                             # Get all distinct values
                             cursor.execute(f"""
@@ -194,7 +225,7 @@ class PostgreSQLController(BaseDBController):
                             distinct_vals = [row[0] for row in cursor.fetchall()]
                             col_info['sampled_distinct_values'] = distinct_vals
                         else:
-                            # More than 500 distinct values: pick 500 at random from the actual data
+                            # More than 500 distinct values: pick 500 using TABLESAMPLE or LIMIT
                             cursor.execute(f"""
                                 SELECT DISTINCT {column_name}
                                 FROM {table_name}
@@ -203,15 +234,14 @@ class PostgreSQLController(BaseDBController):
                             """)
                             distinct_vals = [row[0] for row in cursor.fetchall()]
                             col_info['sampled_distinct_values'] = distinct_vals
-
                     except Exception as e:
-                        print(f"Error fetching metadata for column {column_name} in table {table_name}: {e}")
-            
+                        print(f"Error fetching distinct values for column {column_name} in table {table_name}: {e}")
+
             cursor.close()
 
         except Exception as e:
             print(f"Error retrieving table metadata: {e}")
-        
+
         # Step 5: Write out to JSON file
         try:
             file_name = os.path.join(folder_path, "column_info.json")

@@ -1,13 +1,15 @@
-# SQLBarber: A System Leverageing Large Language Models Generate Customized and Realistic SQL Workloads
+# SQLBarber: Leverageing Large Language Models Generate Customized and Realistic SQL Workloads (SIGMOD 2026)
 
-- This repository hosts the source code and supplementary materials for our SIGMOD 2026 submission
+- This repository hosts the source code and supplementary materials for:
+    - SIGMOD 2026 submission (accepted)
+    - SIGMOD Demo 2025 submission (accepted)
 
 ## Motivation
 Database research and development often require a large number of SQL queries for benchmarking purposes. However, acquiring real-world SQL queries is challenging due to privacy concerns, and existing generation methods offer limited options for customization and for satisfying realistic constraints. 
 
 SQLBarber focuses on producing a set of SQL queries that are either tailored to evaluate specific DBMS features or designed to closely reflect a given production SQL workload:
 - Customized Workload. For example, benchmarking business intelligence systems such as [Tableau](https://dl.acm.org/doi/10.1145/3209950.3209952) requires SQL queries with structurally simple relational operator trees but highly complex scalar expressions, which is **not supported by any existing benchmark**. For query optimization, we may want to scale not only in the size of the database, but also scale in the complexity of queries (e.g., the number of joins, aggregations, and complex filter predicates).
-- Realistic Workload. For example, we want to generate queries that approximate the characteristics of a production workload. These queries must adhere to realistic constraints, including SQL query templates and query cost distributions. Due to privacy constraints, direct access to production queries is typically unavailable. As a result, the generation can only rely on query profiles and execution statistics derived from the production workload (e.g., [Snowset](https://github.com/resource-disaggregation/snowset) from Snowflake and [Redset](https://github.com/amazon-science/redset) from Amazon Redshift), and **this goes beyond the capability of existing query generation methods**.
+- Realistic Workload. Leading companies such as Amazon and Snowflake have recently released workload statistics to facilitate the construction of realistic benchmarks ([Snowset](https://github.com/resource-disaggregation/snowset) from Snowflake and [Redset](https://github.com/amazon-science/redset) from Amazon Redshift). However, due to privacy constraints, the actual queries and underlying databases are unavailable; only high-level workload characteristics are shared. **SQLBarber can transform such high-level workload information into realistic and executable benchmarks.**
 - Training Queries. Many learned DBMS components require a large number of queries to train their models, and these queries should be diverse to cover different features and complexities. For example, we can generate queries acessing different tables with different join paths. **Existing generation methods can not scale well to generate large volumes of queries that satisfy user-provided requirements.**
 
 ## System Overview
@@ -18,7 +20,7 @@ SQLBarber focuses on producing a set of SQL queries that are either tailored to 
 - 📌 ① SQLBarber employs an LLM-powered SQL Template Generator to create customized SQL templates based on user-defined template specifications
 - 📌 ② SQLBarber uses profiling to evaluate the capability of each SQL template to produce queries of different costs
 - 📌 ③ SQLBarber leverages profiling results to refine the created SQL templates to produce new templates that cover cost ranges not represented by the original templates, and prune templates that do not contribute to the target cost distribution
-- 📌 ④ SQLBarber uses an adaptive Bayesian Optimization (BO)-based predicate search algorithm efficiently search the predicate value space, and identify a set of queries that satisfy the target cost distribution
+- 📌 ④ SQLBarber uses an adaptive Bayesian Optimization (BO)-based predicate search algorithm to efficiently search the predicate value space, and identify a set of queries that satisfy the target cost distribution
 - 📌 Output: SQLBarber outputs an SQL workload where the underlying SQL templates satisfy the specifications and the instantiated queries match the target cost distribution
 
 ## Getting Started
@@ -285,3 +287,35 @@ We have visualized results for the generation process and elegant output results
 In the figure below, we compare different SQL generation methods in terms of generation efficiency (E2E generation time) and the quality of the generated queries (Wasserstain Distance between the target cost distribution and the distribution of the generated queries). We use IMDB and TPC-H as the underlying databases, and generate 1000/2000 queries with execution plan costs ranging from 0 to 10,000 in six different cost distributions. SQLBarber uses only approximately **15 minutes** to generate all the queries and **successfully decreases the distance to 0** in all settings. Other methods take hundreds and thounsands of minutes and still fail to decrease the distance to 0. Please refer to our paper for the detailed settings and more experiments on scalability, ablation, and cost studies.
  
 ![alt text](assets/cost_performance.png)
+
+## Citation
+If you use this tool, or otherwise found our work valuable, please cite 📒:
+```
+@inproceedings{10.1145/3722212.3725101,
+author = {Lao, Jiale and Trummer, Immanuel},
+title = {Demonstrating SQLBarber: Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads},
+year = {2025},
+isbn = {9798400715648},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3722212.3725101},
+doi = {10.1145/3722212.3725101},
+abstract = {Database research and development require a large volume of SQL queries for benchmarking. However, it is difficult to obtain real SQL queries due to privacy issues, and existing SQL generation methods are limited in customization and satisfying realistic constraints. To address this problem, we propose SQLBarber, a novel system leveraging Large Language Models (LLMs) to generate customized and realistic SQL workloads. SQLBarber (a) eliminates the need for users to manually craft SQL templates in advance, while providing the flexibility to accept high-level natural language specifications to constrain the SQL templates, (b) scales efficiently to produce a large number of queries satisfying any user-defined cost distribution (e.g., cardinality, execution plan cost, or execution time), and (c) analyzes execution statistics obtained from Amazon Redshift and Snowflake to derive both the specifications for SQL templates and the cost distribution of SQL queries, ensuring that these constraints reflect real-world workloads. This demonstration allows the audience to experience SQLBarber in action: (1) provide their customized specifications on SQL templates, (2) gain insights on the effect of SQL template and predicate values on SQL costs, and (3) explore real-world specifications of templates as well as cost distributions of queries, and constrain their SQL queries to a desired specification and distribution, with the flexibility to try out different LLM and SQL cost types. A video demonstration is available at https://youtu.be/qOuAKVXXcdM.},
+booktitle = {Companion of the 2025 International Conference on Management of Data},
+pages = {151–154},
+numpages = {4},
+keywords = {SQL generation, database benchmarking, large language model},
+location = {Berlin, Germany},
+series = {SIGMOD/PODS '25}
+}
+
+@misc{lao2025sqlbarberleveraginglargelanguage,
+      title={SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads}, 
+      author={Jiale Lao and Immanuel Trummer},
+      year={2025},
+      eprint={2507.06192},
+      archivePrefix={arXiv},
+      primaryClass={cs.DB},
+      url={https://arxiv.org/abs/2507.06192}, 
+}
+```

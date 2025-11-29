@@ -1,0 +1,4 @@
+configs/
+outputs/
+tpch-kit/
+__pycache__/

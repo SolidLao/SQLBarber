@@ -1,36 +1,22 @@
 -- SQL Template Metadata
 -- Template ID: 20
--- Creation Time: 2025-07-22 02:58:48
+-- Creation Time: 2025-10-15 03:28:41
 -- LLM Model: o3-mini
--- Constraints:
---   Number of unique Tables Accessed: 6
---   Number of Joins: 6
---   Number of Aggregations: 5
---   Semantic Requirement: The query should have a nested query with aggregation, at least two predicate values to fill.
---   Tables Involved: [movie_info, title, cast_info, role_type, movie_companies, company_name]
--- Rewrite Attempts Number for Constraints Check: 0
--- Rewrite Attempts Number for Grammar Check: 0
 -- Rewrite Attempts Number for Constraints Check: 1
--- Rewrite Attempts Number for Grammar Check: 0
+-- Rewrite Attempts Number for Grammar Check: 4
 
-SELECT m.movie_id,
-       COUNT(c.id) AS cast_info_count, -- Aggregation 1
- MIN(t.production_year) AS min_production_year, -- Aggregation 2
- MAX(t.production_year) AS max_production_year, -- Aggregation 3
- AVG(r.id) AS avg_role_id, -- Aggregation 4
-
-  (SELECT SUM(mc2.company_id) -- Aggregation 5 via nested query
-
-   FROM movie_companies mc2
-   WHERE mc2.movie_id = m.movie_id) AS nested_sum_company_id
-FROM movie_info m
-JOIN title t ON m.movie_id = t.id
-JOIN cast_info c ON m.movie_id = c.movie_id
-JOIN role_type r ON c.role_id = r.id
-JOIN movie_companies mc ON m.movie_id = mc.movie_id
-JOIN company_name cn ON mc.company_id = cn.id -- Self join on movie_info to meet the join count requirement
-JOIN movie_info m2 ON m.movie_id = m2.movie_id
-WHERE m.movie_id >= '{{movie_info.movie_id_start}}'
-  AND m.movie_id <= '{{movie_info.movie_id_end}}'
-  AND t.production_year = '{{title.production_year}}'
-GROUP BY m.movie_id;
+SELECT char_name.name,
+       COUNT(char_name.id) AS char_count,
+       MAX(title.production_year) AS max_production_year,
+       MIN(cast_info.nr_order) AS min_nr_order
+FROM char_name
+JOIN title ON char_name.imdb_id = title.imdb_id
+JOIN movie_info ON title.id = movie_info.movie_id
+JOIN aka_name ON char_name.id = aka_name.person_id
+JOIN cast_info ON char_name.id = cast_info.person_id
+JOIN movie_keyword ON movie_info.id = movie_keyword.movie_id
+JOIN char_name AS cn2 ON char_name.imdb_id = cn2.imdb_id
+WHERE char_name.id BETWEEN '{{char_name.id_start}}' AND '{{char_name.id_end}}'
+  AND char_name.name = '{{char_name.name}}'
+  AND char_name.surname_pcode = '{{char_name.surname_pcode}}'
+GROUP BY char_name.name;
