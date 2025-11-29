@@ -68,6 +68,8 @@ sudo pip install -r requirements.txt
 ```
 
 ### Step 4: Use SQLBarber to generate an SQL workload
+Before generating queries using SQLBarber, please make sure that `outputs/intermediate/db_meta_info/dbms_db` folder is empty, such that SQLBarber can extract latest statistics of your database (otherwise the optimization would be guided by incorrect information). This can take some time depending on the size of your database, and this only need to be done for one time.
+
 The basic command to run SQLBarber is as follows:
 ```
 # python3 src/run_sqlbarber.py <query_cost_type> <cost_distribution> <num_queries> <min_cost> <max_cost> <num_intervals> <num_iterations> <target_database> 
