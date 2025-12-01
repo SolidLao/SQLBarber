@@ -1,0 +1,58 @@
+
+============================================================
+Creating IMDB-Core Database
+============================================================
+Database 'imdb_core' already exists. Dropping...
+Creating database 'imdb_core'...
+Creating schema in 'imdb_core'...
+
+Copying data with referential integrity...
+  Copying kind_type... 7 rows
+  Copying info_type... 113 rows
+  Copying role_type... 12 rows
+  Copying keyword... 134170 rows
+  Copying title... 2528312 rows
+  Copying name... 4167491 rows
+  Copying movie_info... 14835720 rows
+  Copying cast_info... 1347151 rows
+  Copying movie_keyword... 4523930 rows
+
+✓ IMDB-Core database created successfully!
+
+============================================================
+Creating IMDB-Extended Database
+============================================================
+Creating database 'imdb_extended'...
+Creating schema in 'imdb_extended'...
+
+Copying data with referential integrity...
+  Copying kind_type... 7 rows
+  Copying info_type... 113 rows
+  Copying role_type... 12 rows
+  Copying keyword... 134170 rows
+  Copying company_type... 4 rows
+  Copying title... 2528312 rows
+  Copying name... 4167491 rows
+  Copying company_name... 234997 rows
+  Copying movie_info... 14835720 rows
+  Copying cast_info... 1347151 rows
+  Copying movie_keyword... 4523930 rows
+  Copying movie_info_idx... 1380035 rows
+  Copying movie_companies... 2609129 rows
+  Copying aka_title... 361379 rows
+  Copying aka_name... 901343 rows
+  Copying person_info... 2963664 rows
+
+✓ IMDB-Extended database created successfully!
+
+============================================================
+All databases created successfully!
+============================================================
+
+Databases created:
+  - imdb_core (9 tables, ~27 columns)
+  - imdb_extended (16 tables, ~53 columns)
+
+You can connect using:
+  psql -h localhost -p 5600 -U postgres -d imdb_core
+  psql -h localhost -p 5600 -U postgres -d imdb_extended
