@@ -1,8 +1,8 @@
 # SQLBarber: Leverageing Large Language Models Generate Customized and Realistic SQL Workloads (SIGMOD 2026)
 
 - This repository hosts the source code and supplementary materials for:
-    - SIGMOD 2026 submission (accepted)
-    - SIGMOD Demo 2025 submission (accepted)
+    - [SIGMOD 2026](https://arxiv.org/abs/2507.06192) submission (accepted)
+    - [SIGMOD Demo 2025](https://dl.acm.org/doi/10.1145/3722212.3725101) submission (accepted)
 
 ## Motivation
 Database research and development often require a large number of SQL queries for benchmarking purposes. However, acquiring real-world SQL queries is challenging due to privacy concerns, and existing generation methods offer limited options for customization and for satisfying realistic constraints. 
